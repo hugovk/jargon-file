@@ -68,6 +68,12 @@ ANGLE BRACKETS (primarily MIT) n. Either of the characters "<" and
 ARG n. Abbreviation for "argument" (to a function), used so often as
    to have become a new word.
 
+AUTOMAGICALLY adv. Automatically, but in a way which, for some reason
+   (typically because it is too complicated, or too ugly, or perhaps
+   even too trivial), I don't feel like explaining to you.  See MAGIC.
+   Example: Some programs which produce XGP output files spool them
+   automagically.
+
 BAGBITER 1. n. Equipment or program that fails, usually
    intermittently.  2. BAGBITING: adj. Failing hardware or software.
    "This bagbiting system won't let me get out of spacewar."  Usage:
@@ -228,6 +234,12 @@ CRUFTY [from "cruddy"] adj. 1. Poorly built, possibly overly complex.
    [Note: Does CRUFT have anything to do with the Cruft Lab at Harvard?
    I don't know, though I was a Harvard student. - GLS]
 
+CRUNCH v. To process, usually in a time-consuming or complicated way.
+   Connotes an essentially trivial operation which is nonetheless
+   painful to perform.  The pain may be due to the triviality being
+   imbedded in a loop from 1 to 1000000000.  "FORTRAN programs do
+   mostly number crunching."
+
 CTY (city) n. Any console terminal on a computer.
 
 DIKE [from "diagonal cutters"] v. To remove a module or disable it.
@@ -282,7 +294,8 @@ FEEP 1. n. The soft bell of a display terminal (except for a VT-52!);
    anything suitably onomatopoeic.  The term BREEDLE is sometimes
    heard at SAIL, where the terminal bleepers are not particularly
    "soft" (they sound more like the musical equivalent of sticking out
-   one's tongue).
+   one's tongue).  The "feeper" on a VT-52 has been compared to the
+   sound of a '52 Chevy stripping its gears.
 
 FENCEPOST ERROR n. The discrete equivalent of a boundary condition.
    Often exhibited in programs by iterative loops.  From the following
@@ -355,6 +368,22 @@ FTP (spelled out, NOT pronounced "fittip") 1. n. The File Transfer
    v. To transfer a file using the File Transfer Program.  "Lemme get
    this copy of Wuthering Heights FTP'd from SAIL."
 
+FUDGE 1. v. To perform in an incomplete but marginally acceptable way,
+   particularly with respect to the writing of a program.  "I didn't
+   feel like going through that pain and suffering, so I fudged it."
+   2. n. The resulting code.
+
+FUDGE FACTOR n. A value or parameter that is varied in an ad hoc way
+   to produce the desired result.  The terms "tolerance" and "slop"
+   are also used, though these usually indicate a one-sided leeway,
+   such as a buffer which is made larger than necessary because one
+   isn't sure exactly how large it needs to be, and it is better to
+   waste a little space than to lose completely for not having enough.
+   A fudge factor, on the other hand, can often be tweaked in more
+   than one direction.  An example might be the coefficients of an
+   equation, where the coefficients are varied in an attempt to make
+   the equation fit certain criteria.
+
 GARBAGE COLLECT v., GARBAGE COLLECTION n. See GC.
 
 GC [from LISP terminology] 1. v. To clean up and throw away useless
@@ -383,10 +412,17 @@ GOBBLE v. To consume or to obtain.  GOBBLE UP tends to imply
    spy gobbles characters out of a TTY output buffer."  "I guess I'll
    gobble down a copy of the documentation tomorrow."  See SNARF.
 
-GRIND (primarily MIT) v. To format code, especially LISP code, by
-   indenting lines so that it looks pretty.
+GRIND v. 1. (primarily MIT) To format code, especially LISP code, by
+   indenting lines so that it looks pretty.  Hence, PRETTY PRINT, the
+   generic term for such operations.  2. To run seemingly
+   interminably, performing some tedious and inherently useless task.
+   Similar to CRUNCH.
 
 GRITCH  See GLITCH.
+
+GROK [from the novel "Stranger in a Strange Land", by Robert Heinlein,
+   where it is a Martian word meaning roughly "to be one with"] v. To
+   understand, usually in a global sense.
 
 GRONK [popularized by the cartoon strip "B.C." by Johnny Hart, but the
    word apparently predates that] v. 1. To clear the state of a wedged
@@ -395,6 +431,10 @@ GRONK [popularized by the cartoon strip "B.C." by Johnny Hart, but the
    down."  3. GRONK OUT: v. To cease functioning.  Of people, to go
    home and go to sleep.  "I guess I'll gronk out now; see you all
    tomorrow."
+
+GROVEL v. To work interminably and without apparent progress.  Often
+   used with "over".  "The compiler grovelled over my code."  Compare
+   GRIND and CRUNCH.  Emphatic form: GROVEL OBSCENELY.
 
 GRUNGY adj. Incredibly dirty or grubby.  Anything which has been
    washed within the last year is not really grungy.  Also used
@@ -434,7 +474,8 @@ HACKER [originally, someone who makes furniture with an axe] n. 1. A
 HACKISH adj. Being or involving a hack.  HACKISHNESS n.
 
 HAIR n. The complications which make something hairy.  "Decoding TECO
-   commands requires a certain amount of hair."
+   commands requires a certain amount of hair."  Often seen in the
+   phrase INFINITE HAIR, which connotes extreme complexity.
 
 HAIRY adj. 1. Overly complicated.  "DWIM is incredibly hairy."  2.
    Incomprehensible.  "DWIM is incredibly hairy."  3.  Of people,
@@ -471,6 +512,9 @@ HUNGUS (hung'-ghis) [perhaps related to current slang "humongous";
 
 IMPCOM  See TELNET.
 
+INFINITE adj. Consisting of a large number of objects; extreme.  Used
+   very loosely as in: "This program produces infinite garbage."
+
 JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
    as a fast no-op] v. To cancel or annul something.  "Why don't you
    jfcl that out?"
@@ -495,7 +539,9 @@ KLUGE (kloodj) alt. KLUDGE [from the German "kluge", clever] n. 1. A
    programming trick intended to solve a particular nasty case in an
    efficient, if not clear, manner.  Often used to repair bugs.  Often
    verges on being a crock.  3. Something that works for the wrong
-   reason.
+   reason.  4. v. To insert a kluge into a program.  "I've kluged this
+   routine to get around that weird bug, but there's probably a better
+   way."
 
 LDB (lid'dib) [from the PDP-10 instruction set] v. To extract from the
    middle.
@@ -528,11 +574,11 @@ LPT (lip'-it) n. Line printer, of course.
 MACROTAPE n. An industry standard reel of tape, as opposed to a
    MICROTAPE.
 
-MAGIC adj. As yet unexplained, or too complicated to explain.
-   (Someone (who was it?) said that magic was as-yet-not-understood
-   science.)  "TTY echoing is controlled by a large number of magic
-   bits."  "This routine magically computes the parity of an eight-bit
-   byte in three instructions."
+MAGIC adj. As yet unexplained, or too complicated to explain.  (Arthur
+   C. Clarke once said that magic was as-yet-not-understood science.)
+   "TTY echoing is controlled by a large number of magic bits."  "This
+   routine magically computes the parity of an eight-bit byte in three
+   instructions."
 
 MARGINAL adj. 1. Extremely small.  2. Of extremely small merit.  3.
    Of extremely small probability of winning.  "A marginal increase in
@@ -589,8 +635,8 @@ MUMBLE interj. 1. Said when the correct response is either too
 
 MUNCH (often confused with "mung", q.v.) v. To transform information
    in a serial fashion, often requiring large amounts of computation.
-   To trace down a data structure.  Related to "crunch", as in
-   "number-crunching".
+   To trace down a data structure.  Related to CRUNCH (q.v.), but
+   connotes less pain.
 
 MUNCHING SQUARES n. A display hack dating back to the PDP-1, which
    employs a trivial computation (involving XOR'ing of x-y display
@@ -603,12 +649,29 @@ MUNCHING SQUARES n. A display hack dating back to the PDP-1, which
 
 MUNG (variant: MUNGE) [recursive acronym for Mung Until No Good] v. 1.
    To make changes to a file, often large-scale, usually irrevocable.
-   Occasionally accidental.  See BLT.  2. To destroy.
+   Occasionally accidental.  See BLT.  2. To destroy, usually
+   accidentally, occasionally maliciously.  The system only mungs
+   things maliciously.
+
+N adj. 1. Some large and indeterminate number of objects; "There were
+   N bugs in that crock!"; also used in its original sense of a
+   variable name.  2. An arbitrarily large (and perhaps infinite)
+   number.  3. A variable whose value is specified by the current
+   context.  "We'd like to order N wonton soups and a family dinner
+   for N-1."  NTH adj. The ordinal counterpart of N. "Now for the Nth
+   and last time..."  In the specific context "Nth-year grad student",
+   N is generally assumed to be at least 4, and is usually 5 or more.
 
 NIGHT MODE  See PHASE (of people).
 
 NIL [from LISP terminology for "false"] No.  Usage: used in reply to a
    question, particularly one asked using the "-P" convention.  See T.
+
+OBSCURE adj. Used in an exaggeration of its normal meaning, to imply a
+   total lack of comprehensibility.  "The reason for that last crash is
+   obscure."  "FIND's command syntax is obscure."  MODERATELY OBSCURE
+   implies that it could be figured out but probably isn't worth the
+   trouble.
 
 OPEN n. Abbreviation for "open (or left) parenthesis", used when
    necessary to eliminate oral ambiguity.  To read aloud the LISP form
@@ -626,6 +689,20 @@ PARSE [from linguistic terminology] v. 1. To determine the syntactic
    one is okay."  A "parsed fish" has been deboned.  There is some
    controversy over whether "unparsed" should mean "bony", or also
    mean "deboned".
+
+PATCH 1. n. A temporary addition to a piece of code, usually as a
+   quick-and-dirty remedy to an existing bug or misfeature.  A patch
+   may or may not work, and may or may not eventually be incorporated
+   permanently into the program.  2. v. To insert a patch into a piece
+   of code.
+
+PDL (piddle or puddle) [acronym for Push Down List] n. 1. A LIFO queue
+   (stack); more loosely, any priority queue; even more loosely, any
+   queue.  A person's pdl is the set of things he has to do in the
+   future.  One speaks of the next project to be attacked as having
+   risen to the top of the pdl.  "I'm afraid I've got real work to do,
+   so this'll have to be pushed way down on my pdl."  See PUSH and
+   POP.  2. Dave Lebling (PDL@DM).
 
 PHASE (of people) n. The phase of one's waking-sleeping schedule with
    respect to the standard 24-hour cycle.  This is a useful concept
@@ -653,6 +730,9 @@ PTY (pity) n. Pseudo TTY, a simulated TTY used to run a job under the
    PTYJOB (pity-job) n. The job being run on the PTY.  Also a common
    general-purpose program for creating and using PTYs.
    This is DEC and SAIL terminology; the MIT equivalent is STY.
+
+PUNT [from the punch line of an old joke: "Drop back 15 yards and
+   punt"] v. To give up, typically without any intention of retrying.
 
 PUSH [based on the stack operation that puts the current information
    on a stack, and the fact that procedure call addresses are saved on
@@ -700,15 +780,28 @@ RANDOMNESS n. An unexplainable misfeature; gratuitous inelegance.
    then extracting 6 bits -- the low two bits of the XCT opcode
    are the right thing."  "What randomness!"
 
+REAL WORLD, THE n. 1. In programming, those institutions at which
+   programming may be used in the same sentence as FORTRAN, COBOL,
+   RPG, IBM, etc.  2. To programmers, the location of non-programmers
+   and activities not related to programming.  3. A universe in which
+   the standard dress is shirt and tie and in which a person's working
+   hours are defined as 9 to 5.  4. The location of the status quo.
+   "Poor fellow, he's left MIT and gone into the real world."  Used
+   pejoratively by those not in residence there.  In conversation,
+   talking of someone who has entered the real world is not unlike
+   talking about a deceased person.
+
 SACRED adj. Reserved for the exclusive use of something (a
    metaphorical extension of the standard meaning).  "Accumulator 7 is
    sacred to the UUO handler."  Often means that anyone may look at
    the sacred object, but clobbering it will screw whatever it is
    sacred to.
 
-SEMI n. Abbreviation for "semicolon", when speaking.  "Commands to
+SEMI 1. n. Abbreviation for "semicolon", when speaking.  "Commands to
    GRIND are prefixed by semi-semi-star" means that the prefix is
-   ";;*", not 1/4 of a star.
+   ";;*", not 1/4 of a star.  2. Prefix with words such as
+   "immediately", as a qualifier.  "When is the system coming up?"
+   "Semi-immediately."
 
 69 adj. Large quantity.  Usage: Exclusive to MIT-AI.  "Go away, I have
    69 things to do to DDT before worrying about fixing the bug in the
@@ -720,10 +813,24 @@ SEMI n. Abbreviation for "semicolon", when speaking.  "Commands to
    I do know that 69 decimal = 105 octal, and 69 hexadecimal = 105
    decimal, which is a nice property. - GLS]
 
+SLOP n. 1. A one-sided fudge factor (q.v.).  Often introduced to avoid
+   the possibility of a fencepost error (q.v.).  2. (Used by compiler
+   freaks) The ratio of code generated by a compiler to hand-compiled
+   code, minus 1; i.e. the space (or maybe time) you lose because you
+   didn't do it yourself.
+
+SLURP v. To read a large data file entirely into core before working
+   on it.  "This program slurps in a 1K-by-1K matrix and does an FFT."
+
 SNARF v. To grab, esp. a large document or file for the purpose of
    using it either with or without the author's permission.  See BLT.
    Variant: SNARF (IT) DOWN.  (At MIT on ITS, DDT has a command called
    :SNARF which grabs a job from another (inferior) DDT.)
+
+SOFTWARE ROT n. Hypothetical disease the existence of which has been
+   deduced from the observation that unused programs or features will
+   stop working after sufficient time has passed, even if "nothing has
+   changed".  Also known as "bit decay".
 
 SOFTWARILY adv. In a way pertaining to software.  "The system is
    softwarily unreliable."  The adjective "softwary" is NOT used.  See
@@ -783,13 +890,13 @@ TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
    TECO editor in one of its infinite forms; sometimes used to mean
    "to edit" even when not using TECO!  Usage: rare at SAIL, where
    most people wouldn't touch TECO with a TENEX pole.
-   [Historical note: TECO was copied from MIT by DEC at an
-   early stage of its development.  By now, TECO at MIT is highly
-   display-oriented and is actually a language for writing editors,
-   rather than an editor.  Meanwhile, the outside world's various
-   versions of TECO remain almost the same as the MIT version of
-   ten years ago.  DEC recently tried to discourage its use, but an
-   underground movement of sorts kept it alive.]
+   [Historical note: DEC grabbed an ancient version of MIT TECO many
+   years ago when it was still a TTY-oriented editor.  By now, TECO at
+   MIT is highly display-oriented and is actually a language for
+   writing editors, rather than an editor.  Meanwhile, the outside
+   world's various versions of TECO remain almost the same as the MIT
+   version of ten years ago.  DEC recently tried to discourage its
+   use, but an underground movement of sorts kept it alive.]
 
 TELNET v. To communicate with another ARPAnet host using the TELNET
    program.  TOPS-10 people use the word IMPCOM since that is the
@@ -804,6 +911,10 @@ THEORY n. Used in the general sense of idea, plan, story, or set of
    theory on dinner tonight?"  ("Chinatown, I guess.")  "What's the
    current theory on letting losers on during the day?"  "The theory
    behind this change is to fix the following well-known screw..."
+
+THRASH v. To move wildly or violently.  Swapping systems which are
+   overloaded spend much of their time moving pages into and out of
+   core, and are therefore said to thrash.
 
 TICK n. Interval of time; basic clock time on the computer.  Typically
    1/60 second.  See JIFFY.
@@ -821,6 +932,23 @@ TTY (titty) n. Terminal of the teletype variety, characterized by a
    print quality.  Usage: antiquated (like the TTY's themselves).
    Sometimes used to refer to any terminal at all; sometimes used
    to refer to the particular terminal controlling a job.
+
+TWEAK v. To change slightly, usually in reference to a value.  Also
+   used synonymously with TWIDDLE.  See FUDGE FACTOR.
+
+TWENEX n. The TOPS-20 operating system by DEC.  So named because
+   TOPS-10 was a typically crufty DEC operating system for the PDP-10.
+   BBN developed their own system, called TENEX (TEN EXecutive), and
+   in creating TOPS-20 for the DEC-20 DEC copied TENEX and adapted it
+   for the 20.  Usage: DEC people cringe when they hear TOPS-20
+   referred to as "Twenex", but the term seems to catching on
+   nevertheless.
+
+TWIDDLE 1. n. A small and insignificant change to a program.  Usually
+   fixes one bug and generates several new ones.  2. v. To change
+   something in a small way.  Bits, for example, are often twiddled.
+   Twiddling a switch implies much less sense of purpose than toggling
+   it; see FROB (v.).
 
 UP adj. 1. Working, in order.  "The down escalator is up."  2. BRING
    UP: v. To create a working version and start it.  "They brought up
@@ -849,6 +977,10 @@ UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
 
 VANILLA adj. Ordinary flavor, standard.  See FLAVOR.
 
+VIRGIN adj. Unused, in reference to an instantiation of a program.
+   "Let's bring up a virgin system and see if it crashes again."
+   Also, by extension, unused buffers and the like within a program.
+
 WALDO [probably taken from the story "Waldo", by Heinlein, which is
    where the term was first used to mean a mechanical adjunct to a
    human limb] Used at Harvard, particularly by Tom Cheatham and
@@ -863,7 +995,8 @@ WIN [from MIT jargon] 1. v. To succeed.  A program wins if no
    unexpected conditions arise.  2. BIG WIN: n. Serendipity.
    Emphatic forms: MOBY WIN, SUPER WIN, HYPER-WIN (often used
    interjectively as a reply).  For some reason SUITABLE WIN is also
-   common at MIT.  See LOSE.
+   common at MIT, usually in reference to a satisfactory solution to a
+   problem.  See LOSE.
 
 WINNAGE n. The situation when a lossage is corrected, or when
    something is winning.  Quite rare.  Usage: also quite rare.
@@ -903,4 +1036,3 @@ YOYO n. DEC service engineers' slang for UUO (q.v.).  Usage: rare at
 
 YOYO MODE n. State in which the system is said to be when it rapidly
    alternates several times between being up and being down.
-
