@@ -1,4 +1,4 @@
-#======= THIS IS THE JARGON FILE, VERSION 4.1.3, 14 JUN 1999 =======#
+#======= THIS IS THE JARGON FILE, VERSION 4.1.4, 17 JUN 1999 =======#
 
    This is the Jargon File, a comprehensive compendium of hacker slang
 illuminating many aspects of hackish tradition, folklore, and humor.
@@ -9,8 +9,8 @@ restraints on what you can do with it, but there are traditions about
 its proper use to which many hackers are quite strongly attached.
 Please extend the courtesy of proper citation when you quote the File,
 ideally with a version number, as it will change and grow over time.
-(Examples of appropriate citation form: "Jargon File 4.1.3" or "The
-on-line hacker Jargon File, version 4.1.3, 14 JUN 1999".)
+(Examples of appropriate citation form: "Jargon File 4.1.4" or "The
+on-line hacker Jargon File, version 4.1.4, 17 JUN 1999".)
 
    The Jargon File is a common heritage of the hacker culture.  Over
 the years a number of individuals have volunteered considerable time to
@@ -389,6 +389,10 @@ microcomputer-based jargon were added at that time.
 book.  This version had 18952 lines, 148629 words, 975551 characters,
 and 1702 entries.
 
+   Version 2.9.7, Oct 28 1991: first markup for hypertext browser.
+This version had 19432 lines, 152132 words, 999595 characters, and 1750
+entries.
+
    Version 2.9.8, Jan 01 1992: first public release since the book,
 including over fifty new entries and numerous corrections/additions to
 old ones.  Packaged with version 1.1 of vh(1) hypertext reader.  This
@@ -455,7 +459,11 @@ path.  This version had 26006 lines, 209479 words, 1377687 characters,
 and 2225 entries.
 
    Version 4.1.3, 14 Jun 1999: Minor updates and markup fixes.  This
-version had 26106 lines, 210480 words, 1384544 characters, and 2234
+version had 26108 lines, 210480 words, 1384546 characters, and 2234
+entries.
+
+   Version 4.1.4, 17 Jun 1999: Markup fixes for framed HTML.  This
+version had 26117 lines, 210527 words, 1384902 characters, and 2234
 entries.
 
    Version numbering: Version numbers should be read as
@@ -1230,7 +1238,7 @@ or leaving it until later?"  is likely to get the perfectly correct
 answer "Yes!" (that is, "Yes, I'm doing it either now or later, and you
 didn't ask which!").
 
-:International Style:
+:International Style:
 =====================
 
    Although the Jargon File remains primarily a lexicon of hacker usage
@@ -1483,7 +1491,7 @@ explanation of it.
 usage.
 
    We follow the `logical' quoting convention described in the Writing
-Style section above.  In addition, we reserve double quotes for actual
+Style section above.  In addition, we reserve double quotes for actual
 excerpts of text or (sometimes invented) speech.  Scare quotes (which
 mark a word being used in a nonstandard way), and philosopher's quotes
 (which turn an utterance into the string of letters or words that name
@@ -1620,7 +1628,7 @@ MIT
 
 NRL
      Naval Research Laboratories
-
+
 NYU
      New York University
 
@@ -2150,7 +2158,7 @@ shell `&' operator.
    :amper: n.  Common abbreviation for the name of the ampersand
 (`&', ASCII 0100110) character.  See {{ASCII}} for other synonyms.
 
-   :angband: n. ang'band Like {nethack}, {moria}, and    {rogue}, one
+   :angband: n. /ang'band/ Like {nethack}, {moria}, and    {rogue}, one
 of the large freely distributed    Dungeons-and-Dragons-like simulation
 games, available for a wide    range of machines and operating systems.
 The name is from Tolkien's    Pits of Angband (compare {elder days},
@@ -2225,9 +2233,11 @@ tea}.
    :AOL!: n.  [Usenet] Common synonym for "Me, too!"     alluding to
 the legendary propensity of America Online users to    utter
 contentless "Me, too!" postings.  The number of exclamation    points
-following varies from zero to five or so.  The pseudo-HTML    "<AOL>Me,
-too!</AOL>" is also frequently seen. See also    {September that never
-ended}.
+following varies from zero to five or so.  The pseudo-HTML
+
+        <AOL>Me, too!</AOL>
+
+is also frequently seen. See also {September that never ended}.
 
    :app: /ap/ n.  Short for `application program', as opposed    to a
 systems program.  Apps are what systems vendors are forever    chasing
@@ -2725,7 +2735,7 @@ says the crocked compiler was never distributed.     Your editor has
 heard two separate reports that suggest that the    crocked login did
 make it out of Bell Labs, notably to BBN, and    that it enabled at
 least one late-night login across the network by    someone using the
-login name `kt'.
+login name `kt'.
 
    :backbone cabal: n.  A group of large-site administrators who
 pushed through the {Great Renaming} and reined in the chaos of
@@ -3580,7 +3590,7 @@ used to describe any of several kinds of low-level    programming
 characterized by manipulation of {bit}, {flag},    {nybble}, and other
 smaller-than-character-sized pieces of data;    these include low-level
 device control, encryption algorithms,    checksum and error-correcting
-codes, hash functions, some flavors    of graphics programming (see
+codes, hash functions, some flavors    of graphics programming (see
 {bitblt}), and assembler/compiler    code generation.  May connote
 either tedium or a real technical    challenge (more usually the
 former).  "The command decoding for    the new tape driver looks pretty
@@ -4062,7 +4072,7 @@ decorated with hex error codes, is what you get    when this happens.
 (Commonly abbreviated {BSOD}.)  This event    is sufficiently common to
 have inspired the following haiku from    Alan Tuplin:
 
-             Your system which soared
+             Your system which soared
              So freely on gliding wings
              now hangs, frozen and blue
 
@@ -4390,7 +4400,7 @@ bonking and oifing.  Note: in    parts of the U.K. `bonk' is a sexually
 loaded slang term; care is    advised in transatlantic conversations.
 Commonwealth hackers    report a similar convention involving the
 `fish/bang' balance.  See    also {talk mode}.
-
+
    :book titles::  There is a tradition in hackerdom of    informally
 tagging important textbooks and standards documents with    the
 dominant color of their covers or with some other conspicuous
@@ -5019,7 +5029,7 @@ Here is a plausible conversation that never actually happened:
    A careful discussion of the etymological issues can be found in a
 paper by Fred R. Shapiro, 1987, "Entomology of the Computer Bug:
 History and Folklore", American Speech 62(4):376-378.
-
+
    [There has been a widespread myth that the original bug was moved
 to the Smithsonian, and an earlier version of this entry so
 asserted.  A correspondent who thought to check discovered that the
@@ -5090,7 +5100,7 @@ buggery.
 
    :bump: vt.  Synonym for increment.  Has the same meaning as    C's
 ++ operator.  Used esp. of counter variables, pointers, and    index
-dummies in `for', `while', and `do-while'    loops.
+dummies in `for', `while', and `do-while'    loops.
 
    :burble: v.  [from Lewis Carroll's "Jabberwocky"] Like    {flame},
 but connotes that the source is truly clueless and    ineffectual (mere
@@ -5523,7 +5533,7 @@ makes accessible to minors    any message that "describes, in terms
 patently offensive as    measured by contemporary community standards,
 sexual or excretory    activities or organs".
 
-   While the CDA was sold as a measure to protect minors from the
+   While the CDA was sold as a measure to protect minors from the
 putative evils of pornography, the repressive political aims of the
 bill were laid bare by the Hyde amendment, which intended to    outlaw
 discussion of abortion on the Internet.
@@ -6718,7 +6728,7 @@ in the {Real World}.  See also {creeping    featurism}, {second-system
 effect}, {tense}.
 
    :creeping featurism: /kree'ping fee'chr-izm/ n.     [common] 1.
-Describes a systematic tendency to load more    {chrome} and {feature}s
+Describes a systematic tendency to load more    {chrome} and {feature}s
 onto systems at the expense of    whatever elegance they may have
 possessed when originally designed.     See also {feeping creaturism}.
 "You know, the main problem    with {BSD} Unix has always been creeping
@@ -7371,7 +7381,7 @@ young to have grown up on DEC machines.
 
    DEC reclaimed some of its old reputation among techies in the first
  half of the 1990s.  The success of the Alpha, an
-innovatively-designed and very high-performance {killer micro},
+innovatively-designed and very high-performance {killer micro},
 helped a lot.  So did DEC's newfound receptiveness to Unix and open
 systems in general.  When Compaq acquired DEC at the end of 1998
 there was some concern that these gains would be lost along with    the
@@ -8100,7 +8110,7 @@ celebration of the    Stanford keyboard:
    :doubled sig: [Usenet] n.  A {sig block} that has been    included
 twice in a {Usenet} article or, less commonly, in an    electronic mail
 message.  An article or message with a doubled sig    can be caused by
-improperly configured software.  More often,    however, it reveals the
+improperly configured software.  More often,    however, it reveals the
 author's lack of experience in electronic    communication.  See
 {B1FF}, {pseudo}.
 
@@ -8670,7 +8680,7 @@ long fascinated hackers (who tend to be intrigued    by artificial
 languages in general).  It is traditional for    graphics printers,
 plotters, window systems, and the like to    support a Feanorian
 typeface as one of their demo items.  See also    {elder days}.  2. By
-extension, any odd or unreadable typeface    produced by a graphics
+extension, any odd or unreadable typeface    produced by a graphics
 device.  3. The typeface mundanely called    `Bo"cklin', an art-Noveau
 display font.
 
@@ -8704,7 +8714,7 @@ also {vi}.
 
    :email: /ee'mayl/  (also written `e-mail' and `E-mail')    1. n.
 Electronic mail automatically passed through computer    networks
-and/or via modems over common-carrier lines.  Contrast    {snail-mail},
+and/or via modems over common-carrier lines.  Contrast    {snail-mail},
 {paper-net}, {voice-net}.  See {network    address}.  2. vt. To send
 electronic mail.
 
@@ -8774,7 +8784,7 @@ you've gone over the line.
    :EMP: /E-M-P/  See {spam}.
 
    :empire: n.  Any of a family of military simulations derived    from
-a game written by Peter Langston many years ago.  A number of
+a game written by Peter Langston many years ago.  A number of
 multi-player variants of varying degrees of sophistication exist,
 and one single-player version implemented for both Unix and VMS;    the
 latter is even available as MS-DOS freeware.  All are    notoriously
@@ -9060,7 +9070,7 @@ spent some face time with him at the last Usenix."
 
    :factor: n.  See {coefficient of X}.
 
-   :fairings: n. fer'ingz [FreeBSD; orig. a typo for `fairness']    A
+   :fairings: n. /fer'ingz/ [FreeBSD; orig. a typo for `fairness']    A
 term thrown out in discussion whenever a completely and
 transparently nonsensical argument in one's favor(?) zseems called
 for, e,g. at the end of a really long thread for which the outcome
@@ -9275,9 +9285,9 @@ as in "Emacs has a bad case of feature    creep".
    :feature key: n.  [common] The Macintosh key with the    cloverleaf
 graphic on its keytop; sometimes referred to as    `flower', `pretzel',
 `clover', `propeller', `beanie' (an    apparent reference to the major
-feature of a propeller beanie),    {splat}, or the `command key'.  The
-proliferation of terms for    this creature may illustrate one subtle
-peril of iconic    interfaces.
+feature of a propeller beanie),    {splat}, or (officially, in Mac
+documentation) the `command    key'.  The proliferation of terms for
+this creature may illustrate    one subtle peril of iconic interfaces.
 
    Many people have been mystified by the cloverleaf-like symbol that
 appears on the feature key.  Its oldest name is `cross of St.
@@ -9306,7 +9316,7 @@ feature from a program.  Featurectomies come in two flavors, the
 performed because the remover believes the program would be more
 elegant without the feature, or there is already an equivalent and
 better way to achieve the same end.  (Doing so is not quite the    same
-thing as removing a {misfeature}.)  Reluctant    featurectomies are
+thing as removing a {misfeature}.)  Reluctant    featurectomies are
 performed to satisfy some external constraint    such as code size or
 execution speed.
 
@@ -10444,7 +10454,7 @@ hacking.  "Food-p?"  "Yeah, let's fuel up."  "Time for a
    :fum: n.  [XEROX PARC] At PARC, often the third of the    standard
 {metasyntactic variable}s (after {foo} and    {bar}).  Competes with
 {baz}, which is more common outside    PARC.
-
+
    :functino: n.  [uncommon, U.K.; originally a serendipitous    typo
 in 1994] A pointer to a function in C and C++. By association    with
 sub-atomic particles such as the neutrino, it accurately    conveys an
@@ -11263,7 +11273,7 @@ Rice Institute Computer' (TRIC) and later as `The Rice    University
 Computer' (TRUC)) had a single-step/free-run switch for    use when
 debugging programs.  Since single-stepping through a large    program
 was rather tedious, there was also a crank with a cam and    gear
-arrangement that repeatedly pushed the single-step button.     This
+arrangement that repeatedly pushed the single-step button.     This
 allowed one to `crank' through a lot of code, then slow    down to
 single-step for a bit when you got near the code of    interest, poke
 at some registers using the console typewriter, and    then keep on
@@ -11418,7 +11428,7 @@ the joke was removed fairly early on (but there's    a well-known patch
 to restore it in more recent versions).
 
    :gweep: /gweep/  [WPI] 1. v. To {hack}, usually at night.     At
-WPI, from 1975 onwards, one who gweeped could often be found at    the
+WPI, from 1975 onwards, one who gweeped could often be found at    the
 College Computing Center punching cards or crashing the    {PDP-10} or,
 later, the DEC-20.  A correspondent who was there at    the time opines
 that the term was originally onomatopoetic,    describing the keyclick
@@ -11833,7 +11843,7 @@ communication.  Has become rarer since.  See also    {talk mode}.
 
    :Halloween Documents: n.  A pair of Microsoft internal    strategy
 memoranda leaked to ESR in late 1998 that confirmed    everybody's
-paranoia about the current {Evil Empire}.     These documents
+paranoia about the current {Evil Empire}.     These documents
 (http://www.opensource.org/halloween.html)    praised the technical
 excellence of {Linux} and outlined a    counterstrategy of attempting
 to lock in customers by    "de-commoditizing" Internet protocols and
@@ -11875,7 +11885,7 @@ every time any of them upgrades."
 de guerre' intended to conceal the user's true identity.     Network
 and BBS handles function as the same sort of simultaneous
 concealment and display one finds on Citizen's Band radio, from
-which the term was adopted.  Use of grandiose handles is
+which the term was adopted.  Use of grandiose handles is
 characteristic of {warez d00dz}, {cracker}s, {weenie}s,    {spod}s, and
 other lower forms of network life; true hackers    travel on their own
 reputations rather than invented legendry.     Compare {nick}, {screen
@@ -12526,7 +12536,7 @@ could be confused with `ICE', an acronym for "in-circuit    emulator".
 Experiment) in 1994. ICE is a consortium to promote uniform
 international access to strong cryptography.
 
-   :ID10T error: I-D-ten-T er'*r Synonym for {PEBKAC},    e.g. "The
+   :ID10T error: /I-D-ten-T er'*r/ Synonym for {PEBKAC},    e.g. "The
 user is being an idiot".  Tech-support people passing a    problem
 report to someone higher up the food chain (and presumably    better
 equipped to dealk with idiots) may ask the user to convey    that there
@@ -13156,7 +13166,7 @@ abuse or their combination as spam.
 
    :jiffy: n.  1. The duration of one tick of the system clock on
 your computer (see {tick}).  Often one AC cycle time (1/60 second    in
-the U.S. and Canada, 1/50 most other places), but more recently
+the U.S. and Canada, 1/50 most other places), but more recently
 1/100 sec has become common.  "The swapper runs every 6 jiffies"
 means that the virtual memory management routine is executed once
 for every 6 ticks of the clock, or about ten times a second.     2.
@@ -13313,7 +13323,7 @@ subject in other media.  See also    {plonk}.
 market for a promising but under-utilized technology.  First used    in
 the mid-1980s to describe Lotus 1-2-3 once it became evident    that
 demand for that product had been the major driver of the early
-business market for IBM PCs.  The term was then restrospectively
+business market for IBM PCs.  The term was then restrospectively
 applied to VisiCalc, which had played a similar role in the success
 of the Apple II.  After 1994 it became commonplace to describe the
 World Wide Web as the Internet's killer app.  One of the standard
@@ -13524,7 +13534,7 @@ the Iron    Curtain seemed so totally absurd at the time.
 that the postings from it weren't just another prank.     Vadim
 Antonov, senior programmer at Demos and the major poster from    there
 up to mid-1991, was quite aware of all this, referred to it
-frequently in his own postings, and at one point twitted some
+frequently in his own postings, and at one point twitted some
 credulous readers by blandly asserting that he _was_ a    hoax!
 
    Eventually he even arranged to have the domain's gateway site
@@ -13743,7 +13753,7 @@ generally get the short end of the stick.
 
    :LER: /L-E-R/  n. 1. [TMRC, from `Light-Emitting Diode']    A
 light-emitting resistor (that is, one in the process of burning    up).
-Ohm's law was broken.  See also {SED}. 2. An incandescent    light
+Ohm's law was broken.  See also {SED}. 2. An incandescent    light
 bulb (the filament emits light because it's resistively    heated).
 
    :LERP: /lerp/ vi.,n.  Quasi-acronym for Linear    Interpolation,
@@ -14836,7 +14846,8 @@ a few common signatures:
           Cambridge University (England).
 
     shme
-          Berkeley, GeoWorks, Ingres.  Pronounced /shme/ with a short e.
+          Berkeley, GeoWorks, Ingres.  Pronounced /shme/ with a short
+          /e/.
 
     spam
           {Python} programmers.
@@ -15319,7 +15330,7 @@ pointer first, and mouse drivers that do not quite    support the
 graphics mode in use.
 
    :mouse elbow: n.  A tennis-elbow-like fatigue syndrome    resulting
-from excessive use of a {WIMP environment}.     Similarly, `mouse
+from excessive use of a {WIMP environment}.     Similarly, `mouse
 shoulder'; GLS reports that he used to get this    a lot before he
 taught himself to be ambimoustrous.
 
@@ -15337,7 +15348,7 @@ Numerous features, including vaguely Unix-like but rather broken
 support for subdirectories, I/O redirection, and pipelines, were
 hacked into Microsoft's 2.0 and subsequent versions; as a result,
 there are two or more incompatible versions of many system calls,
-and MS-DOS programmers can never agree on basic things like what
+and MS-DOS programmers can never agree on basic things like what
 character to use as an option switch or whether to be
 case-sensitive.  The resulting appalling mess is now the
 highest-unit-volume OS in history.  Often known simply as DOS,    which
@@ -15735,7 +15746,7 @@ example, NANAU would refer to news.admin.net-abuse.usenet.
    When spam began to be a serious problem around 1995, and a loose
 network of anti-spammers formed to combat it, spammers immediately
 accused them of being the {backbone cabal}, or the Cabal reborn.
-Though this was not true, spam-fighters ironically accepted the
+Though this was not true, spam-fighters ironically accepted the
 label and the tag line "There is No Cabal" reappeared (later, and
 now commonly, abbreviated to "TINC").  Nowadays "the Cabal" is
 generally understood to refer to the NANA regulars.
@@ -16700,7 +16711,7 @@ bug and before discovering the _next_ last bug.  Fred    Brooks's book
 "The Mythical Man-Month" (See "Brooks's    Law") contains the following
 paragraph that describes this    extremely well:
 
-     All programmers are optimists.  Perhaps this modern sorcery
+     All programmers are optimists.  Perhaps this modern sorcery
      especially attracts those who believe in happy endings and fairy
      godmothers.  Perhaps the hundreds of nitty frustrations drive away
      all but those who habitually focus on the end goal.  Perhaps it is
@@ -17118,9 +17129,9 @@ in the legal sense but travels under various    copyrights granting
 reproduction and use rights to anyone who can    {snarf} a copy.  See
 {copyleft}.
 
-   :PDL: /P-D-L/, pid'l, /p*d'l/ or /puhd'l/     1. n. `Program Design
-Language'.  Any of a large class of formal    and profoundly useless
-pseudo-languages in which {management}    forces one to design
+   :PDL: /P-D-L/, /pid'l/, /p*d'l/ or /puhd'l/     1. n. `Program
+Design Language'.  Any of a large class of formal    and profoundly
+useless pseudo-languages in which {management}    forces one to design
 programs.  Too often, management expects PDL    descriptions to be
 maintained in parallel with the code, imposing    massive overhead to
 little or no benefit.  See also {{flowchart}}.     2. v. To design
@@ -17340,7 +17351,7 @@ out a file, would print a timestamp line almost 80 characters long.
 Very occasionally the first line of the message would be too long
 and would overflow onto the next line, and when the file was later
 read back in the program would {barf}.  The length of the first    line
-depended on both the precise date and time and the length of    the
+depended on both the precise date and time and the length of    the
 phase specification when the timestamp was printed, and so the    bug
 literally depended on the phase of the moon!
 
@@ -17507,7 +17518,7 @@ may refer to a different pattern of similar    origin.  Though the term
 as coined at PARC refers to the result of    an error, some of the {X}
 demos induce plaid-screen effects    deliberately as a {display hack}.
 
-   :plain-ASCII: // playn-as'kee Syn. {flat-ASCII}.
+   :plain-ASCII: /playn-as'kee/ Syn. {flat-ASCII}.
 
    :plan file: n.  [Unix] On systems that support {finger}, the
 `.plan' file in a user's home directory is displayed when the user
@@ -17671,7 +17682,7 @@ strip] Describes the extreme form of the    property that separates
 plural form    is often used as a noun. "The pointy-haireds ordered me
 to use    Windows NT, but I set up a Linux server with Samba instead."
 
-   :poke: n.,vt.  See {peek}.
+   :poke: n.,vt.  See {peek}.
 
    :poll: v.,n.  1. [techspeak] The action of checking the status    of
 an input line, sensor, or memory location to see if a particular
@@ -17812,7 +17823,7 @@ intended to model.  Good for showing to {management}.
 generate `pretty' human-readable output from a {hairy}    internal
 representation; esp. used for the process of    {grind}ing (sense 1)
 program code, and most esp. for LISP code.     2. To format in some
-particularly slick and nontrivial way.
+particularly slick and nontrivial way.
 
    :pretzel key: n.  [Mac users] See {feature key}.
 
@@ -18058,7 +18069,7 @@ wire}, and {red wire}.
 
    :push:  [from the operation that puts the current information    on
 a stack, and the fact that procedure return addresses are saved    on a
-stack] (Also PUSH /push/ or PUSHJ push'J, the latter    based on the
+stack] (Also PUSH /push/ or PUSHJ /push'J/, the latter    based on the
 PDP-10 procedure call instruction.) 1. To put    something onto a
 {stack} or {PDL}.  If one says that    something has been pushed onto
 one's stack, it means that the    Damoclean list of things hanging over
@@ -18173,7 +18184,7 @@ for byte quantities; the words `meg' and `gig' are nouns that may
      prefix   decimal   binary       pronunciation
      kilo-       k      K, KB,       /kay/
      mega-       M      M, MB, meg   /meg/
-     giga-       G      G, GB, gig   /gig/,jig
+     giga-       G      G, GB, gig   /gig/,/jig/
 
 Confusingly, hackers often use K or M as though they were suffix or
 numeric multipliers rather than a prefix; thus "2K dollars", "2M    of
@@ -18807,9 +18818,9 @@ doctrines and but one ritual: whenever    the worshipper noted that a
 digital clock read 11:08, he or she    would recite the phrase "It is
 11:08; ABS, ALPHABETIC, ARCSIN,    ARCCOS, ARCTAN."  The last five
 words were the first five    functions in the appropriate chapter of
-the Algol manual; note the    special pronunciations /obz/ and ark'sin
-rather than the more    common /ahbz/ and ark'si:n.  Using an alarm
-clock to warn of    11:08's arrival was {considered harmful}.
+the Algol manual; note the    special pronunciations /obz/ and
+/ark'sin/ rather than the more    common /ahbz/ and /ark'si:n/.  Using
+an alarm clock to warn of    11:08's arrival was {considered harmful}.
 
    :religious issues: n.  Questions which seemingly cannot be    raised
 without touching off {holy wars}, such as "What is the    best
@@ -19020,7 +19031,7 @@ phrase in countries that use Celsius    thermometers.
 `root') that ignores permission bits, user number 0 on a    Unix
 system.  The term {avatar} is also used.  2. The top node    of the
 system directory structure; historically the home directory    of the
-root user, but probably named after the root of an    (inverted) tree.
+root user, but probably named after the root of an    (inverted) tree.
 3. By extension, the privileged    system-maintenance login on any OS.
 See {root mode}, {go    root}, see also {wheel}.
 
@@ -19348,7 +19359,7 @@ myths. --ESR]
    :sagan: /say'gn/ n.  [from Carl Sagan's TV series    "Cosmos"; think
 "billions and billions"] A large quantity    of anything.  "There's a
 sagan different ways to tweak EMACS."     "The U.S. Government spends
-sagans on bombs and welfare -- hard    to say which is more
+sagans on bombs and welfare -- hard    to say which is more
 destructive."
 
    :SAIL:: /sayl/, not /S-A-I-L/ n.  1. The Stanford    Artificial
@@ -20353,7 +20364,7 @@ person's extension before connecting you, in the hopes that    you will
 metaphor may be that of a rubber band stretched through    a number of
 intermediate points; if you remove all the thumbtacks    in the middle,
 it snaps into a straight line from first to last.     See {chase
-pointers}.
+pointers}.
 
    Often, the behavior of a {trampoline} is to perform an error
 check once and then snap the pointer that invoked it so as
@@ -20375,7 +20386,7 @@ phase of hacking -- {FTP}ing    megs of stuff a day."  3. To acquire,
 with little concern for    legal forms or politesse (but not quite by
 stealing).  "They    were giving away samples, so I snarfed a bunch of
 them."     4. Syn. for {slurp}.  "This program starts by snarfing the
-entire database into core, then...." 5. [GEnie] To spray    food or
+entire database into core, then...." 5. [GEnie] To spray    food or
 {programming fluid}s due to laughing at the wrong    moment.  "I was
 drinking coffee, and when I read your post I    snarfed all over my
 desk."  "If I keep reading this topic, I    think I'll have to
@@ -20567,7 +20578,7 @@ LISP machines, which inspired several still-current jargon terms    and
 influenced the design of {EMACS}.  It was equipped with no    fewer
 than _seven_ shift keys: four keys for {bucky bits}    (`control',
 `meta', `hyper', and `super') and three like    regular shift keys,
-called `shift', `top', and `front'.  Many    keys had three symbols on
+called `shift', `top', and `front'.  Many    keys had three symbols on
 them: a letter and a symbol on the top,    and a Greek letter on the
 front.  For example, the `L' key had an    `L' and a two-way arrow on
 the top, and the Greek letter lambda on    the front.  By pressing this
@@ -20678,7 +20689,7 @@ transformed to    `jrandom@NOSPAM.hacker.org'.  Adding spamblock to an
 address is    often referred to as `munging' it (see {munge})-.  This
 evasion    tactic depends on the fact that most spammers collect names
 with    some sort of {address harvester} on volumes too high to de-mung
-  by hand, but individual humans reading an email message can readily
+  by hand, but individual humans reading an email message can readily
  spot and remove a spamblock in the from address.
 
    Note: This is not actually a very effective tactic, and may already
@@ -21544,7 +21555,7 @@ ppl
 THX
      thanks (mutant of `TNX'; clearly this comes in batches of 1138 (the
      Lucasian K)).
-
+
 UOK?
      are you OK?
 
@@ -22010,7 +22021,7 @@ early 1999 to describe an Apache perfornmance    problem.
 an address", according to P. Z. Ingerman, who    invented thunks in
 1961 as a way of binding actual parameters to    their formal
 definitions in Algol-60 procedure calls.  If a    procedure is called
-with an expression in the place of a formal    parameter, the compiler
+with an expression in the place of a formal    parameter, the compiler
 generates a thunk which computes the    expression and leaves the
 address of the result in some standard    location.  2. Later
 generalized into: an expression, frozen    together with its
@@ -22345,7 +22356,7 @@ rendered `lusing turistic scum'.
 
    :toy: n.  A computer system; always used with qualifiers.     1.
 `nice toy': One that supports the speaker's hacking style
-adequately.  2. `just a toy': A machine that yields insufficient
+adequately.  2. `just a toy': A machine that yields insufficient
 {computron}s for the speaker's preferred uses.  This is not
 condemnatory, as is {bitty box}; toys can at least be fun.  It    is
 also strongly conditioned by one's expectations; Cray XMP users
@@ -22630,7 +22641,7 @@ adjectival form, `turistic'.  Poss. influenced by {luser}    and
    :tweak: vt.  1. To change slightly, usually in reference to a
 value.  Also used synonymously with {twiddle}.  If a program is
 almost correct, rather than figure out the precise problem you    might
-just keep tweaking it until it works.  See {frobnicate}    and {fudge
+just keep tweaking it until it works.  See {frobnicate}    and {fudge
 factor}; also see {shotgun debugging}.  2. To    {tune} or {bum} a
 program; preferred usage in the U.K.
 
@@ -23355,7 +23366,7 @@ which case Wednesday of that week is a virtual Friday (and    Thursday
 is a virtual Saturday, as is Friday).  There are also    `virtual
 Mondays' that are actually Tuesdays, after the three-day    weekends
 associated with many national holidays in the U.S.
-
+
    :virtual reality: n.  1. Computer simulations that use 3-D
 graphics and devices such as the Dataglove to allow the user to
 interact with the simulation.  See {cyberspace}.  2. A form of
@@ -23691,7 +23702,7 @@ term but don't use it themselves.  See {warez d00dz}.
 some connection with {B1FF} here.  As `Ozone Pilot',    one former
 warez d00d, wrote:
 
-     Warez d00dz get illegal copies of copyrighted software.  If it has
+     Warez d00dz get illegal copies of copyrighted software.  If it has
      copy protection on it, they break the protection so the software
      can be copied.  Then they distribute it around the world via
      several gateways.  Warez d00dz form badass group names like RAZOR
@@ -23723,7 +23734,7 @@ never use onto their hard disks.  As Ozone Pilot acutely observes:
      Turbo.  They like to sound badass when they can hide behind their
      terminals.  More likely, if you were given a sample of 100 people,
      the person whose handle is Hellraiser is the last person you'd
-     associate with the name.
+     associate with the name.
 
    The contrast with Internet hackers is stark and instructive.  See
 {cracker}, {wannabee}, {handle}, {elite}; compare    {weenie}, {spod}.
@@ -24109,7 +24120,7 @@ probably won't get done for a long time, usually because the person
 responsible for the code is too busy or can't think of a clean way
 to do it.  "OK, I'll add automatic filename completion to the wish
 list for the new interface."  Compare {tick-list features}.
-
+
    :within delta of: adj.  See {delta}.
 
    :within epsilon of: adj.  See {epsilon}.
@@ -24801,7 +24812,7 @@ at least one very detailed version set at CMU.
 extensively; the interested reader is referred to his delightful
 pictorial compendium "The Journal of the Institute for Hacks,
 Tomfoolery, and Pranks" (MIT Museum, 1990; ISBN 0-917027-03-5).  The
-Institute has a World Wide Web page at
+Institute has a World Wide Web page at
 `http://fishwrap.mit.edu/Hacks/Gallery.html'. There is rumored to be a
 sequel entitled "Is This The Way To Baker Street?".  The Caltech Alumni
 Association has published two similar books titled "Legends of Caltech"
@@ -25008,7 +25019,7 @@ reviving the computer.
 I recall.  He clearly doubted my sanity, or suspected me of a
 supernatural belief in the power of this switch, or perhaps thought I
 was fooling him with a bogus saga.  To prove it to him, I showed him
-the very switch, still glued to the cabinet frame with only one wire
+the very switch, still glued to the cabinet frame with only one wire
 connected to it, still in the `more magic' position.  We scrutinized
 the switch and its lone connection, and found that the other end of the
 wire, though connected to the computer wiring, was connected to a
@@ -25096,7 +25107,7 @@ Sussman replied.
 
    "Why is the net wired randomly?", asked Minsky.
 
-   "I do not want it to have any preconceptions of how to play",
+   "I do not want it to have any preconceptions of how to play",
 Sussman said.
 
    Minsky then shut his eyes.
