@@ -1,8 +1,8 @@
-#======= THIS IS THE JARGON FILE, VERSION 4.4.3, 22 JUL 2003 =======#
+#======= THIS IS THE JARGON FILE, VERSION 4.4.4, 14 AUG 2003 =======#
 
 The Jargon File
 
-(version 4.4.3)
+(version 4.4.4)
      ________________________________________________________________
 
    Table of Contents
@@ -88,8 +88,8 @@ Welcome to the Jargon File
    its  proper  use  to  which many hackers are quite strongly attached.
    Please  extend  the  courtesy  of  proper citation when you quote the
    File,  ideally with a version number, as it will change and grow over
-   time.  (Examples of appropriate citation form: "Jargon File 4.4.3" or
-   "The on-line hacker Jargon File, version 4.4.3, 15 Jul 2003".)
+   time.  (Examples of appropriate citation form: "Jargon File 4.4.4" or
+   "The on-line hacker Jargon File, version 4.4.4, 14 Aug 2003".)
 
    The  Jargon File is a common heritage of the hacker culture. Over the
    years  a  number of individuals have volunteered considerable time to
@@ -627,6 +627,9 @@ Chapter 3. Revision History
    4.4.3 15 Jul 2003 37363 235135 1629667 2293
 
    Fix some stylesheet problems leading to missing links.
+   4.4.4 14 Aug 2003 37392 235271 1630579 2295
+
+   Corrected build machinery; we can make RPMS now.
 
    Version    numbering:    Version    numbers   should   be   read   as
    major.minor.revision. Major version 1 is reserved for the `old' (ITS)
@@ -1575,7 +1578,7 @@ Chapter 9. Crackers, Phreaks, and Lamers
        Dudes!#!$#$!#!$").
      * Use  the  emphatic  `k'  prefix  ("k-kool", "k-rad", "k-awesome")
        frequently.
-     * Abbreviate compulsively ("I got lotsa warez w/ docs").
+     * Abbreviate compulsively ("I got lotsa warez w/ docs").
      * TYPE  ALL  IN  CAPS LOCK, SO IT LOOKS LIKE YOU'RE YELLING ALL THE
        TIME.
 
@@ -2517,7 +2520,7 @@ Glossary
         dusty deck
         DWIM
         dynner
-
+
    E
 
         Easter egg
@@ -3020,6 +3023,7 @@ Glossary
         job security
         jock
         joe code
+        joe-job
         juggling eggs
         juice
         jump off into never-never land
@@ -3414,7 +3418,7 @@ Glossary
         param
         PARC
         parent message
-        parity errors
+        parity errors
         Parkinson's Law of Data
         parm
         parse
@@ -3526,7 +3530,7 @@ Glossary
         protocol
         provocative maintenance
         prowler
-        pseudo
+        pseudo
         pseudoprime
         pseudosuit
         psychedelicware
@@ -3781,6 +3785,7 @@ Glossary
         sneaker
         sneakernet
         sniff
+        snippage
         SO
         social engineering
         social science number
@@ -4859,7 +4864,7 @@ Rough stone steps lead up the dome.
    first  edition  1984,  second  edition  1990).  Note  that  due  to a
    technical  screwup  some printings of the second edition are actually
    of a color the author describes succinctly as "yucky green". See also
-   {book titles}.
+   {book titles}.
 
 :ambimouseterous: /am·b@·mows´ter·us/, /am·b@·mows´trus/, adj
 
@@ -5455,7 +5460,7 @@ IIIIIII[_]IIIII[_]IIIIIL___J__II__|_|__II__L___JIIIII[_]IIIII[_]IIIIIIII[_]
    running  binary of a program is not considered a full release; what's
    interesting  is  a  source tree that can be built into binaries using
    standard  tools.  Since  the mid-1990s, autoconf and friends been the
-   standard  way  to adapt a distribution for portability so that it can
+   standard  way  to adapt a distribution for portability so that it can
    be built on multiple operating systems without change.
 
 :automagically: /aw·toh·maj´i·klee/, adv.
@@ -6439,7 +6444,7 @@ B
 
    Syn.  {feep}.  This  term is techspeak under MS-DOS/Windows and OS/2,
    and seems to be generally preferred among micro hobbyists.
-
+
 :Befunge: n.
 
    A  worthy  companion  to {INTERCAL}; a computer language family which
@@ -6678,7 +6683,7 @@ B
    46325437999104299385123986290205920442084869694048
    00479988610197196058631666872994808558901323829669
    94459099742450408707375991882362772718873251977950
-   59509952761208749754624970436014182780946464962910
+   59509952761208749754624970436014182780946464962910
    56393887437886487337119181045825783647849977012476
    63288983595573543251318532395846307555740911426241
    74743493475534286465766116677973966688202912073791
@@ -7209,6 +7214,16 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    of  ISDN  terminals  can  provoke  a similar feeling of hypnotic awe,
    especially in a darkened network operations center or server room.
 
+   The  ancestor  of the original blinkenlights posters of the 1950s was
+   probably this:
+
+   [gefingerpoken.jpg]
+
+   We  are  informed  that  cod-German  parodies  of this kind were very
+   common  in  Allied  machine shops during and following WWII. Germans,
+   then  as  now,  had  a  reputation for being both good with precision
+   machinery and prone to officious notices.
+
 :blit: /blit/, vt.
 
    1.  [common]  To  copy  a  large  array  of  bits  from one part of a
@@ -7390,7 +7405,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
 
    1.  obs.  Once  upon  a  time,  before  all-digital  switches made it
    possible  for the phone companies to move them out of band, one could
-   actually  hear the switching tones used to route long-distance calls.
+   actually  hear the switching tones used to route long-distance calls.
    Early   {phreaker}s  built  devices  called  blue  boxes  that  could
    reproduce  these tones, which could be used to commandeer portions of
    the  phone  network. (This was not as hard as it may sound; one early
@@ -7435,7 +7450,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    misbehaving  applications  can  readily  crash  the  OS  (and  the OS
    sometimes  crashes  itself  spontaneously). The Blue Screen of Death,
    sometimes  decorated  with hex error codes, is what you get when this
-   happens.  (Commonly abbreviated {BSOD}.) The following entry from the
+   happens.  (Commonly abbreviated {BSOD}.) The following entry from the
    Salon Haiku Contest, seems to have predated popular use of the term:
 
            Windows NT crashed.
@@ -7782,7 +7797,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
 :boink: /boynk/
 
    1. [Usenet: variously ascribed to the TV series Cheers, Moonlighting,
-   and  Soap]v.  To  have  sex with; compare {bounce}, sense 3. (This is
+   and  Soap]v.  To  have  sex with; compare {bounce}, sense 2. (This is
    mainstream slang.) In Commonwealth hackish the variant `bonk' is more
    common.
 
@@ -7793,7 +7808,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    Francisco Bay Area. Compare {@-party}.
 
    3. Var of bonk; see {bonk/oif}.
-
+
 :bomb:
 
    1.  v.  General  synonym  for {crash} (sense 1) except that it is not
@@ -7909,7 +7924,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
 
 :borken: adj.
 
-   (also borked) Common deliberate typo for «broken'.
+   (also borked) Common deliberate typo for `broken'.
 
 :bot: n
 
@@ -7955,7 +7970,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    2.   Syn.   for   {slopsucker},  derived  from  the  fishermen's  and
    naturalists'  term  for finny creatures who subsist on the primordial
    ooze. (This sense is older.)
-
+
 :bottom-post: v.
 
    In  a  news  or  mail  reply,  to put the response to a news or email
@@ -8257,7 +8272,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
 
 :broken: adj.
 
-   1.  Not  working  according  to  design  (of  programs).  This is the
+   1.  Not  working  according  to  design  (of  programs).  This is the
    mainstream sense.
 
    2. Improperly designed, This sense carries a more or less disparaging
@@ -8648,7 +8663,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    Used of an algorithm or implementation considered extremely {robust};
    lossage-resistant;   capable   of   correctly   recovering  from  any
    imaginable  exception condition -- a rare and valued quality. Implies
-   that  the  programmer  has  thought of all possible errors, and added
+   that  the  programmer  has  thought of all possible errors, and added
    {code}  to  protect  against  each one. Thus, in some cases, this can
    imply  code that is too heavyweight, due to excessive paranoia on the
    part of the programmer. Syn. {armor-plated}.
@@ -8711,7 +8726,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    computer  is  so  intensely  involved  in his project that he forgets
    basic  needs  such  as  food,  drink,  sleep, etc. Warning: Excessive
    burn-in can lead to burn-out. See {hack mode}, {larval stage}.
-
+
    Historical  note: the origin of "burn-in" (sense 1) is apparently the
    practice  of  setting  a  new-model  airplane's  brakes on fire, then
    extinguishing  the  fire, in order to make them hold better. This was
@@ -8752,7 +8767,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    faults will pass DC tests but fail an AC buzz test.
 
    3.  To  process an array or list in sequence, doing the same thing to
-   each  element.  "This  loop buzzes through the tz array looking for a
+   each  element.  "This  loop buzzes through the tz array looking for a
    terminator type."
 
 :buzzword-compliant:
@@ -8921,7 +8936,7 @@ C
    COME FROM
    comm mode
    command key
-   comment out
+   comment out
    Commonwealth Hackish
    compact
    compiler jock
@@ -9104,9 +9119,9 @@ C
    the  C  tradition  of  either  running  syllables together or marking
    syllable  breaks  with  underscores; thus, where a C programmer would
    write thisverylongname or this_very_long_name, the camelCased version
-   would be thisVeryLongName. The common in certain language communities
-   (formerly  Pascal;  today  Java  and  Visual  Basic)  and tends to be
-   associated with object-oriented programming.
+   would  be  thisVeryLongName.  This  practice  is  common  in  certain
+   language  communities  (formerly Pascal; today Java and Visual Basic)
+   and tends to be associated with object-oriented programming.
 
    Compare  {BiCapitalization};  but  where  that  practice is primarily
    associated  with  marketing,  camelCasing  is not aimed at impressing
@@ -11318,7 +11333,7 @@ C original DO statement lost in the spaghetti...
    stimulating.  Gibson's work was widely imitated, in particular by the
    short-lived  but innovative Max Headroom TV series. See {cyberspace},
    {ice}, {jack in}, {go flatline}.
-
+
    Since  1990 or so, popular culture has included a movement or fashion
    trend  that  calls itself `cyberpunk', associated especially with the
    rave/techno  subculture.  Hackers  have mixed feelings about this. On
@@ -11680,7 +11695,7 @@ D
    2.  [ITS]  Under  MIT's  fabled  {ITS} operating system, DDT (running
    under  the  alias  HACTRN, a six-letterism for `Hack Translator') was
    also  used  as  the  {shell}  or  top  level command language used to
-   execute other programs.
+   execute other programs.
 
    3.  Any  one  of  several  specific DDTs (sense 1) supported on early
    {DEC}  hardware  and  CP/M.  The  PDP-10  Reference  Handbook  (1969)
@@ -11698,7 +11713,7 @@ D
      dichloro-diphenyl-trichloroethane C[14]H[9]Cl[5] should be minimal
      since each attacks a different, and apparently mutually exclusive,
      class of bugs.
-
+
    (The  `tape'  referred to was, incidentally, not magnetic but paper.)
    Sadly, this quotation was removed from later editions of the handbook
    after   the   {suit}s   took   over   and   {DEC}  became  much  more
@@ -12535,7 +12550,7 @@ D
    travesty  generators  have  been employed with considerable satirical
    effect to the utterances of Usenet flamers; see {pseudo}.
 
-:distribution: n.
+:distribution: n.
 
    1.  A  software source tree packaged for distribution; but see {kit}.
    Since  about 1996 unqualified use of this term often implies `{Linux}
@@ -12606,7 +12621,7 @@ D
    particular   dogcow   illustrated   is   properly   named  `Clarus').
    Option-shift-click  will cause it to emit a characteristic "Moof!" or
    "!fooM"  sound. Getting to tech note 31 is the hard part; to discover
-   how  to  do  that,  one  must  needs  examine the stack script with a
+   how  to  do  that,  one  must  needs  examine the stack script with a
    hackerly eye. Clue: {rot13} is involved. A dogcow also appears if you
    choose  `Page  Setup...' with a LaserWriter selected and click on the
    `Options' button. It also lurks in other Mac printer drivers, notably
@@ -12742,7 +12757,7 @@ D
    tools  (on  Unix,  files named with a leading dot are, by convention,
    not  normally  presented in directory listings). Many programs define
    one  or  more dot files in which startup or configuration information
-   may  be  optionally  recorded;  a  user  can  customize the program's
+   may  be  optionally  recorded;  a  user  can  customize the program's
    behavior  by  creating  the  appropriate  file in the current or home
    directory.  (Therefore,  dot  files  tend  to  {creep}  -- with every
    nontrivial  application  program defining at least one, a user's home
@@ -12786,7 +12801,7 @@ D
        Bits more!
    Perhaps a
    Set of pedals to
-   Make the number of
+   Make the number of
        Bits four:
    Double double bucky!
    Double bucky, left and right
@@ -14258,7 +14273,7 @@ F
    non-fannish  hackers.  Among SF fans the plural is correctly fen, but
    this  usage  is  not  automatic  to  hackers.  "Laura reads the stuff
    occasionally but isn't really a fan."
-
+
 :fandango on core: n.
 
    [Unix/C  hackers,  from  the Iberian dance] In C, a wild pointer that
@@ -14990,7 +15005,7 @@ F
    (so to speak).
 
    The  term  may  have been independently invented at several different
-   places.  It  has  been  reported  from  MIT, Carleton College and RPI
+   places.  It  has  been  reported  from  MIT, Carleton College and RPI
    (among  many  other  places)  from  as far back as 1969, and from the
    University of Virginia in the early 1960s.
 
@@ -15094,7 +15109,7 @@ F
 
 :flatten: vt.
 
-   [common]  To  remove structural information, esp. to filter something
+   [common]  To  remove structural information, esp. to filter something
    with  an  implicit  tree  structure into a simple sequence of leaves;
    also  tends  to imply mapping to {flat-ASCII}. "This code flattens an
    expression with parentheses into an equivalent {canonical} form."
@@ -15762,7 +15777,7 @@ F
    has  lost  ground  to  both {open source} and {free software}; it has
    increasingly  tended  to  be  restricted  to  software distributed in
    binary  rather  than  source-code  form.  At one time, freeware was a
-   trademark  of  Andrew Fluegelman, the author of the well-known MS-DOS
+   trademark  of  Andrew Fluegelman, the author of the well-known MS-DOS
    comm  program  PC-TALK  III.  It wasn't enforced after his mysterious
    disappearance and presumed death in 1984. See {shareware}, {FRS}.
 
@@ -16187,7 +16202,7 @@ G
    goat file
    gobble
    Godwin's Law
-   Godzillagram
+   Godzillagram
    golden
    golf-ball printer
    gonk
@@ -16249,7 +16264,7 @@ G
    largely thanks to the GNU project and the GPL.
 
    Many  {free  software} projects have names that names that begin with
-   G. The GNU project gave many of its projects names that were acronyms
+   G. The GNU project gave many of its projects names that were acronyms
    beginning  with  the  word  "GNU", such as "GNU C Compiler" (gcc) and
    "GNU  Debugger"  (gdb),  and  this launched a tradition. Just as many
    Java  developers will begin their projects with J, many free software
@@ -16296,7 +16311,7 @@ G
 
 :garply: /gar´plee/, n.
 
-   [Stanford]  Another  metasyntactic variable (see {foo}); once popular
+   [Stanford]  Another  metasyntactic variable (see {foo}); once popular
    among SAIL hackers.
 
 :gas:
@@ -16383,7 +16398,7 @@ G
    ditched for Unix in the late 1980s when Honeywell began to retire its
    aging {big iron} designs.
 
-:GECOS: /jee´kohs/, n.
+:GECOS: /jee´kohs/, n.
 
    See {GCOS}.
 
@@ -16661,9 +16676,8 @@ G
 :GIPS: /gips/, /jips/, n.
 
    [analogy  with  {MIPS}]  Giga-Instructions  per Second (also possibly
-   `Gillions  of Instructions per Second'; see {gillion}). In 1991, this
-   is  used  of  only a handful of highly parallel machines, but this is
-   expected to change. Compare {KIPS}.
+   `Gillions  of  Instructions  per  Second';  see  {gillion}).  Compare
+   {KIPS}.
 
 :GIYF: n.
 
@@ -16767,7 +16781,7 @@ G
    subprogram  that expanded wildcards in archaic pre-Bourne versions of
    the Unix shell.
 
-:glork: /glork/
+:glork: /glork/
 
    1.  interj.  Term  of  mild surprise, usually tinged with outrage, as
    when  one  attempts  to  save the results of two hours of editing and
@@ -17208,7 +17222,7 @@ G
    equipment.
 
 :Green's Theorem: prov.
-
+
    [TMRC]  For  any story, in any group of people there will be at least
    one  person  who has not heard the story. A refinement of the theorem
    states that there will be exactly one person (if there were more than
@@ -18697,7 +18711,7 @@ H
    but  has  extensive  logging  (usually  network layer, on a different
    machine).  Different  from  an  {iron  box} in that its purpose is to
    attract,  not  merely  observe.  Sometimes,  it  is  also a defensive
-   network  security  tactic  -- you set up an easy-to-crack box so that
+   network  security  tactic  -- you set up an easy-to-crack box so that
    your real servers don't get messed with. The concept was presented in
    Cheswick & Bellovin's book Firewalls and Internet Security.
 
@@ -19022,7 +19036,7 @@ I
    became  traditional to refer to this as one's ICBM address or missile
    address,  and  some  people include it in their {sig block} with that
    name. (A real missile address would include target elevation.)
-
+
 :ice: n.
 
    [coined  by  Usenetter  Tom  Maddox,  popularized by William Gibson's
@@ -19304,7 +19318,7 @@ I
    true  --  otherwise  Usenet would have reproduced the entire canon of
    great literature by now.
 
-   In  mid-2003,  researchers  at Plymouth Univesity in England actually
+   In  mid-2002,  researchers  at Plymouth Univesity in England actually
    put  a  working  computer  in  a  cage with six crested macaques. The
    monkeys proceeded to bash the machine with a rock, urinate on it, and
    type the letter S a lot (later, the letters A, J, L, and M also crept
@@ -19683,6 +19697,7 @@ J
    job security
    jock
    joe code
+   joe-job
    juggling eggs
    juice
    jump off into never-never land
@@ -19897,6 +19912,12 @@ J
    wonder!  It's  Ed  code!".  Used most often with a programmer who has
    left the shop and thus is a convenient scapegoat for anything that is
    wrong with the project.
+
+:joe-job: n., vt.
+
+   A spam run forged to appear as though it came from an innocent party,
+   who  is  then  generally  flooded  by  the  bounces;  or,  the act of
+   performing such a run. The original incident is described here.
 
 :juggling eggs: vi.
 
@@ -20506,7 +20527,7 @@ L
 
    [MUD,  IRC;  very  common]  When  used  without qualification this is
    synonymous  with {netlag}. Curiously, people will often complain "I'm
-   really  lagged" when in fact it is their server or network connection
+   really  lagged" when in fact it is their server or network connection
    that is lagging.
 
 :lamer: n.
@@ -21178,7 +21199,7 @@ L
    prepared  for  firing]  Said  of  a  removable  disk  volume properly
    prepared for use -- that is, locked into the drive and with the heads
    loaded.  Ironically,  because  their  heads are `loaded' whenever the
-   power  is  up,  this description is never used of {Winchester} drives
+   power  is  up,  this description is never used of {Winchester} drives
    (which are named after a rifle).
 
 :locked up: adj.
@@ -21741,7 +21762,7 @@ M
 :mailbomb:
 
    (also mail bomb) [Usenet]
-
+
    1.  v. To send, or urge others to send, massive amounts of {email} to
    a  single  system  or person, esp. with intent to crash or {spam} the
    recipient's  system.  Sometimes  done  in retaliation for a perceived
@@ -21830,9 +21851,14 @@ M
 
 :mainsleaze: n.
 
-   [spam  fighters] A big-time spammer, with their own {fat pipe}, their
-   own mailservers, and a {pink contract}. Almost impossible to get shut
+   1.  Spam  emitted  by  a reputable, mainstream company (as opposed to
+   fly-by-night  Viagra oeddlers and the like). Sometime this happens in
+   honest  ignorance,  but  the reputation danage can take years to live
    down.
+
+   2. Occasionally used for a big-time spammer, with its own {fat pipe},
+   their  own  mailservers,  and a {pink contract}. Almost impossible to
+   get shut down.
 
 :man page: n.
 
@@ -21841,7 +21867,7 @@ M
    interfaces,  file  formats,  games,  macro  packages,  or maintenance
    utilities.  By extension, the term "man page" may be used to refer to
    documentation of any kind, under any system, though it is most likely
-   to be confined to short on-line references.
+   to be confined to short on-line references.
 
    As  mentioned  in  Chapter 11,  Other Lexicon Conventions, there is a
    standard  syntax  for  referring  to  man  page  entries:  the phrase
@@ -22466,7 +22492,7 @@ M
 :minor detail:
 
    Often used in an ironic sense about brokenness or problems that while
-   apparently  major,  are  in principle solvable. "It works -- the fact
+   apparently  major,  are  in principle solvable. "It works -- the fact
    that  it  crashes  the system right after is a minor detail." Compare
    {SMOP}.
 
@@ -22653,7 +22679,7 @@ M
 
    One  also often hears the verbs enable and disable used in connection
    with  jargon  modes.  Thus, for example, a sillier way of saying "I'm
-   going  to  crash"  is "I'm going to enable crash mode now". One might
+   going  to  crash"  is "I'm going to enable crash mode now". One might
    also hear a request to "disable flame mode, please".
 
    In  a  usage much closer to techspeak, a mode is a special state that
@@ -22844,7 +22870,7 @@ M
 :mouse elbow: n.
 
    A  tennis-elbow-like fatigue syndrome resulting from excessive use of
-   a  {WIMP environment}. Similarly, mouse shoulder; GLS reports that he
+   a  {WIMP environment}. Similarly, mouse shoulder; GLS reports that he
    used to get this a lot before he taught himself to be ambimoustrous.
 
 :mouse pusher:
@@ -23745,7 +23771,7 @@ N
 :Netscrape: n.
 
    [sometimes   elaborated  to  Netscrape  Fornicator,  also  Nutscrape]
-   Standard    name-of-insult   for   Netscape   Navigator/Communicator,
+   Standard    name-of-insult   for   Netscape   Navigator/Communicator,
    Netscape's overweight Web browser. Compare {Internet Exploiter}.
 
 :netsplit: n.
@@ -23804,7 +23830,7 @@ N
 
    [C  programmers]  The  second  edition  of  K&R's  The  C Programming
    Language  (Prentice-Hall,  1988; ISBN 0-13-110362-8), describing ANSI
-   Standard C. See {K&R}; this version is also called «K&R2'.
+   Standard C. See {K&R}; this version is also called `K&R2'.
 
 :newbie: /n[y]oo´bee/, n.
 
@@ -24108,7 +24134,7 @@ N
    Common  abbreviation  for  `Network Service Provider', one of the big
    national  or  regional  companies  that  maintains  a  portion of the
    Internet  backbone and resells connectivity to {ISP}s. In 1996, major
-   NSPs include ANS, MCI, UUNET, and Sprint. An Internet wholesaler.
+   NSPs include ANS, MCI, UUNET, and Sprint. An Internet wholesaler.
 
 :nude: adj.
 
@@ -24352,10 +24378,10 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
 :obi-wan error: /oh´bee·won` er'@r/, n.
 
    [RPI,  from off-by-one and the Obi-Wan Kenobi character in Star Wars]
-   A loop of some sort in which the index is off by
+   A loop of some sort in which the index is off by one.
 
    1.  Common  when  the  index  should  have started from 0 but instead
-   started from
+   started from 1.
 
    2. A kind of {off-by-one error}. See also {zeroth}.
 
@@ -24481,7 +24507,7 @@ _-_-_-_-_-_-_-_-_-_-_-_-_-_-_-_
    insult  in  the  second  or  third  person  but one of pride in first
    person.
 
-:Old Testament: n.
+:Old Testament: n.
 
    [C   programmers]  The  first  edition  of  {K&R},  the  sacred  text
    describing {Classic C}.
@@ -25295,7 +25321,7 @@ P
 
    2.  When  used  of  test  input,  implies  that  it  was purposefully
    engineered  as  a  worst case. The implication in both senses is that
-   the  data  is  spectacularly  ill-conditioned  or that someone had to
+   the  data  is  spectacularly  ill-conditioned  or that someone had to
    explicitly  set  out  to break the algorithm in order to come up with
    such a crazy example.
 
@@ -25355,7 +25381,7 @@ P
    The  first  PDP-11s (the 11/15 and 11/20) shipped in 1970 from {DEC};
    the  last (11/93 and 11/94) in 1990. Along the way, the 11 gave birth
    to  the {VAX}, strongly influenced the design of microprocessors such
-   as  the  Motorola 6800 and Intel 386, and left a permanent imprint on
+   as  the  Motorola 6800 and Intel 386, and left a permanent imprint on
    the C language (which has an odd preference for octal embedded in its
    syntax   because   of   the  way  PDP-11  machine  instructions  were
    formatted). There is a history site.
@@ -25518,7 +25544,7 @@ P
    particularly  shock  or  surprise, disgust or anger. The amplitude of
    the  reaction  can  be  measured  by  counting  intermediary  fs. For
    example:
-
+
 <jrandom> someone stole my hotdog
 <fred> pffft
 
@@ -25627,7 +25653,7 @@ P
    1.  The  art  and science of {cracking} the phone network (so as, for
    example, to make free long-distance calls).
 
-   2.  By extension, security-cracking in any other context (especially,
+   2.  By extension, security-cracking in any other context (especially,
    but not exclusively, on communications networks) (see {cracking}).
 
    At  one time phreaking was a semi-respectable activity among hackers;
@@ -25790,7 +25816,7 @@ P
    {memory  smash}es  overwrite  the control blocks or image memory of a
    bit-mapped  display.  The  term  "salt  and  pepper"  may  refer to a
    different  pattern  of  similar  origin. Though the term as coined at
-   PARC  refers  to the result of an error, some of the {X} demos induce
+   PARC  refers  to the result of an error, some of the {X} demos induce
    plaid-screen effects deliberately as a {display hack}.
 
 :plain-ASCII: /playn·as´kee/
@@ -25884,18 +25910,18 @@ P
    A  slightly  more  directed  form of plokta can often be seen in mail
    messages or Usenet articles from new users -- the text might end with
 
-           ^X^C
-           q
-           quit
-           :q
-           ^C
-           end
-           x
-           exit
-           ZZ
-           ^D
-           ?
-           help
+        ^X^C
+        q
+        quit
+        :q
+        ^C
+        end
+        x
+        exit
+        ZZ
+        ^D
+        ?
+        help
 
    as  the  user  vainly tries to find the right exit sequence, with the
    incorrect tries piling up at the end of the message....
@@ -26330,7 +26356,7 @@ P
 
 :Programmer's Cheer:
 
-   "Shift  to  the  left!  Shift  to the right! Pop up, push down! Byte!
+   "Shift  to  the  left!  Shift  to the right! Pop up, push down! Byte!
    Byte! Byte!" A joke so old it has hair on it.
 
 :programming: n.
@@ -26386,8 +26412,6 @@ P
 
    Proprietary   software   should   be  distinguished  from  commercial
    software.  It  is  possible  for  software to be commercial (that is,
-   intended   to   make  a  profit  for  the  producers)  without  being
-   proprietary.  It  is possible for software to be commercial (that is,
    intended   to   make  a  profit  for  the  producers)  without  being
    proprietary. The reverse is also possible, for example in binary-only
    freeware.
@@ -26839,7 +26863,7 @@ q(#define q(k)main(){return!puts(#k"\nq("#k")");})
    This is not used to refer to things that are definitely proven not to
    exist, such as a spammer's ethics. It's applicable to enough postings
    there  that a poster wishing to raise the objection often need merely
-   say "ObQuirk!", an instance of the {Ob-} convention.
+   say "ObQuirk!", an instance of the {Ob-} convention.
 
 :quote chapter and verse: v.
 
@@ -26886,7 +26910,7 @@ q(#define q(k)main(){return!puts(#k"\nq("#k")");})
    The  fourth of the standard {metasyntactic variable}, after {baz} and
    before  the  quu(u...)x series. See {foo}, {bar}, {baz}, {quux}. This
    appears  to  be  a  recent  mutation  from  {quux}, and many versions
-   (especially  older  versions)  of the standard series just run {foo},
+   (especially  older  versions)  of the standard series just run {foo},
    {bar}, {baz}, {quux}, ....
 
 :QWERTY: /kwer´tee/, adj.
@@ -27596,7 +27620,7 @@ R
 
    The  hijacking  of  a  third party's unsecured mail server to deliver
    {spam}.
-
+
 :religion of CHI: /ki:/, n.
 
    [Case Western Reserve University] Yet another hackish parody religion
@@ -28189,6 +28213,7 @@ S
    sneaker
    sneakernet
    sniff
+   snippage
    SO
    social engineering
    social science number
@@ -29194,10 +29219,10 @@ S
 
 :shebang: /sh@·bang/, n.
 
-   The  character  sequence "#!" that frequently begins executable shell
-   scripts  under  Unix.  Probably  derived  from "shell bang" under the
-   influence  of  American  slang  "the  whole shebang" (everything, the
-   works).
+   [possibly  a portmanteau of "sharp bang"] The character sequence "#!"
+   that  frequently begins executable shell scripts under Unix. Probably
+   derived  from "shell bang" under the influence of American slang "the
+   whole shebang" (everything, the works).
 
 :shelfware: /shelf´weir/, n.
 
@@ -29284,7 +29309,7 @@ S
    introduces more bugs.
 
 :shovelware: /shuh´v@l·weir`/, n.
-
+
    1.  Extra  software  dumped  onto  a  CD-ROM  or  tape to fill up the
    remaining  space  on  the medium after the software distribution it's
    intended to carry, but not integrated with the distribution.
@@ -29832,7 +29857,7 @@ S
 
    2.  [in  the Unix community] To fetch a file or set of files across a
    network.  See  also  {blast}.  This  term  was mainstream in the late
-   1960s, meaning `to eat piggishly'. It may still have this connotation
+   1960s, meaning `to eat piggishly'. It may still have this connotation
    in  context. "He's in the snarfing phase of hacking -- FTPing megs of
    stuff a day."
 
@@ -29896,9 +29921,13 @@ S
 
 :sniff: v.,n.
 
-   1.  To watch IP packets traversing a local network. Most often in the
-   phrase  packet  sniffer,  a  program  for  doing same. 2. Synonym for
-   {poll}.
+   1.  To  watch  packets traversing a network. Most often in the phrase
+   packet sniffer, a program for doing same. 2. Synonym for {poll}.
+
+:snippage: n.
+
+   Synonym  for {deletia}; the fact that something has been snipped when
+   quoting is often indicated with the pseudo-HTML <snip>.
 
 :SO: /S·O/, n.
 
@@ -30146,7 +30175,7 @@ S
    [encountered  among  users  of  object-oriented  languages  that  use
    inheritance,  such  as  Smalltalk] A convoluted class-subclass graph,
    often  resulting  from  carelessly  deriving  subclasses  from  other
-   classes  just  for  the  sake  of  reusing  their  code.  Coined in a
+   classes  just  for  the  sake  of  reusing  their  code.  Coined in a
    (successful)   attempt   to   discourage   such   practice,   through
    guilt-by-association with {spaghetti code}.
 
@@ -30212,7 +30241,7 @@ S
    render  it  invalid  and  thus  useless to spammers. For example, the
    address     <jrandom@hacker.org>     might    be    transformed    to
    <jrandom@NOSPAM.hacker.org>.  Adding spamblock to an address is often
-   referred to as munging it (see {munge})-. This evasion tactic depends
+   referred  to as munging it (see {munge}). This evasion tactic depends
    on  the  fact  that  most  spammers  collect  names with some sort of
    {address  harvester}  on  volumes  too  high  to de-mung by hand, but
    individual  humans  reading  an  email  message  can readily spot and
@@ -30311,7 +30340,7 @@ S
 
    The  Web-walking  part  of  a  search  engine that collects pages for
    indexing  in  the  search engine's database. Also called a {bot}. The
-   best-known  spider  is  Scooter,  the  web-walker  for the Alta Vista
+   best-known  spider  is  Scooter,  the  web-walker  for the Alta Vista
    search engine.
 
 :spider food: n.
@@ -30352,7 +30381,7 @@ S
    this for a sudden short increase in some quantity such as system load
    or network traffic.
 
-:spin: vi.
+:spin: vi.
 
    Equivalent  to  {buzz}. More common among C and Unix programmers. See
    the discussion of `spinlock' under {busy-wait}.
@@ -30501,7 +30530,7 @@ S
    in  order  to  masquerade  as a trusted machine. This term has become
    very  widespread  and  is borderline techspeak. Interestingly, it was
    already  in  use  in  its  modern sense more than a century ago among
-   Victorian teklegraphers; it shows up in Kipling.
+   Victorian telegraphers; it shows up in Kipling.
 
 :spool: vi.
 
@@ -30865,7 +30894,7 @@ S
 
    Sun  Microsystems.  Hackers  remember that the name was originally an
    acronym,  Stanford  University  Network.  Sun started out around 1980
-   with  some  hardware  hackers  (mainly) from Stanford talking to some
+   with  some  hardware  hackers  (mainly) from Stanford talking to some
    software hackers (mainly) from UC Berkeley; Sun's original technology
    concept  married a clever board design based on the Motorola 68000 to
    {BSD}  Unix. Sun went on to lead the workstation industry through the
@@ -31203,7 +31232,7 @@ T
    TINLC
    tip of the ice-cube
    tired iron
-   tits on a keyboard
+   tits on a keyboard
    TLA
    TMRC
    TMRCie
@@ -31770,7 +31799,7 @@ T
    TeX  has  also  been  a  noteworthy  example  of  free,  shared,  but
    high-quality  software.  Knuth  offers a monetary award to anyone who
    found  and  reported bugs dating from before the 1989 code freeze; as
-   the years wore on and the few remaining bugs were fixed (and new ones
+   the years wore on and the few remaining bugs were fixed (and new ones
    even  harder to find), the bribe went up. Though well-written, TeX is
    so  large  (and so full of cutting edge technique) that it is said to
    have  unearthed  at  least one bug in every Pascal system it has been
@@ -32209,7 +32238,7 @@ T
    culture.  The  1959 Dictionary of the TMRC Language compiled by Peter
    Samson  included  several  terms  that  became  basics of the hackish
    vocabulary (see esp. {foo}, {mung}, and {frob}).
-
+
    By  1962,  TMRC's legendary layout was already a marvel of complexity
    and  has  grown  in  the years since. All the features described here
    were  still  present  when  the old layout was decommissioned in 1998
@@ -33647,7 +33676,7 @@ V
     5. The  assumption that pointer and integer types are the same size,
        and  that  pointers  can  be  stuffed into integer variables (and
        vice-versa)  and  drawn  back  out  without  being  truncated  or
-       mangled.  Problem:  this  fails  on  segmented  architectures  or
+       mangled.  Problem:  this  fails  on  segmented  architectures  or
        word-oriented machines with funny pointer formats.
     6. The assumption that a data type of any size may begin at any byte
        address in memory (for example, that you can freely construct and
@@ -33939,7 +33968,7 @@ V
 
 :voice: vt.
 
-   To  phone someone, as opposed to emailing them or connecting in {talk
+   To  phone someone, as opposed to emailing them or connecting in {talk
    mode}. "I'm busy now; I'll voice you later."
 
 :voice-net: n.
@@ -34038,7 +34067,7 @@ W
    Weenix
    well-behaved
    well-connected
-   wetware
+   wetware
    whack
    whack-a-mole
    whacker
@@ -34267,7 +34296,7 @@ W
    A form of game cheat especially associated with first-person shooters
    like  Quake,  in which the walls in the simulated maze or dungeon are
    rendered  transparent to the cheater. This gives the cheater normally
-   hidden  information  about  the  whereabouts of other players. Beyond
+   hidden  information  about  the  whereabouts of other players. Beyond
    gaming,  a wallhack is the paradigm case of a whole class of security
    problems  that  stem  from the fact that a server cannot trust client
    software,  and server authors must assume that all computation farmed
@@ -34602,7 +34631,7 @@ W
    {Unix  weenie},  VMS weenie, IBM weenie) this can be either an insult
    or a term of praise, depending on context, tone of voice, and whether
    or  not  it is applied by a person who considers him or herself to be
-   the  same  sort  of  weenie.  Implies that the weenie has put a major
+   the  same  sort  of  weenie.  Implies that the weenie has put a major
    investment   of   time,  effort,  and  concentration  into  the  area
    indicated;  whether  this  is  good  or  bad  depends on the hearer's
    judgment of how the speaker feels about that area. See also {bigot}.
@@ -34989,7 +35018,7 @@ W
    software  wizard  too,  but will always have the ability to deal with
    network hardware, down to the smallest component. Wireheads are known
    for  their  ability  to  lash  up  an  Ethernet terminator from spare
-   resistors, for example.
+   resistors, for example.
 
 :wirewater: n.
 
@@ -35255,7 +35284,7 @@ W
    would kill the wumpus on a hit (later versions introduced the wounded
    wumpus,  which  got  very  angry).  Unfortunately  for  players,  the
    movement  necessary  to map the maze was made hazardous not merely by
-   the  wumpus  (which  would eat you if you stepped on him) but also by
+   the  wumpus  (which  would eat you if you stepped on him) but also by
    bottomless pits and colonies of super bats that would pick you up and
    drop  you  at  a  random  location  (later  versions added `anaerobic
    termites'  that  ate  arrows,  bat  migrations,  and earthquakes that
@@ -35306,7 +35335,7 @@ W
    {TECO}.  See  also {WIMP environment}. [Oddly enough, WYSIWYG made it
    into the 1986 supplement to the OED, in lower case yet. --ESR]
 
-X
+X
 
    X
    XEROX PARC
@@ -35362,7 +35391,7 @@ X
 :xor: /X´or/, /kzor/, conj.
 
    Exclusive  or. `A xor B' means `A or B, but not both'. "I want to get
-   cherry  pie  xor a banana split." This derives from the technical use
+   cherry  pie  xor a banana split." This derives from the technical use
    of the term as a function on truth-values that is true if exactly one
    of its two arguments is true.
 
@@ -35485,7 +35514,7 @@ Y
    [IBM]   Repair   wires   used   when  connectors  (especially  ribbon
    connectors)  got  broken  due  to some schlemiel pinching them, or to
    reconnect  cut  traces after the FE mistakenly cut one. Compare {blue
-   wire}, {purple wire}, {red wire}.
+   wire}, {purple wire}, {red wire}.
 
 :Yet Another: adj.
 
@@ -36431,7 +36460,7 @@ The Story of Mel
    and weren't here to stay, anyway.
    (That's why you haven't heard of the company,
    or the computer.)
-   I had been hired to write a FORTRAN compiler
+   I had been hired to write a FORTRAN compiler
    for this new marvel and Mel was my guide to its wonders.
    Mel didn't approve of compilers.
    "If a program can't rewrite its own code",
@@ -36845,7 +36874,7 @@ Politics
    moderate-to-neoconservative   (hackers   too  were  affected  by  the
    collapse  of  socialism).  There  is  a strong libertarian contingent
    which  rejects  conventional  left-right  politics entirely. The only
-   safe   generalization   is   that   hackers   tend   to   be   rather
+   safe   generalization   is   that   hackers   tend   to   be   rather
    anti-authoritarian;  thus,  both paleoconservatism and `hard' leftism
    are rare. Hackers are far more likely than most non-hackers to either
    (a)   be   aggressively  apolitical  or  (b)  entertain  peculiar  or
