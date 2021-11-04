@@ -43,6 +43,7 @@ Soundalike slang: similar to Cockney rhyming slang.  Often made up on
    Often the substitution will be made in such a way as to slip in
    a standard jargon word:
 	Dr. Dobb's Journal => Dr. Frob's Journal
+	Margaret Jacks Hall => Marginal Hacks Hall
 
 The -P convention: turning a word into a question by appending the
    syllable "P"; from the LISP convention of appending the letter "P"
@@ -51,6 +52,10 @@ The -P convention: turning a word into a question by appending the
      At dinnertime: "Foodp?"  "Yeah, I'm pretty hungry." or "T!"
      "State-of-the-world-P?"  (Straight) "I'm about to go home."
 			      (Humorous) "Yes, the world has a state."
+   [One of the best of these is a Gosperism (i.e., due to Bill
+   Gosper).  When we were at a Chinese restaurant, he wanted to know
+   whether someone would like to share with him a two-person-sized
+   bowl of soup.  His inquiry was: "Split-p soup?" --GLS]
 
 Peculiar nouns: MIT AI hackers love to take various words and add the
    wrong endings to them to make nouns and verbs, often by extending a
@@ -61,6 +66,15 @@ Peculiar nouns: MIT AI hackers love to take various words and add the
 		ferrous => ferocity
 
 	Other examples:  winnitude, disgustitude, hackification.
+
+@BEGIN (primarily CMU) with @End, used humorously in writing to
+   indicate a context or to remark on the surrounded text.  From
+   the SCRIBE command of the same name.  For example:
+	@Begin(Flame)
+	Predicate logic is the only good programming language.
+	Anyone who would use anything else is an idiot.  Also,
+	computers should be tredecimal instead of binary.
+	@End(Flame)
 
 AOS (aus (East coast) ay-ahs (West coast)) [based on a PDP-10
    increment instruction] v. To increase the amount of something.
@@ -556,7 +570,10 @@ FROBNICATE v. To manipulate or adjust, to tweak.  Derived from
 FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    object, a widget.  Also refers to electronic black boxes.  This
    rare form is usually abbreviated to FROTZ, or more commonly to
-   FROB.  Also used are FROBNULE and FROBULE.
+   FROB.  Also used are FROBNULE and FROBULE.  Starting perhaps in
+   1979, FROBBOZ (fruh-bahz') has also become very popular.  These
+   can also be applied to nonphysical objects, such as data
+   structures.
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
@@ -686,6 +703,9 @@ GRUNGY adj. Incredibly dirty or grubby.  Anything which has been
    washed within the last year is not really grungy.  Also used
    metaphorically; hence some programs (especially crocks) can be
    described as grungy.
+
+GUBBISH [a portmanteau of "garbage" and "rubbish"?] n. Garbage;
+   crap; nonsense.  "What is all this gubbish?"
 
 HACK n. 1. Originally a quick job that produces what is needed, but
    not well.  2. The result of that job.  3. NEAT HACK: A clever
@@ -838,6 +858,8 @@ LOGICAL [from the technical term "logical device", wherein a physical
    which "logical north" is toward San Francisco, "logical west" is
    toward the ocean, etc., even though logical north varies between
    physical (true) north near SF and physical west near San Jose.
+   (The best rule of thumb here is that El Camino Real by definition
+   always runs logical north-and-south.)
 
 LOSE [from MIT jargon] v. 1. To fail.  A program loses when it
    encounters an exceptional condition.  2. To be exceptionally
@@ -1052,7 +1074,8 @@ POM n. Phase of the moon (q.v.).  Usage: usually used in the phrase
 POP [based on the stack operation that removes the top of a stack, and
    the fact that procedure return addresses are saved on the stack]
    dialect: POPJ (pop-jay), based on the PDP-10 procedure return
-   instruction.  v. To return from a digression.
+   instruction.  v. To return from a digression.  By verb doubling,
+   "Popj, popj" means roughly, "Now let's see, where were we?"
 
 PPN (pip'in) [DEC terminology, short for Project-Programmer Number] n.
    1. A combination `project' (directory name) and programmer name,
@@ -1095,8 +1118,11 @@ QUUX [invented by Steele.  Mythically, from the Latin semi-deponent
    verb QUUXO, QUUXARE, QUUXANDUM IRI; noun form variously QUUX
    (plural QUUCES, Anglicized to QUUXES) and QUUXU (genitive plural is
    QUUXUUM, four U's in seven letters).] 1. Originally, a meta-word
-   like FOO and FOOBAR.  Invented by Steele for precisely this
-   purpose.  2. interj. See FOO; however, denotes very little disgust,
+   like FOO and FOOBAR.  Invented by Guy Steele for precisely this
+   purpose when he was young and naive and not yet interacting with
+   the real computing community.  Many people invent such words; this
+   one seems simply to have been lucky enough to have spread a little.
+   2. interj. See FOO; however, denotes very little disgust,
    and is uttered mostly for the sake of the sound of it.  3. n.
    Refers to one of three people who went to Boston Latin School and
    eventually to MIT:
@@ -1339,6 +1365,14 @@ TELNET v. To communicate with another ARPAnet host using the TELNET
    program name for them.  Sometimes abbreviated to TN.  "I usually TN
    over to SAIL just to read the AP News."
 
+TENSE adj. Of programs, very clever and efficient.  A tense piece of
+   code often got that way because it was highly bummed, but sometimes
+   it was just based on a great idea.  A comment in a clever display
+   routine by Mike Kazar: "This routine is so tense it will bring
+   tears to your eyes.  Much thanks to Craig Everhart and James
+   Gosling for inspiring this hack attack."  A tense programmer is
+   one who produces tense code.
+
 TERPRI (tur'pree) [from the LISP 1.5 (and later, MacLISP) function to
    start a new line of output] v. To output a CRLF (q.v.).
 
@@ -1348,9 +1382,10 @@ THEORY n. Used in the general sense of idea, plan, story, or set of
    current theory on letting losers on during the day?"  "The theory
    behind this change is to fix the following well-known screw..."
 
-THRASH v. To move wildly or violently.  Swapping systems which are
-   overloaded spend much of their time moving pages into and out of
-   core, and are therefore said to thrash.
+THRASH v. To move wildly or violently, without accomplishing anything
+   useful.  Swapping systems which are overloaded waste most of their
+   time moving pages into and out of core (rather than performing
+   useful computation), and are therefore said to thrash.
 
 TICK n. 1. Interval of time; basic clock time on the computer.
    Typically 1/60 second.  See JIFFY.  2. In simulations, the discrete
@@ -1437,8 +1472,9 @@ UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
 
 VANILLA adj. Ordinary flavor, standard.  See FLAVOR.  When used of
    food, very often does not mean that the food is flavored with
-   vanilla extract!  For example, "vanilla-flavored wonton soup" means
-   ordinary wonton soup, as opposed to hot and sour wonton soup.
+   vanilla extract!  For example, "vanilla-flavored wonton soup"
+   (or simply "vanilla wonton soup") means ordinary wonton soup,
+   as opposed to hot and sour wonton soup.
 
 VAXEN [from "oxen", perhaps influenced by "vixen"] n. pl. The plural
    of VAX (a DEC machine).
