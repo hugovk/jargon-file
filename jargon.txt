@@ -67,6 +67,12 @@ Peculiar nouns: MIT AI hackers love to take various words and add the
 
 	Other examples:  winnitude, disgustitude, hackification.
 
+Spoken inarticulations:  Words such as "mumble", "sigh", and "groan"
+   are spoken in places where their referent might more naturally be
+   used.  It has been suggested that this usage derives from the
+   impossibility of representing such noises in a com link.
+   Another expression sometimes heard is "complain!"
+
 @BEGIN (primarily CMU) with @End, used humorously in writing to
    indicate a context or to remark on the surrounded text.  From
    the SCRIBE command of the same name.  For example:
@@ -224,6 +230,9 @@ CATATONIA (kat-uh-toe'-nee-uh) n. A condition of suspended animation
 CDR (ku'der) [from LISP] v. With "down", to trace down a list of
    elements.  "Shall we cdr down the agenda?"  Usage: silly.
 
+CHINE NUAL n. The Lisp Machine Manual.  So called because the title
+   is wrapped around the cover so only those letters show.
+
 CHOMP v. To lose; to chew on something of which more was bitten off
    than one can.  Probably related to gnashing of teeth.  See
    BAGBITER.  A hand gesture commonly accompanies this, consisting of
@@ -277,6 +286,8 @@ COM MODE (variant: COMM MODE) [from the ITS feature for linking two or
 		a hyphen) to indicate who is typing.  The login name
 		often is shortened to a unique prefix (possibly a
 		single letter) during a very long conversation.
+        <alternating slash/backslash: /\/\/\/\>  The equivalent of a
+		giggle. 
    At Stanford, where the link feature is implemented by "talk loops",
    the term TALK MODE is used in place of COM MODE.  Most of the above
    "sub-jargon" is used at both Stanford and MIT.
@@ -520,10 +531,11 @@ FLAP v. To unload a DECtape (so it goes flap, flap, flap...).  Old
    microtapes were 1, 2,... and attempting to flap device 0 would
    instead start a motor banging inside a cabinet near the disk!
 
-FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors."
-   2. The attribute of causing something to be FLAVORFUL.  "This
-   convention yields additional flavor by allowing one to..."
-   See VANILLA.
+FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors." 
+   See VANILLA.  2. The attribute of causing something to be FLAVORFUL.
+   "This convention yields additional flavor by allowing one to..."
+   3. On the LispMachine, an object-oriented programming system 
+   ("flavors"); each class of object is a flavor.
 
 FLAVORFUL adj. Aesthetically pleasing.  See RANDOM and LOSING for
    antonyms.  See also the entry for TASTE.
@@ -570,10 +582,10 @@ FROBNICATE v. To manipulate or adjust, to tweak.  Derived from
 FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    object, a widget.  Also refers to electronic black boxes.  This
    rare form is usually abbreviated to FROTZ, or more commonly to
-   FROB.  Also used are FROBNULE and FROBULE.  Starting perhaps in
-   1979, FROBBOZ (fruh-bahz') has also become very popular.  These
-   can also be applied to nonphysical objects, such as data
-   structures.
+   FROB.  Also used are FROBNULE, FROBULE, and FROBNODULE.  Starting
+   perhaps in 1979, FROBBOZ (fruh-bahz') (pl. FROBBOTZIM) has also
+   become very popular.  These can also be applied to nonphysical 
+   objects, such as data structures.
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
@@ -628,10 +640,7 @@ GAS [as in "gas chamber"] interj. 1. A term of disgust and hatred,
    system's wedging every few minutes.  Gas!"  3. v. FLUSH (q.v.).
    "You should gas that old crufty software."  4. GASEOUS adj.
    Deserving of being gassed.  Usage: primarily used by Geoff
-   Goodfellow at SRI, but spreading; became particularly popular after
-   the Moscone/Milk murders in San Francisco, when it was learned that
-   Dan White (who supported Proposition 7) would get the gas chamber
-   under 7 if convicted.
+   Goodfellow at SRI, but spreading.
 
 GC [from LISP terminology] 1. v. To clean up and throw away useless
    things.  "I think I'll GC the top of my desk today."  2. v. To
@@ -807,7 +816,8 @@ IRP (erp) [from the MIDAS pseudo-op which generates a block of code
 
 JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
    as a fast no-op] v. To cancel or annul something.  "Why don't you
-   jfcl that out?"
+   jfcl that out?"  [The California licence plate on Geoff Goodfellow's
+   BMW 633CSi is JFCL]
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
@@ -997,8 +1007,9 @@ N adj. 1. Some large and indeterminate number of objects; "There were
 
 NIGHT MODE  See PHASE (of people).
 
-NIL [from LISP terminology for "false"] No.  Usage: used in reply to a
-   question, particularly one asked using the "-P" convention.  See T.
+NIL 1. No. [from LISP terminology for "false"]  Usage: used in reply 
+   to a question, particularly one asked using the "-P" convention.  
+   See T.  2. None; nothing.
 
 OBSCURE adj. Used in an exaggeration of its normal meaning, to imply a
    total lack of comprehensibility.  "The reason for that last crash
@@ -1124,16 +1135,17 @@ QUUX [invented by Steele.  Mythically, from the Latin semi-deponent
    one seems simply to have been lucky enough to have spread a little.
    2. interj. See FOO; however, denotes very little disgust,
    and is uttered mostly for the sake of the sound of it.  3. n.
-   Refers to one of three people who went to Boston Latin School and
+   Refers to one of four people who went to Boston Latin School and
    eventually to MIT:
 	THE GREAT QUUX:  Guy L. Steele Jr.
 	THE LESSER QUUX:  David J. Littleboy
 	THE MEDIOCRE QUUX:  Alan P. Swide
+	THE MICRO QUUX: Sam Lewis
    (This taxonomy is said to be similarly applied to three Frankston
    brothers at MIT.)  QUUX, without qualification, usually refers to
    The Great Quux, who is somewhat infamous for light verse and for
    the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining to a
-   QUUX.  5. n. The Micro Quux (Sam Lewis).
+   QUUX. 
 
 RANDOM adj. 1. Unpredictable (closest to mathematical definition);
    weird.  "The system's been behaving pretty randomly."  2. Assorted;
@@ -1256,6 +1268,8 @@ SLOP n. 1. A one-sided fudge factor (q.v.).  Often introduced to avoid
 
 SLURP v. To read a large data file entirely into core before working
    on it.  "This program slurps in a 1K-by-1K matrix and does an FFT."
+
+SMOKING CLOVER n. A psychedelic color munch due to Gosper.
 
 SNARF v. To grab, esp. a large document or file for the purpose of
    using it either with or without the author's permission.  See BLT.
@@ -1430,7 +1444,7 @@ TWENEX n. The TOPS-20 operating system by DEC.  So named because
    referred to as "Twenex", but the term seems to be catching on
    nevertheless.  Release 3 of TOPS-20 is sufficiently different from
    release 1 that some (not all) hackers have stopped calling it
-   TWENEX, though the written abbreviation "20x" is still used.
+   TWENEX, though the written abbreviation "20x" is ≥till used.
 
 TWIDDLE n. 1. tilde (ASCII 176, "~").  Also called "squiggle",
    "sqiggle" (sic--pronounced "skig'gul"), and "twaddle", but twiddle
@@ -1519,6 +1533,21 @@ WEDGED [from "head wedged up ass"] adj. To be in a locked state,
 WHAT n. The question mark character ("?").  See QUES.  Usage: rare,
    used particularly in conjunction with WOW.
 
+WHEEL n. 1. A privilege bit that canonically allows the possesor
+   to perform any operation on a timesharing system.  i.e. Read or
+   write any file on the system regardless of protections, change or
+   or look at any address in the running monitor, crash or reload
+   the system, logout, kill/create jobs and user accounts.
+   The term was invented on the TENEX operating system, and carried
+   over to TOPS-20, Xerox-IFS and others.  2. A person who posses
+   a wheel bit. "We need to get ahold of a wheel to unwedge the
+   hung tape drives."
+
+WHEEL WARS [from LOTS at Stanford University]  Where student wheels
+   wage war, by attempting to log each other out of the system,
+   delete each others files, or otherwise wreak havoc on each other,
+   usually at the expense of the lesser users.
+
 WIN [from MIT jargon] 1. v. To succeed.  A program wins if no
    unexpected conditions arise.  2. BIG WIN: n. Serendipity.
    Emphatic forms: MOBY WIN, SUPER WIN, HYPER-WIN (often used
@@ -1576,7 +1605,7 @@ YOYO MODE n. State in which the system is said to be when it rapidly
 YU-SHIANG WHOLE FISH n. The character gamma (extended SAIL ASCII 11),
    which with a loop in its tail looks like a fish.  Usage: used
    primarily by people on the MIT LISP Machine.  Tends to elicit
-   incredulity from people who hear about it second-hand.
+   incredulity from people who hear about it sec≠nd-hand.
 
 ZERO v. 1. To set to zero.  Usually said of small pieces of data, such
    as bits or words.  2. To erase; to discard all data from.  Said of
