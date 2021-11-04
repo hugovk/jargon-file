@@ -1,4 +1,4 @@
-============ THIS IS THE JARGON FILE, VERSION 2.6.2, 14 FEB 1991  ============
+============ THIS IS THE JARGON FILE, VERSION 2.6.3, 15 FEB 1991  ============
 
 Introduction
 ************
@@ -1193,7 +1193,7 @@ ASCII:: [American Standard Code for Information Interchange] /as'kee/
    ANSI/CCITT names are parenthesized.
 
      `!'
-          Common: {bang}, pling, excl, shriek, (exclamation point).
+          Common: {bang}, pling, excl, shriek, (exclamation mark).
           Rare: factorial, exclam, smash, cuss, boing, yell, wow, hey,
           wham, spot-spark, soldier.
 
@@ -1291,7 +1291,7 @@ ASCII:: [American Standard Code for Information Interchange] /as'kee/
           virgule.
 
      `^'
-          Common: hat, control, uparrow, caret.  Rare: (circumflex),
+          Common: hat, control, uparrow, caret, (circumflex).  Rare:
           chevron, shark (or shark fin), to the (`to the power of'),
           fang.
 
@@ -1322,10 +1322,12 @@ ASCII:: [American Standard Code for Information Interchange] /as'kee/
 
    The pronunciation of `#' as `pound' is common in the U.S. but
    a bad idea; Commonwealth hackish has its own rather more apposite
-   use of `pound sign'.  The U.S. practice derives from an
-   old-fashioned commercial practice of using a `#' suffix to tag
-   pound weights on bills of lading.  The character is usually
-   pronounced `hash' outside the U.S.
+   use of `pound sign' (confusingly, on British keyboards the pound
+   graphic happens to replace `#'; thus Britishers sometimes call `#'
+   on a US-ASCII keyboard `pound', compounding the American error).
+   The U.S. usage derives from an old-fashioned commercial practice of
+   using a `#' suffix to tag pound weights on bills of lading.
+   The character is usually pronounced `hash' outside the U.S.
 
    Also note that the `swung dash' or `approx' sign is not quite the
    same as tilde in typeset material, but the ASCII tilde serves for
@@ -1338,7 +1340,7 @@ ASCII:: [American Standard Code for Information Interchange] /as'kee/
    $ in the 6502 world, > at Texas Instruments, and & on the Sinclair
    and some other Z80 machines).
 
-asymptotic: adj. Infinitely close to.  This is used in a
+asymptotic: adj. Infinitely close to.  This is used in a
    generalization of its mathematical meaning to allege that something
    is {within epsilon of} some standard, reference, or goal (see
    {epsilon}).
@@ -1361,7 +1363,7 @@ automagically: /aw-toh-maj'i-klee/ or /aw-toh-maj'i-k@l-ee/ adv.
 awk: 1. n. [UNIX] An interpreted language developed by Aho,
    Weinberg, and Kernighan (the name is from their initials).  It is
    characterized by: C-like syntax, a BASIC-like approach to variable
-   typing and declarations, associative arrays, and field-oriented
+   typing and declarations, associative arrays, and field-oriented
    text processing.  See also {Perl}.  2. Editing term for an
    expression awkward to manipulate through normal regular expression
    facilities.  3. vt. To process data using `awk(1)'.
@@ -1817,7 +1819,7 @@ Big Red Switch: [IBM] n. The power switch on a computer, esp. the
 
 big-endian: [From Swift's `Gulliver's Travels' via a famous
    paper `On Holy Wars and a Plea for Peace' by Danny Cohen,
-   USC/ISI IEN 137 dated 1 April 1980] 1. adj. Describes a computer
+   USC/ISI IEN 137 dated 1 April 1980] 1. adj. Describes a computer
    architecture in which, within a given multi-byte numeric
    representation, the most significant byte comes first (the word is
    stored `big-end-first').  Most processors including the IBM 370
@@ -2096,7 +2098,7 @@ blast: vt.,n. Synonym for {BLT}, used esp. for large data sends over
    processes.  Blast them (y/n)?" would appear in the command window
    upon logout.
 
-blazer: n. (also {'blazer}) Nickname for the Telebit Trailblazer,
+blazer: n. (also {'blazer}) Nickname for the Telebit Trailblazer,
    an expensive but extremely reliable and effective high-speed modem,
    popular at UNIX sites that pass large volumes of {email} and
    {USENET} news.
@@ -2532,7 +2534,7 @@ brain dump: n. The act of telling someone everything one knows
    Example: "You'll have to give me a brain dump on FOOBAR, before
    you start your new job at HackerCorp."  See {core dump} (sense
    #4).  At Sun, this is also known as `TOI' (transfer of
-   information).
+   information).
 
 brain-damaged: [generalization of `Honeywell Brain Damage' (HBD), a
    theoretical disease invented to explain certain utter cretinisms
@@ -3290,7 +3292,7 @@ cokebottle: /kohk'bot-l/ n. Any very unusual character,
    referring to this keystroke as cokebottle.  See also
    {quadruple bucky}.
 
-COME FROM: n. A semi-mythical language construct dual to the `go
+COME FROM: n. A semi-mythical language construct dual to the `go
    to'; COME FROM <label> would cause the referenced label to act as a
    sort of trapdoor, so that if the program ever reached it control
    would quietly and {automagically} be transferred to the statement
@@ -3504,6 +3506,11 @@ cookie: n. A handle, transaction ID, or other token of agreement
    between cooperating programs.  "I give him a packet, he gives me
    back a cookie."  See {magic cookie}.
 
+cookie file: n. A collection of {fortune cookie}s in a format
+   that facilitates retrieval by a fortune program. There are several
+   different ones in public distribution, and site admins often
+   assemble their own from various sources including this lexicon.
+
 cookie monster: [from `Sesame Street'] n. Any of a family of
    early (1970s) hacks reported on {TOPS-10}, {ITS}, {Multics},
    and elsewhere that would lock up either the victim's terminal (on a
@@ -3581,7 +3588,7 @@ cosmic rays: n. Notionally, the cause of {bit rot}.  However, this is
    to prefer the usage `cosmic showers'; `alpha particles' is also
    heard, because stray alpha particles passing through a memory chip
    can cause single-bit errors (this becomes increasingly more likely
-   as memory sizes and densities increase).
+   as memory sizes and densities increase).
 
 cowboy: [Sun, from William Gibson's {cyberpunk} SF] n. Synonym for
    {hacker}.  It is reported that at Sun, this is often said with
@@ -4212,7 +4219,7 @@ demon: n. 1. [MIT] A portion of a program which is not invoked
    running on an operating system.  Demons are particularly common in
    AI programs.  For example, a knowledge-manipulation program might
    implement inference rules as demons.  Whenever a new piece of
-   knowledge was added, various demons would activate (which demons
+   knowledge was added, various demons would activate (which demons
    depends on the particular piece of data) and would create
    additional pieces of knowledge by applying their respective
    inference rules to the original piece.  These new pieces could in
@@ -4342,7 +4349,7 @@ Discordianism: /dis-kor'di-@n-ism/ n. The veneration of {Eris}, aka
    millenia-long warfare between the anarcho-surrealist partisans of
    Eris and a malevolent, authoritarian secret society called the
    Illuminati.  See Appendix B, {Church of the Sub-Genius}, and {ha ha
-   only serious}.
+   only serious}.
 
 disk farm: n. (also `laundromat') A large room or rooms filled
    with disk drives (esp. {washing machine}s).
@@ -4568,7 +4575,7 @@ Dragon Book: n. Aho, Sethi, and Ullman's classic text
    {Purple Book}, {Orange Book}, {White Book}, {Pink-Shirt
    Book}, {Aluminum Book}, {Wizard Book}, {Cinderella Book}.
 
-drain: [IBM] v. Syn. for {flush} (sense #4).  Has a connotation
+drain: [IBM] v. Syn. for {flush} (sense #2).  Has a connotation
    of finality about it; one speaks of draining a device before taking
    it offline.
 
@@ -5151,7 +5158,7 @@ faulty: adj. Non-functional; buggy.  Same denotation as
    milder.
 
 fd leak: /ef dee leek/ n. A kind of programming bug analogous to a
-   {core leak}, in which a program fails to close file descriptors
+   {core leak}, in which a program fails to close file descriptors
    (`fd's) after file operations are completed, and thus eventually
    runs out.  See {leak}.
 
@@ -5172,7 +5179,7 @@ feature: n. 1. An intended property or behavior (as of a program).
    kind of feature is sometimes called a {miswart}; see that entry
    for a classic example.  4. A property or behavior that is
    gratuitous or unnecessary, though perhaps also impressive or cute.
-   For example, one feature of Common LISP's Format function is the
+   For example, one feature of Common LISP's FORMAT function is the
    ability to print numbers in two different Roman-numeral formats
    (see {bells, whistles, and gongs}).  5. A property or behavior
    that was put in to help someone else but that happens to be in your
@@ -5326,7 +5333,7 @@ field servoid: [play on `android'] /fee'ld ser'voyd/ n.
    circus}).
 
 Fight-o-net: [FidoNet] n. Deliberate distortion of {FidoNet},
-   often applied after a flurry of {flamage} in a particular
+   often applied after a flurry of {flamage} in a particular
    {echo}, especially the SYSOP echo or Fidonews (see <'Snooze>).
 
 File Attach: [FidoNet] 1. n. A file sent along with a mail message
@@ -5498,7 +5505,7 @@ flap: vt. 1. To unload a DECtape (so it goes flap, flap,
    flap...).  Old-time hackers at MIT tell of the days when the
    disk was device 0 and microtapes were 1, 2,... and attempting
    to flap device 0 would instead start a motor banging inside a
-   cabinet near the disk!  2.  By extension, to unload any magnetic
+   cabinet near the disk!  2. By extension, to unload any magnetic
    tape.  See {microtape}, {macrotape}.  Modern cartridge tapes no
    longer actually flap, but the usage has remained.
 
@@ -5533,10 +5540,15 @@ flavor: n. 1. Variety, type, kind.  "DDT commands come in two
    terminology of quantum chromodynamics, in which quarks (the
    constituents of e.g. protons) come in six flavors (up, down,
    strange, charm, top, bottom) and three colors (red, blue, green)
-   --- however, hackish use of `flavor' at MIT predated QCD.
+   --- however, hackish use of `flavor' at MIT predated QCD.  3.  The
+   term for `class' (in the object-oriented sense) in the Lisp Machine
+   Flavors system.  Though the Flavors design has been superseded
+   (notably by the Common Lisp CLOS facility) the term `flavor' is
+   still used as a general synonym for `class' by some LISP hackers.
 
-flavorful: adj. Esthetically pleasing.  See {random} and {losing}
-   for antonyms.  See also the entries for {taste} and {elegant}.
+flavorful: adj. Full of {flavor}; esthetically pleasing.  See
+   {random} and {losing} for antonyms.  See also the entries for
+   {taste} and {elegant}.
 
 flippy: /flip'ee/ n. A single-sided floppy disk altered for
    double-sided use by addition of a second write-notch, so called
@@ -5554,21 +5566,20 @@ flowchart:: n.  An archaic form of visual control-flow specification
    code).  See also {pdl}, sense #3.
 
 flush: v. 1. To delete something, usually superfluous.  "All that
-   nonsense has been flushed."  Standard ITS terminology for aborting
-   an output operation (but note sense 4 below!); one speaks of the
-   text that would have been printed, but was not, as having been
-   flushed.  Under ITS, if you asked to have a file printed on your
-   terminal, it was printed a page at a time; at the end of each page,
-   it asked whether you want to see more, and if you said no, it
-   replied "FLUSHED".  (It is speculated that this term arose from a
-   vivid image of flushing unwanted characters by hosing down the
-   internal output buffer, washing the characters away before they can
-   be printed.)  2. To leave at the end of a day's work (as opposed to
-   leaving for a meal).  "I'm going to flush now."  "Time to
-   flush."  3. To exclude someone from an activity, or to ignore a
-   person.  4. [UNIX/C] To force buffered I/O to disk, as with an
-   `fflush(3)' call.  This is *not* an abort as in sense #1, but a
-   demand for early completion!  UNIX hackers find the ITS usage
+   nonsense has been flushed."  2. [UNIX/C] To force buffered I/O to
+   disk, as with an `fflush(3)' call.  This is *not* an
+   abort as in sense #1, but a demand for early completion!  3. To
+   leave at the end of a day's work (as opposed to leaving for a
+   meal).  "I'm going to flush now."  "Time to flush."  4. To
+   exclude someone from an activity, or to ignore a person.
+
+   `Flush' was standard ITS terminology for aborting an output
+   operation; one spoke of the text that would have been printed, but
+   was not, as having been flushed.  It is speculated that this term
+   arose from a vivid image of flushing unwanted characters by hosing
+   down the internal output buffer, washing the characters away before
+   they can be printed.  The UNIX/C usage, on the other hand, was
+   propagated by `fflush(3)'; UNIX/C hackers find the ITS usage
    confusing and vice versa.
 
 flytrap: n. See {firewall machine}.
@@ -5577,19 +5588,18 @@ FOAF: [USENET] n. Written-only acronym for Friend Of A Friend.  The
    source of an unverified, possibly untrue story.  This was not
    originated by hackers (it is used in Jan Brunvand's books on urban
    folklore), but is much better recognized on USENET and elsewhere
-   than in the mainstream.
+   than in mainstream English.
 
 FOD: v. [Abbreviation for `Finger of Death', originally a
    spell-name from fantasy gaming] To terminate with extreme prejudice
    and with no regard for other people.  From {MUD}s where the
-   wizards' command `FOD <player>' results in the immediate and
-   total death of <player>, usually as punishment for obnoxious
-   behavior.  This migrated to other circumstances, such as "I'm
-   going to fod that process which is burning all the CPU".  Compare
-   {gun}.
+   wizard command `FOD <player>' results in the immediate and total
+   death of <player>, usually as punishment for obnoxious behavior.
+   This migrated to other circumstances, such as "I'm going to fod
+   that process which is burning all the cycles.".  Compare {gun}.
 
 fold case: v. See {smash case}.  This term tends to be used more
-   by people who don't `mind' that their tools smash case.  It
+   by people who don't *mind* that their tools smash case.  It
    also connotes that case is ignored but case distinctions in data
    processed by the tool in question aren't destroyed.
 
@@ -5600,13 +5610,14 @@ followup: n. On USENET, a {posting} generated in response to
    this information to present USENET news in `conversation' sequence
    rather than order-of-arrival.  See {thread}.
 
-foo: /foo/ 1. interj. Term of disgust.  2. Name used for temporary
-   programs, or samples of three-letter names.  Other similar words
-   are {bar}, {baz} (Stanford corruption of {bar}), and rarely RAG.
-   3. Used very generally as a sample name for absolutely anything.
-   4. First on the standard list of metasyntactic variables used in
-   syntax examples.  See also: {bar}, {baz}, {qux}, {quux},
-   {corge}, {grault}, {garply}, {waldo}, {fred}, {plugh}, {xyzzy}.
+foo: /foo/ 1. interj. Term of disgust.  2. n. Name used for
+   temporary programs, or samples of three-letter names.  Other
+   similar words are {bar}, {baz} (Stanford corruption of
+   {bar}), and rarely `rag'.  3. Used very generally as a sample
+   name for absolutely anything.  4. First on the standard list of
+   metasyntactic variables used in syntax examples.  See also:
+   {bar}, {baz}, {qux}, {quux}, {corge}, {grault},
+   {garply}, {waldo}, {fred}, {plugh}, {xyzzy}.
 
    {foo} is the {canonical} example of a `metasyntactic variable'; a
    name used in examples and understood to stand for whatever thing is
@@ -5617,7 +5628,7 @@ foo: /foo/ 1. interj. Term of disgust.  2. Name used for temporary
    The etymology of hackish `foo' is obscure.  When used in
    connection with `bar' it is generally traced to the WWII-era army
    slang acronym FUBAR (Fucked Up Beyond All Recognition), later
-   expurgated to {foobar} and then truncated.
+   bowdlerized to {foobar} and then truncated.
 
    However, the use of the word `foo' itself has more complicated
    antecedents, including a long history in comic strips and cartoons.
@@ -5633,7 +5644,7 @@ foo: /foo/ 1. interj. Term of disgust.  2. Name used for temporary
    was featured in large letters on the front cover.
 
    Very probably, hackish `foo' had no single origin and derives
-   through all these channels from Yiddish `feh' or English
+   through all these channels from Yiddish `feh' and/or English
    `fooey!'.
 
 foobar: n. Another common metasyntactic variable; see {foo}.
@@ -5664,8 +5675,8 @@ foreground: [UNIX] adj.,vt. On a time-sharing system, a task
    one foreground task per terminal (or terminal window); having
    multiple processes simultaneously reading the keyboard is a good
    way to {lose}.  By extension, to `foreground a task' is to bring
-   it to the top of one's {stack} for immediate processing, and in
-   this sense hackers often use it for non-computer tasks.
+   it to the top of one's {stack} for immediate processing, and
+   hackers often use it in this sense for non-computer tasks.
 
 forked: [UNIX] adj. Terminally slow, or dead.  Originated when the
    system slowed to incredibly bad speeds due to a process recursively
@@ -5676,50 +5687,52 @@ Fortrash: n. Hackerism for the FORTRAN language, referring to its
    primitive design, gross and irregular syntax, limited control
    constructs and slippery, exception-filled semantics. 
 
-fortune cookie: [UNIX] n. A random quote, item of trivia, joke or
+fortune cookie: [UNIX] n. A random quote, item of trivia, joke, or
    maxim printed to the user's tty at login time or (less commonly) at
    logout time.  Items from this lexicon have often been used as
-   fortune cookies.
+   fortune cookies.  See {cookie file}.
 
 fossil: n. 1. In software, a misfeature that becomes understandable
    only in historical context, as a remnant of times past retained so
    as not to break compatibility.  Example: the retention of octal as
-   default base for string escapes in {C}, in spite of the better match
-   of hexadecimal to modern byte-addressable architectures.  See
-   {dusty deck}.  2. More restrictively, a feature with past but no
-   present utility.  Example: the force-all-caps (LCASE) bits in the
-   V7 and {BSD UNIX} tty driver, designed for use with monocase
-   terminals.  In a perversion of the usual backward-compatibility
-   goal, this functionality has actually been expanded and renamed in
-   some later {USG UNIX} releases as the IUCLC and OLCUC bits.  3.
-   FOSSIL (Fido/Opus/Seadog Standard Interface Level) specification for
-   serial-port access to replace the {brain-dead} routines in the IBM PC
-   ROMs.  Fossils are used by most MSDOS {BBS} software in lieu of
-   programming the {bare metal} of the serial ports, as the ROM routines
-   do not support interrupt-driven operation or setting speeds above
-   9600.  Since the FOSSIL specification allows additional functionality
-   to be hooked in, drivers which use the {hook} but do not provide
-   serial-port access themselves are named with a modifier, as in `video
-   fossil'.
+   default base for string escapes in {C}, in spite of the better
+   match of hexadecimal to ASCII and modern byte-addressable
+   architectures.  See {dusty deck}.  2. More restrictively, a
+   feature with past but no present utility.  Example: the
+   force-all-caps (LCASE) bits in the V7 and {BSD UNIX} tty driver,
+   designed for use with monocase terminals.  In a perversion of the
+   usual backward-compatibility goal, this functionality has actually
+   been expanded and renamed in some later {USG UNIX} releases as
+   the IUCLC and OLCUC bits.  3.  The FOSSIL (Fido/Opus/Seadog
+   Standard Interface Level) driver specification for serial-port
+   access to replace the {brain-dead} routines in the IBM PC ROMs.
+   Fossils are used by most MSDOS {BBS} software in lieu of
+   programming the {bare metal} of the serial ports, as the ROM
+   routines do not support interrupt-driven operation or setting
+   speeds above 9600.  Since the FOSSIL specification allows
+   additional functionality to be hooked in, drivers which use the
+   {hook} but do not provide serial-port access themselves are named
+   with a modifier, as in `video fossil'.
 
 fred: n. 1. The personal name most frequently used as a
    metasyntactic variable (see {foo}).  Allegedly popular because
    it's easy to type on a standard QWERTY keyboard.  Unlike {J.
    Random Hacker} or {J. Random Loser} this name has no positive or
    negative loading.  2. An acronym for `Flipping Ridiculous
-   Electronic Device' (other F-verbs may be substituted for
-   "flipping")
+   Electronic Device'; other F-verbs may be substituted for
+   "flipping".
 
 frednet: n. Used to refer to some {random} and uncommon protocol
    encountered on a network.  "We're implementing bridging in our
    router to solve the frednet problem."
 
 freeware: n. Free software, often written by enthusiasts and
-   usually distributed by electronic mail, local bulletin boards,
-   {USENET}, or other electronic media.  At one time, `freeware' was
-   a trademark of Andrew Fluegelman, the author of the well-known
-   MS-DOS comm program PC-TALK III.  It wasn't enforced after his
-   mysterious disappearance in 1984.  See {shareware}.
+   distributed by users' groups, or via electronic mail, local
+   bulletin boards, {USENET}, or other electronic media.  At one
+   time, `freeware' was a trademark of Andrew Fluegelman, the author
+   of the well-known MS-DOS comm program PC-TALK III.  It wasn't
+   enforced after his mysterious disappearance in 1984.  See
+   {shareware}.
 
 freeze: v. To lock an evolving software distribution or document
    against changes so it can be released with some hope of stability.
@@ -5734,9 +5747,9 @@ fried: adj. 1. Non-working due to hardware failure; burnt out.
    (see {glitch}), {drop-outs}, a short, or other electrical
    event.  (Sometimes this literally happens to electronic circuits!
    In particular, resistors can burn out and transformers can melt
-   down, emitting terrible-smelling smoke.  However, this term is also
-   used metaphorically.)  2. Of people, exhausted.  Said particularly
-   of those who continue to work in such a state.  Often used as an
+   down, emitting noxious smoke.  However, this term is also used
+   metaphorically.)  2. Of people, exhausted.  Said particularly of
+   those who continue to work in such a state.  Often used as an
    explanation or excuse.  "Yeah, I know that fix destroyed the file
    system, but I was fried when I put it in."
 
@@ -5783,21 +5796,23 @@ frobnitz: /frob'nits/, pl. `frobnitzem' (frob'nit-zm) n. An
 
 frog: alt. `phrog' 1. interj. Term of disgust (we seem to have
    a lot of them).  2. Used as a name for just about anything.  See
-   {foo}.  3. n. Of things, a crock.  Of people, somewhere
-   in between a turkey and a toad.  4. `froggy': adj. Similar to
+   {foo}.  3. n. Of things, a crock.  4. n. Of people, somewhere
+   in between a turkey and a toad.  5. `froggy': adj. Similar to
    `bagbiting' (see {bagbiter}), but milder.  "This froggy
    program is taking forever to run!"
 
-front end: n. 1. An intermediary computer that doesn't do much. 2.
-   What you're talking to when you have a conversation with someone
-   who is making replies without paying attention.  "Look at the
-   dancing elephants!"  "Uh-huh."  "Do you know what I just said?"
-   "Sorry, you were talking to the front end."  3. Software which
-   provides an interface to another program `behind' it, which may not
-   be as user-friendly.  Probably from analogy with hardware
-   front-ends (see sense #1) which interfaced with mainframes.
+front end: n. 1. An intermediary computer that does set-up and
+   filtering for another (usually more powerful but less friendly)
+   machine (a `back end').  2. What you're talking to when you
+   have a conversation with someone who is making replies without
+   paying attention.  "Look at the dancing elephants!"  "Uh-huh."
+   "Do you know what I just said?"  "Sorry, you were talking to the
+   front end."  3. Software which provides an interface to another
+   program `behind' it, which may not be as user-friendly.  Probably
+   from analogy with hardware front-ends (see sense #1) which
+   interfaced with mainframes.
 
-frotz: /frotz/ 1. n. See {frobnitz}.  2. {mumble frotz}: An
+frotz: /frotz/ 1. n. See {frobnitz}.  2. `mumble frotz': An
    interjection of very mild disgust.
 
 frotzed: /frotzt/ adj. {down} due to hardware problems.
@@ -5830,19 +5845,19 @@ FUD: /fuhd/ n. Defined by Gene Amdahl after he left IBM to found
    persuade them to go with safe IBM gear rather than with
    competitors' equipment.  This was traditionally done by promising
    that Good Things would happen to people who stuck with IBM, but
-   Dark Shadows loomed over the future of the competitors' equipment
-   or software.  See {IBM}.
+   Dark Shadows loomed over the future of competitors' equipment or
+   software.  See {IBM}.
 
 FUD wars: /fuhd worz/ n. [from {FUD}] Political posturing engaged in
    by hardware and software vendors ostensibly committed to
    standardization but actually willing to fragment the market to
-   protect their own shares.  The OSF vs. UNIX International conflict,
+   protect their own shares.  The UNIX International vs. OSF conflict,
    for example.
 
 fudge: 1. vt. To perform in an incomplete but marginally acceptable
    way, particularly with respect to the writing of a program.  "I
    didn't feel like going through that pain and suffering, so I fudged
-   it."  2. n. The resulting code.
+   it -- I'll fix it later."  2. n. The resulting code.
 
 fudge factor: n. A value or parameter that is varied in an ad hoc way
    to produce the desired result.  The terms `tolerance' and
@@ -5851,8 +5866,8 @@ fudge factor: n. A value or parameter that is varied in an ad hoc way
    because one isn't sure exactly how large it needs to be, and it is
    better to waste a little space than to lose completely for not
    having enough.  A fudge factor, on the other hand, can often be
-   tweaked in more than one direction.  A good example is the {fuzz}
-   typically needed in floating-point calculations: two numbers being
+   tweaked in more than one direction.  A good example is the `fuzz'
+   typically allowed in floating-point calculations: two numbers being
    compared for equality must be allowed to differ by a small amount;
    if that amount is too small, a computation may never terminate,
    while if it is too large, results will be needlessly inaccurate.
@@ -5884,23 +5899,18 @@ funky: adj. Said of something which functions, but in a slightly
    interrupt mode, and active-low in DMA mode."  See {fuggly}.
 
 funny money: n. 1. Notional `dollar' units of computing time and/or
-   storage handed to students at the beginning of a computer course by
-   professors; also called `play money' or `purple money' (in
-   implicit opposition to real or `green' money).  When your funny
-   money ran out, your account froze and you needed to go to a
-   professor to get more.  Formerly a common practice, this has now
-   been made sufficiently rare by the plunging cost of timesharing
-   cycles that it has become folklore.  The amounts allocated were
-   almost invariably too small, even for the non-hackers who wanted to
-   slide by with minimum work.  In extreme cases, the practice led to
+   storage handed to students at the beginning of a computer course;
+   also called `play money' or `purple money' (in implicit
+   opposition to real or `green' money).  When your funny money
+   ran out, your account froze and you needed to go to a professor to
+   get more.  Fortunately, the plunging cost of timesharing cycles has
+   made this less common.  The amounts allocated were almost
+   invariably too small, even for the non-hackers who wanted to slide
+   by with minimum work.  In extreme cases, the practice led to
    small-scale black markets in bootlegged computer accounts.  2. By
    extension, phantom money or quantity tickets of any kind used as a
-   resource-allocation hack within a system.  Antonym: `real money'.
-
-fuzz: n. In floating-point arithmetic, the maximum difference allowed
-   between two quantities for them to compare equal.  Has to be set
-   properly relative to the FPU's precision limits.  See {fudge
-   factor}.
+   resource-allocation hack within a system.  Antonym: `real
+   money'.
 
 fuzzball: [TCP/IP hackers] n. A DEC LSI-11 running a particular suite
    of homebrewed software by Dave Mills and assorted co-conspirators,
@@ -5942,22 +5952,24 @@ garbage collect: vi. (also `garbage collection', n.) See {GC}.
 garply: /gar'plee/ n. [Stanford] Another meta-syntactic variable (see
    {foo}) popular among SAIL hackers.
 
-gas: [as in `gas chamber'] interj. 1. A term of disgust and hatred,
-   implying that gas should be dispensed in generous quantities,
-   thereby exterminating the source of irritation.  "Some loser just
-   reloaded the system for no reason!  Gas!"  2. A term suggesting
-   that someone or something ought to be flushed out of mercy.  "The
-   system's wedging every few minutes.  Gas!"  3. vt. To {flush}.
-   "You should gas that old crufty software."  4.  GASEOUS adj.
-   Deserving of being gassed.  Usage: primarily used by Geoff
-   Goodfellow at SRI, but spreading; became particularly popular after
-   the Moscone/Milk murders in San Francisco, when it was learned that
-   Dan White (who supported Proposition 7) would get the gas chamber
-   under 7 if convicted.  He was eventually found not guilty by reason
-   of insanity.  5. [IBM] Dead space in nonsequentially organized
-   files that was occupied by data that has been deleted; the compression
+gas: [as in `gas chamber'] interj. 1. A term of disgust and
+   hatred, implying that gas should be dispensed in generous
+   quantities, thereby exterminating the source of irritation.  "Some
+   loser just reloaded the system for no reason!  Gas!"  2. A term
+   suggesting that someone or something ought to be flushed out of
+   mercy.  "The system's wedging every few minutes.  Gas!"  3. vt.
+   To {flush} (sense #1).  "You should gas that old crufty
+   software."  4. [IBM] Dead space in nonsequentially organized files
+   that was occupied by data that has been deleted; the compression
    operation that removes it is called `degassing' (by analogy,
    perhaps, with the technical term `degaussing').
+
+gaseous: adj. Deserving of being {gas}sed.  Usage: primarily used
+   by Geoff Goodfellow at SRI, but spreading; became particularly
+   popular after the Moscone/Milk murders in San Francisco, when it
+   was learned that Dan White (who supported Proposition 7) would get
+   the gas chamber under 7 if convicted.  He was eventually found not
+   guilty by reason of insanity.
 
 GC: /jee-see/ [from LISP terminology; `Garbage Collect'] 1. vt. To
    clean up and throw away useless things.  "I think I'll GC the
@@ -6326,7 +6338,7 @@ gray goo: n. A hypothetical substance composed of {sagan}s of
    sub-micron-sized self-replicating robots programmed to make copies
    of themselves out of whatever is available.  The image that goes
    with the term is one of the entire biosphere of Earth being
-   eventually converted to robot goo.  This is the simplest of the
+   eventually converted to robot goo.  This is the simplest of the
    {nanotechnology} disaster scenarios, easily refuted by arguments
    from energy requirements and elemental abundances.
 
@@ -6835,7 +6847,7 @@ Hanlon's Razor: n. A `murphyism' parallel to Occam's Razor that
    reads "Never attribute to malice that which can be adequately
    explained by stupidity".  The derivation of the common title
    Hanlon's Razor is unknown; a similar epigram has been attributed to
-   William James.  Quoted here because it seems to be a particular
+   William James.  Quoted here because it seems to be a particular
    favorite of hackers, often showing up in {fortune cookie} files and
    the login banners of BBS systems and commercial networks.  This
    probably reflects the hacker's daily experience of environments
@@ -6967,19 +6979,20 @@ hex: n. 1. Short for {hexadecimal}, base 16.  2. A six-pack of
 hexadecimal: n. Base 16.  Coined in the early 1960s to replace
    earlier `sexadecimal', which was too racy and amusing for stuffy
    IBM, and later adopted by the rest of the industry.  Actually,
-   neither term is etymologically pure.  The most etymologically
-   correct term for base-10, for examples, is `denary' (compare
-   `binary'), which comes from `deni' (ten at a time, ten each), a
-   Latin `distributive' number; the corresponding term for base-16
-   would be something like `sendenary').  `Decimal' is from an ordinal
-   numbering word; the corresponding prefix for six would imply
-   `sextidecimal'.  The `sexa-' prefix is Latin but incorrect in this
-   context and `hexa-' is Greek.  The word `octal' is similarly
-   incorrect; correct forms would be `octaval' (to go with decimal),
-   or `octonary' (to go with binary).  If anyone ever implements a
-   base-3 computer, computer scientists will be faced with the
-   unprecedented dilemma of a choice between two `correct'; both
-   `ternary' and `trinary' have a claim to this throne.
+   neither term is etymologically pure.  If we take `binary' to be
+   paradigmatic, the most etymologically correct term for base-10, for
+   examples, is `denary' (compare `binary'), which comes from `deni'
+   (ten at a time, ten each), a Latin `distributive' number; the
+   corresponding term for base-16 would be something like `sendenary'.
+   `Decimal' is from an ordinal numbering word; the corresponding
+   prefix for six would imply something like `sextidecimal'.  The
+   `sexa-' prefix is Latin but incorrect in this context and `hexa-'
+   is Greek.  The word `octal' is similarly incorrect; correct forms
+   would be `octaval' (to go with decimal), or `octonary' (to go with
+   binary).  If anyone ever implements a base-3 computer, computer
+   scientists will be faced with the unprecedented dilemma of a choice
+   between two `correct' forms; both `ternary' and `trinary' have
+   a claim to this throne.
 
 hexit: /hek'sit/ n. A hexadecimal digit (0-9, and A-F or a-f).
    Used by people who claim that there are only *ten* digits,
@@ -7245,7 +7258,7 @@ I didn't change anything!: interj. A plaintive cry often heard as
 i14y: n. Written-only abbrev. for `interoperability', which is an
    `i' followed by 14 letters followed by `y'.  Used in the {X}
    community.
-
+
 i18n: n. Written-only abbrev. for `internationalization', which is
    an `i' followed by 18 letters followed by `n'.  Used in the {X}
    community.
@@ -7604,9 +7617,9 @@ JFCL: /jif'kl/ or /jaf'kl/ vt., obs. (alt. `jfcl') To cancel or
    do-nothing instruction on the PDP-10 happened to be JFCL, which
    stands for "Jump if Flag set and then CLear the flag"; this does
    something useful, but is a very fast no-operation if no flag is
-   specified.  Geoff Goodfellow, one of the jargon-1 co-authors, once
-   had JFCL on the license plate of his BMW.  Usage: rare except among
-   old-time PDP-10 hackers.
+   specified.  Geoff Goodfellow, one of the jargon-1 co-authors, has
+   long had JFCL on the license plate of his BMW.  Usage: rare except
+   among old-time PDP-10 hackers.
 
 jiffy: n. 1. The duration of one tick of the system clock on the
    computer (see {tick}).  Often 1 AC cycle time (1/60 second in the
@@ -7660,7 +7673,7 @@ jump off into never never land: v. Same as {branch to Fishkill},
 = K =
 =====
 
-K: [from {kilo-}] /kay/ n. A kilobyte.  This is used both as a
+K: /kay/ [from {kilo-}] n. A kilobyte.  This is used both as a
    spoken word and a written suffix (like {meg} and {gig} for
    megabyte and gigabyte).  The formal SI metric prefix for 1000 is
    `k'; some people use this strictly, reserving `K' for
@@ -8207,7 +8220,7 @@ luser: /loo'zr/ n. A {user} who is probably also a {loser}.
 = M =
 =====
 
-M: [from {mega-}] /em/ n.  A megabyte (1,024 kilobytes, 1,048,576
+M: /em/ [from {mega-}] n. A megabyte (1,024 kilobytes, 1,048,576
    bytes).  Also written MB (this conflicts with use of M by
    scientists, under which MB would denote 1,000,000-byte units).  See
    also {kilo-}, {K}.
@@ -8227,8 +8240,10 @@ machoflops: /mach'oh-flops/ [pun on `megaflops', a coinage for
 
 Macintrash: /mak'in-trash`/ n. The Apple Macintosh, as described by
    a hacker who doesn't appreciate being kept away from the *real
-   computer* by the interface.  See also {WIMP environment},
-   {drool-proof paper}, {user-friendly}.
+   computer* by the interface.  The term `maggotbox' has been
+   reported in wregular use in the Research Triangle (Raleigh/Durham,
+   NC). See also {WIMP environment}, {drool-proof paper},
+   {user-friendly}.
 
 macro: /mak'roh/ n. A name (possibly followed by a formal {arg}
    list) which is equated to a text expression to which it is to be
@@ -8266,6 +8281,8 @@ macrology: /mak-ro'l@-jee/ n. 1. Set of usually complex or crufty
 
 macrotape: /ma'kroh-tayp/ n. An industry standard reel of tape, as
    opposed to a {microtape}.
+
+maggotbox: n. See {Macintrash}.
 
 magic: adj. 1. As yet unexplained, or too complicated to explain;
    compare {automagically} and (Arthur C.) Clarke's Third Law: "Any
@@ -8374,7 +8391,7 @@ mainframe: n. This term originally referred to the central
    that the mainframe architectural tradition is essentially dead now,
    swamped by the huge advances in IC technology and `personal'
    lower-cost computing.  As of 1991, corporate America hasn't quite
-   figured this out yet, though the wave of failures, takeovers, and
+   figured this out yet, though the wave of failures, takeovers, and
    mergers among traditional mainframe makers are certainly straws in
    the wind.  See also {dinosaur}.
 
@@ -8410,11 +8427,11 @@ marginal: adj. 1. Extremely small.  "A marginal increase in
    probability of winning.  "The power supply was rather marginal
    anyway; no wonder it fried."
 
-marginally: adv. Slightly.  "The ravs here are only marginally
-   better than at Small Eating Place."  See {epsilon}.
-
 Marginal Hacks: n. Margaret Jacks Hall, a building into which the
    Stanford AI Lab was moved near the beginning of the '80s.
+
+marginally: adv. Slightly.  "The ravs here are only marginally
+   better than at Small Eating Place."  See {epsilon}.
 
 marketroid: /mar'k@-troyd/ alt. `marketing slime', `marketing
    droid', `marketeer' n. Member of a company's marketing department,
@@ -8555,19 +8572,17 @@ micro-: pref. 1. Very small; this is the root of its use, as a
    both around rather more freely than is countenanced in standard
    English.  It is recorded, for example, that one CS professor used
    to characterize the standard length of his lectures as a
-   microcentury --- that is, about 52.6 minutes (Tom Duff at Bell Labs
-   has also pointed out that "Pi seconds is a nanocentury").
-   Multiple uses of the microfortnight and millifortnight (about 1.2
-   sec and 20 minutes) have also been reported (see also
-   {attoparsec}, {nanoacre}).  2. Personal or human-scale --- that
-   is, capable of being maintained or comprehended or manipulated by
-   one human being.  This sense is generalized from
-   `microcomputer', and esp. used in contrast with `macro-'
-   (Greek prefix meaning large).  3.  Local as opposed to global
-   ({macro-}).  Thus a hacker might say, for example, that buying a
-   smaller car to reduce pollution only solves a microproblem; the
-   macroproblem of getting to work might be better solved by using
-   transit, moving to within walking distance, or telecommuting.
+   microcentury --- that is, about 52.6 minutes (see also
+   {attoparsec}, {nanoacre}, and especially {nanofortnight}).
+   2. Personal or human-scale --- that is, capable of being maintained
+   or comprehended or manipulated by one human being.  This sense is
+   generalized from `microcomputer', and esp. used in contrast
+   with `macro-' (Greek prefix meaning large).  3.  Local as
+   opposed to global ({macro-}).  Thus a hacker might say, for
+   example, that buying a smaller car to reduce pollution only solves
+   a microproblem; the macroproblem of getting to work might be better
+   solved by using transit, moving to within walking distance, or
+   telecommuting.
 
 microfloppies: n. 3-1/2 inch floppies, as opposed to 5-1/4
    {vanilla} or mini-floppies and the now-obsolete 8-inch variety.
@@ -8737,7 +8752,7 @@ molly-guard: [University of Illinois] n. A shield to prevent
    tripping of some {Big Red Switch} by clumsy or ignorant hands.
    Originally used of some plexiglass covers improvised for the BRS on
    an IBM 4341 after a programmer's toddler daughter (named Molly)
-   frobbed it twice in one day.  Later generalized to covers over
+   frobbed it twice in one day.  Later generalized to covers over
    stop/reset switches on disk drives and networking equipment.
 
 Mongolian Hordes technique: n. Development by {gang bang};
@@ -9098,6 +9113,14 @@ nanocomputer: /nan'oh-k@m-pyoo'tr/ n. A computer whose switching
    logic have been proposed.  The controller for a {nanobot} would be
    a nanocomputer.
 
+nanofortnight: [Adelaide University] n. 1 fortnight times 10 ^ -9,
+   or about 1.2 ms.  This unit was used largely by students doing
+   undergraduate practicals.  See {attoparsec} and {micro-}.
+
+   Multiple uses of the microfortnight and millifortnight (about 1.2
+   sec and 20 minutes) have also been reported  (Tom Duff at Bell Labs
+   has also pointed out that "Pi seconds is a nanocentury").
+
 nanotechnology: /nan'-oh-tek-no`l@-ji/ n. A hypothetical
    fabrication technology in which objects are designed and built with
    the individual specification and placement of each separate atom.
@@ -9195,7 +9218,7 @@ network address: n. (also `net address') As used by hackers,
    or organizations that claim to understand, work with, sell to, or
    recruit from among hackers but *don't* display net addresses
    are quietly presumed to be clueless poseurs and mentally flushed
-   (see {flush}, sense #3).  Hackers often put their net addresses
+   (see {flush}, sense #4).  Hackers often put their net addresses
    on their business cards and wear them prominently in contexts where
    they expect to meet other hackers face-to-face (see also
    {{Science-Fiction Fandom}}).  This is mostly functional, but is
@@ -9652,6 +9675,12 @@ OS/2: /oh ess too/ n. The anointed successor to MS-DOS for
    vague about how.  It looks as though OS/2 is dead.  See
    {vaporware}, {monstrosity}, {cretinous}, {second-system
    effect}.
+
+out-of-band: adj. In software, describes values of a function which
+   are not in its `natural' range of return values, but are rather
+   signals that some kind of exception has occurred.  Many C
+   functions, for example, return either a nonegative integral value
+   or an out-of-band -1 to indicate failure.
 
 overflow bit: n. On some processors, an attempt to calculate a
    result too large for a register to hold causes a {trap} with a
@@ -10459,7 +10488,7 @@ qux: /kwuhks/ The fourth of the standard metasyntactic variables,
    run {foo}, {bar}, {baz}, {quux}, ....
 
 QWERTY: /kwer'tee/ [from the keycaps at the upper left] adj.
-   Pertaining to a standard English-language typewriter keyboard
+   Pertaining to a standard English-language typewriter keyboard
    (sometimes called the Sholes keyboard after its inventor), as
    opposed to Dvorak or foreign-language layouts or a {space-cadet
    keyboard} or APL keyboard.
@@ -11445,14 +11474,15 @@ SMOP: /smop/ [Simple (or Small) Matter of Programming] n. 1. A piece
    program is made which seems easy to the suggester, but is obviously
    a lot of work to the programmer.
 
-SNAFU principle: n. "True communication is only possible between
+SNAFU principle: [from WWII army acronym for "Situation Normal,
+   all Fucked Up"] n. "True communication is only possible between
    equals, because inferiors are more consistently rewarded for
    telling their superiors pleasant lies than for telling the truth"
    --- a central tenet of {Discordianism} often invoked by hackers
    to explain the reason authoritarian hierarchies screw up so
-   reliably and systematically.  There is a common fable
-   that well illustrates this.  A {hacker} says to a manager, "This
-   is manure".  Manager to second-level, "This is fertilizer".
+   reliably and systematically.  There is a common fable that well
+   illustrates this.  A {hacker} says to a manager, "This is
+   manure".  Manager to second-level, "This is fertilizer".
    Second-level to third-level, "This makes things grow".
    Third-level to Director, "Must be good stuff".  After the
    subsequent disaster, the {suits} protect themselves by saying "I
@@ -11897,7 +11927,7 @@ swizzle: v. To convert external names or references within a data
 sync: /sink/ [UNIX] n.,vi. 1. To force all pending I/O to the disk.
    2.  More generally, to force a number of competing processes or
    agents to a state that would be `safe' if the system were to crash;
-   thus, to checkpoint.  See {flush}.
+   thus, to checkpoint.  See {flush}, sense #2.
 
 syntactic sugar: [coined by Peter Landin] n. Features added to a
    language or formalism to make it `sweeter' for humans, that do not
@@ -12576,7 +12606,7 @@ tube: 1. n. A CRT terminal.  Never used in the mainstream sense of
 tube time: n.  Time spent at a terminal or console; more inclusive
    than hacking time.  Commonly used in discussions of what parts of
    one's environment one uses most heavily.  "I find I'm spending too
-   much of my tube time reading mail since I started this revision."
+   much of my tube time reading mail since I started this revision."
 
 tunafish: n. In hackish lore, refers to the mutated punchline of an
    age-old joke to be found at the bottom of the man pages of
@@ -13096,7 +13126,7 @@ virus: [from the obvious analogy with biological viruses, via SF]
    system).  The production of special anti-virus software has become
    an industry, and a number of exaggerated media reports have caused
    outbreaks of near hysteria among users, to the point where many
-   {luser}s tend to blame *everything* that doesn't work as
+   {luser}s tend to blame *everything* that doesn't work as
    they had expected on virus attacks.  Accordingly, this sense of
    `virus' has passed not only into general technical slang but into
    popular uage as well (where it is often incorrectly used to denote
@@ -13646,22 +13676,23 @@ XXX: /eks-eks-eks/ n. A marker that attention is needed.  Commonly
    need to be.  Some hackers liken XXX code to pornographic movies
    that contain the symbol.
 
-xyzzy: /eks-wie-zee-zee-wie/, /ik-zi'zee/, /eks-wie-ziz'ee/; in
-   Commonwealth hackish, /eks-wie-zed-zed-wie/. [from the ADVENT game]
-   adj.  The {canonical} `magic word'.  This comes from {ADVENT},
-   in which the idea is to explore an underground cave with many rooms
-   to collect treasure.  If you type `xyzzy' at the appropriate time,
-   you can move instantly between two otherwise distant points.  If,
-   therefore, you encounter some bit of {magic}, you might remark on
-   this quite succinctly by saying simply "Xyzzy"!  Example:
-   "Ordinarily you can't look at someone else's screen if he has
-   protected it, but if you type quadruple-bucky-clear the system will
-   let you do it anyway."  "Xyzzy!"  Xyzzy has actually been
-   implemented as an undocumented no-op command on several OSs; in
-   Data General's AOS/VS, for example, it would typically respond
-   "Nothing happens", just as {ADVENT} did if the magic was
-   invoked at the wrong spot or before a player had performed the
-   action that enabled the word.  See also {plugh}.
+xyzzy: /eks-wie-zee-zee-wie/, /ik-zi'zee/, /eks-wie-ziz'ee/,
+   /zi'zee/; in Commonwealth hackish, /eks-wie-zed-zed-wie/. [from the
+   ADVENT game] adj.  The {canonical} `magic word'.  This comes from
+   {ADVENT}, in which the idea is to explore an underground cave
+   with many rooms to collect treasure.  If you type `xyzzy' at the
+   appropriate time, you can move instantly between two otherwise
+   distant points.  If, therefore, you encounter some bit of
+   {magic}, you might remark on this quite succinctly by saying
+   simply "Xyzzy"!  Example: "Ordinarily you can't look at someone
+   else's screen if he has protected it, but if you type
+   quadruple-bucky-clear the system will let you do it anyway."
+   "Xyzzy!"  Xyzzy has actually been implemented as an undocumented
+   no-op command on several OSs; in Data General's AOS/VS, for
+   example, it would typically respond "Nothing happens", just as
+   {ADVENT} did if the magic was invoked at the wrong spot or before
+   a player had performed the action that enabled the word.  See also
+   {plugh}.
 
 = Y =
 =====
@@ -14370,7 +14401,7 @@ This was posted to USENET by Ed Nather (utastro!nather), May 21, 1983.
      as best I can through the generation gap,
      how a Real Programmer wrote code.
      I'll call him Mel,
-     because that was his name.
+     because that was his name.
 
      I first met Mel when I went to work for Royal McBee Computer Corp.,
      a now-defunct subsidiary of the typewriter company.
@@ -15023,4 +15054,5 @@ Hacker demigod Richard Stallman believes the title story of this book
 certainly difficult to recall anyone doing a better job.  The other
 stories in this collection are also fine work by an author who is
 perhaps one of today's very best practitioners of the hard-SF genre.
+
 
