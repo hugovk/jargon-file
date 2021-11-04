@@ -87,7 +87,9 @@ BLT (blit, very rarely belt) [based on the PDP-10 block transfer
    instruction; confusing to users of the PDP-11] 1. v. To transfer a
    large contiguous package of information from one place to another.
    2. THE BIG BLT: n. Shuffling operation on the PDP-10 under some
-   operating systems that consumes significant computer time.
+   operating systems that consumes a significant amount of computer
+   time.  3. (usually pronounced B-L-T) n. Sandwich containing bacon,
+   lettuce, and tomato.
 
 BUCKY BITS (primarily Stanford) n. The bits produced by the CTRL and
    META shift keys on a Stanford (or Knight) keyboard.
@@ -207,6 +209,8 @@ FLAKEY adj. Subject to frequent lossages.  See LOSSAGE.
 FLAME v. To speak incessantly and/or rabidly on some relatively
    uninteresting subject or with a patently ridiculous attitude.
    FLAME ON: v. To continue to flame.
+
+FLAP v. To unload a DECtape (so it goes flap, flap, flap...).
 
 FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors."
    2. The attribute of causing something to be FLAVORFUL.  "This
@@ -470,6 +474,8 @@ MUNG (variant: MUNGE) [recursive acronym for Mung Until No Good] v. 1.
    To make changes to a file, often large-scale, usually irrevocable.
    Occasionally accidental.  See BLT.  2. To destroy.
 
+NIGHT MODE  See PHASE (of people).
+
 OPEN n. Abbreviation for "open (or left) parenthesis", used when
    necessary to eliminate oral ambiguity.  To read aloud the LISP form
    (DEFUN FOO (X) (PLUS X 1)) one might say: "Open dee-fun foo, open
@@ -481,7 +487,9 @@ PHASE (of people) n. The phase of one's waking-sleeping schedule with
    schedule.  It is not uncommon to change one's phase by as much as
    six hours/day on a regular basis.  "What's your phase?"  "I've been
    getting in about 8 PM lately, but I'm going to work around to the
-   day schedule by Friday."
+   day schedule by Friday."  A person who is roughly 12 hours out of
+   phase is sometimes said to be in "night mode".  (The term "day
+   mode" is also used, but less frequently.)
 
 PHASE OF THE MOON n. Used humorously as a random parameter on which
    something is said to depend.  Sometimes implies unreliability of
@@ -523,6 +531,11 @@ QUUX [Invented by Steele.  Mythically, from the Latin semi-deponent
    refers to The Great Quux, who is somewhat infamous for light verse
    and for the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining
    to a QUUX.
+
+RANDOM adj. 1. Unpredictable (closest to mathematical definition);
+   weird.  "The system's been behaving pretty randomly."  2. Assorted;
+   undistinguished.  "Who was at the conference?"  "Just a bunch of
+   random business types."
 
 SACRED adj. Reserved for the exclusive use of something (a
    metaphorical extension of the standard meaning).  "Accumulator 7 is
@@ -581,13 +594,21 @@ SYSTEM n. 1. The supervisor program on the computer.  2. Any
    2 one mentions the particular program: e.g., LISP HACKER)
 
 TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
-   editor developed by DEC, and modified by just about everybody.  If
+   editor developed at MIT, and modified by just about everybody.  If
    all the dialects are included, TECO might well be the single most
    prolific editor in use.  Noted for its powerful pseudo-programming
    features and its incredibly hairy syntax.  2. v. To edit using the
    TECO editor in one of its infinite forms; sometimes used to mean
    "to edit" even when not using TECO!  Usage:  rarely used at SAIL,
    where most people wouldn't touch TECO with a TENEX pole.
+   [Historical note: The original TECO is highly display-oriented and
+   is said by MIT hackers to be a super win.  Apparently DEC grabbed
+   it at some point and lobotomized it, making the command structure
+   less regular and turning it into a tty-oriented editor.  DEC was
+   actually trying to discourage its use, but an underground movement
+   of sorts kept it alive.  TENEX has now repaired it somewhat, but it
+   remains far inferior to the MIT version (which is unfortunately not
+   transportable due to heavy reliance on special display hardware).]
 
 TELNET v. To communicate with another ARPAnet host using the TELNET
    program.  TOPS-10 people use the word IMPCOM since that is the
@@ -637,8 +658,10 @@ UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
    monitor call.  The term "Un-Used Operation" comes from the fact
    that, on DEC-10 systems, monitor calls are implemented as invalid
    or illegal machine instructions, which cause traps to the monitor
-   (see TRAP).  The SAIL manual describing the available UUO's has
+   (see TRAP).  The SAIL manual describing the available UUO's has a
    cover picture showing an unidentified underwater object.  See YOYO.
+   [Note: DEC sales people have since decided that "Un-Used Operation"
+   sounds bad, so UUO now stands for "Unimplemented User Operation".]
 
 VANILLA adj. Ordinary flavor, standard.  See FLAVOR.
 
@@ -681,4 +704,3 @@ YOYO n. DEC slang for UUO (q.v.).  Usage: rare at SAIL and MIT, often
 
 YOYO MODE n. State in which the system is said to be when it rapidly
    alternates several times between being up and being down.
-
