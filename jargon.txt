@@ -1,4 +1,4 @@
-============ THIS IS THE JARGON FILE, VERSION 2.6.1, 12 FEB 1991  ============
+============ THIS IS THE JARGON FILE, VERSION 2.6.2, 14 FEB 1991  ============
 
 Introduction
 ************
@@ -24,7 +24,7 @@ places in the community and expresses shared values and experiences.
 Among hackers, though, slang has a subtler aspect paralleled perhaps
 in the slang of jazz musicians and some kinds of fine artists but hard
 to detect in most technical or scientific cultures; parts of it are
-code for shared states of `consciousness'.  There is a whole range
+code for shared states of *consciousness*.  There is a whole range
 of altered states and problem-solving mental stances basic to
 high-level hacking which don't fit into conventional linguistic
 reality any better than a Coltrane solo or one of Maurits Escher's
@@ -274,7 +274,7 @@ Our thanks to the other co-authors of Steele-1983 for oversight and
 assistance; also to all the USENETters who contributed entries and
 encouragement.  Special thanks go to our Scandinavian correspondent
 Per Lindberg (per@front.se), author of the remarkable Swedish
-language `zine `Hackerbladet', for bringing FOO! comics to our
+language 'zine `Hackerbladet', for bringing FOO! comics to our
 attention and smuggling one of the IBM hacker underground's own baby
 jargon files out to us.  Also, much gratitude to ace hacker/linguist
 Joe Keane (jkg@osc.osc.com) for helping us improve the pronunciation
@@ -572,7 +572,7 @@ double-quotes thoroughly enough that hacker usage appears marked [and,
 in fact, I thought this was a personal quirk of mine until I checked
 with USENET --- ESR].  One further permutation that is definitely
 *not* standard is a hackish tendency to do marking quotes by
-using apostrophes in pairs; that is, `like this'.  This is modelled on
+using apostrophes in pairs; that is, 'like this'.  This is modelled on
 string and character literal syntax in some programming languages
 (reinforced by the fact that many character-only terminals display a
 vertical single quote).
@@ -880,8 +880,8 @@ distinguished from those for ordinary entries by being followed by
 The Jargon Lexicon
 ******************
 
-[^A-Za-z] (see {regexp})
-------------------------
+= [^A-Za-z] (see {regexp}) =
+============================
 
 'Snooze: /snooz/ [FidoNet] n. Fidonews, the weekly official on-line
    newsletter of FidoNet.  As the editorial policy of Fidonews is
@@ -937,8 +937,8 @@ The Jargon Lexicon
    an identical way.  On USENET, this construct would more frequently
    be rendered as "<FLAME ON>" and "<FLAME OFF>".
 
-A
--
+= A =
+=====
 
 abbrev: /@'breev/ n.  Common abbreviation for `abbreviation'.
 
@@ -1361,13 +1361,13 @@ automagically: /aw-toh-maj'i-klee/ or /aw-toh-maj'i-k@l-ee/ adv.
 awk: 1. n. [UNIX] An interpreted language developed by Aho,
    Weinberg, and Kernighan (the name is from their initials).  It is
    characterized by: C-like syntax, a BASIC-like approach to variable
-   typing and declarations, associative arrays, and field-oriented
+   typing and declarations, associative arrays, and field-oriented
    text processing.  See also {Perl}.  2. Editing term for an
    expression awkward to manipulate through normal regular expression
    facilities.  3. vt. To process data using `awk(1)'.
 
-B
--
+= B =
+=====
 
 back door: n. A hole in the security of a system deliberately left in
    place by designers or maintainers.  The motivation for this is not
@@ -1794,7 +1794,7 @@ Big Grey Wall: n. What greets a {VMS} user searching for
    products such as compilers, databases, multivendor networking,
    programming tools etc.  Recent (since VMS V5) DEC documentation
    comes with grey binders; under VMS V4 the binders were orange
-   ('big orange wall'), and under V3 they were blue.  See {VMS}.
+   (`big orange wall'), and under V3 they were blue.  See {VMS}.
 
 big iron: n. Large, expensive, ultra-fast computers.  Used generally
    of {number crunching} supercomputers such as Crays, but can include
@@ -1964,7 +1964,7 @@ bit bucket: n. The universal data sink (originally, the mythical
    lost, or destroyed is said to `go to the bit bucket'.  On {UNIX},
    often used for {/dev/null}.  Sometimes amplified as `the Great Bit
    Bucket in the Sky'.  This term is used purely in jest.  It's based
-   on the fanciful notion that bits are objects that are not
+   on the fanciful notion that bits are objects that are not
    destroyed, but only misplaced.  This appears to have been a
    mutation of an earlier term `bit box', about which the same
    legend was current; old-time hackers also report that trainees used
@@ -2008,7 +2008,7 @@ bit-paired keyboard: n. obs.  A non-standard keyboard layout which
 
      3 high     4 low bits
       bits      0000 0001 0010 0011 0100 0101 0110 0111 1000 1001
-       010     space   !    "    #    $    %    &    `    (    )
+       010     space   !    "    #    $    %    &    '    (    )
        011        0    1    2    3    4    5    6    7    8    9
    That's why the characters !"#$%&'() appear where they do on a
    Teletype (except that 0 was moved over to the right-hand side).
@@ -2096,7 +2096,7 @@ blast: vt.,n. Synonym for {BLT}, used esp. for large data sends over
    processes.  Blast them (y/n)?" would appear in the command window
    upon logout.
 
-blazer: n. (also {'blazer}) Nickname for the Telebit Trailblazer,
+blazer: n. (also {'blazer}) Nickname for the Telebit Trailblazer,
    an expensive but extremely reliable and effective high-speed modem,
    popular at UNIX sites that pass large volumes of {email} and
    {USENET} news.
@@ -2130,7 +2130,7 @@ blinkenlights: /blink'@n-lietz/ n. Front-panel diagnostic lights
      relaxen und watchen das blinkenlichten.
 
    This silliness dates back at least as far as 1959 at Stanford
-   University and had already gone international by the early `60s,
+   University and had already gone international by the early '60s,
    when it was reported at London University's ATLAS computing site.
    There are several variants of it in circulation, some of which
    actually do end with the word `blinkenlights'.  It is reported, by
@@ -2532,7 +2532,7 @@ brain dump: n. The act of telling someone everything one knows
    Example: "You'll have to give me a brain dump on FOOBAR, before
    you start your new job at HackerCorp."  See {core dump} (sense
    #4).  At Sun, this is also known as `TOI' (transfer of
-   information).
+   information).
 
 brain-damaged: [generalization of `Honeywell Brain Damage' (HBD), a
    theoretical disease invented to explain certain utter cretinisms
@@ -2857,8 +2857,8 @@ bytesexual: /biet-seks'u-@l/ adj. Said of hardware, denotes
    {little-endian} format (depending, presumably, on a {mode bit}
    somewhere).  See also {NUXI problem}.
 
-C
--
+= C =
+=====
 
 C: n. 1. The third letter of the Latin alphabet.  2. The name of a
    programming language designed by Dennis Ritchie during the early
@@ -3290,7 +3290,7 @@ cokebottle: /kohk'bot-l/ n. Any very unusual character,
    referring to this keystroke as cokebottle.  See also
    {quadruple bucky}.
 
-COME FROM: n. A semi-mythical language construct dual to the `go
+COME FROM: n. A semi-mythical language construct dual to the `go
    to'; COME FROM <label> would cause the referenced label to act as a
    sort of trapdoor, so that if the program ever reached it control
    would quietly and {automagically} be transferred to the statement
@@ -3330,7 +3330,7 @@ COME FROM: n. A semi-mythical language construct dual to the `go
 
 comm mode: /kom mohd/ [from the ITS feature supporting on-line
    chat, spelled with one or two Ms] Syn. for {talk mode}; also
-   spelled `comm mode'.
+   spelled `com mode'.
 
 comment out: vt. To surround a section of code with comment
    delimiters or to prefix every line in the section with a comment
@@ -3385,7 +3385,7 @@ compact: adj. Of a design, describes the valuable property that it
 
 compress: [UNIX] vt. When used without a qualifier, generally refers
    to {crunch}ing of a file using a particular C implementation of
-   Lempel-Ziv compression by James A. Woods et al. and widely
+   Lempel-Ziv compression by James A. Woods et al. and widely
    circulated via {USENET}.  Use of {crunch} itself in this sense is
    rare among UNIX hackers.
 
@@ -3563,7 +3563,7 @@ Core Wars: n. A game between `assembler' programs in a simulated
    machine, where the objective is to kill your opponent's program by
    overwriting it.  This was popularized by A. K. Dewdney's column in
    `Scientific American' magazine, but is said to have been first
-   devised by Victor Vyssotsky as a PDP-1 hack, during the early `60s
+   devised by Victor Vyssotsky as a PDP-1 hack, during the early '60s
    at Bell Labs.  It is rumored that the game is a civilized version
    of an amusement called DARWIN common on multitasking machines
    before the advent of protected address segments.  See {core}.
@@ -3933,7 +3933,7 @@ cycle: n. The basic unit of computation.  What every hacker wants
    cycles get divided up among the users.  The more cycles the
    computer spends working on your program rather than someone else's,
    the faster your program will run.  That's why every hacker wants
-   more cycles: so he can spend less time waiting for the computer to
+   more cycles: so he can spend less time waiting for the computer to
    respond.
 
 cycle crunch: n. The situation where the number of people trying to
@@ -3958,8 +3958,8 @@ cycle server: n. A powerful machine that exists primarily for
    editing are done on other machines on the network, such as
    workstations.
 
-D
--
+= D =
+=====
 
 daemon: /day'm@n/ or /dee'm@n/ [Disk And Execution MONitor] n. A
    program which is not invoked explicitly, but which lies dormant
@@ -4212,7 +4212,7 @@ demon: n. 1. [MIT] A portion of a program which is not invoked
    running on an operating system.  Demons are particularly common in
    AI programs.  For example, a knowledge-manipulation program might
    implement inference rules as demons.  Whenever a new piece of
-   knowledge was added, various demons would activate (which demons
+   knowledge was added, various demons would activate (which demons
    depends on the particular piece of data) and would create
    additional pieces of knowledge by applying their respective
    inference rules to the original piece.  These new pieces could in
@@ -4303,7 +4303,7 @@ dink: adj. Said of a machine which has the {bitty box} nature; a
 dinosaur: n. 1. Any hardware requiring raised flooring and special
    power.  Used especially of old minis and mainframes when contrasted
    with newer microprocessor-based machines.  In a famous quote from
-   the `88 UNIX EXPO, Bill Joy compared the mainframe in the massive
+   the '88 UNIX EXPO, Bill Joy compared the mainframe in the massive
    IBM display with a grazing dinosaur, "with a truck outside pumping
    its bodily fluids through it".  IBM was not amused.  Compare
    {big iron}; see also {mainframe}.  2. [IBM] A very conservative
@@ -4342,7 +4342,7 @@ Discordianism: /dis-kor'di-@n-ism/ n. The veneration of {Eris}, aka
    millenia-long warfare between the anarcho-surrealist partisans of
    Eris and a malevolent, authoritarian secret society called the
    Illuminati.  See Appendix B, {Church of the Sub-Genius}, and {ha ha
-   only serious}.
+   only serious}.
 
 disk farm: n. (also `laundromat') A large room or rooms filled
    with disk drives (esp. {washing machine}s).
@@ -4485,7 +4485,7 @@ double bucky: adj. Using both the CTRL and META keys.  "The
      		Set of pedals to
      		Make the number of
      		    Bits four:
-     		Double double bucky!
+     		Double double bucky!
      	Double bucky, left and right
      	OR'd together, outta sight!
      	    Double bucky, I'd like a whole word of
@@ -4689,8 +4689,8 @@ DWIM: /dwim/ [Do What I Mean] 1. adj. Able to guess, sometimes even
 dynner: /din'r/ 32 bits, by analogy with {nybble} and {{byte}}.  Usage:
    rare and extremely silly.  See also {playte}, {taste}, {crumb}.
 
-E
--
+= E =
+=====
 
 earthquake: [IBM] n. The ultimate real-world shock test for
    computer hardware.  Hackish sources at IBM deny the rumor that the
@@ -4988,7 +4988,7 @@ essentials: n. Things necessary to maintain a productive and secure
    hacking environment.  "A jug of wine, a loaf of bread, a
    20-megahertz 80386 box with 8 meg of core and a 300-megabyte disk
    supporting full UNIX with source and X windows and EMACS and UUCP
-   via a `blazer to a friendly Internet site, and thou."
+   via a 'blazer to a friendly Internet site, and thou."
 
 evil: adj. As used by hackers, implies that some system, program,
    person, or institution is sufficiently mal-designed as to be not
@@ -5049,8 +5049,8 @@ eyeball search: n. To look for something in a mass of code or data
    {grep} or any other automated search tool.  Also called a
    {vgrep}; compare {vdiff}.
 
-F
--
+= F =
+=====
 
 fab: /fab/ [from v. fabricate] 1. To produce chips from a design
    that may have been created by someone at another company.
@@ -5071,7 +5071,7 @@ fall over: [IBM] vi. Yet another synonym for {crash} or {lose}.
 fall through: vt. 1. To exit a loop by exhaustion, i.e. by having
    fulfilled its exit condition rather than via a break or exception
    condition that exits from the middle of it.  This usage appears to
-   be *really* old, as in dating from the `40s and `50s.  It may
+   be *really* old, as in dating from the '40s and '50s.  It may
    no longer be live slang.  2. To fail a test that would have passed
    control to a subroutine or other distant portion of code.  3. In C,
    `fall-through' is said to occur when the flow of execution in a
@@ -5095,13 +5095,15 @@ fall through: vt. 1. To exit a loop by exhaustion, i.e. by having
         break;
      }
 
-   The effect of this code is to `do_green()' when color is `GREEN',
-   `do_red()' when color is `RED', `do_blue()' on any other color than PINK,
-   and (this is the important part) `do_pink()' and *then* `do_red()'
-   when color is `PINK'.  Fall-through is {considered harmful} by some;
-   among those who use it, it is considered good practice to include a
-   comment highlighting the fall through, at the point one would
-   normally expect a break.
+   The effect of this code is to `do_green()' when color is
+   `GREEN', `do_red()' when color is `RED',
+   `do_blue()' on any other color than PINK, and (and this is the
+   important part) `do_pink()' and *then* `do_red()'
+   when color is `PINK'.  Fall-through is {considered harmful}
+   by some, though there are contexts such as the coding of state
+   machines in which it is natural; it is generally considered good
+   practice to include a comment highlighting the fall through, at the
+   point one would normally expect a break.
 
 fandango on core: [UNIX/C hackers, from the Mexican dance] n. In C, a
    wild pointer that runs out of bounds causing a {core dump}, or
@@ -5120,8 +5122,8 @@ FAQ list: /ef-ay-kyoo list/ [Usenix] n. A compendium of accumulated
    although it is far too big for a regular posting.  Several extant
    FAQ lists do (or should) make reference to the Jargon File (the
    on-line version of this lexicon).  "How do you pronounce `char'?"
-   and "What's that funny name for the `#' character?" are, for
-   example, both Frequently Asked Questions.
+   and "What's that funny name for the `#' character?" for
+   example, are both Frequently Asked Questions.
 
 farming: [Adelaide University, Australia] n. What the heads of a
    Winchester are said to do when they plow little furrows in the
@@ -5129,12 +5131,18 @@ farming: [Adelaide University, Australia] n. What the heads of a
    follows: "Oh no, the machine has just crashed; I hope the hard
    drive hasn't gone {farming} again."
 
-fascist: adj. Said of a computer system with excessive or annoying
-   security barriers, usage limits, or access policies.  The
+fascist: adj. 1. Said of a computer system with excessive or
+   annoying security barriers, usage limits, or access policies.  The
    implication is that said policies are preventing hackers from
-   getting interesting work done.  The variant `fascistic' seems to
-   have been preferred at MIT, poss. by analogy with `touristic'
-   (see {tourist}).
+   getting interesting work done.  The variant `fascistic' seems
+   to have been preferred at MIT, poss. by analogy with
+   `touristic' (see {tourist}).  2. In the design of languages
+   and other software tools, `the fascist alternative' is the most
+   restrictive and structured way of capturing a particular function;
+   the implication is that this may be desirable in order to simplify
+   the implementation or provide tighter error checking.  Compare
+   {bondage-and-discipline language}; but that term is global than
+   local.
 
 FAtt: [FidoNet] written-only abbreviation for {File Attach}.
 
@@ -5164,18 +5172,19 @@ feature: n. 1. An intended property or behavior (as of a program).
    kind of feature is sometimes called a {miswart}; see that entry
    for a classic example.  4. A property or behavior that is
    gratuitous or unnecessary, though perhaps also impressive or cute.
-   For example, one feature of the MACLISP language is the ability to
-   print numbers as Roman numerals.  See {bells and whistles}.  5. A
-   property or behavior that was put in to help someone else but that
-   happens to be in your way.  6. A {bug} that has been documented.
-   To call something a feature sometimes means the author of the
-   program did not consider the particular case, and the program
-   responded in a way that was unexpected, but not strictly incorrect.
-   A standard joke is that a {bug} can be turned into a {feature}
-   simply by documenting it (then theoretically no one can complain
-   about it because it's in the manual), or even by simply declaring
-   it to be good.  "That's not a bug, that's a feature!"  See also
-   {feetch feetch}, {creeping featurism}, {wart}.
+   For example, one feature of Common LISP's Format function is the
+   ability to print numbers in two different Roman-numeral formats
+   (see {bells, whistles, and gongs}).  5. A property or behavior
+   that was put in to help someone else but that happens to be in your
+   way.  6. A {bug} that has been documented.  To call something a
+   feature sometimes means the author of the program did not consider
+   the particular case, and the program responded in a way that was
+   unexpected, but not strictly incorrect.  A standard joke is that a
+   {bug} can be turned into a {feature} simply by documenting it
+   (then theoretically no one can complain about it because it's in
+   the manual), or even by simply declaring it to be good.  "That's
+   not a bug, that's a feature!"  See also {feetch feetch},
+   {creeping featurism}, {wart}.
 
    The relationship between bugs, features, misfeatures, warts, and
    miswarts might be clarified by the following exchange between two
@@ -5235,7 +5244,7 @@ feep: /feep/ 1. n. The soft electronic `bell' of a display terminal
    a raspberry or Bronx cheer; for a close approximation, imagine the
    sound of a Star Trek communicator's beep lasting for five
    seconds.).  The `feeper' on a VT-52 has been compared to the sound
-   of a `52 Chevy stripping its gears.  See also {ding}.
+   of a '52 Chevy stripping its gears.  See also {ding}.
 
 feeper: /fee'pr/ n. The device in a terminal or workstation (usually
    a loudspeaker of some kind) that makes the {feep} sound.
@@ -5253,37 +5262,38 @@ feeping creaturism: /fee'ping kree`ch@r-izm/ n. Deliberate
    customary noises.
 
 feetch feetch: interj. If someone tells you about some new
-   improvement to a program, you might respond, "Feetch, feetch!"
+   improvement to a program, you might respond, "Feetch, feetch!".
    The meaning of this depends critically on vocal inflection.  With
    enthusiasm, it means something like, "Boy, that's great!  What a
    great hack!"  Grudgingly or with obvious doubt, it means "I don't
    know; it sounds like just one more unnecessary and complicated
-   thing."  With a tone of resignation, it means, "Well, I'd rather
-   keep it simple, but I suppose it has to be done."
+   thing.".  With a tone of resignation, it means, "Well, I'd rather
+   keep it simple, but I suppose it has to be done.".
 
-fence: n. One or more `out-of-band' characters used to delimit a piece
-   of data intended to be treated as a unit.  The NUL character that
-   terminates strings in C is a fence.  Hex FF is probably the most
-   common fence character after NUL.  See {zigamorph}.
+fence: n. One or more distinguished ({out-of-band}) characters
+   used to delimit a piece of data intended to be treated as a unit.
+   The NUL character that terminates strings in C is a fence.  Hex FF
+   is probably the most common fence character after NUL.  See
+   {zigamorph}.
 
 fencepost error: n. 1. The discrete equivalent of a boundary
    condition.  Often exhibited in programs by iterative loops.  From
    the following problem: "If you build a fence 100 feet long with
-   posts ten feet apart, how many posts do you need?"  (Either 9 or
-   11 is a better answer than the obvious 10.)  For example, suppose
-   you have a long list or array of items, and want to process items m
-   through n; how many items are there?  The obvious answer is `n - m',
-   but that is off by one; the right answer is `n - m + 1'.  A program
-   that used the `obvious' formula would have a fencepost error in
-   it.  See also {off-by-one error}, and note that not all off-by-one
-   errors are fencepost errors.  The game of Musical Chairs involves
-   an off-by-one problem where N people try to sit in N - 1 chairs, but
-   it's not a fencepost error.  Fencepost errors come from counting
-   things rather than the spaces between them, or vice versa, or by
-   neglecting to consider whether one should count one or both ends of
-   a row.  2. Occasionally, an error induced by unexpectedly regular
-   spacing of inputs, which can (for instance) screw up your hash
-   table.
+   posts ten feet apart, how many posts do you need?"  Either 9 or 11
+   is a better answer than the obvious 10.  For example, suppose you
+   have a long list or array of items, and want to process items m
+   through n; how many items are there?  The obvious answer is `n
+   - m', but that is off by one; the right answer is `n - m + 1'.
+   A program that used the `obvious' formula would have a fencepost
+   error in it.  See also {off-by-one error}, and note that not all
+   off-by-one errors are fencepost errors.  The game of Musical Chairs
+   involves a catastrophic off-by-one error where N people try to sit
+   in N - 1 chairs, but it's not a fencepost error.  Fencepost errors
+   come from counting things rather than the spaces between them, or
+   vice versa, or by neglecting to consider whether one should count
+   one or both ends of a row.  2. Occasionally, an error induced by
+   unexpectedly regular spacing of inputs, which can (for instance)
+   screw up your hash table.
 
 fepped out: adj. The Symbolics 3600 Lisp Machine has a front-end
    processor called a `FEP' (compare sense #2 of {box}).  When the
@@ -5295,9 +5305,9 @@ FidoNet: n. A world-wide hobbyist network of personal computers
    which exchange mail, discussion groups, and files.  Founded in 1984
    and originally consisting only of IBM PCs and compatibles, FidoNet
    now includes such diverse machines as Apple ][s, Ataris, Amigas,
-   and UNIX systems.  FidoNet is a sizeable fraction of {USENET}'s
-   size at some 8000 systems (late mid-1991), although it is much younger
-   than USENET.
+   and UNIX systems.  Though it is much younger than USENET, FidoNet
+   is already sizeable fraction of {USENET}'s size at some 8000
+   systems (late mid-1991).
 
 field circus: [a derogatory pun on `field service'] n. The field
    service organization of any hardware manufacturer, but especially
@@ -5345,7 +5355,7 @@ film at 11: [MIT, in parody of TV newscasters] Used in conversation
    "Bug found in scheduler; film at 11."
 
 filter: [orig. {UNIX}, now also in {MS-DOS}] n. A program which
-   processes an input text stream into an output text stream in some
+   processes an input data stream into an output data stream in some
    well-defined way, and does no I/O to anywhere else except possibly
    on error conditions; one designed to be used as a stage in a
    {pipeline}.
@@ -5357,14 +5367,14 @@ fine: [WPI] adj. Good, but not good enough to be {cuspy}.  The word
 finger: [SAIL's mutant TOPS-10, via BSD UNIX] 1. n. A program that
    displays a particular user or all users logged on the system or a
    remote system.  Typically shows full name, last login time, idle
-   time, terminal line, and terminal location.  May also display a
-   {plan file} left by the user.  2. vt.  To apply finger to a
-   username.  3. vt. By extension, to check a human's current state by
-   any means.  "Foodp?"  "T!"  "OK, finger Lisa and see if she's
-   idle".  4. Any picture (composed of ASCII characters) depicting
-   `the finger'.  Originally a humorous component of one's plan
-   file to deter the curious fingerer (sense #2), it has entered the
-   arsenal of some {flamer}s.
+   time, terminal line, and terminal location (where applicable).  May
+   also display a {plan file} left by the user.  2. vt.  To apply
+   finger to a username.  3. vt. By extension, to check a human's
+   current state by any means.  "Foodp?"  "T!"  "OK, finger Lisa
+   and see if she's idle.".  4. Any picture (composed of ASCII
+   characters) depicting `the finger'.  Originally a humorous
+   component of one's plan file to deter the curious fingerer (sense
+   #2), it has entered the arsenal of some {flamer}s.
 
 finger-pointing syndrome: n. All-too-frequent result of bugs, esp.
    in new or experimental configurations.  The hardware vendor points
@@ -5385,16 +5395,15 @@ firefighting: n. The act of throwing lots of manpower and late
    bugs rather than adding features.
 
 firewall machine: n. A dedicated gateway machine with special
-   security precautions on it, used to service outside
-   network/mail/news connections and/or accept remote logins for
-   (read-only) shared-file-system access via FTP.  The idea is to
-   protect a cluster of more loosely administered machines `hidden'
-   behind it from {cracker}s.  The typical firewall is an
-   inexpensive micro-based UNIX box kept clean of critical data, with
-   a bunch of modems and public network ports on it but just one
-   carefully watched connection back to the rest of the cluster.  The
-   special precautions may include threat monitoring, callback, and
-   even a complete {iron box} keyable to particular incoming IDs or
+   security precautions on it, used to service outside network
+   connections and dial-in lines.  The idea is to protect a cluster of
+   more loosely administered machines `hidden' behind it from
+   {cracker}s.  The typical firewall is an inexpensive micro-based
+   UNIX box kept clean of critical data, with a bunch of modems and
+   public network ports on it but just one carefully watched
+   connection back to the rest of the cluster.  The special
+   precautions may include threat monitoring, callback, and even a
+   complete {iron box} keyable to particular incoming IDs or
    activity patterns.  Syn. {flytrap}, {Venus flytrap}.
 
 fireworks mode: n. The mode a machine is sometimes said to be in when
@@ -5435,34 +5444,31 @@ flag day: n. A software change which is neither forward nor
    system to convert from the old ASCII code to the new one; this was
    scheduled for Flag Day (a U.S. holiday), June 14, 1966.
 
-flaky: adj. (var sp. `flakey') Subject to frequent lossages.  See
-   {lossage}.  This use is of course related to the common slang use
-   of the word, to describe a person as eccentric or crazy.  A system
-   that is flaky is working, sort of, enough that you are tempted to
-   try to use it, but it fails frequently enough that the odds in
-   favor of finishing what you start are low.  Commonwealth hackish
-   prefers {dodgy}.
+flaky: adj. (var sp. `flakey') Subject to frequent lossages.
+   See {lossage}.  This use is of course related to the common slang
+   use of the word, to describe a person as eccentric, crazy, or just
+   unreliable.  A system that is flaky is working, sort of, enough
+   that you are tempted to try to use it, but it fails frequently
+   enough that the odds in favor of finishing what you start are low.
+   Commonwealth hackish prefers {dodgy}.
 
 flamage: /flay'm@j/ n. High-noise, low-signal postings to {USENET}
    or other electronic fora.  Often in the phrase `the usual
    flamage'.
 
-flame: 1. vi. To speak incessantly and/or rabidly on some relatively
-   uninteresting subject or with a patently ridiculous attitude.  When
-   a discussion degenerates into useless controversy, one might tell
-   the participants, "Now you're just flaming" or "Stop all that
-   flamage!"  to try to get them to cool down (so to speak).  2. To
-   post an email message intended to insult and provoke.  {flame on}:
-   vi.  To continue to flame.  See {rave}, {burble}.  The punning
-   reference to Marvel Comics's Human Torch has been lost as recent
-   usage completes the circle: "Flame on" now usually means
-   "beginning of flame".
+flame: v. 1. To post an email message intended to insult and
+   provoke.  2. vi. To speak incessantly and/or rabidly on some
+   relatively uninteresting subject or with a patently ridiculous
+   attitude.  When a discussion degenerates into useless controversy,
+   one might tell the participants, "Now you're just flaming" or
+   "Stop all that flamage!"  to try to get them to cool down (so to
+   speak).
 
    A USENETter who was at WPI from 1972 to 1976 adds: "I am 99% certain
    that the use of `flame' originated at WPI".  Those who made a
    nuisance of themselves insisting that they needed to use a TTY for
    `real work' came to be known as `flaming asshole lusers'.
-   Other, particularly annoying people became `flaming asshole
+   Other particularly annoying people became `flaming asshole
    ravers', which shortened to `flaming ravers', and ultimately
    `flamers'.  I remember someone picking up on the Human Torch pun,
    but I don't think `flame on/off' was ever much used at WPI.  See
@@ -5475,6 +5481,11 @@ flame: 1. vi. To speak incessantly and/or rabidly on some relatively
 
 flame bait: n. A posting intended to trigger a {flame war}, or one
    which invites flames in reply.
+
+flame on: vi. To continue to flame.  See {rave}, {burble}.
+   The punning reference to Marvel Comics's Human Torch has been lost
+   as recent usage completes the circle: "Flame on" now usually
+   means "beginning of flame".
 
 flame war: n. (var. `flamewar') An acrimonious dispute,
    especially when conducted on a public electronic forum such as
@@ -5899,8 +5910,8 @@ fuzzball: [TCP/IP hackers] n. A DEC LSI-11 running a particular suite
    Internet as of early 1990, doing odd jobs such as network time
    service.
 
-G
--
+= G =
+=====
 
 gabriel: /gay'bree-@l/ [for Dick Gabriel, SAIL LISP hacker and
    volleyball fanatic] n. An unnecessary (in the opinion of the
@@ -6065,7 +6076,7 @@ gensym: [from MacLisp for `Generated Symbol'] 1. v. To invent a new
    certainly not already in conflict with one already in use.  2. n.
    The resulting name.  The canonical form of a gensym is `Gnnnn'
    where nnnn represents a number; any LISP hacker would recognize
-   G0093 (for example) as a gensym.  3. A freshly generated data
+   G0093 (for example) as a gensym.  3. A freshly generated data
    structure with a gensymmed name.  These are useful for storing or
    uniquely identifying crufties (see {cruft}).
 
@@ -6387,7 +6398,7 @@ green lightning: [IBM] n. 1. Apparently random flashing streaks on
    the face of 3278-9 terminals while a new symbol set is being
    downloaded.  This hardware bug was left deliberately unfixed, as
    some genius within IBM suggested it would let the user know that
-   `something is happening'.  That, it certainly does.  Later
+   `something is happening'.  That, it certainly does.  Later
    microprocessor-driven IBM color graphics displays were actually
    *emph* to produce green lightning!  2. [proposed] Any bug
    perverted into an alleged feature by adroit rationalization or
@@ -6505,7 +6516,7 @@ guiltware: n. {freeware} decorated with a message telling one how
    poor suffering martyr gobs of money.
 
 gumby: /guhm'bee/ [from a class of Monty Python characters, poss.
-   themselves named after a `60s claymation character] n. An act of
+   themselves named after a '60s claymation character] n. An act of
    minor but conspicuous stupidity, often in `gumby maneuver' or
    `pull a gumby'.
 
@@ -6527,8 +6538,8 @@ guru: n. 1. [UNIX] An expert.  Implies not only {wizard} skill but a
    things out from the numbers.  Generally a {guru} event must be
    followed by a {vulcan nerve pinch}.
 
-H
--
+= H =
+=====
 
 h: [from SF fandom] infix. A method of `marking' common words in the
    linguist's sense, i.e. calling attention to the fact that they are
@@ -6824,7 +6835,7 @@ Hanlon's Razor: n. A `murphyism' parallel to Occam's Razor that
    reads "Never attribute to malice that which can be adequately
    explained by stupidity".  The derivation of the common title
    Hanlon's Razor is unknown; a similar epigram has been attributed to
-   William James.  Quoted here because it seems to be a particular
+   William James.  Quoted here because it seems to be a particular
    favorite of hackers, often showing up in {fortune cookie} files and
    the login banners of BBS systems and commercial networks.  This
    probably reflects the hacker's daily experience of environments
@@ -7147,7 +7158,7 @@ humma: excl. A filler word used on various `chat' and `talk'
    to say something.  The word apparently originated (at least with
    this definition) on the MECC Timeshare System (MTS) a now-defunct
    educational time-sharing system running in Minnesota during the
-   1970s and early `80s, but was later sighted on early UNIX systems.
+   1970s and early '80s, but was later sighted on early UNIX systems.
 
 humungous: /hyoo-muhng'g@s/ alt. `humongous' (hyoo-mohng'g@s) See
    {hungus}.  This is used in a similar sense in mainstream slang.
@@ -7216,8 +7227,8 @@ hyperspace: (hie'per-spays) n. A memory location within a virtual
    hyperspace', that is, taking a shortcut through higher-dimensional
    space --- in other words, leaving this universe.
 
-I
--
+= I =
+=====
 
 I didn't change anything!: interj. A plaintive cry often heard as
    bugs manifest during a regression test.  The {canonical} reply to
@@ -7234,7 +7245,7 @@ I didn't change anything!: interj. A plaintive cry often heard as
 i14y: n. Written-only abbrev. for `interoperability', which is an
    `i' followed by 14 letters followed by `y'.  Used in the {X}
    community.
-
+
 i18n: n. Written-only abbrev. for `internationalization', which is
    an `i' followed by 18 letters followed by `n'.  Used in the {X}
    community.
@@ -7545,8 +7556,8 @@ IYFEG: [USENET] Abbreviation for `Insert Your Favorite Ethnic
    Group'.  Used as a meta-name when telling racist jokes in email to
    avoid offending anyone.  See {JEDR}.
 
-J
--
+= J =
+=====
 
 J. Random: /jay rand'm/ n. [generalized from {J. Random Hacker}]
    Arbitrary; ordinary; any one; `any old'.  "Would you let J.
@@ -7646,8 +7657,8 @@ jump off into never never land: v. Same as {branch to Fishkill},
    computers which use the term `jump' rather than `branch'.  Compare
    {hyperspace}.
 
-K
--
+= K =
+=====
 
 K: [from {kilo-}] /kay/ n. A kilobyte.  This is used both as a
    spoken word and a written suffix (like {meg} and {gig} for
@@ -7786,8 +7797,8 @@ kremvax: /krem-vaks/ [from the then large number of {USENET} {VAXen}
    blandly `admitting' that he *was* a hoax!  [Mr. Antonov also
    contributed the Russian-language material for this File --- ESR]
 
-L
--
+= L =
+=====
 
 lace card: n. obs. A {{punched card}} with all holes punched (also
    called a `whoopee card').  Card readers jammed when they got to
@@ -8193,8 +8204,8 @@ luser: /loo'zr/ n. A {user} who is probably also a {loser}.
    except as a museum piece; the usage lives on, however, and the term
    `luser' is often seen in program comments.
 
-M
--
+= M =
+=====
 
 M: [from {mega-}] /em/ n.  A megabyte (1,024 kilobytes, 1,048,576
    bytes).  Also written MB (this conflicts with use of M by
@@ -8251,7 +8262,7 @@ macrology: /mak-ro'l@-jee/ n. 1. Set of usually complex or crufty
    {TECO}, or (less commonly) assembler.  2. The art and science
    involved in comprehending a macrology in sense #1.  Sometimes
    studying the macrology of a system is not unlike archeology,
-   ecology and {theology}, hence the sound-alike construction.
+   ecology and {theology}, hence the sound-alike construction.
 
 macrotape: /ma'kroh-tayp/ n. An industry standard reel of tape, as
    opposed to a {microtape}.
@@ -8339,7 +8350,7 @@ mailing list: n. (often shortened to `list') 1. An {email}
    material in this book was criticized and polished on just such a
    mailing list (called `jargon-friends') which included all the
    co-authors of the original `The Hacker's Dictionary'.
-
+
 main loop: n. Software tools are often written to perform some
    action repeatedly on whatever input is handed to them, terminating
    when there is no more input or they are explicitly told to go away.
@@ -8363,7 +8374,7 @@ mainframe: n. This term originally referred to the central
    that the mainframe architectural tradition is essentially dead now,
    swamped by the huge advances in IC technology and `personal'
    lower-cost computing.  As of 1991, corporate America hasn't quite
-   figured this out yet, though the wave of failures, takeovers, and
+   figured this out yet, though the wave of failures, takeovers, and
    mergers among traditional mainframe makers are certainly straws in
    the wind.  See also {dinosaur}.
 
@@ -8403,7 +8414,7 @@ marginally: adv. Slightly.  "The ravs here are only marginally
    better than at Small Eating Place."  See {epsilon}.
 
 Marginal Hacks: n. Margaret Jacks Hall, a building into which the
-   Stanford AI Lab was moved near the beginning of the `80s.
+   Stanford AI Lab was moved near the beginning of the '80s.
 
 marketroid: /mar'k@-troyd/ alt. `marketing slime', `marketing
    droid', `marketeer' n. Member of a company's marketing department,
@@ -8836,7 +8847,7 @@ MUD: [abbr: Multi User Dungeon] 1. A class of {virtual reality}
    Trubshaw on the University of Essex's DEC-10 in the early 1980s, and
    descendants of that game still exist today (see {BartleMUD}).  The
    title `MUD' is still copyright to the commercial MUD run by Bartle
-   on British Telecom (their motto: "You haven't *lived* `til
+   on British Telecom (their motto: "You haven't *lived* 'til
    you've *died* on MUD"); however, this did not stop students on
    the European academic networks from copying/improving on the MUD
    concept, from which sprung several new MUDs (VAXMUD, AberMUD,
@@ -9017,8 +9028,8 @@ mutter: vt. To quietly enter a command not meant for the ears, eyes
    or fingers of ordinary mortals.  Frequently in `mutter an
    {incantation}'.
 
-N
--
+= N =
+=====
 
 N: /en/ quant. 1. Some large and indeterminate number of objects;
    "There were N bugs in that crock!"; also used in its original
@@ -9432,8 +9443,8 @@ nybble: /nib'l/ [from v. `nibble' by analogy with `bite'
 nyetwork: [from Russian `nyet' = no] n. A network, when it's
    acting {flaky} or {down}.  Compare {notwork}.
 
-O
--
+= O =
+=====
 
 Ob-: /ob/ pref. Obligatory.  A piece of {netiquette} that acknowledges
    the author has been straying from the newsgroup's charter.  For
@@ -9661,8 +9672,8 @@ overrun screw: [C programming] n. A variety of {fandango on core}
    also {memory leak}, {aliasing bug}, {precedence lossage}, {fandango
    on core}.
 
-P
--
+= P =
+=====
 
 P.O.D.: /pee-oh-dee/ Acronym for `Piece Of Data' (as opposed to a
    code section). Usage: pedantic and rare.
@@ -9829,9 +9840,9 @@ PDP-10: [Programmed Data Processor model 10] n. The machine that
    aspects of the instruction set (most notably the bit-field
    instructions) are still considered unsurpassed.  Later editions
    were labelled `DECsystem-10' as a way of differentiating them from
-   the PDP-11.  The `10 was eventually eclipsed by the VAX machines
+   the PDP-11.  The '10 was eventually eclipsed by the VAX machines
    (descendants of the PDP-11) and dropped from DEC's line in the
-   early `80s, and in mid-1991 to have cut one's teeth on one is
+   early '80s, and in mid-1991 to have cut one's teeth on one is
    considered something of a badge of honorable old-timerhood among
    hackers.  See {TOPS-10}, {ITS}, {AOS}, {blt}, {DDT},
    {DPB}, {EXCH}, {HAKMEM}, {JFCL}, {LDB}, {pop},
@@ -10360,8 +10371,8 @@ push: [based on the stack operation that puts the current
    current discussion for later.  Antonym of {pop}; see also
    {stack}, {pdl}.
 
-Q
--
+= Q =
+=====
 
 quad: n. 1. Two bits; syn. for {quarter}, {crumb}, {tayste}.
    2. The rectangle or box glyph used in the APL language for various
@@ -10448,13 +10459,13 @@ qux: /kwuhks/ The fourth of the standard metasyntactic variables,
    run {foo}, {bar}, {baz}, {quux}, ....
 
 QWERTY: /kwer'tee/ [from the keycaps at the upper left] adj.
-   Pertaining to a standard English-language typewriter keyboard
+   Pertaining to a standard English-language typewriter keyboard
    (sometimes called the Sholes keyboard after its inventor), as
    opposed to Dvorak or foreign-language layouts or a {space-cadet
    keyboard} or APL keyboard.
 
-R
--
+= R =
+=====
 
 rain dance: n. 1. Any ceremonial action taken to correct a hardware
    problem, with the expectation that nothing will be accomplished.
@@ -10771,7 +10782,7 @@ restriction: n. A {bug} or design error that limits a program's
    was forced upon them by arcane considerations no mere user could
    possibly comprehend (these claims are almost invariably false).
 
-retcon: /ret'kon/ ['retroactive continuity', from USENET's
+retcon: /ret'kon/ [`retroactive continuity', from USENET's
    rec.arts.comics] 1. n. The common situation in pulp fiction (esp.
    comics, soaps) where a new story `reveals' new things about events
    in previous stories, usually leaving the `facts' the same (thus
@@ -10942,8 +10953,8 @@ rusty memory: n. Mass-storage that uses iron-oxide-based magnetic
    media (esp. tape and the pre-Winchester removable disk packs used
    in {washing machine}s).  Compare {donuts}.
 
-S
--
+= S =
+=====
 
 s/n ratio: n. (also `s:n ratio').  See {signal-to-noise
    ratio}.  Often abbreviated `SNR'.
@@ -11113,6 +11124,10 @@ second-system effect: n. (sometimes, more euphoniously,
    similar effect can also happen in an evolving system; see
    {creeping elegance}, {creaping featurism}.  See also
    {Multics}.
+
+   This version of the jargon lexicon has been described (with
+   altogether too much truth for comfort) as the result of
+   second-system effect applied to jargon-1...
 
 segfault: n.,vi. Syn for {segment}, {seggie}.
 
@@ -11559,7 +11574,7 @@ SOS: n.,obs. /ess-oh-ess/ 1. An infamously {losing} text editor.
    /bye'lohs/ the Brother-In-Law Of Stopgap.  See also {TECO}.  2.
    /sos/ n. Inverse of {AOS}, from the PDP-10 instruction set.
 
-source of all goot bits: n. See {bits}.
+source of all good bits: n. See {bits}.
 
 space-cadet keyboard: n. The Knight keyboard, a now-legendary device
    used on MIT LISP machines which inspired several still-current
@@ -11778,7 +11793,7 @@ sucking mud: [Applied Digital Research] adj. (also `pumping
    mud') Crashed or wedged.  Usually said of a machine that provides
    some service to a network, such as a file server.  This Dallas
    regionalism derives from the East Texas oil field lament, "Shut
-   `er down, Ma, she's a-suckin' mud."  Often used as a query.  "We
+   'er down, Ma, she's a-suckin' mud."  Often used as a query.  "We
    are going to reconfigure the network, are you ready to suck mud?"
 
 suit: n. 1. Ugly and uncomfortable `business clothing' often worn
@@ -11843,7 +11858,7 @@ swab: /swob/ [From the mnemonic for the PDP-11 `byte swap'
 
 swap: [from mainstream verb meaning to exchange; to trade places]
    vt.  To move information from a fast-access memory to a slow-access
-   memory ('swap out'), or vice versa ('swap in').  This is a
+   memory (`swap out'), or vice versa (`swap in').  This is a
    technical term in computer science, and often specifically refers
    to the use of disks as `virtual memory'.  As pieces of data or
    program are needed, they are swapped into main memory for
@@ -11916,8 +11931,8 @@ system mangler: n. Humorous synonym for `system programmer';
    some site.  Unlike {admin}, this term emphasizes the technical
    end of the skills involved.
 
-T
--
+= T =
+=====
 
 T: /tee/ 1. [from LISP terminology for `true'] Yes.  Usage: used in
    reply to a question, particularly one asked using the `-P'
@@ -12441,7 +12456,7 @@ tourist information: n. Information in an on-line report that is
    not really relevant to its primary purpose, but contributes to a
    viewer's gestalt of what's going on with the software or hardware
    behind it.  Whether a given piece of info falls in this category or
-   not partly depends on what the user is looking for at any given
+   not partly depends on what the user is looking for at any given
    time.  The `bytes free' information at the bottom of an MS-DOS
    `dir' display is tourist information; so is the TIME
    information in a UNIX `ps(1)' display, most of the time.
@@ -12482,7 +12497,7 @@ trap: 1. n. A program interrupt, usually used specifically to refer
    indicate the cause of the trap.  "The monitor traps all
    input/output instructions."  
 
-   This term is associated with assembler programming ('interrupt'
+   This term is associated with assembler programming (`interrupt'
    is more common among {HLL} programmers) and appears to be fading
    into history among programmers as the role of assembler continues
    to shrink.  However, it is still important to computer architects,
@@ -12561,7 +12576,7 @@ tube: 1. n. A CRT terminal.  Never used in the mainstream sense of
 tube time: n.  Time spent at a terminal or console; more inclusive
    than hacking time.  Commonly used in discussions of what parts of
    one's environment one uses most heavily.  "I find I'm spending too
-   much of my tube time reading mail since I started this revision."
+   much of my tube time reading mail since I started this revision."
 
 tunafish: n. In hackish lore, refers to the mutated punchline of an
    age-old joke to be found at the bottom of the man pages of
@@ -12633,8 +12648,8 @@ two-to-the-n: q. Used like N, but referring to bigger numbers.  "I
 twonkie: n. The software equivalent of a Twinkie; a useless
    `feature' added to look sexy and placate a {marketroid}.
 
-U
--
+= U =
+=====
 
 UBD: /yoo-bee-dee/ [abbreviation for `User Brain Damage'] An
    abbreviation used to close out trouble reports obviously due to
@@ -12822,8 +12837,8 @@ UUCPNET: n. The store-and-forward network consisting of all the
    (UNIX-to-UNIX CoPy) software).  Any machine reachable via a
    {bang path} is on UUCPNET.  See {network address}.
 
-V
--
+= V =
+=====
 
 vadding: /vad'ing/ [from VAD, a permutation of ADV (i.e.
    {ADVENT}), used to avoid a particular {admin}'s continual
@@ -13138,8 +13153,8 @@ vulture capitalist: n. Pejorative hackerism for `venture
    innovations and most of the money they ought to have made from
    them.
 
-W
--
+= W =
+=====
 
 wabbit: /wab'it/ [almost certainly from Elmer Fudd's immortal line
    `you wascawwy wabbit!'] n. 1. A legendary early hack reported on a
@@ -13254,7 +13269,7 @@ wannabee: [from a term recently used to describe Madonna fans who
    used of any professional programmer, CS academic, writer, or
    {suit} it's derogatory, implying that said person is trying to
    cuddle up to the hacker mystique but doesn't, fundamentally, have a
-   prayer of understanding what it's all about.  Overuse of terms from
+   prayer of understanding what it's all about.  Overuse of terms from
    this File is often an indication of the {wannabee} nature.
    Compare {newbie}.
 
@@ -13494,7 +13509,7 @@ wizard book: n. Abelson and Sussman's `Structure and Interpretation
 wizard mode: [from nethack] n. A special access mode of a program or
    system, usually passworded, that permits some users godlike
    privileges.  Generally not used for operating systems themselves
-   ('root mode' or `wheel mode' would be used instead).
+   (`root mode' or `wheel mode' would be used instead).
 
 wizardly: adj. Pertaining to wizards.  A wizardly {feature} is one
    that only a wizard could understand or use properly.
@@ -13604,8 +13619,8 @@ WYSIWYG: /wiz'ee-wig/ adj. User interface (usu. text or graphics
    first overlaying) the extremely obscure, command-based {TECO}.
    [Oddly enough, this term has already made it into the OED --- ESR]
 
-X
--
+= X =
+=====
 
 X: /eks/ n. 1. Used in various speech and writing contexts in
    roughly its algebraic sense of `unknown within a set defined by
@@ -13648,8 +13663,8 @@ xyzzy: /eks-wie-zee-zee-wie/, /ik-zi'zee/, /eks-wie-ziz'ee/; in
    invoked at the wrong spot or before a player had performed the
    action that enabled the word.  See also {plugh}.
 
-Y
--
+= Y =
+=====
 
 YA-: [Yet Another...] abbrev.  In hackish acronyms this almost
    invariably expands to {Yet Another}, following the precedent set by
@@ -13726,8 +13741,8 @@ yoyo mode: n. State in which the system is said to be when it
    Interestingly (and perhaps not by coincidence), many hardware
    vendors give out free yoyos at Usenix exhibits.
 
-   Sun Microsystems gave out logoized yoyos at SIGPLAN `88.  Tourists
-   staying at one of Atlanta's most respectable hotels were
+   Sun Microsystems gave out logoized yoyos at SIGPLAN '88.  Tourists
+   staying at one of Atlanta's most respectable hotels were
    subsequently treated to the sight of 200 of the country's top
    computer scientists testing yo-yo algorithms in the lobby.
 
@@ -13740,8 +13755,8 @@ Yu-Shiang whole fish: /yoo-shyang hohl fish/ n. obs. The character
    this character on the screen.  Tends to elicit incredulity from
    people who hear about it second-hand.
 
-Z
--
+= Z =
+=====
 
 zap: 1. n. Spiciness.  2. vt. To make food spicy.  3. vt. To make
    someone `suffer' by making his food spicy.  (Most hackers love
