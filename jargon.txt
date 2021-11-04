@@ -48,9 +48,9 @@ The -P convention: turning a word into a question by appending the
    syllable "P"; from the LISP convention of appending the letter "P"
    to denote a predicate (a Boolean-values function).  The question
    should expect a yes/no answer, though it needn't.  (See T and NIL.)
-	At dinnertime: "Foodp?"  "Yeah, I'm pretty hungry." or "T!"
-	"State-of-the-world-P?"  (Straight) "I'm about to go home."
-				 (Humorous) "Yes, the world has a state."
+     At dinnertime: "Foodp?"  "Yeah, I'm pretty hungry." or "T!"
+     "State-of-the-world-P?"  (Straight) "I'm about to go home."
+			      (Humorous) "Yes, the world has a state."
 
 Peculiar nouns: MIT AI hackers love to take various words and add the
    wrong endings to them to make nouns and verbs, often by extending a
@@ -308,12 +308,12 @@ CRUFTY [from "cruddy"] adj. 1. Poorly built, possibly overly complex.
    "This is standard old crufty DEC software".  Hence CRUFT, n. shoddy
    construction.  2. Unpleasant, especially to the touch, often with
    encrusted junk.  Like spilled coffee smeared with peanut butter and
-   ketchup.  Hence CRUFT, n. disgusting mess.  3. Generally unpleasant.
+   catsup.  Hence CRUFT, n. disgusting mess.  3. Generally unpleasant.
    CRUFTY or CRUFTIE n. A small crufty object (see FROB); often one
    which doesn't fit well into the scheme of things.  "A LISP property
    list is a good place to store crufties (or, random cruft)."
-   [Note: Does CRUFT have anything to do with the Cruft Lab at Harvard?
-   I don't know, though I was a Harvard student. - GLS]
+   [Note:  Does CRUFT have anything to do with the Cruft Lab at
+   Harvard?  I don't know, though I was a Harvard student. - GLS]
 
 CRUNCH v. 1. To process, usually in a time-consuming or complicated
    way.  Connotes an essentially trivial operation which is
@@ -357,6 +357,8 @@ DAEMON (day'mun, dee'mun) [archaic form of "demon", which has slightly
    pronunciation have drifted, and we think this glossary reflects
    current usage.
 
+DAY MODE  See PHASE (of people).
+
 DEADLOCK n. A situation wherein two or more processes are unable to
    proceed because each is waiting for another to do something.  A
    common example is a program communicating to a PTY or STY, which
@@ -392,6 +394,10 @@ DEMON (dee'mun) n. A portion of a program which is not invoked
    turn activate more demons as the inferences filtered down through
    chains of logic.  Meanwhile the main program could continue with
    whatever its primary task was.
+
+DIABLO (dee-ah'blow) [from the Diablo printer] 1. n. Any letter-
+   quality printing device.  2. v. To produce letter-quality output
+   from such a device.
 
 DIDDLE v. To work with in a not particularly serious manner.  "I
    diddled with a copy of ADVENT so it didn't double-space all the
@@ -483,12 +489,6 @@ FINE (WPI) adj. Good, but not good enough to be CUSPY.  [The word FINE
    is used elsewhere, of course, but without the implicit comparison
    to the higher level implied by CUSPY.]
 
-FIREBOTTLE n. A large, primitive, power-hungry active electrical
-   device, similar to an FET constructed out of glass, metal, and
-   vacuum.  Characterized by high cost, low density, low reliability,
-   high-temperature operation, and high power dissipation.  Sometimes
-   mistakenly called a "tube" in the U.S. or a "valve" in England.
-
 FLAG DAY [from a bit of Multics history involving a change in the
    ASCII character set originally scheduled for June 14, 1966]
    n. A software change which is neither forward nor backward
@@ -530,6 +530,12 @@ FOO 1. [from Yiddish "feh" or the Anglo-Saxon "fooey!"] interj. Term
    included the word FOO, in particular on license plates of cars.
    MOBY FOO: See MOBY.
 
+FRIED adj. 1. Non-working due to hardware failure; burnt out.  2. Of
+   people, exhausted.  Said particularly of those who continue to work
+   in such a state.  Often used as an explanation or excuse.  "Yeah, I
+   know that fix destroyed the file system, but I was fried when I put
+   it in."
+
 FROB 1. n. (MIT) The official Tech Model Railroad Club definition is
    "FROB = protruding arm or trunnion", and by metaphoric extension
    any somewhat small thing.  See FROBNITZ.  2. v. Abbreviated form of
@@ -561,6 +567,10 @@ FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
 
 FROTZ 1. n. See FROBNITZ.  2. MUMBLE FROTZ: An interjection of very
    mild disgust.
+
+FRY v. 1. To fail.  Said especially of smoke-producing hardware
+   failures.  2. More generally, to become non-working.  Usage: never
+   said of software, only of hardware and humans.  See FRIED.
 
 FTP (spelled out, NOT pronounced "fittip") 1. n. The File Transfer
    Protocol for transmitting files between systems on the ARPAnet.  2.
@@ -793,7 +803,7 @@ JRST (jerst) [based on the PDP-10 jump instruction] v. To suddenly
    change subjects.  Usage: rather rare.  "Jack be nimble, Jack be
    quick; Jack jrst over the candle stick."
 
-JSYS (jay'sis) [Jump to SYStem] See UUO.
+JSYS (jay'sis), pl. JSI (jay'sigh) [Jump to SYStem] See UUO.
 
 KLUGE (kloodj) alt. KLUDGE [from the German "kluge", clever] n. 1. A
    Rube Goldberg device in hardware or software.  2. A clever
@@ -906,6 +916,14 @@ MOBY [seems to have been in use among model railroad fans years ago.
    MOBY FOO, MOBY WIN, MOBY LOSS: standard emphatic forms.
    FOBY MOO: a spoonerism due to Greenblatt.
 
+MODE n. A general state, usually used with an adjective describing the
+   state.  "No time to hack; I'm in thesis mode."  Usage: in its
+   jargon sense, MODE is most often said of people, though it is
+   sometimes applied to programs and inanimate objects.  "If you're on
+   a TTY, E will switch to non-display mode."  In particular, see DAY
+   MODE, NIGHT MODE, and YOYO MODE; also COM MODE, TALK MODE, and
+   GABRIEL MODE.
+
 MODULO prep. Except for.  From mathematical terminology: one can
    consider saying that 4=22 "except for the 9's" (4=22 mod 9).
    "Well, LISP seems to work okay now, modulo that GC bug."
@@ -961,10 +979,10 @@ NIL [from LISP terminology for "false"] No.  Usage: used in reply to a
    question, particularly one asked using the "-P" convention.  See T.
 
 OBSCURE adj. Used in an exaggeration of its normal meaning, to imply a
-   total lack of comprehensibility.  "The reason for that last crash is
-   obscure."  "FIND's command syntax is obscure."  MODERATELY OBSCURE
-   implies that it could be figured out but probably isn't worth the
-   trouble.
+   total lack of comprehensibility.  "The reason for that last crash
+   is obscure."  "FIND's command syntax is obscure."  MODERATELY
+   OBSCURE implies that it could be figured out but probably isn't
+   worth the trouble.
 
 OPEN n. Abbreviation for "open (or left) parenthesis", used when
    necessary to eliminate oral ambiguity.  To read aloud the LISP form
@@ -1007,9 +1025,9 @@ PHANTOM n. (Stanford) The SAIL equivalent of a DRAGON (q.v.).  Typical
    phantoms include the accounting program, the news-wire monitor, and
    the lpt and xgp spoolers.
 
-PHASE (of people) 1. n. The phase of one's waking-sleeping schedule with
-   respect to the standard 24-hour cycle.  This is a useful concept
-   among people who often work at night according to no fixed
+PHASE (of people) 1. n. The phase of one's waking-sleeping schedule
+   with respect to the standard 24-hour cycle.  This is a useful
+   concept among people who often work at night according to no fixed
    schedule.  It is not uncommon to change one's phase by as much as
    six hours/day on a regular basis.  "What's your phase?"  "I've been
    getting in about 8 PM lately, but I'm going to work around to the
@@ -1025,6 +1043,8 @@ PHASE OF THE MOON n. Used humorously as a random parameter on which
    conditions nobody has been able to determine.  "This feature
    depends on having the channel open in mumble mode, having the foo
    switch set, and on the phase of the moon."
+
+PLUGH [from the Adventure game] v. See XYZZY.
 
 POM n. Phase of the moon (q.v.).  Usage: usually used in the phrase
    "POM dependent" which means flakey (q.v.).
@@ -1121,11 +1141,21 @@ RANDOMNESS n. An unexplainable misfeature; gratuitous inelegance.
    then extracting 6 bits -- the low two bits of the XCT opcode
    are the right thing."  "What randomness!"
 
+RAPE v. To (metaphorically) screw someone or something, violently.
+   Usage: often used in describing file-system damage.  "So-and-so was
+   running a program that did absolute disk I/O and ended up raping
+   the master directory."
+
 RAVE (WPI) v. 1. To persist in discussing a specific subject.  2. To
    speak authoritatively on a subject about which one knows very
    little.  3. To complain to a person who is not in a position to
    correct the difficulty.  4. To purposely annoy another person
-   verbally.  5. To evangelize.  See FLAME.
+   verbally.  5. To evangelize.  See FLAME.  Also used to describe
+   a less negative form of blather, such as friendly bullshitting.
+
+REAL USER n. 1. A commercial user.  One who is paying "real" money for
+   his computer usage.  2. A non-hacker.  Someone using the system for
+   an explicit purpose (research project, course, etc.).  See USER.
 
 REAL WORLD, THE n. 1. In programming, those institutions at which
    programming may be used in the same sentence as FORTRAN, COBOL,
@@ -1171,6 +1201,12 @@ SEMI 1. n. Abbreviation for "semicolon", when speaking.  "Commands to
 SERVER n. A kind of DAEMON which performs a service for the requester,
    which often runs on a computer other than the one on which the
    server runs.
+
+SHIFT LEFT (RIGHT) LOGICAL [from any of various machines' instruction
+   sets] 1. v. To move oneself to the left (right).  To move out of
+   the way.  2. imper. Get out of that (my) seat!  Usage: often used
+   without the "logical", or as "left shift" instead of "shift left".
+   Sometimes heard as LSH (lish), from the PDP-10 instruction set.
 
 SHR (share)  See BIN.
 
@@ -1230,8 +1266,8 @@ SPLAT n. 1. Name used in many places (DEC, IBM, and others) for the
 
 SUPDUP v. To communicate with another ARPAnet host using the SUPDUP
    program, which is a SUPer-DUPer TELNET talking a special display
-   protocol used mostly in talking to ITS sites.  Sometimes abbreviated
-   to SD.
+   protocol used mostly in talking to ITS sites.  Sometimes
+   abbreviated to SD.
 
 STATE n. Condition, situation.  "What's the state of NEWIO?"  "It's
    winning away."  "What's your state?"  "I'm about to gronk out."  As
@@ -1242,21 +1278,22 @@ STOPPAGE n. Extreme lossage (see LOSSAGE) resulting in something
    (usually vital) becoming completely unusable.
 
 STY (pronounced "sty", not spelled out) n. A pseudo-teletype, which is
-   a two-way pipeline with a job on one end and a fake keyboard-tty
-   on the other.  Also, a standard program which provides a pipeline
-   from its controlling tty to a pseudo-teletype (and thence to another
+   a two-way pipeline with a job on one end and a fake keyboard-tty on
+   the other.  Also, a standard program which provides a pipeline from
+   its controlling tty to a pseudo-teletype (and thence to another
    tty, thereby providing a "sub-tty").
    This is MIT terminology; the SAIL and DEC equivalent is PTY.
 
 SUPERPROGRAMMER n. See "wizard", "hacker".  Usage: rare.  (Becoming
    more common among IBM and Yourdon types.)
 
-SWAPPED v. From the use of secondary storage devices to implement
+SWAPPED adj. From the use of secondary storage devices to implement
    virtual memory in computer systems.  Something which is SWAPPED IN
    is available for immediate use in main memory, and otherwise is
    SWAPPED OUT.  Often used metaphorically to refer to people's
-   memories: "I read TECO ORDER every few months to keep the
-   information swapped in."
+   memories ("I read TECO ORDER every few months to keep the
+   information swapped in.") or to their own availability ("I'll swap
+   you in as soon as I finish looking at this other problem.").
 
 SYSTEM n. 1. The supervisor program on the computer.  2. Any
    large-scale program.  3. Any method or algorithm.  4. The way
@@ -1375,7 +1412,7 @@ UP adj. 1. Working, in order.  "The down escalator is up."  2. BRING
 
 USER n. A programmer who will believe anything you tell him.  One who
    asks questions.  Identified at MIT with "loser" by the spelling
-   "luser".
+   "luser".  See REAL USER.
    [Note by GLS: I don't agree with RF's definition at all.
    Basically, there are two classes of people who work with a program:
    there are implementors (hackers) and users (losers).  The users are
@@ -1403,7 +1440,8 @@ VANILLA adj. Ordinary flavor, standard.  See FLAVOR.  When used of
    vanilla extract!  For example, "vanilla-flavored wonton soup" means
    ordinary wonton soup, as opposed to hot and sour wonton soup.
 
-VAXEN [from "vixen"] n. pl. The plural of VAX (a DEC machine).
+VAXEN [from "oxen", perhaps influenced by "vixen"] n. pl. The plural
+   of VAX (a DEC machine).
 
 VIRGIN adj. Unused, in reference to an instantiation of a program.
    "Let's bring up a virgin system and see if it crashes again."
@@ -1426,6 +1464,16 @@ WALL [shortened form of HELLO WALL, apparently from the phrase "up
    against a blank wall"] (WPI) interj. 1. An indication of confusion,
    usually spoken with a quizzical tone.  "Wall??"  2. A request for
    further explication.
+
+WALLPAPER n. A file containing a listing (e.g., assembly listing) or
+   transcript, esp. a file containing a transcript of all or part of a
+   login session.  (The idea was that the LPT paper for such listings
+   was essentially good only for wallpaper, as evidenced at SAIL where
+   it was used as such to cover windows.)  Usage: not often used now,
+   esp. since other systems have developed other terms for it (e.g.,
+   PHOTO on TWENEX).  The term possibly originated on ITS, where the
+   commands to begin and end transcript files are still :WALBEG and
+   :WALEND, with default file DSK:WALL PAPER.
 
 WEDGED [from "head wedged up ass"] adj. To be in a locked state,
    incapable of proceeding without help.  (See GRONK.)  Often refers
@@ -1481,6 +1529,8 @@ WOW  See EXCL.
 XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
    XGP.  "You shouldn't XGP such a large file."
 
+XYZZY [from the Adventure game] adj. See PLUGH.
+
 YOYO n. DEC service engineers' slang for UUO (q.v.).  Usage: rare at
    Stanford and MIT, has been found at random DEC installations.
 
@@ -1491,4 +1541,9 @@ YU-SHIANG WHOLE FISH n. The character gamma (extended SAIL ASCII 11),
    which with a loop in its tail looks like a fish.  Usage: used
    primarily by people on the MIT LISP Machine.  Tends to elicit
    incredulity from people who hear about it second-hand.
+
+ZERO v. 1. To set to zero.  Usually said of small pieces of data, such
+   as bits or words.  2. To erase; to discard all data from.  Said of
+   disks and directories, where "zeroing" need not involve actually
+   writing zeroes throughout the area being zeroed.
 
