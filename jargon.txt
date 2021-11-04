@@ -43,13 +43,13 @@ Soundalike slang: similar to Cockney rhyming slang.  Often made up on
 The -P convention: turning a word into a question by appending the
    syllable "P"; from the LISP convention of appending the letter "P"
    to denote a predicate (a Boolean-values function).  The question
-   should expect a yes/no answer, though it need not.
-	At dinnertime: "Foodp?"  "Yeah, I'm pretty hungry."
+   should expect a yes/no answer, though it needn't.  (See T and NIL.)
+	At dinnertime: "Foodp?"  "Yeah, I'm pretty hungry." or "T!"
 	"State-of-the-world-P?"  (Straight) "I'm about to go home."
 				 (Humorous) "Yes, the world has a state."
 
 Peculiar nouns: MIT AI hackers love to take various words and add the
-   wrong endings to them to make nouns and verbs, often by following a
+   wrong endings to them to make nouns and verbs, often by extending a
    standard rule to nonuniform cases.  Examples:
 		porous => porosity
 		generous => generosity
@@ -84,6 +84,13 @@ BARF 1. interj. Term of disgust.  See BLETCH.  2. v. choke, as on
    compares two fixnums or two flonums, and barfs on anything else."
    3. BARFULOUS, BARFUCIOUS: adj. said of something which would make
    anyone barf, if only for aesthetic reasons.
+
+BIN [short for BINARY; used as a second file name on ITS] 1. n.
+   BINARY.  2. BIN FILE: a file containing the BIN for a program.
+   Usage: used at MIT, which runs on ITS.  The equivalent term at
+   Stanford is DMP (pronounced "dump") FILE.
+
+BINARY n. The object code for a program.
 
 BLETCH [from German "brechen", to vomit (?)] 1. interj. Term of
    disgust.  2. BLETCHEROUS: adj. Disgusting in design or function.
@@ -125,6 +132,9 @@ CANONICAL adj. The usual or standard state or manner of something.
    Steele: "Aha!  We've finally got you talking jargon too!"
    Stallman: "What did he say?"
    Steele: "He just used `canonical' in the canonical way."
+   [Note by MRC:  Does "canonical" have any relationship to the term
+   as used by Sherlock Holmes fans for generations?  I'm not sure,
+   though I'm both a Sherlock Holmes fan and a hacker.]
 
 CATATONIA (kat-uh'-toe-nee-uh) n. A condition of suspended animation
    in which the system is in a wedged (CATATONIC) state.
@@ -142,6 +152,41 @@ CHOMP v. To lose; to chew on something of which more was bitten off
 
 CLOSE n. Abbreviation for "close (or right) parenthesis", used when
    necessary to eliminate oral ambiguity.  See OPEN.
+
+COM MODE (variant: COMM MODE) [from the ITS feature for linking two or
+   more terminals together so that text typed on any is echoed on all,
+   providing a means of conversation among hackers] n. The state a
+   terminal is in when linked to another in this way.  Com mode has a
+   special set of jargon words, used to save typing, which are not
+   used orally:
+	BCNU	Be seeing you.
+	BYE?	Are you ready to unlink?  (This is the standard way to
+		end a com mode conversation; the other person types
+		BYE to confirm, or else continues the conversation.)
+	CUL	See you later.
+	GA	Go ahead (used when two people have tried to type
+		simultaneously; this cedes the right to type to
+		the other).
+	HELLOP	A greeting, also meaning R U THERE?  (An instance
+		of the "-P" convention.)
+	NIL	No (see the main entry for NIL).
+	R U THERE?	Are you there?
+	SEC	Wait a second (sometimes written SEC...).
+	T	Yes (see the main entry for T).
+	TNX	Thanks.
+	<double CRLF>  When the typing party has finished, he types
+		two CRLF's to signal that he is done; this leaves a
+		blank line between individual "speeches" in the
+		conversation, making it easier to re-read the
+		preceding text.
+	<name>:	When three or more terminals are linked, each speech
+		is preceded by the typist's login name and a colon (or
+		a hyphen) to indicate who is typing.  The login name
+		often is shortened to a unique prefix (possibly a
+		single letter) during a very long conversation.
+   At Stanford, where the link feature is implemented by "talk loops",
+   the term TALK MODE is used in place of COM MODE.  Most of the above
+   "sub-jargon" is used at both Stanford and MIT.
 
 CONS [from LISP] 1. v. To add a new element to a list.  2. CONS UP:
    v. To synthesize from smaller pieces: "to cons up an example".
@@ -161,7 +206,7 @@ CRETIN 1. n. Congenital loser (q.v.).  2. CRETINOUS: adj. See
    BLETCHEROUS and BAGBITING.  Usage: somewhat ad hominem.
 
 CRLF (cur'lif, sometimes crul'lif) n. A carriage return (CR) followed
-   by a line feed (LF).
+   by a line feed (LF).  See TERPRI.
 
 CROCK n. An awkward feature or programming technique that ought to be
    made cleaner.  Example: Using small integers to represent error
@@ -176,7 +221,10 @@ CRUFTY [from "cruddy"] adj. 1. Poorly built, possibly overly complex.
    "This is standard old crufty DEC software".  Hence CRUFT, n. shoddy
    construction.  2. Unpleasant, especially to the touch, often with
    encrusted junk.  Like spilled coffee smeared with peanut butter and
-   ketchup.  Hence CRUFT, disgusting mess.  3. Generally unpleasant.
+   ketchup.  Hence CRUFT, n. disgusting mess.  3. Generally unpleasant.
+   CRUFTY or CRUFTIE n. A small crufty object (see FROB); often one
+   which doesn't fit well into the scheme of things.  "A LISP property
+   list is a good place to store crufties (or, random cruft)."
    [Note: Does CRUFT have anything to do with the Cruft Lab at Harvard?
    I don't know, though I was a Harvard student. - GLS]
 
@@ -185,11 +233,19 @@ CTY (city) n. Any console terminal on a computer.
 DIKE [from "diagonal cutters"] v. To remove a module or disable it.
    "When in doubt, dike it out."
 
+DMP (dump)  See BIN.
+
 DOWN 1. adj. Not working.  "The up escalator is down."  2. TAKE DOWN,
    BRING DOWN: v. To deactivate, usually for repair work.  See UP.
 
 DPB (duh-pib') [from the PDP-10 instruction set] v. To plop something
    down in the middle.
+
+ENGLISH n. The source code for a program, which may be in any
+   language, as opposed to BINARY.  Usage: slightly obsolete, used
+   mostly by old-time hackers, though recognizable in context.  At
+   MIT, directory SYSENG is where the "English" for system programs is
+   kept, and SYSBIN, the binaries.
 
 EPSILON [from standard mathematical notation for a small quantity] 1.
    n. A small quantity of anything.  "The cost is epsilon."  2. adj.
@@ -359,7 +415,11 @@ HACK n. 1. Originally a quick job that produces what is needed, but
    time-immediate, the latter time-extended.)  More generally, "I hack
    x" is roughly equivalent to "x is my bag".  "I hack solid-state
    physics."  8. HACK UP (ON): to hack, but generally implies that the
-   result is meanings 1-2.
+   result is meanings 1-2.  9. HACK VALUE: term used as the reason or
+   motivation for expending effort toward a seemingly useless goal,
+   the point being that the accomplished goal is a hack.  For example,
+   MacLISP has code to read and print roman numerals, which was
+   installed purely for hack value.
    HAPPY HACKING: a farewell.  HOW'S HACKING?: a friendly greeting
    among hackers.  HACK HACK: a somewhat pointless but friendly
    comment, often used as a temporary farewell.
@@ -500,16 +560,19 @@ MOBY [Seems to have been in use among model railroad fans years ago.
    MIT-AI.  Derived from Melville's "Moby Dick" (some say from "Moby
    Pickle").] 1. adj. Large, immense, or complex.  "A moby frob."  2.
    n. The maximum address space of a machine, hence 3. n. 256K words,
-   the size of a PDP-10 moby.  The maximum address space means the
+   the size of a PDP-10 moby.  (The maximum address space means the
    maximum normally addressable space, as opposed to the amount of
    physical memory a machine can have.  Thus the MIT PDP-10s each have
    two mobies, usually referred to as the "low moby" (0-777777) and
-   "high moby" (1000000-1777777), or as "moby 0" and "moby 1".
-   (MIT-AI has four mobies of address space: moby 2 is the PDP-6
-   memory, and moby 3 the PDP-11 interface.)  4. A title of address
-   (never of third-person reference), usually used to show admiration,
-   respect, and/or friendliness to a competent hacker.  "So, moby
-   Knight, how's the CONS machine doing?"
+   "high moby" (1000000-1777777), or as "moby 0" and "moby 1".  MIT-AI
+   has four mobies of address space: moby 2 is the PDP-6 memory, and
+   moby 3 the PDP-11 interface.)  In this sense "moby" is often used
+   as a generic unit of either address space (18. bits' worth) or of
+   memory (about a megabyte, or 9/8 megabyte (if one accounts for
+   difference between 32.- and 36.-bit words), or 5/4 megacharacters).
+   4. A title of address (never of third-person reference), usually
+   used to show admiration, respect, and/or friendliness to a
+   competent hacker.  "So, moby Knight, how's the CONS machine doing?"
    MOBY FOO, MOBY WIN, MOBY LOSS: standard emphatic forms.
    FOBY MOO: a spoonerism due to Greenblatt.
 
@@ -544,9 +607,12 @@ MUNG (variant: MUNGE) [recursive acronym for Mung Until No Good] v. 1.
 
 NIGHT MODE  See PHASE (of people).
 
+NIL [from LISP terminology for "false"] No.  Usage: used in reply to a
+   question, particularly one asked using the "-P" convention.  See T.
+
 OPEN n. Abbreviation for "open (or left) parenthesis", used when
    necessary to eliminate oral ambiguity.  To read aloud the LISP form
-   (DEFUN FOO (X) (PLUS X 1)) one might say: "Open dee-fun foo, open
+   (DEFUN FOO (X) (PLUS X 1)) one might say: "Open def-fun foo, open
    eks close, open, plus ekx one, close close."  See CLOSE.
 
 PARSE [from linguistic terminology] v. 1. To determine the syntactic
@@ -703,6 +769,12 @@ SYSTEM n. 1. The supervisor program on the computer.  2. Any
    SYSTEM HACKER: one who hacks the system (in sense 1 only; for sense
    2 one mentions the particular program: e.g., LISP HACKER)
 
+T [from LISP terminology for "true"] Yes.  Usage: used in reply to a
+   question, particularly one asked using the "-P" convention).  See
+   NIL.
+
+TALK MODE  See COM MODE.
+
 TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
    editor developed at MIT, and modified by just about everybody.  If
    all the dialects are included, TECO might well be the single most
@@ -711,19 +783,21 @@ TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
    TECO editor in one of its infinite forms; sometimes used to mean
    "to edit" even when not using TECO!  Usage: rare at SAIL, where
    most people wouldn't touch TECO with a TENEX pole.
-   [Historical note: The original TECO is highly display-oriented and
-   is said by MIT hackers to be a super win.  Apparently DEC grabbed
-   it at some point and lobotomized it, making the command structure
-   less regular and turning it into a tty-oriented editor.  DEC was
-   actually trying to discourage its use, but an underground movement
-   of sorts kept it alive.  TENEX has now repaired it somewhat, but it
-   remains far inferior to the MIT version (which is unfortunately not
-   transportable due to heavy reliance on special display hardware).]
+   [Historical note: TECO was copied from MIT by DEC at an
+   early stage of its development.  By now, TECO at MIT is highly
+   display-oriented and is actually a language for writing editors,
+   rather than an editor.  Meanwhile, the outside world's various
+   versions of TECO remain almost the same as the MIT version of
+   ten years ago.  DEC recently tried to discourage its use, but an
+   underground movement of sorts kept it alive.]
 
 TELNET v. To communicate with another ARPAnet host using the TELNET
    program.  TOPS-10 people use the word IMPCOM since that is the
    program name for them.  Sometimes abbreviated to TN.  "I usually TN
    over to SAIL just to read the AP News."
+
+TERPRI (tur'pree) [from the LISP 1.5 (and later, MacLISP) function to
+   start a new line of output] To output a CRLF (q.v.).
 
 THEORY n. Used in the general sense of idea, plan, story, or set of
    rules.  "What's the theory on fixing this TECO loss?"  "What's the
@@ -806,6 +880,21 @@ WIZARD n. A person who knows how a complex piece of software or
    hardware works; someone who can find and fix his bugs in an
    emergency.  Rarely used at MIT, where HACKER is the preferred term.
 
+WORMHOLE n. A location in a monitor which contains the address of a
+   routine, with the specific intent of making it easy to substitute a
+   different routine.  The following quote comes from "Polymorphic
+   Systems", vol. 2, p. 54:
+
+   "Any type of I/O device can be substituted for the standard device
+   by loading a simple driver routine for that device and installing
+   its address in one of the monitor's `wormholes.'*
+   ----------
+   *The term `wormhole' has been used to describe a hypothetical
+   astronomical situation where a black hole connects to the `other
+   side' of the universe.  When this happens, information can pass
+   through the wormhole, in only one direction, much as `assumptions'
+   pass down the monitor's wormholes."
+
 XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
    XGP.  "You shouldn't XGP such a large file."
 
@@ -814,3 +903,4 @@ YOYO n. DEC service engineers' slang for UUO (q.v.).  Usage: rare at
 
 YOYO MODE n. State in which the system is said to be when it rapidly
    alternates several times between being up and being down.
+
