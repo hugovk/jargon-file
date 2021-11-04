@@ -1,8 +1,8 @@
-#======= THIS IS THE JARGON FILE, VERSION 4.4.6, 25 OCT 2003 =======#
+#======= THIS IS THE JARGON FILE, VERSION 4.4.7, 29 DEC 2003 =======#
 
 The Jargon File
 
-(version 4.4.6)
+(version 4.4.7)
      ________________________________________________________________
 
    Table of Contents
@@ -88,8 +88,8 @@ Welcome to the Jargon File
    its  proper  use  to  which many hackers are quite strongly attached.
    Please  extend  the  courtesy  of  proper citation when you quote the
    File,  ideally with a version number, as it will change and grow over
-   time.  (Examples of appropriate citation form: "Jargon File 4.4.6" or
-   "The on-line hacker Jargon File, version 4.4.6, 25 Oct 2003".)
+   time.  (Examples of appropriate citation form: "Jargon File 4.4.7" or
+   "The on-line hacker Jargon File, version 4.4.7, 29 Dec 2003".)
 
    The  Jargon File is a common heritage of the hacker culture. Over the
    years  a  number of individuals have volunteered considerable time to
@@ -645,6 +645,9 @@ Chapter 3. Revision History
 
    Added  glider  illustration.  Amended  FUD  entry  pursuent  to SCO's
    attempt to abuse it.
+   4.4.7 29 Dec 2003 37666 237206 1643609 2307
+
+   Winter 2003 update.
 
    Version    numbering:    Version    numbers   should   be   read   as
    major.minor.revision. Major version 1 is reserved for the `old' (ITS)
@@ -1217,8 +1220,8 @@ Chapter 5. Hacker Writing Style
    have   been   influenced   by)  the  ironic  use  of  `slashouts'  in
    science-fiction fanzines.
 
-   A  related  habit  uses  editor  commands  to  signify corrections to
-   previous  text.  This  custom faded in email as more mailers got good
+   A  related  habit  uses  editor  commands  to  signify corrections to
+   previous  text.  This  custom faded in email as more mailers got good
    editing  capabilities,  only  to  take  on new life on IRCs and other
    line-based chat systems.
 charlie: I've seen that term used on alt.foobar often.
@@ -1541,7 +1544,7 @@ Chapter 8. International Style
    conjugated  in  Swedish.  In  German,  many Unix terms in English are
    casually   declined   as   if   they   were  German  verbs  --  thus:
    mount/mounten/gemountet;   grep/grepen/gegrept;  fork/forken/geforkt;
-   core  dump/core-dumpen, gecoredumpt. And Spanish-speaking hackers use
+   core  dump/core-dumpen, gecoredumpt. And Spanish-speaking hackers use
    `linkear' (to link), `debugear' (to debug), and `lockear' (to lock).
 
    European  hackers report that this happens partly because the English
@@ -1579,7 +1582,7 @@ Chapter 9. Crackers, Phreaks, and Lamers
    "leet-speak")  so  the  reader  will  be able to understand both what
    leaks out of the cracker underground and the occasional ironic use by
    hackers.
-
+
    Here is a brief guide to cracker and warez d00dz usage:
      * Misspell frequently. The substitutions phone -> fone and freak ->
        phreak are obligatory.
@@ -1832,7 +1835,7 @@ Chapter 11. Other Lexicon Conventions
    (TMRC)  at  MIT  c.  1960.  Material  marked TMRC is from An Abridged
    Dictionary  of  the TMRC Language, originally compiled by Pete Samson
    in 1959
-   UCLA University of California at Los Angeles
+   UCLA University of California, Los Angeles
    UK the United Kingdom (England, Wales, Scotland, Northern Ireland)
    Usenet See the Usenet entry
    WPI  Worcester Polytechnic Institute, site of a very active community
@@ -2070,6 +2073,7 @@ Glossary
         bikeshedding
         binary four
         bit
+        bit bang
         bit bashing
         bit bucket
         bit decay
@@ -2844,7 +2848,7 @@ Glossary
         grilf
         grind
         grind crank
-        gritch
+        gritch
         grok
         gronk
         gronk out
@@ -2971,6 +2975,7 @@ Glossary
 
         I didn't change anything!
         I see no X here.
+        I for one welcome our new X overlords
         IANAL
         IBM
         ICBM address
@@ -3079,6 +3084,7 @@ Glossary
         kluge up
         Knights of the Lambda Calculus
         knobs
+        knurd
         Knuth
         koan
         kook
@@ -3206,6 +3212,7 @@ Glossary
         massage
         math-out
         Matrix
+        mav
         maximum Maytag mode
         McQuary limit
         meatspace
@@ -3559,7 +3566,7 @@ Glossary
         puff
         pumpkin holder
         pumpking
-        punched card
+        punched card
         punt
         Purple Book
         purple wire
@@ -4041,6 +4048,7 @@ Glossary
         tty
         tube
         tube time
+        tumbler
         tunafish
         tune
         turbo nerd
@@ -4264,7 +4272,7 @@ Glossary
         YA-
         YABA
         YAFIYGI
-        yak shaving
+        yak shaving
         YAUN
         yellow card
         yellow wire
@@ -5461,7 +5469,7 @@ IIIIIII[_]IIIII[_]IIIIIL___J__II__|_|__II__L___JIIIII[_]IIIII[_]IIIIIIII[_]
 
    [linux-kernel  mailing list] The archetypal non-technical user, one's
    elderly  and  scatterbrained  maiden  aunt. Invoked in discussions of
-   usability  for  people  who  are  not  hackers  and  geeks;  one sees
+   usability  for  people  who  are  not  hackers  and  geeks;  one sees
    references to the "Aunt Tillie test".
 
 :AUP: /A·U·P/
@@ -5603,6 +5611,7 @@ B
    bikeshedding
    binary four
    bit
+   bit bang
    bit bashing
    bit bucket
    bit decay
@@ -5695,7 +5704,7 @@ B
    bread crumbs
    break
    break-even point
-   breath-of-life packet
+   breath-of-life packet
    breedle
    Breidbart Index
    brick
@@ -5801,7 +5810,7 @@ B
    thing  again  the next time around! And having done this once, he was
    then  able  to  recompile the compiler from the original sources; the
    hack perpetuated itself invisibly, leaving the back door in place and
-   active but with no trace in the sources.
+   active but with no trace in the sources.
 
    The  Turing  lecture  that  reported  this  truly moby hack was later
    published  as  "Reflections on Trusting Trust", Communications of the
@@ -5837,7 +5846,7 @@ B
    ways  that took on a life of their own. See {Eric Conspiracy} for one
    example.  Part  of the background for this kind of humor is that many
    hackers  cultivate  a  fondness for conspiracy theory considered as a
-   kind  of  surrealist  art; see the bibliography entry om Illuminatus!
+   kind  of  surrealist  art; see the bibliography entry on Illuminatus!
    for the novel that launched this trend.
 
    See {NANA} for the subsequent history of "the Cabal".
@@ -6313,7 +6322,7 @@ B
    [crunchly-2.png]
 
    (The  next cartoon in the Crunchly saga is 76-03-17:5-8. The previous
-   one is 76-02-20:2.)
+   one is 76-02-14.)
 
 :bathtub curve: n.
 
@@ -6438,7 +6447,7 @@ B
    in  16k)  and  extreme  portability. It reached break-even point at a
    very  early  stage, and was the language in which the original {hello
    world}  program  was written. It has been ported to so many different
-   systems  that its creator confesses to having lost count. It has only
+   systems  that its creator confesses to having lost count. It has only
    one  data  type  (a  machine word) which can be used as an integer, a
    character,  a  floating  point  number, a pointer, or almost anything
    else,  depending  on  context.  BCPL  was  a  precursor  of  C, which
@@ -6823,6 +6832,24 @@ B
    over  a  lunch table as a handier alternative to bigit or binit, at a
    conference in the winter of 1943-44.
 
+:bit bang: n.
+
+   Transmission  of  data on a serial line, when accomplished by rapidly
+   tweaking  a single output bit, in software, at the appropriate times.
+   The  technique  is a simple loop with eight OUT and SHIFT instruction
+   pairs  for  each  byte.  Input  is  more interesting. And full duplex
+   (doing  input and output at the same time) is one way to separate the
+   real hackers from the {wannabee}s.
+
+   Bit  bang  was  used  on  certain  early  models  of Prime computers,
+   presumably  when  UARTs were too expensive, and on archaic Z80 micros
+   with a Zilog PIO but no SIO. In an interesting instance of the {cycle
+   of  reincarnation}, this technique returned to use in the early 1990s
+   on  some RISC architectures because it consumes such an infinitesimal
+   part  of  the  processor  that  it actually makes sense not to have a
+   UART.  Compare  {cycle  of  reincarnation}.  Nowadays  it's  used  to
+   describe I2C, a serial protocol for monitoring motherboard hardware.
+
 :bit bashing: n.
 
    (alt.:  bit diddling or {bit twiddling}) Term used to describe any of
@@ -6935,7 +6962,7 @@ B
    (alt.:  bit-shift keyboard) A non-standard keyboard layout that seems
    to  have  originated with the Teletype ASR-33 and remained common for
    several   years  on  early  computer  equipment.  The  ASR-33  was  a
-   mechanical  device  (see  {EOU}),  so  the  only  way to generate the
+   mechanical  device  (see  {EOU}),  so  the  only  way to generate the
    character  codes  from  keystrokes  was by some physical linkage. The
    design of the ASR-33 assigned each character key a basic pattern that
    could  be  modified by flipping bits if the SHIFT or the CTRL key was
@@ -7150,7 +7177,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    is  seldom  used  of people. "This keyboard is bletcherous!" (Perhaps
    the  keys  don't  work  very  well,  or are misplaced.) See {losing},
    {cretinous},   {bagbiting},   {bogus},   and   {random}.   The   term
-   {bletcherous}  applies  to  the  esthetics of the thing so described;
+   {bletcherous}  applies  to  the  esthetics of the thing so described;
    similarly  for  {cretinous}. By contrast, something that is losing or
    bagbiting may be failing to meet objective criteria. See also {bogus}
    and  {random}, which have richer and wider shades of meaning than any
@@ -7249,6 +7276,8 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    probably this:
 
    [gefingerpoken.jpg]
+
+   WWII-era machine-shop poster
 
    We  are  informed  that  cod-German  parodies  of this kind were very
    common  in  Allied  machine shops during and following WWII. Germans,
@@ -7872,7 +7901,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    balance,  causing  much  trouble  in  the  universe.  Some  MUDs have
    implemented  special  commands for bonking and oifing. Note: in parts
    of  the  U.K. `bonk' is a sexually loaded slang term; care is advised
-   in  transatlantic  conversations  (see {boink}). Commonwealth hackers
+   in  transatlantic  conversations  (see {boink}). Commonwealth hackers
    report  a  similar  convention involving the `fish/bang' balance. See
    also {talk mode}.
 
@@ -8023,7 +8052,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    sequences  of  action  in  increasing  detail until you get to actual
    code.  Hackers  often  find  (especially  in exploratory designs that
    cannot  be  closely specified in advance) that it works best to build
-   things  in  the opposite order, by writing and testing a clean set of
+   things  in  the opposite order, by writing and testing a clean set of
    primitive   operations  and  then  knitting  them  together.  Naively
    applied,  this  leads to hacked-together bottom-up implementations; a
    more  sophisticated  response  is middle-out implementation, in which
@@ -8301,7 +8330,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
 :brittle: adj.
 
    Said  of  software that is functional but easily broken by changes in
-   operating  environment or configuration, or by any minor tweak to the
+   operating  environment or configuration, or by any minor tweak to the
    software  itself.  Also, any system that responds inappropriately and
    disastrously  to abnormal but expected external stimuli; e.g., a file
    system  that  is usually totally scrambled by a power failure is said
@@ -8327,7 +8356,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    doesn't  necessarily assign blame. Which of senses 1 or 2 is intended
    is conveyed by context and nonverbal cues.
 
-   3.  Behaving  strangely;  especially (when used of people) exhibiting
+   3.  Behaving  strangely;  especially (when used of people) exhibiting
    extreme depression.
 
 :broken arrow: n.
@@ -8679,7 +8708,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    It helps to remember that this dates from 1973.
 
    (The  next  cartoon  in  the  Crunchly saga is 73-10-31. The previous
-   cartoon was 73-07-29.)
+   cartoon was 73-07-24.)
 
 :bug-compatible: adj.
 
@@ -8702,7 +8731,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
    (the  Unix  mail  daemon)  belong  to;  this was coined on the Usenet
    newsgroup  comp.security.unix at a time when sendmail security holes,
    which  allowed  outside  {cracker}s  access to the system, were being
-   uncovered  at  an  alarming  rate,  forcing  sysadmins to update very
+   uncovered  at  an  alarming  rate,  forcing  sysadmins to update very
    often.  Also,  more completely, fatal security bug-of-the-month club.
    See also {kernel-of-the-week club}.
 
@@ -8782,7 +8811,7 @@ bits     0001  0011  0101  0111  1001  1011  1101  1111
 
 :burst page: n.
 
-   Syn. {banner}, sense 1.
+   Syn. {banner}, sense 3.
 
 :busy-wait: vi.
 
@@ -9689,7 +9718,7 @@ C
 :chemist: n.
 
    [Cambridge]  Someone  who  wastes computer time on {number-crunching}
-   when   you'd  far  rather  the  machine  were  doing  something  more
+   when   you'd  far  rather  the  machine  were  doing  something  more
    productive,  such  as  working  out anagrams of your name or printing
    Snoopy  calendars or running {life} patterns. May or may not refer to
    someone who actually studies chemistry.
@@ -9876,10 +9905,10 @@ C
 
    A syndrome of certain Iomega ZIP drives, named for the clicking noise
    that is caused by the malady. An affected drive will, after accepting
-   a  disk,  will  start making a clicking noise and refuse to eject the
-   disk. A common solution for retrieving the disk is to insert the bent
-   end of a paper clip into a small hole adjacent to the slot. "Clicked"
-   disks are generally unusable after being retrieved from the drive.
+   a disk, start making a clicking noise and refuse to eject the disk. A
+   common  solution for retrieving the disk is to insert the bent end of
+   a  paper clip into a small hole adjacent to the slot. "Clicked" disks
+   are generally unusable after being retrieved from the drive.
 
    The  clicking  noise is caused by the drive's read/write head bumping
    against its movement stops when it fails to find track 0 on the disk,
@@ -10280,7 +10309,7 @@ C original DO statement lost in the spaghetti...
    See  also  {attoparsec},  {calculator},  {chemist}, {console jockey},
    {fish},  {go-faster  stripes},  {grunge},  {hakspek},  {heavy metal},
    {leaky  heap},  {lord high fixer}, {loose bytes}, {muddie}, {nadger},
-   {noddy},   {psychedelicware},  {raster  blaster},  {RTBM},  {seggie},
+   {noddy},   {psychedelicware},  {raster  blaster},  {RTBM},  {seggie},
    {spod},   {sun  lounge},  {terminal  junkie},  {tick-list  features},
    {weeble},  {weasel},  {YABA},  and  notes  or  definitions under {Bad
    Thing},   {barf},   {bogus},   {chase   pointers},   {cosmic   rays},
@@ -10521,7 +10550,7 @@ C original DO statement lost in the spaghetti...
 
    "Stop  talking." From the character used on some operating systems to
    abort  output  but  allow  the  program to keep on running. Generally
-   means  that you are not interested in hearing anything more from that
+   means  that you are not interested in hearing anything more from that
    person, at least on that topic; a standard response to someone who is
    flaming. Considered silly. Compare {control-S}.
 
@@ -11302,7 +11331,7 @@ C original DO statement lost in the spaghetti...
    express  some  basic  differences  in  philosophy  about  the way I/O
    services should be presented to user programs. See {timesharing}
 
-:cube: n.
+:cube: n.
 
    1.  [short  for  `cubicle'] A module in the open-plan offices used at
    many programming shops. "I've got the manuals in my cube."
@@ -11348,7 +11377,7 @@ C original DO statement lost in the spaghetti...
    versions of this lexicon claimed that one never analogously speaks of
    `cutting  a  disk',  but  this has since been reported as live usage.
    Related  slang  usages  are  mainstream business's `cut a check', the
-   recording  industry's  `cut  a  record',  and  the military's `cut an
+   recording  industry's  `cut  a  record',  and  the military's `cut an
    order'.
 
    All  of these usages reflect physical processes in obsolete recording
@@ -11478,7 +11507,8 @@ C original DO statement lost in the spaghetti...
    and    {scary    devil    monastery};   recognized   elsewhere.   The
    Acronymphomania  FAQ on alt.fan.pratchett recognizes variants such as
    T|N>K  =  `Tea  through Nose to Keyboard' and C|N>S = `Coffee through
-   Nose to Screen'.
+   Nose  to  Screen'.  (The  sound  of  this  happening is, canonically,
+   {splork!})
 
 D
 
@@ -11777,9 +11807,9 @@ D
    more:  Peter Samson, compiler of the original {TMRC} lexicon, reports
    that  he  named  DDT  after  a similar tool on the TX-0 computer, the
    direct  ancestor of the PDP-1 built at MIT's Lincoln Lab in 1957. The
-   debugger  on  that  ground-breaking machine (the first transistorized
-   computer) rejoiced in the name FLIT (FLexowriter Interrogation Tape).
-   Flit was for many years the trade-name of a popular insecticide.
+   debugger  on  that  ground-breaking machine rejoiced in the name FLIT
+   (FLexowriter  Interrogation  Tape).  Flit  was  for  many  years  the
+   trade-name of a popular insecticide.
 
 :de-rezz: /dee·rez´/
 
@@ -11918,6 +11948,12 @@ D
    incorrectly  done AT&T logo in which the inner circle in the top left
    is  dark  instead of light -- a frequent result of dark-on-light logo
    images.
+
+   3.  The IBM DeskStar 75GXP drive series, which suffered manufacturing
+   problems  and had an uncanny ability to die after a few months in the
+   field.  This  drive series single-handedly destroyed IBM's previously
+   very  good  reputation in the hard disk market, and ended up with IBM
+   selling their hard disk business to Hitachi.
 
 :Death, X of:
 
@@ -12801,7 +12837,7 @@ D
    operating  system]  Abbreviation  for  Denial-Of-Service attack. This
    abbreviation  is  most often used of attempts to shut down newsgroups
    with  floods  of {spam}, or to flood network links with large amounts
-   of  traffic, or to flood network links with large amounts of traffic,
+   of  traffic, or to flood network links with large amounts of traffic,
    often  by  abusing  network  broadcast  addresses.  Compare {slashdot
    effect}.
 
@@ -13068,7 +13104,7 @@ D
 
 :drool-proof paper: n.
 
-   Documentation  that  has been obsessively {dumbed down}, to the point
+   Documentation  that  has been obsessively {dumbed down}, to the point
    where  only  a  {cretin}  could  bear  to  read  it,  is said to have
    succumbed  to  the  `drool-proof  paper  syndrome'  or  to  have been
    `written  on drool-proof paper'. For example, this is an actual quote
@@ -13103,7 +13139,7 @@ D
 
    3.  Mental glitches; used as a way of describing those occasions when
    the mind just seems to shut down for a couple of beats. See {glitch},
-   {fried}.
+   {fried}.
 
    [73-05-20.png]
 
@@ -14615,7 +14651,7 @@ F
 
 :feeping creature: n.
 
-   [from {feeping creaturism}] An unnecessary feature; a bit of {chrome}
+   [from {feeping creaturism}] An unnecessary feature; a bit of {chrome}
    that,  in  the  speaker's  judgment,  is the camel's nose for a whole
    horde of new features.
 
@@ -14968,7 +15004,7 @@ F
    running really slowly or exhibiting extreme flakiness.
 
 :fisking: n.
-
+
    [blogosphere;  very  common]  A point-by-point refutation of a {blog}
    entry  or (especially) news story. A really stylish fisking is witty,
    logical,  sarcastic  and ruthlessly factual; flaming or handwaving is
@@ -15292,7 +15328,7 @@ F
 
 :fnord: n.
 
-   [from the Illuminatus Trilogy]
+   [from the Illuminatus Trilogy]
 
    1.  A  word  used  in  email  and  news postings to tag utterances as
    surrealist    mind-play   or   humor,   esp.   in   connection   with
@@ -15485,7 +15521,7 @@ F
    its other senses, i.e., to describe a person with a native incapacity
    to  reason  correctly, or a clown. Indeed, in hackish experience many
    fools are capable of reasoning all too effectively in executing their
-   errors. See also {cretin}, {loser}, {fool file}.
+   errors. See also {cretin}, {loser}, {fool file}.
 
    The  Algol  68-R  compiler  used  to  initialize  its  storage to the
    character  string  "F00LF00LF00LF00L..." because as a pointer or as a
@@ -15763,7 +15799,7 @@ F
    is needed immediately (for testing, for example) and there is no time
    (or  budget)  to  requisition a new box, someone (often an intern) is
    tasked with building a Frankenputer.
-
+
    2.  Also  used  in  referring to a machine that once was a name-brand
    computer,  but  has been upgraded long beyond its useful life, to the
    point  at  which  the  nameplate  violates  truth-in-advertising laws
@@ -16097,10 +16133,12 @@ F
    became infamous for the number and magnitude of falsehoods alleged in
    SCO's  filings.  In October 2003, SCO's lawyers filed a memorandum in
    which  they  actually  had the temerity to link to the web version of
-   this  entry  in  furtherance of their claims. While we appreciate the
-   complement of being treated as an authority, we can return it only by
+   this  entry  in furtherance of their claims. Whilst we appreciate the
+   compliment of being treated as an authority, we can return it only by
    observing that SCO has become a nest of liars and thieves compared to
-   which IBM at its historic worst looked positively angelic. --ESR]
+   which  IBM at its historic worst looked positively angelic. Any judge
+   or  law  clerk  reading  this  should  surf  through  to my collected
+   resources on this topic for the appalling details.--ESR]
 
 :FUD wars: /fuhd worz/, n.
 
@@ -16373,7 +16411,7 @@ G
    also used to describe any of the design patterns that are used in the
    book, referring to the patterns within it as `Gang Of Four Patterns.'
 
-:garbage collect: vi.
+:garbage collect: vi.
 
    (also garbage collection, n.) See {GC}.
 
@@ -16657,7 +16695,7 @@ G
 
 :Get a real computer!: imp.
 
-   In  1996  when  this  entry first entered the File, it was the ypical
+   In  1996  when  this entry first entered the File, it was the typical
    hacker  response to news that somebody is having trouble getting work
    done  on  a system that (a) was single-tasking, (b) had no hard disk,
    or  (c)  had  an  address  space  smaller  than 16 megabytes. In 2003
@@ -16693,10 +16731,11 @@ G
 
    2. n. Remnants after total obliteration.
 
-   Originated  first  by  id  software in the game Quake. It's short for
-   giblets  (thus  pronounced "jib"), and referred to the bloody remains
-   of  slain  opponents. Eventually the word was verbed, and leaked into
-   general usage afterward.
+   Popilarized  by id software in the game Quake, but actually goes back
+   to  an  earlier game called Rise of the Triad. It's short for giblets
+   (thus  pronounced "jib"), and referred to the bloody remains of slain
+   opponents.  Eventually  the  word was verbed, and leaked into general
+   usage afterward.
 
 :GIFs at 11:
 
@@ -17627,7 +17666,7 @@ H
    hacking run
    Hacking X for Y
    Hackintosh
-   hackish
+   hackish
    hackishness
    hackitude
    hair
@@ -17714,7 +17753,7 @@ H
 :h:
 
    [from  SF  fandom]  A method of `marking' common words, i.e., calling
-   attention  to  the  fact  that  they are being used in a nonstandard,
+   attention  to  the  fact  that  they are being used in a nonstandard,
    ironic, or humorous way. Originated in the fannish catchphrase "Bheer
    is  the  One  True Ghod!" from decades ago. H-infix marking of `Ghod'
    and  other words spread into the 1960s counterculture via underground
@@ -18464,7 +18503,7 @@ H
 
    1. The signal emitted by a Level 2 Ethernet transceiver at the end of
    every  packet  to  show that the collision-detection circuit is still
-   connected.
+   connected.
 
    2.  A  periodic  synchronization signal used by software or hardware,
    such as a bus clock or a periodic interrupt.
@@ -18698,7 +18737,7 @@ H
 
    1. Favored term to describe programs or hardware that seem to eat far
    more  than  their  share  of  a  system's resources, esp. those which
-   noticeably  degrade  interactive  response. Not used of programs that
+   noticeably  degrade  interactive  response. Not used of programs that
    are  simply  extremely  large or complex or that are merely painfully
    slow  themselves. More often than not encountered in qualified forms,
    e.g.,  memory  hog,  core  hog,  hog  the processor, hog the disk. "A
@@ -18857,7 +18896,7 @@ H
    3.  n.  Cabling,  especially  thick Ethernet cable. This is sometimes
    called  bit  hose  or  hosery (play on `hosiery') or `etherhose'. See
    also {washing machine}.
-
+
 :hosed: adj.
 
    Same  as  {down}.  Used  primarily  by  Unix  hackers. Humorous: also
@@ -19001,6 +19040,7 @@ I
 
    I didn't change anything!
    I see no X here.
+   I for one welcome our new X overlords
    IANAL
    IBM
    ICBM address
@@ -19075,6 +19115,15 @@ I
    goes  back  to  the  original PDP-10 {ADVENT}, which would respond in
    this  wise  if  you  asked it to do something involving an object not
    present at your location in the game.
+
+:I for one welcome our new X overlords:
+
+   Variants of this phrase with various values of X came into common use
+   in  2002-2003, generally used to suggest that whatever party referred
+   to  as  the  new  overlords  is deeply evil. In the original Simpsons
+   episode  (#96,  Homer In Space) X = "insect" and th line is part of a
+   speech  in  which  a  smarmy  newscaster expresses his willingness to
+   collaborate with an invading race of giant space ants.
 
 :IANAL: //
 
@@ -19954,7 +20003,7 @@ J
    {tick}). Often one AC cycle time (1/60 second in the U.S. and Canada,
    1/50  most  other  places),  but  more  recently 1/100 sec has become
    common.  "The  swapper  runs  every 6 jiffies" means that the virtual
-   memory  management  routine is executed once for every 6 ticks of the
+   memory  management  routine is executed once for every 6 ticks of the
    clock, or about ten times a second.
 
    2.  Confusingly,  the term is sometimes also used for a 1-millisecond
@@ -20029,7 +20078,7 @@ J
    Land. See also {hack mode} and {on the gripping hand}.
 
 :juice: n.
-
+
    The weight of a given node in some sort of graph (like a web of trust
    or  a  relevance-weighted  search  query).  This appears to have been
    generalized  from  {google  juice},  but  may derive from black urban
@@ -20082,6 +20131,7 @@ K
    kluge up
    Knights of the Lambda Calculus
    knobs
+   knurd
    Knuth
    koan
    kook
@@ -20184,7 +20234,7 @@ K
 
 :kick: v.
 
-   1.  [IRC]  To  cause  somebody to be removed from a {IRC} channel, an
+   1.  [IRC]  To  cause  somebody to be removed from a {IRC} channel, an
    option  only  available  to  channel ops. This is an extreme measure,
    often  used  to combat extreme {flamage} or {flood}ing, but sometimes
    used at the {CHOP}'s whim.
@@ -20333,7 +20383,7 @@ K
 
    Nowadays  this  term  is  often  encountered  in the variant spelling
    `kludge'.  Reports  from  {old fart}s are consistent that `kluge' was
-   the  original  spelling, reported around computers as far back as the
+   the  original  spelling, reported around computers as far back as the
    mid-1950s  and, at that time, used exclusively of hardware kluges. In
    1947,  the  New York Folklore Quarterly reported a classic shaggy-dog
    story  `Murgatroyd the Kluge Maker' then current in the Armed Forces,
@@ -20430,6 +20480,21 @@ K
    PNG  viewer  got  an alpha knob?" Software may be described as having
    "knobs  and  switches"  or  occasionally "knobs and lights". See also
    {nerd knob}
+
+:knurd: n.
+
+   1.   [RPI]  Renssaleer  Polytechnic  Institute  local  slang  roughly
+   equivalent  to  the positive sense of {geek}, referring to people who
+   prefer technical hobbies to socializing.
+
+   2.  In  older usage at RPI, the term signified someone new to college
+   life, fresh out of high school, and wet behind the ears.
+
+   An  IEEE  Spectrum article (4/95, page 16) once derived `nerd' in its
+   variant  form `knurd' from the word `drunk' backwards; this etymology
+   was  common  at  RPI.  Though it is commonly confused with {nerd}, it
+   appears    these   words   have   separate   origins   (compare   the
+   {kluge}/{kludge} pair).
 
 :Knuth: /ka·nooth´/, n.
 
@@ -20550,7 +20615,7 @@ L
    LAN party
    language lawyer
    languages of choice
-   LART
+   LART
    larval stage
    lase
    laser chicken
@@ -20826,7 +20891,7 @@ L
    download  as many files as one wants, without having to upload. Leech
    mode  is  often  promised  on  banner sites, but rarely obtained. See
    {ratio site}, {banner site}.
-
+
 :legal: adj.
 
    Loosely  used  to  mean  `in accordance with all the relevant rules',
@@ -20916,7 +20981,7 @@ L
    word-like  pieces).  "Some  C  lexers  get  confused by the old-style
    compound ops like =-."
 
-:life: n.
+:life: n.
 
    1.  A cellular-automata game invented by John Horton Conway and first
    introduced  publicly  by Martin Gardner (Scientific American, October
@@ -20928,17 +20993,16 @@ L
    who even implemented life in {TECO}!). When a hacker mentions `life',
    he  is  much  more  likely  to  mean this game than the magazine, the
    breakfast cereal, or the human state of existence. Many web resources
-   are  availalable  starting  from  the Open Directory page of Life The
-   Life  Lexicon  is  a  good  indicator  of  what  makes  the  game  so
-   fascinating.
+   are available starting from the Open Directory page of Life. The Life
+   Lexicon is a good indicator of what makes the game so fascinating.
 
-   [glidergun.png]
+   [glider.png]
 
-   A  glider gun, possibly the best known of the quasi-organic phenomena
-   in the Game of Life.
+   A  glider,  possibly the best known of the quasi-organic phenomena in
+   the Game of Life.
 
    2. The opposite of {Usenet}. As in "{Get a life!}"
-
+
 :Life is hard: prov.
 
    [XEROX PARC] This phrase has two possible interpretations: (1) "While
@@ -20966,7 +21030,7 @@ L
    beach." See also {fear and loathing}.
 
 :like nailing jelly to a tree: adj.
-
+
    Used  to  describe a task thought to be impossible, esp. one in which
    the   difficulty   arises   from   poor   specification  or  inherent
    slipperiness   in   the   problem  domain.  "Trying  to  display  the
@@ -21223,7 +21287,7 @@ L
    or  bad  things will happen. So a more appropriate response might be:
    "Well, make sure it works perfectly before we throw live data at it."
    The  implication  here  is  that  record deletion is something pretty
-   significant,  and  a  haywire  record-deleter running amok live would
+   significant,  and  a  haywire  record-deleter running amok live would
    probably cause great harm.
 
 :live data: n.
@@ -21572,6 +21636,7 @@ M
    massage
    math-out
    Matrix
+   mav
    maximum Maytag mode
    McQuary limit
    meatspace
@@ -21759,7 +21824,7 @@ M
    computes the parity of an 8-bit byte in three instructions."
 
    2. adj. Characteristic of something that works although no one really
-   understands why (this is especially called {black magic}).
+   understands why (this is especially called {black magic}).
 
    3.  n.  [Stanford]  A  feature  not  generally publicized that allows
    something  otherwise  impossible,  or  a  feature  formerly  in  that
@@ -22187,6 +22252,15 @@ M
    3. The totality of present-day computer networks (popularized in this
    sense by John Quarterman; rare outside academic literature).
 
+:mav: n.
+
+   [MUD,  IRC;  common]  Term used when an individual accidently sends a
+   comment   to  the  wrong  location.  Generally,  this  is  MUD-to-MUD
+   (MU*-to-MU*),  or in various IRC channels. However, it can also refer
+   to a comment made in private that was dropped to the entire world, or
+   accidentally  directing  to  one person when it was supposed to go to
+   another.
+
 :maximum Maytag mode: n.
 
    What  a {washing machine} or, by extension, any disk drive is in when
@@ -22214,7 +22288,7 @@ M
    The   physical   world,  where  the  meat  lives  --  as  opposed  to
    {cyberspace}. Hackers are actually more willing to use this term than
    `cyberspace',  because  it's  not  speculative  --  we already have a
-   running meatspace implementation (the universe). Compare {RL}.
+   running meatspace implementation (the universe). Compare {RL}.
 
 :meatware: n.
 
@@ -22413,7 +22487,8 @@ M
    blarg, {wibble} New Zealand.
    toto, titi, tata, tutu France.
    pippo,   pluto,   paperino   Italy.   Pippo   /pee´po/  and  Paperino
-   /pa·per·ee'·no/ are the Italian names for Goofy and Donald Duck.
+   /pa·per·ee'·no/  are  the  Italian  names  for Goofy and Donald Duck.
+   Pluto, of course, is Mickey's dog.
    aap,  noot,  mies  The Netherlands. These are the first words a child
    used to learn to spell on a Dutch spelling board.
    oogle,  foogle,  boogle; zork, gork, bork These two series (which may
@@ -22492,7 +22567,7 @@ M
 
    3. Personal or human-scale -- that is, capable of being maintained or
    comprehended  or  manipulated  by  one  human  being.  This  sense is
-   generalized  from  microcomputer,  and  is esp. used in contrast with
+   generalized  from  microcomputer,  and  is esp. used in contrast with
    macro- (the corresponding Greek prefix meaning `large').
 
    4.  Local as opposed to global (or {macro-}). Thus a hacker might say
@@ -22562,7 +22637,7 @@ M
 
 :Microsoft:
 
-   The  new  {Evil Empire} (the old one was {IBM}). The basic complaints
+   The  new  {Evil Empire} (the old one was {IBM}). The basic complaints
    are, as formerly with IBM, that (a) their system designs are horrible
    botches,  (b)  we  can't get {source} to fix them, and (c) they throw
    their weight around a lot. See also {Halloween Documents}.
@@ -23445,7 +23520,7 @@ N
    nerd knob
    net.-
    net.god
-   net.personality
+   net.personality
    net.police
    netburp
    netdead
@@ -23774,16 +23849,11 @@ N
    and  a  Proo,  / A Nerkle, a Nerd, and a Seersucker, too!" in the Dr.
    Seuss book If I Ran the Zoo (1950). (The spellings `nurd' and `gnurd'
    also  used to be current at MIT, where `nurd' is reported from as far
-   back  as  1957.)  How it developed its mainstream meaning is unclear,
-   but  sense  1  seems  to have entered mass culture in the early 1970s
-   (there  are  reports that in the mid-1960s it meant roughly "annoying
-   misfit" without the connotation of intelligence.
-
-   An  IEEE  Spectrum article (4/95, page 16) once derived `nerd' in its
-   variant  form `knurd' from the word `drunk' backwards, but this bears
-   all  the  hallmarks  of  a  bogus  folk  etymology.  Apparently  this
-   etymology  was  folklore  at  Rensselaer Polytechnic Institute around
-   1979.
+   back as 1957; however, {knurd} appears to have a separate etymology.)
+   How it developed its mainstream meaning is unclear, but sense 1 seems
+   to  have  entered  mass culture in the early 1970s (there are reports
+   that  in the mid-1960s it meant roughly "annoying misfit" without the
+   connotation of intelligence.
 
    Hackers  developed  sense  2 in self-defense perhaps ten years later,
    and  some actually wear "Nerd Pride" buttons, only half as a joke. At
@@ -24083,7 +24153,7 @@ N
    now until the completion of the project tends to become constant."
 
 :nipple mouse: n.
-
+
    Var. clit mouse, clitoris Common term for the pointing device used on
    IBM  ThinkPads  and  a  few other laptop computers. The device, which
    sits between the `g' and `h' keys on the keyboard, indeed resembles a
@@ -26060,7 +26130,7 @@ P
 :plonk: excl.,vt.
 
    [Usenet:  possibly  influenced  by  British  slang  `plonk' for cheap
-   booze,  or  `plonker'  for  someone behaving stupidly (latter is lit.
+   booze,  or  `plonker'  for  someone behaving stupidly (latter is lit.
    equivalent  to  Yiddish  schmuck)]  The  sound a {newbie} makes as he
    falls  to  the  bottom  of  a {kill file}. While it originated in the
    {newsgroup}  talk.bizarre,  this  term (usually written "*plonk*") is
@@ -26122,9 +26192,14 @@ P
 
 :pointy hat: n.
 
-   See  {wizard hat}. This synonym specifically refers to the wizards of
-   Unseen  University  in Terry Pratchett's Discworld series of humorous
-   fantasies; these books are extremely popular among hackers.
+   1. Syn. {wizard hat}. This synonym specifically refers to the wizards
+   of  Unseen  University  in  Terry  Pratchett's  Discworld  series  of
+   humorous fantasies; these books are extremely popular among hackers.
+
+   [BSD  hackers;  common]  Notional  dunce  cap  handed to the original
+   author of a bug that's been corrected. Unlike the wizard had, this is
+   often self-assumed: "Somebody please pass me the pointy hat. I fouled
+   up the distfile rather badly. This fixes it."
 
 :pointy-haired: adj.
 
@@ -26664,7 +26739,7 @@ P
 
 :punched card:
 
-   [techspeak]  (alt.:  punch  card) The signature medium of computing's
+   [techspeak]  (alt.:  punch  card) The signature medium of computing's
    {Stone  Age},  now  obsolescent.  The  punched card actually predated
    computers  considerably,  originating in 1801 as a control device for
    mechanical  looms.  The  version  patented by Hollerith and used with
@@ -26975,7 +27050,7 @@ Q
       (list x (list (quote quote) x)))))
 
    This  one  works  in  LISP  or  Scheme. It's relatively easy to write
-   quines  in  other  languages  such as Postscript which readily handle
+   quines  in  other  languages  such as Postscript which readily handle
    programs  as  data;  much  harder  (and  thus  more  challenging!) in
    languages  like  C  which do not. Here is a classic C quine for ASCII
    machines:
@@ -28295,7 +28370,7 @@ S
    shareware
    sharing violation
    shebang
-   shelfware
+   shelfware
    shell
    shell out
    shift left (or right) logical
@@ -28433,7 +28508,7 @@ S
    strudel
    stubroutine
    studly
-   studlycaps
+   studlycaps
    stunning
    stupid-sort
    Stupids
@@ -29620,7 +29695,7 @@ S
 :slab:
 
    1.  n.  A  continuous  horizontal  line  of pixels, all with the same
-   color.
+   color.
 
    2.  vi.  To paint a slab on an output device. Apple's QuickDraw, like
    most  other professional-level graphics systems, renders polygons and
@@ -29944,7 +30019,7 @@ S
          and saw that it was very good.
 
    After  the  subsequent  and  inevitable disaster, the {suit}s protect
-   themselves  by  saying "I was misinformed!", and the implementors are
+   themselves  by  saying "I was misinformed!", and the implementors are
    demoted or fired. Compare {Conway's Law}.
 
 :snail: vt.
@@ -30028,7 +30103,7 @@ S
 
    To  {snarf},  with  the  connotation  of  absorbing,  processing,  or
    understanding.  "I'll  snarf down the latest version of the {nethack}
-   user's  guide  --  it's  been a while since I played last and I don't
+   user's  guide  --  it's  been a while since I played last and I don't
    know what's changed recently."
 
 :snark: n.
@@ -30586,8 +30661,8 @@ S
 
    [Usenet;  common] The sound of coffee (or other beverage) hitting the
    monitor  and/or  keyboard after being forced out of the mouth via the
-   nose.  It  usually  follows  an  unexpectedly funny thing in a Usenet
-   post. Compare {snarf}.
+   nose  (also "splorf"). It usually follows an unexpectedly funny thing
+   in a Usenet post. Compare {snarf}, {C|N>K}.
 
 :spod: n.
 
@@ -30606,19 +30681,21 @@ S
    with  "Are  you male or female?" (and follow it up with "Got any good
    numbers/IDs/passwords?")  and  will  not  talk  to someone physically
    present  in  the  same  terminal  room  until  they log onto the same
-   machine  that  he  is  using  and  enter talk mode. Compare {newbie},
-   {tourist}, {weenie}, {twink}, {terminal junkie}, {warez d00dz}.
+   machine  that  he  is  using  and  enter talk mode. 2. An experienced
+   talker  user.  As  with  the defiant adoption of the term geek in the
+   mid-1990s by people who would previously have been stigmatized by it,
+   the  term "spod" is now used as a mark of distinction by talker users
+   who've  accumulated  a large amount of login time. Such spods tend to
+   be  very  knowledgeable  about  talkers and talker coding, as well as
+   more  general hacker activites. An unusually high proportion of spods
+   work in the ISP sector, a profession which allows for lengthy periods
+   of  login  time  and for under-the-desk servers, or "spodhosts", upon
+   which   talker  systems  are  hosted.  Compare  {newbie},  {tourist},
+   {weenie}, {twink}, {terminal junkie}, {warez d00dz}.
 
    2.  A  {backronym}  for "Sole Purpose, Obtain a Degree"; according to
    some  self-described spods, this term is used by indifferent students
-   to condemn their harder-working fellows. Compare the defiant adoption
-   of  the  term  {geek} in the mid-1990s by people who would previously
-   have  been  stigmatized by it. Spods in the positive sense are talker
-   users  who've  accumulated a large amount of spod time, that is, they
-   spend  a  lot  of time logged in to that talker (for example, my spod
-   time  on  Uberworld  as  of  this moment is 131 days, 15 hours and 20
-   minutes).  Spods are generally highly knowledgeable about talkers and
-   SGXStalker coding, as well as computers and the internet in general.
+   to condemn their harder-working fellows.
 
    3.  [Glasgow University] An otherwise competent hacker who spends way
    too much time on talker systems.
@@ -31031,7 +31108,7 @@ S
    characterize  unquantifiable  behavior  that differs from expected or
    required  behavior. For example, suppose a newly created program came
    up  with  a  correct full-screen display, and one publicly exclaimed:
-   "It  works!"  Then,  if  the  program  dumped core on the first mouse
+   "It  works!"  Then,  if  the  program  dumped core on the first mouse
    click, one might add: "Well, for suitably small values of `works'."
 
 :Sun: n.
@@ -31050,7 +31127,7 @@ S
    still  considered within the family in much the same way {DEC} was in
    the 1970s and early 1980s.
 
-:sun lounge: n.
+:sun lounge: n.
 
    [UK]  The room where all the Sun workstations live. The humor in this
    term comes from the fact that it's also in mainstream use to describe
@@ -31427,6 +31504,7 @@ T
    tty
    tube
    tube time
+   tumbler
    tunafish
    tune
    turbo nerd
@@ -31436,7 +31514,7 @@ T
    tweak
    TWENEX
    twiddle
-   twilight zone
+   twilight zone
    twink
    twirling baton
    two pi
@@ -32346,7 +32424,7 @@ T
    starting to look a bit like a {dinosaur}.
 
 :tits on a keyboard: n.
-
+
    Small  bumps  on  certain  keycaps  to keep touch-typists registered.
    Usually  on  the  5  of  a  numeric  keypad,  and on the F and J of a
    {QWERTY}  keyboard; but older Macs (like pre-PC electric typewriters)
@@ -32717,7 +32795,7 @@ Q: Should I include quotations after my reply?
    performs some action, then returns control to the program.
 
    2.  vi.  To  cause  a trap. "These instructions trap to the monitor."
-   Also  used  transitively  to  indicate  the  cause  of the trap. "The
+   Also  used  transitively  to  indicate  the  cause  of the trap. "The
    monitor traps all input/output instructions."
 
    This  term  is  associated  with  assembler programming (interrupt or
@@ -32865,7 +32943,7 @@ Q: Should I include quotations after my reply?
    1.  v.,n.  [From  the  Usenet  group  alt.folklore.urban]  To utter a
    posting  on  {Usenet}  designed  to  attract predictable responses or
    {flame}s;  or, the post itself. Derives from the phrase "trolling for
-   {newbie}s" which in turn comes from mainstream "trolling", a style of
+   {newbie}s" which in turn comes from mainstream "trolling", a style of
    fishing  in  which one trails bait through a likely spot hoping for a
    bite.  The  well-constructed  troll  is  a  post that induces lots of
    newbies  and  flamers to make themselves look even more clueless than
@@ -32891,7 +32969,7 @@ Q: Should I include quotations after my reply?
    Some  people  claim  that  the troll (sense 1) is properly a narrower
    category than {flame bait}, that a troll is categorized by containing
    some  assertion that is wrong but not overtly controversial. See also
-   {Troll-O-Meter}.
+   {Troll-O-Meter}.
 
    The  use  of  `troll'  in any of these senses is a live metaphor that
    readily  produces  elaborations and combining forms. For example, one
@@ -32922,7 +33000,7 @@ Q: Should I include quotations after my reply?
    enables/disables   line   number   tracing;   this   has  no  obvious
    relationship to the slang usage.
 
-:troughie: /traw´fee/, n.
+:troughie: /traw´fee/, n.
 
    [British  BBS  scene]  Synonym  for  {leech},  sense  1.  The implied
    metaphor is that of a pig at a trough.
@@ -32971,6 +33049,25 @@ Q: Should I include quotations after my reply?
    one  uses most heavily. "I find I'm spending too much of my tube time
    reading mail since I started this revision."
 
+:tumbler: n.
+
+   1.  [Originally  from  the  Xanadu  hypertext project] A tumbler is a
+   {magic  cookie} generated as part of a record or message to give it a
+   unique  identity.  Usually  a tumbler includes an encoded form of its
+   creation  date, but if a software system has more than one concurrent
+   process that could generate tumblers it must also include an encoding
+   of the process ID. If tumblers will be shared across multiple network
+   hosts,  they  must  also  include  the  host name or network address.
+   Tumblers  often  include  a hash of the rest of the message or record
+   content  so that it is possible to verify the correctness of the data
+   the tumbler is attached to.
+
+   2.  Variant  text added to spam instances (often in the Subject line)
+   to  make  them unique. This kind of tumbler is used to defeat schemes
+   that  check  an  exact hash of an incoming message against known spam
+   signatures;  it  also  compromises  some  kinds  of  statistical spam
+   recognition.
+
 :tunafish: n.
 
    In  hackish  lore, refers to the mutated punchline of an age-old joke
@@ -32989,7 +33086,7 @@ Q: Should I include quotations after my reply?
 
    [It  has since been pointed out that indeed you can tunafish. Usually
    at a canning factory... --ESR]
-
+
 :tune: vt.
 
    [from  automotive  or  musical usage] To optimize a program or system
@@ -33020,7 +33117,7 @@ Q: Should I include quotations after my reply?
    struggle  to get any real work done, the deeper its inadequacies suck
    you in. Compare {bondage-and-discipline language}.
 
-   2.  The  perennial  {holy  wars}  over whether language A or B is the
+   2.  The  perennial  {holy  wars}  over whether language A or B is the
    "most powerful".
 
 :turist: /too´rist/, n.
@@ -33226,7 +33323,7 @@ U
 
    [abbrev.,  Unsolicited Bulk Email] A widespread, more formal term for
    email  {spam}.  Compare  {UCE}.  The UBE term recognizes that spam is
-   uttered  by  nonprofit  and  advocacy  groups  whose  motives are not
+   uttered  by  nonprofit  and  advocacy  groups  whose  motives are not
    commercial.
 
 :ubergeek: n., /oo´ber·geek/
@@ -33504,12 +33601,13 @@ U
    mixed-case  form  is  now  widely  preferred]  A distributed {bboard}
    (bulletin board) system supported mainly by Unix machines. Originally
    implemented in 1979--1980 by Steve Bellovin, Jim Ellis, Tom Truscott,
-   and  Steve  Daniel at Duke University, it has swiftly grown to become
-   international  in scope and is now probably the largest decentralized
-   information  utility  in  existence.  As  of late 2002, it hosts over
-   100,000  {newsgroup}s and an unguessably huge volume of new technical
-   articles,  news,  discussion,  chatter,  and {flamage} every day (and
-   that leaves out the graphics...).
+   and  Steve  Daniel  at  Duke  University  and the University of North
+   Carolina,  it  has swiftly grown to become international in scope and
+   is  now  probably  the  largest  decentralized information utility in
+   existence. As of late 2002, it hosts over 100,000 {newsgroup}s and an
+   unguessably  huge volume of new technical articles, news, discussion,
+   chatter,   and   {flamage}   every  day  (and  that  leaves  out  the
+   graphics...).
 
    By  the year the Internet hit the mainstream (1994) the original UUCP
    transport  for  Usenet  was  fading  out  of use -- almost all Usenet
@@ -33955,19 +34053,19 @@ V
 :vi: /V·I/, not, /vi:/, never, /siks/, n.
 
    [from  `Visual  Interface']  A screen editor crufted together by Bill
-   Joy  for  an  early  {BSD} release. Became the de facto standard Unix
-   editor  and  a nearly undisputed hacker favorite outside of MIT until
-   the rise of {EMACS} after about 1984. Tends to frustrate new users no
-   end,  as it will neither take commands while expecting input text nor
-   vice  versa,  and  the  default  setup  on older versions provides no
-   indication of which mode the editor is in (years ago, a correspondent
-   reported that he has often heard the editor's name pronounced /vi:l/;
-   there  is  now  a vi clone named vile). Nevertheless vi (and variants
-   such  as  vim  and  elvis)  is  still  widely  used  (about  half the
-   respondents  in a 1991 Usenet poll preferred it), and even EMACS fans
-   often  resort  to  it  as  a  mail  editor and for small editing jobs
-   (mainly  because  it  starts  up  faster than the bulkier versions of
-   EMACS). See {holy wars}.
+   Joy  for  an early {BSD} release; an interview describing how it came
+   to  be  is  available. Became the de facto standard Unix editor and a
+   nearly  undisputed  hacker  favorite outside of MIT until the rise of
+   {EMACS}  after about 1984. Tends to frustrate new users no end, as it
+   will neither take commands while expecting input text nor vice versa,
+   and  the  default  setup  on older versions provides no indication of
+   which mode the editor is in (years ago, a correspondent reported that
+   he  has often heard the editor's name pronounced /vi:l/; there is now
+   a vi clone named vile). Nevertheless vi (and variants such as vim and
+   elvis)  is  still  widely  used (about half the respondents in a 1991
+   Usenet  poll preferred it), and even EMACS fans often resort to it as
+   a mail editor and for small editing jobs (mainly because it starts up
+   faster than the bulkier versions of EMACS). See {holy wars}.
 
 :video toaster: n.
 
@@ -33982,7 +34080,7 @@ V
    An electronic service offering people the privilege of paying to read
    the  weather  on  their television screens instead of having somebody
    read  it  to  them  for  free  while they brush their teeth. The idea
-   bombed  everywhere  it  wasn't  government-subsidized, because by the
+   bombed  everywhere  it  wasn't  government-subsidized, because by the
    time  videotex was practical the installed base of personal computers
    could  hook  up  to  timesharing services and do the things for which
    videotex  might  have  been  worthwhile  better and cheaper. Videotex
@@ -34258,7 +34356,7 @@ W
    windoid
    window shopping
    Windowsitis
-   Windoze
+   Windoze
    winged comments
    winkey
    winnage
@@ -34307,7 +34405,7 @@ W
    equivalent  of  "root",  and said as an exclamation upon gaining root
    access.  Others claim it originated in the Everquest multiplayer game
    as  an  abbreviation  of  "wonderful  loot".  Still other claim it on
-   originated  on IRC as the "Ewok victory cheer"] Adj. w00table has the
+   originated  on IRC as the "Ewok victory cheer". Adj. w00table has the
    sense  of  "cool"  or  "nifty".  This  is  one  of the few leet-speak
    coinages to have crossed over into non-ironic use among hackers.
 
@@ -35714,7 +35812,7 @@ Y
 :YMMV: //, cav.
 
    Abbreviation for {Your mileage may vary} common on Usenet.
-
+
 :You are not expected to understand this: cav.
 
    [Unix]  The  canonical  comment  describing  something {magic} or too
@@ -35985,6 +36083,14 @@ Z
    change for now; I've been up for 30 hours and I've run out of zorch."
 
    6. [MIT] v. To flunk an exam or course.
+
+   A  track  called  Zorch  was  the  B-side  of a single called Captain
+   Hideous,  released by novelty artist Nervous Norvous in 1955. Norvous
+   was  heavily  influemced by a radio comedian named Red Blanchard; the
+   word  "zorch"  appears to have been coined on Blanchard's show in the
+   early  1950s.  The  word  itself  had  no  meaning,  but  there where
+   compounds  using  it  that  did  --  "zorch  cow", for example, was a
+   variant of the Chicago-area slang "black cow" for a root beer float.
 
 :Zork: /zork/, n.
 
@@ -36544,7 +36650,7 @@ Sussman attains enlightenment
 
    At that moment, Sussman was enlightened.
 
-Drescher and the toaster
+Drescher and the toaster
 
    A disciple of another sect once came to Drescher as he was eating his
    morning meal.
@@ -36876,7 +36982,7 @@ Appendix B. A Portrait of J. Random Hacker
    imitating  each  other.  Rather,  it  seems  to  be the case that the
    combination  of  personality traits that makes a hacker so conditions
    one's  outlook  on  life  that  one  tends to end up being like other
-   hackers  whether  one  wants  to  or  not (much as bizarrely detailed
+   hackers  whether  one  wants  to  or  not (much as bizarrely detailed
    similarities  in  behavior and preferences are found in genetic twins
    raised separately).
 
@@ -37336,9 +37442,9 @@ Appendix C. Helping Hacker Culture Grow
        over-broad  software  patents that constantly threaten to blow up
        in  hackers'  faces,  preventing  them from developing innovative
        software  for  tomorrow's  needs.  You  can  reach the League for
-       Programming  Freedom  at  <lpf@@uunet.uu.net>. by phone at +1 617
-       621  7084,  or  by  snail-mail  at 1 Kendall Square #143, P.O.Box
-       9171, Cambridge, Massachusetts 02139 USA.
+       Programming Freedom at <lpf@uunet.uu.net>. by phone at +1 617 621
+       7084,  or  by  snail-mail at 1 Kendall Square #143, P.O.Box 9171,
+       Cambridge, Massachusetts 02139 USA.
      * Join  the continuing fight against Internet censorship, visit the
        Center    for    Democracy    and   Technology   Home   Page   at
        http://www.cdt.org/.
