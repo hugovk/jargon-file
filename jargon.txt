@@ -99,7 +99,14 @@ BARF [from the "layman" slang, meaning "vomit"] 1. interj. Term of
    adj. Said of something which would make anyone barf, if only for
    aesthetic reasons.
 
-BIGNUMS [from Macsyma] n. In backgammon, large numbers on the dice.
+BIGNUMS [from Macsyma] n. 1. In backgammon, large numbers on the dice.
+   2. Multiple-precision (sometimes infinitely extendable) integers
+   and, through analogy, any very large numbers.  3. EL CAMINO BIGNUM:
+   El Camino Real, a street through the San Francisco peninsula that
+   originally extended (and still appears in places) all the way to
+   Mexico City.  It was termed "El Camino Double Precision" when
+   someone noted it was a very long street, and then "El Camino
+   Bignum" when it was pointed out that it was hundreds of miles long.
 
 BIN [short for BINARY; used as a second file name on ITS] 1. n.
    BINARY.  2. BIN FILE: A file containing the BIN for a program.
@@ -146,6 +153,9 @@ BOGUS (WPI, Yale, Stanford) adj. 1. Non-functional.  "Your patches are
    was compiled at Yale when the word was first popularized (e.g.,
    autobogophobia: the fear of becoming bogotified).]
 
+BOUNCE (Stanford) v. To play volleyball.  "Bounce, bounce!  Stop
+   wasting time on the computer and get out to the court!"
+
 BRAIN-DAMAGED [generalization of "Honeywell Brain Damage" (HBD), a
    theoretical disease invented to explain certain utter cretinisms in
    Multics] adj. Obviously wrong; cretinous; demented.  There is an
@@ -162,8 +172,9 @@ BROKEN adj. 1. Not working properly (of programs).  2. Behaving
    strangely; especially (of people), exhibiting extreme depression.
 
 BROKET [by analogy with "bracket": a "broken bracket"] (primarily
-   Stanford) n. Either of the characters "<" and ">".  (At MIT these
-   are usually called ANGLE BRACKETS.)
+   Stanford) n. Either of the characters "<" and ">".  (At MIT, and
+   apparently in The Real World (q.v.) as well, these are usually
+   called ANGLE BRACKETS.)
 
 BUCKY BITS (primarily Stanford) n. The bits produced by the CTRL and
    META shift keys on a Stanford (or Knight) keyboard.
@@ -283,14 +294,15 @@ CRETIN 1. n. Congenital loser (q.v.).  2. CRETINOUS: adj. See
 CRLF (cur'lif, sometimes crul'lif) n. A carriage return (CR) followed
    by a line feed (LF).  See TERPRI.
 
-CROCK n. An awkward feature or programming technique that ought to be
-   made cleaner.  Example: Using small integers to represent error
-   codes without the program interpreting them to the user is a crock.
-   Also, a technique that works acceptably but which is quite prone to
-   failure if disturbed in the least, for example depending on the
-   machine opcodes having particular bit patterns so that you can use
-   instructions as data words too; a tightly woven, almost completely
-   unmodifiable structure.
+CROCK [probably from "layman" slang, which in turn may be derived from
+   "crock of shit"] n. An awkward feature or programming technique
+   that ought to be made cleaner.  Example: Using small integers to
+   represent error codes without the program interpreting them to the
+   user is a crock.  Also, a technique that works acceptably but which
+   is quite prone to failure if disturbed in the least, for example
+   depending on the machine opcodes having particular bit patterns so
+   that you can use instructions as data words too; a tightly woven,
+   almost completely unmodifiable structure.
 
 CRUFTY [from "cruddy"] adj. 1. Poorly built, possibly overly complex.
    "This is standard old crufty DEC software".  Hence CRUFT, n. shoddy
@@ -391,6 +403,13 @@ DIKE [from "diagonal cutters"] v. To remove a module or disable it.
 
 DMP (dump)  See BIN.
 
+DO PROTOCOL [from network protocol programming] v. To perform an
+   interaction with somebody or something that follows a clearly
+   defined procedure.  For example, "Let's do protocol with the check"
+   at a restaurant means to ask the waitress for the check, calculate
+   the tip and everybody's share, generate change as necessary, and
+   pay the bill.
+
 DOWN 1. adj. Not working.  "The up escalator is down."  2. TAKE DOWN,
    BRING DOWN: v. To deactivate, usually for repair work.  See UP.
 
@@ -416,7 +435,8 @@ ENGLISH n. The source code for a program, which may be in any
 EPSILON [from standard mathematical notation for a small quantity] 1.
    n. A small quantity of anything.  "The cost is epsilon."  2. adj.
    Very small, negligible; less than marginal.  "We can get this
-   feature for epsilon cost."
+   feature for epsilon cost."  3. WITHIN EPSILON OF: Close enough
+   to be indistinguishable for all practical purposes.
 
 EXCH (ex'chuh, ekstch) [from the PDP-10 instruction set] v. To
    exchange two things, each for the other.
@@ -463,11 +483,11 @@ FINE (WPI) adj. Good, but not good enough to be CUSPY.  [The word FINE
    is used elsewhere, of course, but without the implicit comparison
    to the higher level implied by CUSPY.]
 
-FIREBOTTLE n. A large, primitive, power hungry active electrical device,
-   similar to an FET constructed out of glass, metal, and vacuum.
-   Characterized by high cost, low density, low reliability, high
-   temperature operation, and high power dissipation.
-   Sometimes mistakenly called a TUBE in the U.S. or a VALVE in England.
+FIREBOTTLE n. A large, primitive, power-hungry active electrical
+   device, similar to an FET constructed out of glass, metal, and
+   vacuum.  Characterized by high cost, low density, low reliability,
+   high-temperature operation, and high power dissipation.  Sometimes
+   mistakenly called a "tube" in the U.S. or a "valve" in England.
 
 FLAG DAY [from a bit of Multics history involving a change in the
    ASCII character set originally scheduled for June 14, 1966]
@@ -508,7 +528,7 @@ FOO 1. [from Yiddish "feh" or the Anglo-Saxon "fooey!"] interj. Term
    in Pogo as well.  3. Used very generally as a sample name for
    absolutely anything.  The old `Smokey Stover' comic strips often
    included the word FOO, in particular on license plates of cars.
-   [Ed Schwalenberg has Nevada plate FOOBAR.]  MOBY FOO: See MOBY.
+   MOBY FOO: See MOBY.
 
 FROB 1. n. (MIT) The official Tech Model Railroad Club definition is
    "FROB = protruding arm or trunnion", and by metaphoric extension
@@ -530,13 +550,14 @@ FROBNICATE v. To manipulate or adjust, to tweak.  Derived from
 FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    object, a widget.  Also refers to electronic black boxes.  This
    rare form is usually abbreviated to FROTZ, or more commonly to
-   FROB.  Also used is FROBNULE.
+   FROB.  Also used are FROBNULE and FROBULE.
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
    3. n. Of things, a crock.  Of people, somewhere inbetween a turkey
-   and a toad.  4. FROGGY: adj. Similar to BAGBITING (q.v.), but
-   milder.  "This froggy program is taking forever to run!"
+   and a toad.  4. Jake Brown (FRG@SAIL).  5. FROGGY: adj. Similar to
+   BAGBITING (q.v.), but milder.  "This froggy program is taking
+   forever to run!"
 
 FROTZ 1. n. See FROBNITZ.  2. MUMBLE FROTZ: An interjection of very
    mild disgust.
@@ -570,7 +591,7 @@ GABRIEL [for Dick Gabriel, SAIL volleyball fanatic] n. An unnecessary
 
 GARBAGE COLLECT v., GARBAGE COLLECTION n. See GC.
 
-GARPLY n. (SAIL) Another meta-word popular among SAIL hackers.
+GARPLY n. (Stanford) Another meta-word popular among SAIL hackers.
 
 GAS [as in "gas chamber"] interj. 1. A term of disgust and hatred,
    implying that gas should be dispensed in generous quantities,
@@ -590,6 +611,16 @@ GC [from LISP terminology] 1. v. To clean up and throw away useless
    recycle, reclaim, or put to another use.  3. n. An instantiation of
    the GC process.
 
+GEDANKEN [from Einstein's term "gedanken-experimenten", such as the
+   standard proof that E=mc↑2] adj. An AI project which is written up
+   in grand detail without ever being implemented to any great extent.
+   Usually perpetrated by people who aren't very good hackers or find
+   programming distasteful or are just in a hurry.  A gedanken thesis
+   is usually marked by an obvious lack of intuition about what is
+   programmable and what is not and about what does and does not
+   constitute a clear specification of a program-related concept such
+   as an algorithm.
+
 GLASS TTY n. A terminal which has a display screen but which, because
    of hardware or software limitations, behaves like a teletype or
    other printing terminal.  An example is the ADM-3 (without cursor
@@ -599,7 +630,7 @@ GLASS TTY n. A terminal which has a display screen but which, because
 GLITCH [from the Yiddish "glitshen", to slide] 1. n. A sudden
    interruption in electric service, sanity, or program function.
    Sometimes recoverable.  2. v. To commit a glitch.  See GRITCH.
-   3. v. (SAIL) To scroll a display screen.
+   3. v. (Stanford) To scroll a display screen.
 
 GLORK 1. interj. Term of mild surprise, usually tinged with outrage,
    as when one attempts to save the results of two hours of editing
@@ -632,9 +663,10 @@ GRONK [popularized by the cartoon strip "B.C." by Johnny Hart, but the
    word apparently predates that] v. 1. To clear the state of a wedged
    device and restart it.  More severe than "to frob" (q.v.).  2. To
    break.  "The teletype scanner was gronked, so we took the system
-   down."  3. GRONK OUT: v. To cease functioning.  Of people, to go
-   home and go to sleep.  "I guess I'll gronk out now; see you all
-   tomorrow."
+   down."  3. GRONKED: adj. Of people, the condition of feeling very
+   tired or sick.  4. GRONK OUT: v. To cease functioning.  Of people,
+   to go home and go to sleep.  "I guess I'll gronk out now; see you
+   all tomorrow."
 
 GROVEL v. To work interminably and without apparent progress.  Often
    used with "over".  "The compiler grovelled over my code."  Compare
@@ -718,6 +750,12 @@ HELLO WALL  See WALL.
 
 HIRSUTE  Occasionally used humorously as a synonym for HAIRY.
 
+HOOK n. An extraneous piece of software or hardware included in order
+   to simplify later additions or debug options.  For instance, a
+   program might execute a location that is normally a JFCL, but by
+   changing the JFCL to a PUSHJ one can insert a debugging routine at
+   that point.
+
 HUMONGOUS, HUMUNGOUS  See HUNGUS.
 
 HUNGUS (hung'-ghis) [perhaps related to current slang "humongous";
@@ -740,9 +778,6 @@ IRP (erp) [from the MIDAS pseudo-op which generates a block of code
 JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
    as a fast no-op] v. To cancel or annul something.  "Why don't you
    jfcl that out?"
-   [Notes: Once at the Museum of Science parking lot I saw a Vermont
-   license plate JFCL.  I wonder who owns it? - GLS.  California JFCL
-   plate belongs to Geoff Goodfellow. - RF]
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
@@ -813,6 +848,8 @@ LOSSAGE n. The result of a bug or malfunction.
 
 LPT (lip'-it) n. Line printer, of course.
 
+LUSER  See USER.
+
 MACROTAPE n. An industry standard reel of tape, as opposed to a
    MICROTAPE.
 
@@ -820,7 +857,7 @@ MAGIC adj. 1. As yet unexplained, or too complicated to explain.
    (Arthur C. Clarke once said that magic was as-yet-not-understood
    science.)  "TTY echoing is controlled by a large number of magic
    bits."  "This routine magically computes the parity of an eight-bit
-   byte in three instructions."  2. (SAIL) A feature not generally
+   byte in three instructions."  2. (Stanford) A feature not generally
    publicized which allows something otherwise impossible, or a
    feature formerly in that category but now unveiled.  Example: The
    keyboard commands which override the screen-hiding features.
@@ -875,6 +912,11 @@ MODULO prep. Except for.  From mathematical terminology: one can
 
 MOON n. 1. A celestial object whose phase is very important to
    hackers.  See PHASE OF THE MOON.  2. Dave Moon (MOON@MC).
+
+MUMBLAGE n. The topic of one's mumbling (see MUMBLE).  "All that
+   mumblage" is used like "all that stuff" when it is not quite clear
+   what it is or how it works, or like "all that crap" when "mumble"
+   is being used as an implicit replacement for obscenities.
 
 MUMBLE interj. 1. Said when the correct response is either too
    complicated to enunciate or the speaker has not thought it out.
@@ -955,13 +997,13 @@ PDL (piddle or puddle) [acronym for Push Down List] n. 1. A LIFO queue
    so this'll have to be pushed way down on my pdl."  See PUSH and
    POP.  2. Dave Lebling (PDL@DM).
 
-PESSIMAL [off-the-wall antonym for "optimal"] adj. Maximally bad.
+PESSIMAL [Latin-based antonym for "optimal"] adj. Maximally bad.
    "This is a pessimal situation."
 
-PESSIMIZING COMPILER n. A compiler that produces the worst possible
-   object code.
+PESSIMIZING COMPILER n. A compiler that produces object code that is
+   worse than the straightforward or obvious translation.
 
-PHANTOM n. (SAIL) The SAIL equivalent of a DRAGON (q.v.).  Typical
+PHANTOM n. (Stanford) The SAIL equivalent of a DRAGON (q.v.).  Typical
    phantoms include the accounting program, the news-wire monitor, and
    the lpt and xgp spoolers.
 
@@ -979,9 +1021,10 @@ PHASE (of people) 1. n. The phase of one's waking-sleeping schedule with
 
 PHASE OF THE MOON n. Used humorously as a random parameter on which
    something is said to depend.  Sometimes implies unreliability of
-   whatever is dependent.  "This feature depends on having the channel
-   open in mumble mode, having the foo switch set, and on the phase of
-   the moon."
+   whatever is dependent, or that reliability seems to be dependent on
+   conditions nobody has been able to determine.  "This feature
+   depends on having the channel open in mumble mode, having the foo
+   switch set, and on the phase of the moon."
 
 POM n. Phase of the moon (q.v.).  Usage: usually used in the phrase
    "POM dependent" which means flakey (q.v.).
@@ -1004,6 +1047,8 @@ PPN (pip'in) [DEC terminology, short for Project-Programmer Number] n.
    since ITS does not use ppn's.  The equivalent terms would be UNAME
    and SNAME, depending on context, but these are not used except in
    their technical senses.
+
+PROTOCOL  See DO PROTOCOL.
 
 PSEUDOPRIME n. A backgammon prime (six consecutive occupied points)
    with one point missing.
@@ -1088,10 +1133,11 @@ REAL WORLD, THE n. 1. In programming, those institutions at which
    and activities not related to programming.  3. A universe in which
    the standard dress is shirt and tie and in which a person's working
    hours are defined as 9 to 5.  4. The location of the status quo.
-   "Poor fellow, he's left MIT and gone into the real world."  Used
-   pejoratively by those not in residence there.  In conversation,
-   talking of someone who has entered the real world is not unlike
-   talking about a deceased person.
+   5. Anywhere outside a university.  "Poor fellow, he's left MIT and
+   gone into the real world."  Used pejoratively by those not in
+   residence there.  In conversation, talking of someone who has
+   entered the real world is not unlike talking about a deceased
+   person.
 
 REL  See BIN.
 
@@ -1173,14 +1219,14 @@ SPAZZ 1. v. To behave spastically or erratically; more often, to
 
 SPLAT n. 1. Name used in many places (DEC, IBM, and others) for the
    ASCII star ("*") character.  2. (MIT) Name used by some people for
-   the ASCII pound-sign ("#") character.  3. (SAIL) Name used by some
-   people for the Stanford/ITS extended ASCII circle-x character.
+   the ASCII pound-sign ("#") character.  3. (Stanford) Name used by
+   some people for the Stanford/ITS extended ASCII circle-x character.
    (This character is also called "circle-x", "blobby", and "frob",
-   among other names.)  4. (SAIL) Name for the semi-mythical extended
-   ASCII circle-plus character.  5. Canonical name for an output
-   routine that outputs whatever the the local interpretation of splat
-   is.  Usage: nobody really agrees what character "splat" is, but the
-   term is common.
+   among other names.)  4. (Stanford) Name for the semi-mythical
+   extended ASCII circle-plus character.  5. Canonical name for an
+   output routine that outputs whatever the the local interpretation
+   of splat is.  Usage: nobody really agrees what character "splat"
+   is, but the term is common.
 
 SUPDUP v. To communicate with another ARPAnet host using the SUPDUP
    program, which is a SUPer-DUPer TELNET talking a special display
@@ -1219,9 +1265,9 @@ SYSTEM n. 1. The supervisor program on the computer.  2. Any
    SYSTEM HACKER: one who hacks the system (in sense 1 only; for sense
    2 one mentions the particular program: e.g., LISP HACKER)
 
-T [from LISP terminology for "true"] Yes.  Usage: used in reply to a
-   question, particularly one asked using the "-P" convention).  See
-   NIL.
+T [from LISP terminology for "true"] 1. Yes.  Usage: used in reply to
+   a question, particularly one asked using the "-P" convention).  See
+   NIL.  2. See TIME T.
 
 TALK MODE  See COM MODE.
 
@@ -1269,8 +1315,21 @@ THRASH v. To move wildly or violently.  Swapping systems which are
    overloaded spend much of their time moving pages into and out of
    core, and are therefore said to thrash.
 
-TICK n. Interval of time; basic clock time on the computer.  Typically
-   1/60 second.  See JIFFY.
+TICK n. 1. Interval of time; basic clock time on the computer.
+   Typically 1/60 second.  See JIFFY.  2. In simulations, the discrete
+   unit of time that passes "between" iterations of the simulation
+   mechanism.  In AI applications, this amount of time is often left
+   unspecified, since the only constraint of interest is that caused
+   things happen after their causes.  This sort of AI simulation is
+   often pejoratively referred to as "tick-tick-tick" simulation,
+   especially when the issue of simultaneity of events with long,
+   independent chains of causes is handwaved.
+
+TIME T n. 1. An unspecified but usually well-understood time, often
+   used in conjunction with a later time T+1.  "We'll meet on campus
+   at time T or at Louie's at time T+1."  2. SINCE (OR AT) TIME T
+   EQUALS MINUS INFINITY: A long time ago; for as long as anyone can
+   remember; at the time that some particular frob was first designed.
 
 TOOL v.i. To work; to study.  See HACK (def #9).
 
@@ -1297,11 +1356,9 @@ TWENEX n. The TOPS-20 operating system by DEC.  So named because
    in creating TOPS-20 for the DEC-20 DEC copied TENEX and adapted it
    for the 20.  Usage: DEC people cringe when they hear TOPS-20
    referred to as "Twenex", but the term seems to be catching on
-   nevertheless.
-   [Note by MRC: Not only that, but the DEC hackers are using it a
-   lot themselves!  I used the term Twenex in talking to some Marlboro
-   types recently, and they instantly stopped saying "TOPS-20" and
-   started saying "Twenex"!]
+   nevertheless.  Release 3 of TOPS-20 is sufficiently different from
+   release 1 that some (not all) hackers have stopped calling it
+   TWENEX, though the written abbreviation "20x" is still used.
 
 TWIDDLE n. 1. tilde (ASCII 176, "~").  Also called "squiggle",
    "sqiggle" (sic--pronounced "skig'gul"), and "twaddle", but twiddle
@@ -1346,6 +1403,8 @@ VANILLA adj. Ordinary flavor, standard.  See FLAVOR.  When used of
    vanilla extract!  For example, "vanilla-flavored wonton soup" means
    ordinary wonton soup, as opposed to hot and sour wonton soup.
 
+VAXEN [from "vixen"] n. pl. The plural of VAX (a DEC machine).
+
 VIRGIN adj. Unused, in reference to an instantiation of a program.
    "Let's bring up a virgin system and see if it crashes again."
    Also, by extension, unused buffers and the like within a program.
@@ -1370,7 +1429,7 @@ WALL [shortened form of HELLO WALL, apparently from the phrase "up
 
 WEDGED [from "head wedged up ass"] adj. To be in a locked state,
    incapable of proceeding without help.  (See GRONK.)  Often refers
-   to humans suffereing misconceptions.  "The swapper is wedged."
+   to humans suffering misconceptions.  "The swapper is wedged."
    This term is sometimes used as a synonym for DEADLOCKED (q.v.).
 
 WHAT n. The question mark character ("?").  See QUES.  Usage: rare,
@@ -1423,7 +1482,7 @@ XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
    XGP.  "You shouldn't XGP such a large file."
 
 YOYO n. DEC service engineers' slang for UUO (q.v.).  Usage: rare at
-   SAIL and MIT, has been found at random DEC installations.
+   Stanford and MIT, has been found at random DEC installations.
 
 YOYO MODE n. State in which the system is said to be when it rapidly
    alternates several times between being up and being down.
