@@ -19,8 +19,9 @@ DON @ SAIL, GLS @ MIT-AI, and/or MRC @ SAIL.
 
 	Compiled by Guy L. Steele Jr., Raphael Finkel, Donald
 	Woods, and Mark Crispin, with assistance from the MIT
-	and Stanford AI communities.  Some contributions were
-	submitted via the ARPAnet from miscellaneous sites.
+	and Stanford AI communities and Worcester Polytechnic
+	Institute.  Some contributions were submitted via the
+	ARPAnet from miscellaneous sites.
 
 Verb doubling: a standard construction is to double a verb and use it
    as a comment on what the implied subject does.  Often used to
@@ -116,12 +117,26 @@ BLT (blit, very rarely belt) [based on the PDP-10 block transfer
    time.  3. (usually pronounced B-L-T) n. Sandwich containing bacon,
    lettuce, and tomato.
 
+BOGUS (WPI, Yale, Stanford) adj. 1. Non-functional.  "Your patches are
+   bogus."  2. Useless.  "OPCON is a bogus program."  3. False.  "Your
+   arguments are bogus."  4. Incorrect.  "That algorithm is bogus."
+   5. Silly.  "Stop writing those bogus sagas."  [This word seems to
+   have some, but not all, of the connotations of RANDOM.]
+
 BRAIN-DAMAGED [generalization of "Honeywell Brain Damage" (HBD), a
    theoretical disease invented to explain certain utter cretinisms in
    Multics] adj. Obviously wrong; cretinous; demented.  There is an
    implication that the person responsible must have suffered brain
    damage, because he should have known better.  Calling something
    brain-damaged is really bad; it also implies it is unusable.
+
+BREAK v. 1. To cause to be broken (in any sense).  "Your latest patch
+   to the system broke the TELNET server."  2. (Of a program) To stop
+   temporarily, so that it may be examined for debugging purposes.
+   The place where it stops is a BREAKPOINT.
+
+BROKEN adj. 1. Not working properly (of programs).  2. Behaving
+   strangely; especially (of people), exhibiting extreme depression.
 
 BROKET [by analogy with "bracket": a "broken bracket"] (primarily
    Stanford) n. Either of the characters "<" and ">".  (At MIT these
@@ -281,6 +296,11 @@ CRUNCH v. 1. To process, usually in a time-consuming or complicated
 CTY (city) n. The terminal physically associated with a computer's
    operating console.
 
+CUSPY [from the DEC acronym CUSP, for Commonly Used System Program,
+   i.e., a utility program used by many people] (WPI) adj. 1. (Of a
+   program) Well-written.  2. Functionally excellent.  A program which
+   performs well and interfaces well to users is cuspy.  See RUDE.
+
 DAEMON (day'mun, dee'mun) [archaic form of "demon", which has slightly
    different connotations (q.v.)] n. A program which is not invoked
    explicitly, but which lays dormant waiting for some condition(s) to
@@ -410,6 +430,10 @@ FENCEPOST ERROR n. The discrete equivalent of a boundary condition.
    apart, how many posts do you need?"  (Either 9 or 11 is a better
    answer than the obvious 10.)
 
+FINE (WPI) adj. Good, but not good enough to be CUSPY.  [The word FINE
+   is used elsewhere, of course, but without the implicit comparison
+   to the higher level implied by CUSPY.]
+
 FLAG DAY [from a bit of Multics history involving a change in the
    ASCII character set originally scheduled for June 14, 1966]
    n. A software change which is neither forward nor backward
@@ -430,6 +454,7 @@ FLAP v. To unload a DECtape (so it goes flap, flap, flap...).  Old
 FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors."
    2. The attribute of causing something to be FLAVORFUL.  "This
    convention yields additional flavor by allowing one to..."
+   See VANILLA.
 
 FLAVORFUL adj. Aesthetically pleasing.  See RANDOM and LOSING for
    antonyms.  See also the entry for TASTE.
@@ -457,12 +482,20 @@ FROB 1. n. (MIT) The official Tech Model Railroad Club definition is
 
 FROBNICATE v. To manipulate or adjust, to tweak.  Derived from
    FROBNITZ (q.v.).  Usually abbreviated to FROB.  Thus one has the
-   saying "to frob a frob".
+   saying "to frob a frob".  See TWEAK and TWIDDLE.  Usage: FROB,
+   TWIDDLE, and TWEAK sometimes connote points along a continuum.
+   FROB connotes aimless manipulation; TWIDDLE connotes gross
+   manipulation, often a coarse search for a proper setting; TWEAK
+   connotes fine-tuning.  If someone is turning a knob on an
+   oscilloscope, then if he's carefully adjusting it he is probably
+   tweaking it; if he is just turning it but looking at the screen he
+   is probably twiddling it; but if he's just doing it because turning
+   a knob is fun, he's frobbing it.
 
 FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    object, a widget.  Also refers to electronic black boxes.  This
    rare form is usually abbreviated to FROTZ, or more commonly to
-   FROB.
+   FROB.  Also used is FROBNULE.
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
@@ -511,7 +544,7 @@ GLASS TTY n. A terminal which has a display screen but which, because
 
 GLITCH [from the Yiddish "glitshen", to slide] 1. n. A sudden
    interruption in electric service, sanity, or program function.
-   Sometimes recoverable.  2. v. To commit a glitch.
+   Sometimes recoverable.  2. v. To commit a glitch.  See GRITCH.
 
 GLORK 1. interj. Term of mild surprise, usually tinged with outrage,
    as when one attempts to save the results of two hours of editing
@@ -530,7 +563,8 @@ GRIND v. 1. (primarily MIT) To format code, especially LISP code, by
    interminably, performing some tedious and inherently useless task.
    Similar to CRUNCH.
 
-GRITCH  See GLITCH.
+GRITCH 1. n. A complaint (often caused by a GLITCH (q.v.)).  2. v. To
+   complain.  Often verb-doubled: "Gritch gritch".  3. Glitch.
 
 GROK [from the novel "Stranger in a Strange Land", by Robert Heinlein,
    where it is a Martian word meaning roughly "to be one with"] v. To
@@ -614,6 +648,8 @@ HARDWARILY adv. In a way pertaining to hardware.  "The system is
    hardwarily unreliable."  The adjective "hardwary" is NOT used.  See
    SOFTWARILY.
 
+HELLO WALL  See WALL.
+
 HIRSUTE  Occasionally used humorously as a synonym for HAIRY.
 
 HUMONGOUS, HUMUNGOUS  See HUNGUS.
@@ -650,6 +686,8 @@ JOCK n. Programmer who is characterized by large and somewhat brute
    force programs.  The term is particularly well-suited for systems
    programmers.
 
+J. RANDOM  See RANDOM.
+
 JRST (jerst) [based on the PDP-10 jump instruction] v. To suddenly
    change subjects.  Usage: rather rare.  "Jack be nimble, Jack be
    quick; Jack jrst over the candle stick."
@@ -663,7 +701,8 @@ KLUGE (kloodj) alt. KLUDGE [from the German "kluge", clever] n. 1. A
    verges on being a crock.  3. Something that works for the wrong
    reason.  4. v. To insert a kluge into a program.  "I've kluged this
    routine to get around that weird bug, but there's probably a better
-   way."  5. KLUGE AROUND: to avoid by inserting a kluge.
+   way."  Also KLUGE UP.  5. KLUGE AROUND: to avoid by inserting a
+   kluge.  6. (WPI) A feature which is implemented in a RUDE manner.
 
 LDB (lid'dib) [from the PDP-10 instruction set] v. To extract from the
    middle.
@@ -672,7 +711,11 @@ LIFE n. A cellular-automata game invented by John Horton Conway, and
    first introduced publicly by Martin Gardner (Scientific American,
    October 1970).
 
-LINE STARVE  (MIT) Inverse of LINE FEED.
+LINE FEED (standard ASCII terminology) 1. v. To feed the paper through
+   a terminal by one line (in order to print on the next line).  2. n.
+   The "character" which causes the terminal to perform this action.
+
+LINE STARVE (MIT) Inverse of LINE FEED.
 
 LOSE [from MIT jargon] v. 1. To fail.  A program loses when it
    encounters an exceptional condition.  2. To be exceptionally
@@ -786,9 +829,10 @@ N adj. 1. Some large and indeterminate number of objects; "There were
    variable name.  2. An arbitrarily large (and perhaps infinite)
    number.  3. A variable whose value is specified by the current
    context.  "We'd like to order N wonton soups and a family dinner
-   for N-1."  NTH adj. The ordinal counterpart of N. "Now for the Nth
-   and last time..."  In the specific context "Nth-year grad student",
-   N is generally assumed to be at least 4, and is usually 5 or more.
+   for N-1."  4. NTH: adj. The ordinal counterpart of N. "Now for the
+   Nth and last time..."  In the specific context "Nth-year grad
+   student", N is generally assumed to be at least 4, and is usually 5
+   or more.  See also 69.
 
 NIGHT MODE  See PHASE (of people).
 
@@ -891,6 +935,9 @@ PUSH [based on the stack operation that puts the current information
    call instruction.  v. To enter upon a digression, to save the
    current discussion for later.
 
+QUES (kwess) 1. n. The question mark character ("?").  2. interj.
+   What?  Also QUES QUES?  See WALL.
+
 QUUX [Invented by Steele.  Mythically, from the Latin semi-deponent
    verb QUUXO, QUUXARE, QUUXANDUM IRI; noun form variously QUUX
    (plural QUUCES, Anglicized to QUUXES) and QUUXU (genitive plural is
@@ -927,6 +974,11 @@ RANDOM adj. 1. Unpredictable (closest to mathematical definition);
    chosen randomly."  n. 7. A random hacker; used particularly of high
    school students who soak up computer time and generally get in the
    way.  8. (Occasional MIT usage) One who lives at Random Hall.
+   J. RANDOM is often prefixed to a noun to make a "name" out of it
+   (by comparison to common names such as "J. Fred Muggs").  The most
+   common uses are "J. Random Loser" and "J. Random Nurd" ("Should
+   J. Random Loser be allowed to gun down other people?"), but it
+   can be used just as an elaborate version of RANDOM in any sense.
 
 RANDOMNESS n. An unexplainable misfeature; gratuitous inelegance.
    Also, a hack or crock which depends on a complex combination
@@ -935,6 +987,12 @@ RANDOMNESS n. An unexplainable misfeature; gratuitous inelegance.
    putting the character in the accumulator field of an XCT and
    then extracting 6 bits -- the low two bits of the XCT opcode
    are the right thing."  "What randomness!"
+
+RAVE (WPI) v. 1. To persist in discussing a specific subject.  2. To
+   speak authoritatively on a subject about which one knows very
+   little.  3. To complain to a person who is not in a position to
+   correct the difficulty.  4. To purposely annoy another person
+   verbally.  5. To evangelize.
 
 REAL WORLD, THE n. 1. In programming, those institutions at which
    programming may be used in the same sentence as FORTRAN, COBOL,
@@ -949,11 +1007,24 @@ REAL WORLD, THE n. 1. In programming, those institutions at which
 
 REL See BIN.
 
+RIGHT THING, THE n. That which is "obviously" the correct or
+   appropriate thing to use, do, say, etc.  Use of this term often
+   implies that in fact reasonable people may disagree.  "Never let
+   your conscience keep you from doing the right thing!"  "What's the
+   right thing for LISP to do when it reads '(.)'?"
+
+RUDE (WPI) adj. 1. (Of a program) Badly written.  2. Functionally
+   poor, e.g. a program which is very difficult to use because of
+   gratuitously poor (random?) design decisions.  See CUSPY.
+
 SACRED adj. Reserved for the exclusive use of something (a
    metaphorical extension of the standard meaning).  "Accumulator 7 is
    sacred to the UUO handler."  Often means that anyone may look at
    the sacred object, but clobbering it will screw whatever it is
    sacred to.
+
+SAGA (WPI) n. A cuspy but bogus raving story dealing with N random
+   broken people.
 
 SAV (save)  See BIN.
 
@@ -962,6 +1033,10 @@ SEMI 1. n. Abbreviation for "semicolon", when speaking.  "Commands to
    ";;*", not 1/4 of a star.  2. Prefix with words such as
    "immediately", as a qualifier.  "When is the system coming up?"
    "Semi-immediately."
+
+SERVER n. A kind of DAEMON which performs a service for the requester,
+   which often runs on a computer other than the one on which the
+   server runs.
 
 SHR (share)  See BIN.
 
@@ -1122,7 +1197,7 @@ TTY (titty) n. Terminal of the teletype variety, characterized by a
    to refer to the particular terminal controlling a job.
 
 TWEAK v. To change slightly, usually in reference to a value.  Also
-   used synonymously with TWIDDLE.  See FUDGE FACTOR.
+   used synonymously with TWIDDLE.  See FROBNICATE and FUDGE FACTOR.
 
 TWENEX n. The TOPS-20 operating system by DEC.  So named because
    TOPS-10 was a typically crufty DEC operating system for the PDP-10.
@@ -1141,8 +1216,9 @@ TWIDDLE n. 1. tilde (ASCII 176, "~").  Also called "squiggle",
    is by far the most common term.  2. A small and insignificant
    change to a program.  Usually fixes one bug and generates several
    new ones.  3. v. To change something in a small way.  Bits, for
-   example, are often twiddled.  Twiddling a switch implies much less
-   sense of purpose than toggling it; see FROB (v.).
+   example, are often twiddled.  Twiddling a switch or knob implies
+   much less sense of purpose than toggling or tweaking it; see
+   FROBNICATE.
 
 UP adj. 1. Working, in order.  "The down escalator is up."  2. BRING
    UP: v. To create a working version and start it.  "They brought up
@@ -1173,7 +1249,10 @@ UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
    since KA-10 Tenices implement it as a hardware instruction which
    can be used as an ordinary subroutine call (sort of a "pure JSR").
 
-VANILLA adj. Ordinary flavor, standard.  See FLAVOR.
+VANILLA adj. Ordinary flavor, standard.  See FLAVOR.  When used of
+   food, very often does not mean that the food is flavored with
+   vanilla extract!  For example, "vanilla-flavored wonton soup" means
+   ordinary wonton soup, as opposed to hot and sour wonton soup.
 
 VIRGIN adj. Unused, in reference to an instantiation of a program.
    "Let's bring up a virgin system and see if it crashes again."
@@ -1187,6 +1266,11 @@ WALDO [probably taken from the story "Waldo", by Heinlein, which is
    human limb] Used at Harvard, particularly by Tom Cheatham and
    students, instead of FOOBAR as a meta-syntactic variable and
    general nonsense word.  See FOO, BAR, FOOBAR, QUUX.
+
+WALL [shortened form of HELLO WALL, apparently from the phrase "up
+   against a blank wall"] (WPI) interj. 1. An indication of confusion,
+   usually spoken with a quizzical tone.  "Wall??"  2. A request for
+   further explication.
 
 WEDGED [from "head wedged up ass"] adj. To be in a locked state,
    incapable of proceeding without help.  (See GRONK.)  Often refers
