@@ -116,8 +116,9 @@ HACKER Originally, someone who makes furniture with an axe.  1. n.  A
    "keyword hacker", "network hacker".
 
 JFCL (djif'kl or djafik'l)  1. Based on the PDP-10 instruction that acts
-   as a fast no-op.  2. v.  To cancel or annul something. 3.  The licence plate
-   of GFF's gray-beige 450SL Mercedes-Benze.  "Why don't you jfcl that out?"
+   as a fast no-op.  2. v.  To cancel or annul something. "Why don't you
+   jfcl that out?" 3.  The California licence plate Geoff Goodfellow's
+   gray-beige 450SL Mercedes-Benze.  
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
@@ -222,4 +223,3 @@ WINNER 1. n.  An unexpectedly good situation, program, programmer or
 WIZARD n.  A person who knows how a complex piece of software or
    hardware works; someone who can find and fix his bugs in an
    emergency.
-
