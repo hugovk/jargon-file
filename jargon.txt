@@ -1,4 +1,4 @@
-============ THIS IS THE JARGON FILE, VERSION 2.8.1, 22 MAR 1991 ============
+============ THIS IS THE JARGON FILE, VERSION 2.8.2, 23 MAR 1991 ============
 
 Copyright 1991 by Eric S. Raymond, all rights reserved.  Permission to
 make copies and derived works for non-profit use is granted as long as
@@ -192,9 +192,6 @@ believed to date at least back to the early 1960s).  The revisions of
 jargon-1 were all unnumbered and may be collectively considered
 `Version 1'.
 
-In 1976, Mark Crispin brought the File to MIT; he and Guy Steele then
-added a first wave of new entries.
-
 In 1976, Mark Crispin, having seen an announcement about the File on
 the SAIL computer, {FTP}ed a copy of the File to MIT.  He noticed that
 it was hardly restricted to `AI words' and so stored the file on
@@ -277,7 +274,7 @@ This new version casts a wider net than the old jargon file; its aim
 is to cover not just AI or PDP-10 hacker culture but all the technical
 computing cultures wherein the true hacker-nature is manifested.  More
 than half of the entries now derive from USENET and represent jargon
-now current in the C and UNIX communities, but special efforts have
+now current in the C and UNIX communities, but special efforts have
 been made to collect jargon from other cultures including IBM PC
 programmers, Amiga fans, Mac enthusiasts, and even the IBM mainframe
 world.
@@ -2254,7 +2251,7 @@ bignum: /big'nuhm/ [orig. from MIT MacLISP] n.  1. [techspeak] A
      52422158659320192809087829730843139284440328123155
      86110369768013573042161687476096758713483120254785
      89320767169132448426236131412508780208000261683151
-     02734182797770478463586817016436502415369139828126
+     02734182797770478463586817016436502415369139828126
      48102130927612448963599287051149649754199093422215
      66832572080821333186116811553615836546984046708975
      60290095053761647584772842188967964624494516076535
@@ -2351,15 +2348,6 @@ bit bashing: n. (also, `bit diddling' or {bit twiddling}) Term
    driver looks pretty solid but the bit-bashing for the control
    registers still has bugs."  See also {bit bang}, {mode bit}.
 
-bit twiddling: n. 1. (pejorative) An exercise in {tuning} in
-   which incredible amounts of time and effort go to produce little
-   noticeable improvement, with the frequent result that the code has
-   become incomprehensible.  2. aimless small modification to a
-   program, esp. for some pointless goal.  3. Approx. syn. for {bit
-   bashing}; esp. used for the act of frobbing the device control
-   register of a peripheral in an attempt to get it back to a known
-   state.
-
 bit bucket: n. 1. The universal data sink (originally, the mythical
    receptacle used to catch bits when they fall off the end of a
    register during a shift instruction).  Data that is discarded,
@@ -2417,6 +2405,15 @@ bit rot: n. Also {bit decay}.  Hypothetical disease the existence
 
    The term {software rot} is almost synonymous.  Software rot is
    the effect, bit rot the notional cause.
+
+bit twiddling: n. 1. (pejorative) An exercise in {tuning} in
+   which incredible amounts of time and effort go to produce little
+   noticeable improvement, with the frequent result that the code has
+   become incomprehensible.  2. aimless small modification to a
+   program, esp. for some pointless goal.  3. Approx. syn. for {bit
+   bashing}; esp. used for the act of frobbing the device control
+   register of a peripheral in an attempt to get it back to a known
+   state.
 
 bit-paired keyboard: n. obs.  A non-standard keyboard layout which
    seems to have originated with the Teletype ASR-33 and remained
@@ -3243,7 +3240,7 @@ bug: n. An unwanted and unintended property of a program or hardware,
    persistent {glitch} in the Harvard Mark II machine by pulling an
    actual physical bug out from between the contacts of one of its
    relays, and she subsequently promulgated {bug} in its hackish
-   sense as a joke about the incident (though, as she was careful to
+   sense as a joke about the incident (though, as she was careful to
    admit, she was not there when it happened).  For many years the
    logbook associated with the incident and the actual bug in question
    (a moth) sat in a display case at the Naval Surface Warfare Center;
@@ -3459,7 +3456,7 @@ careware: n. {Shareware} for which either the author suggests
    directed to charity is included on top of the distribution charge.
    Syn. {charityware}.  Compare {crippleware}, sense #2.
 
-cargo-cult programming: n. A style of (incompetent) programming
+cargo-cult programming: n. A style of (incompetent) programming
    dominated by ritual inclusion of code or program structures that
    serve no real purpose.  A cargo-cult programmer will usually
    explain the extra code as a way of working around some bug
@@ -3745,7 +3742,7 @@ clone: n. 1. An exact duplicate, as in "Our product is a clone of
 clustergeeking: /kluh'ster-gee`king/ [CMU] n. An activity defined by
    spending more time at a computer cluster doing CS homework than
    most people spend breathing.
-
+
 COBOL: [COmmon Business-Oriented Language] n. Synonymous with
    {evil} --- a weak, verbose, and flabby language used by {card
    walloper}s to do boring mindless things on {dinosaur} mainframes.
@@ -4134,7 +4131,7 @@ copyleft: /kop'ee-left/ [play on `copyright'] n. 1. The
    {EMACS} and other Free Software Foundation software, granting re-use
    and reproduction rights to all comers (but see also {General
    Public Virus}).  2. By extension, any copyright notice intended to
-   achieve similar aims.
+   achieve similar aims.
 
 copywronged: [play on `copyright'] adj. Syn. for {copybroke}.
 
@@ -4259,7 +4256,7 @@ crash: 1. n. A sudden, usually drastic failure.  Most often said of
    "Has the system just crashed?"  See {down}.  Also used
    transitively to indicate the cause of the crash (usually a person
    or a program, or both).  "Those idiots playing {SPACEWAR}
-   crashed the system."  3. vi. Sometimes said of people hitting the
+   crashed the system."  3. vi. Sometimes said of people hitting the
    sack after a long {hacking run}; see {gronk} (sense #4).
 
 crash and burn: vi.,n. A spectacular crash, in the mode of the
@@ -4277,7 +4274,7 @@ crawling horror: n. Ancient crufty hardware or software that forces
    beyond the control of the hackers at a site refuse to let die.
    Like {dusty deck} or {gonkulator}, but connotes that the thing
    described is not just an irritation but an active menace to health
-   and sanity.  "Mostly we code new stuff in C, but they pay us to
+   and sanity.  "Mostly we code new stuff in C, but they pay us to
    maintain one big FORTRAN II application from nineteen-sixty-X
    that's a real crawling horror...."  Compare {WOMBAT}.
 
@@ -4980,7 +4977,7 @@ dink: adj. Said of a machine which has the {bitty box} nature; a
 dinosaur: n. 1. Any hardware requiring raised flooring and special
    power.  Used especially of old minis and mainframes when contrasted
    with newer microprocessor-based machines.  In a famous quote from
-   the '88 UNIX EXPO, Bill Joy compared the mainframe in the massive
+   the '88 UNIX EXPO, Bill Joy compared the mainframe in the massive
    IBM display with a grazing dinosaur, "with a truck outside pumping
    its bodily fluids through it".  IBM was not amused.  Compare
    {big iron}; see also {mainframe}.  2. [IBM] A very conservative
@@ -5518,6 +5515,12 @@ El Camino Bignum: /el' k*-mee'noh big'num/ n. El Camino Real.  El
    long, he renamed it `El Camino Bignum', and that name has stuck.
    (See {bignum}.)
 
+elder days: n. The heroic age of hackerdom (roughly, pre-1980); the
+   era of the {PDP-10}, {TECO}, {ITS}, and the ARPANET.  This
+   term has been rather consciously adopted from J. R. R. Tolkien's
+   fantasy epic `The Lord of the Rings'.  Compare {Iron Age};
+   see also {elvish}.
+
 elegant: [from mathematical usage] adj. Combining simplicity, power,
    and a certain ineffable grace of design.  Higher praise than
    `clever', `winning', or even {cuspy}.
@@ -5543,6 +5546,18 @@ elevator controller: n. Another archetypal dumb embedded-systems
    default runtime library --- what if you're targeting an elevator
    controller?"  Elevator controllers became important rhetorical
    weapons on both sides of several {holy wars}.
+
+elvish: n. 1. The Tengwar of Feanor, a table of letterforms
+   resembling the beautiful Celtic half-uncial hand of the {Book of
+   Kells}.  These were invented and described by J. R. R. Tolkien in
+   `The Lord of The Rings' as an orthography for his fictional
+   `elvish' languages.  This system, which is both visually and
+   phonetically elegant, has long fascinated hackers (who tend to be
+   interested by artificial languages in general).  It is traditional
+   for graphics printers, plotters, window systems, and the like to
+   support a Feanorian font as one of their demo items.  2. By
+   extension, any odd or unreadable font produced by a graphics
+   device.
 
 EMACS: /ee'maks/ [from Editing MACroS] n. The ne plus ultra of
    hacker editors, a program editor with an entire LISP system inside
@@ -6898,7 +6913,7 @@ gedanken: /g*-dahn'kn/ adj. Ungrounded; impractical; not
    does not constitute a clear specification of an algorithm.  See
    also {DWIM}.
 
-h{geef} v. [ostensibly from `gefingerpoken'] vt. Syn. {mung}.  See
+geef: v. [ostensibly from `gefingerpoken'] vt. Syn. {mung}.  See
    also {blinkenlights}.
 
 geek out: vi. To temporarily enter techno-nerd mode while in a
@@ -7248,7 +7263,7 @@ Great Renaming: n. The {flag day} on which all of the groups on the
    {USENET} had their names changed from the net.- format to the
    current multiple-hierarchies scheme.
 
-Great Runes: n. Uppercase-only text or display messages.  Some
+Great Runes: n. Uppercase-only text or display messages.  Some
    archaic operating systems still emit these.  See also {runes},
    {smash case}, {fold case}.
 
@@ -7436,7 +7451,7 @@ gun: [from the :GUN command on ITS] vt. To forcibly terminate a
 gunch: [TMRC] vt. To push, prod, or poke at a device which has
    almost produced the desired result.  Implies a threat to {mung}.
 
-gurfle: /ger'fl/ interj. An expression of shocked disbelief.  "He
+gurfle: /ger'fl/ interj. An expression of shocked disbelief.  "He
    said we have to recode this thing in FORTRAN by next week.
    Gurfle!"  Compare {weeble}.
 
@@ -7642,7 +7657,7 @@ hair: [back-formation from {hairy}] n. The complications that
    (tending to promote hair growth): "GNUMACS Elisp encourages lusers
    to write complex editing modes."  "Yeah, it's pretty hairiferous
    all right." (or just: "Hair squared!")
-
+
 hairy: adj. 1. Annoyingly complicated.  "{DWIM} is incredibly
    hairy."  2. Incomprehensible.  "{DWIM} is incredibly hairy."
    3. Of people, high-powered, authoritative, rare, expert, and/or
@@ -7953,7 +7968,7 @@ hidden flag: [scientific computation] n. An extra option added to a
    to give extra diagnostic output, the programmer might just add a
    test for some otherwise meaningless feature of the existing inputs,
    such as a negative mass.  Liberal use of hidden flags can make a
-   program very hard to debug and understand.
+   program very hard to debug and understand.
 
 high bit: [from `high order bit'] n. 1. The most significant bit
    in a byte.  2. Also meaning most significant part of something
@@ -7968,7 +7983,7 @@ high moby: /hie mohb'ee/ n. The high half of a stock {PDP-10}'s
    separate wakes being held in commemoration of the shutdown of MIT's
    last {ITS} machines, the one on the upper floor was dubbed the
    high moby and the other the low moby.  All parties involved
-   {grok}ked this instantly.  See {moby}.
+   {grok}ked this instantly.  See {moby}.
 
 highly: [scientific computation] adv. The preferred modifier for
    overstating an understatement.  As in: `highly nonoptimal', the
@@ -8379,7 +8394,7 @@ infinity: n. 1. The largest value that can be represented in a
    equals minus infinity', which is closer to a mathematician's usage
    of infinity.
 
-insanely great: adj. [Mac community, from Steve Jobs; also BSD UNIX
+insanely great: adj. [Mac community, from Steve Jobs; also BSD UNIX
    people via Bill Joy] Something so incredibly {elegant} that it is
    imaginable only to someone possessing the most puissant of
    {hacker}-natures.
@@ -8740,7 +8755,7 @@ kit: [USENET] n. A source software distribution that has been
    packaged in such a way that it can (theoretically) be unpacked and
    installed according to a series of steps using only standard UNIX
    tools, and entirely documented by some reasonable chain of
-   references from the top-level {README file}.  The more general
+   references from the top-level {README file}.  The more general
    term {distribution} may imply that special tools or more
    stringent conditions on the host environment are required.
 
@@ -9042,7 +9057,7 @@ LISP: [from `LISt Processing language', but mythically from
    All LISP functions and programs are expressions that return
    values; this, together with the high memory utilization of LISPs,
    gave rise to Alan Perlis's famous quip (itself a take on an Oscar
-   Wilde quote) that "LISP programmers know the value of everything
+   Wilde quote) that "LISP programmers know the value of everything
    and the cost of nothing."
 
 literature, the: n.  Computer science journals and other
@@ -9072,7 +9087,17 @@ live data: n. 1. Data which is written to be interpreted and takes
    commands back to the machine when they are simply viewed.  2. In C
    code, data which includes pointers to function {hook}s.  3. An
    object such as a {trampoline} which is constructed on the fly by
-   a program and intended to be executed as code.
+   a program and intended to be executed as code. 4. `actual
+   real-world data', as opposed to `test data'.  For example, "I
+   think I have the record deletion module finished."  "Have you
+   tried it out on live data?"  It usually carries the connotation
+   that live data is more fragile and must not be corrupted, else bad
+   things will happen.  So a possible alternate response to the above
+   claim might be "Well, make sure it works perfectly before we
+   throw live data at it."  The implication here is that record
+   deletion is something pretty significant, and a haywire record
+   deletion module running amock on live data would cause great harm
+   and probably require restoring from backups.
 
 Live Free Or Die!: imp. 1. The state motto of New Hampshire, which
    used to be on its car license plates.  2. A slogan associated with
@@ -9146,7 +9171,7 @@ logical: [from the technical term `logical device', wherein a
    describe these directions as `logical north' and `logical south',
    to indicate that they are conventional directions not corresponding
    to the usual denotation for those words.  (If you went logical
-   south along the entire length of route 128, you would start out
+   south along the entire length of route 128, you would start out
    going northwest, curve around to the south, and finish headed due
    east!)
 
@@ -9411,7 +9436,7 @@ mailing list: n. (often shortened to `list') 1. An {email}
    your email when you send it to such an address.
 
    Mailing lists are one of the primary forms of hacker interaction,
-   along with {USENET}.  They predate USENET, and originated with the
+   along with {USENET}.  They predate USENET, and originated with the
    first UUCP and ARPANET connections.  They are often used for
    private information-sharing on topics that would be too specialized
    for or inappropriate to public USENET groups.  While some of these
@@ -10087,7 +10112,7 @@ mumble: interj. 1. Said when the correct response is either too
    question ("Mumble?") means "I didn't understand you."
    5. Sometimes used in `public' contexts on-line as a placefiller for
    things one is barred from giving details about.  For example, a
-   poater with pre-released hardware in his machine might say "Yup,
+   poster with pre-released hardware in his machine might say "Yup,
    my machine now has an extra 16M of mem, thanks to the card I'm
    testing for Mumbleco."
 
@@ -10433,7 +10458,7 @@ newgroup wars: /n[y]oo'grp wohrz/ [USENET] n. Salvos of dueling
    persons on opposite sides of a dispute over whether a {newsgroup}
    should be created net-wide.  These usually settle out within a week
    or two as it becomes clear whether the group has a natural
-   constituency (usually, it doesn't).  At times, especially in the
+   constituency (usually, it doesn't).  At times, especially in the
    completely anarchic `alt' hierarchy, the names of newsgroups
    themselves become a form of comment or humor; e.g. the spinoff of
    `alt.swedish.chef.bork.bork.bork' from `alt.tv.muppets' in
@@ -10466,9 +10491,10 @@ newsfroup: // [USENET] n. Silly synonym for
 
 newsgroup: [USENET] n. One of {USENET}'s huge collection of topic
    groups.  Among the best-known are `comp.lang.c' (the C-language
-   forum), `comp.unix.wizards', `rec.arts.sf-lovers' (for
-   science-fiction fans), and `talk.politics.misc' (miscellaneous
-   political discussions and {flamage}).
+   forum), `comp.arch' (on computer architectures),
+   `comp.unix.wizards' (for UNIX wizards), `rec.arts.sf-lovers'
+   (for science-fiction fans), and `talk.politics.misc'
+   (miscellaneous political discussions and {flamage}).
 
 nickle: [From `nickel', common name for the US 5-cent coin] n. A
    {nybble} + 1; 5 bits.  Reported among developers for Mattel's GI
@@ -10923,7 +10949,7 @@ overrun screw: [C programming] n. A variety of {fandango on core}
    for this).  This is relatively benign and easy to spot if the array
    is static; if it is auto, the result may be to {smash the stack}
    --- often resulting in {heisenbug}s of the most diabolical
-   subtlety.  The term `overrun screw' is used esp. of scribbles
+   subtlety.  The term `overrun screw' is used esp. of scribbles
    beyond the end of arrays allocated with `malloc(3)'; this
    typically trashes the allocation header for the next block in the
    {arena}, producing massive lossage within malloc and often
@@ -11209,7 +11235,7 @@ Perl: [Practical Extraction and Report Language, aka Pathologically
    Eclectic Rubbish Lister] n. An interpreted language developed by
    Larry Wall (lwall@jpl.nasa.gov, author of `patch(1)' and
    `rn(1)') and distributed over USENET.  Superficially resembles
-   `awk(1)', but is much hairier (see {awk}).  UNIX sysadmins,
+   `awk(1)', but is much hairier (see {awk}).  UNIX sysadmins,
    who are almost always incorrigible hackers, increasingly consider
    it one of the {languages of choice}.  Perl has been described, in
    a parody of a famous remark about `lex(1)', as the "Swiss-army
@@ -11246,7 +11272,7 @@ phase: 1. n. The phase of one's waking-sleeping schedule with
    among people who often work at night and/or according to no fixed
    schedule.  It is not uncommon to change one's phase by as much as
    six hours/day on a regular basis.  "What's your phase?"  "I've
-   been getting in about 8 PM lately, but I'm going to {wrap around}
+   been getting in about 8 PM lately, but I'm going to {wrap around}
    to the day schedule by Friday."  A person who is roughly 12 hours
    out of phase is sometimes said to be in `night mode'.  (The
    term `day mode' is also (but less frequently) used, meaning
@@ -11368,7 +11394,7 @@ PIP: /pip/ [Peripheral Interchange Program] vt.,obs. To copy; from
    and RT-11 for just about every other file operation you might want
    to do).  It is said that when the program was originated during the
    development of the PDP-6 in 1963 it was called ATLATL (`Anything,
-   Lord, to Anything, Lord').
+   Lord, to Anything, Lord').
 
 pipeline: [UNIX, orig. by Doug McIlroy; now also used under MS-DOS
    and elsewhere] n. A chain of {filter} programs connected
@@ -11865,7 +11891,7 @@ quantifiers:: n. In techspeak and jargon, the standard metric
 quantum bogodynamics: /kwon'tm boh`goh-die-nam'iks/ n. A theory
    that characterizes the universe in terms of bogon sources (such as
    politicians, used-car salesmen, TV evangelists, and {suit}s in
-   general), bogon sinks (such as taxpayers and computers), and
+   general), bogon sinks (such as taxpayers and computers), and
    bogosity potential fields.  Bogon absorption, of course, causes
    human beings to behave mindlessly and machines to fail (and may
    also cause them to emit secondary bogons); however, the precise
@@ -11932,8 +11958,14 @@ QWERTY: /kwer'tee/ [from the keycaps at the upper left] adj.
    opposed to Dvorak or foreign-language layouts or a {space-cadet
    keyboard} or APL keyboard.
 
-   Historical note: the QWERTY layout was designed to be deliberately
-   slow, because fast typing jammed up early mechanical typewriters.
+   Historical note: the QWERTY layout (one of the worst disasters in
+   the history of human-factors design) was actually designed to be
+   deliberately slow!  Sholes tried to put common digraphs far apart,
+   because fast typing of near-adjacent keys jammed up early
+   mechanical typewriters.  He did a poor job; `th', `er' and other
+   common digraphs were close enough together to induce frequent jams.
+   The QWERTY layout is therefore more than just {cretinous}, it is
+   {bogus} in its very cretinosity!
 
 = R =
 =====
@@ -12061,7 +12093,7 @@ rave: [WPI] vi. 1. To persist in discussing a specific subject.
 rave on!: imp. Sarcastic invitation to continue a {rave}, often by
    someone who wishes the raver would get a clue but realizes this is
    unlikely.
-
+
 ravs: /ravz/, also `Chinese ravs' n.  Jiao-zi (steamed or
    boiled) or Guo-tie (pan-fried).  A Chinese appetizer, known
    variously in the plural as dumplings, pot stickers (the literal
@@ -12515,7 +12547,7 @@ saga: [WPI] n. A cuspy but bogus raving story dealing with N random
    Telegraph Street, which, like Harvard Square in Cambridge,
    Massachusetts, in summer was lined with picturesque street vendors
    and interesting little shops.  On that street we discovered Uncle
-   Gaylord's Berkeley store.  The ice cream there was very good.
+   Gaylord's Berkeley store.  The ice cream there was very good.
    During that August visit JONL went absolutely bananas (so to
    speak) over one particular flavor, ginger honey.
 
@@ -13480,7 +13512,7 @@ spiffy: /spi'fee/ adj. 1. Said of programs having a pretty,
 
 spin: vi. Equivalent to {buzz}.  More common among C and UNIX
    programmers.
-
+
 spl: /ess-pee-ell/ [abbrev, from Set Priority Level] The way
    traditional UNIX kernels implement mutual exclusion by running code
    at high interrupt levels.  Used in jargon to describe the act of
@@ -13813,7 +13845,7 @@ talk mode: n. A feature supported by UNIX, ITS and some other OSes
      BCNU      Be seeing you.
      BTW       By the way...  Lower-case also works.
      BYE?      Are you ready to unlink?  (This is the standard way to
-               end a talk mode conversation; the other person types BYE
+               end a talk mode conversation; the other person types BYE
                to confirm, or else continues the conversation.)
      CUL       See you later.
      ENQ?      Are you busy?  Expects ACK or NAK in return.
@@ -14575,7 +14607,7 @@ TWENEX: /twe'neks/ n. The TOPS-20 operating system by DEC.
    in the early 1980s when it commanded as fervent a culture of
    partisans as UNIX or ITS --- but DEC's decision to scrap all the
    internal rivals to the VAX architecture and its relatively stodgy
-   VMS OS killed the DEC-20 and put a sad end to TWENEX's brief day in
+   VMS OS killed the DEC-20 and put a sad end to TWENEX's brief day in
    the sun.
 
 twiddle: n. 1. Tilde (ASCII #b1111110, `~').  Also called
@@ -14920,8 +14952,7 @@ vaxocentrism: /vak`soh-sen'trizm/ [analogy with
 
   2.    The assumption that pointer and integer types are the same size,
         and that pointers can be stuffed into integer variables (and
-        vice-versa) and drawn back out without being truncated or
-     mangled.
+        vice-versa) and drawn back out without being truncated or mangled.
         Problem: fails on segmented architectures or word-oriented machines
         with funny pointer formats.
 
@@ -15107,7 +15138,7 @@ virus: [from the obvious analogy with biological viruses, via SF]
    a {worm}).  Compare {Trojan horse}, {back door}; see also
    {UNIX conspiracy}.
 
-visionary: n. 1. One who hacks vision, in the sense of an
+visionary: n. 1. One who hacks vision, in the sense of an
    Artificial Intelligence researcher working on the problem of
    getting computers to `see' things using TV cameras.  (There isn't
    any problem in sending information from a TV camera to a computer.
@@ -15601,7 +15632,7 @@ wonky: /wong'kee/ [from Australian slang] adj. Yet another
    malfunction which produces behavior seen as crazy, humorous, or
    amusingly perverse.  "That was the day the printer's font logic
    went wonky and everybody's listings came out in Tengwar."  Also in
-   `wonked out'.  See {funky}, {demented}, {bozotic}.
+   `wonked out'.  See {funky}, {demented}, {bozotic}.
 
 workaround: n. A temporary {kluge} inserted in a system under
    development or test in order to avoid the effects of a {bug} or
@@ -17053,7 +17084,7 @@ the fall of Atlantis, who really killed JFK, sex, drugs, rock & roll
 and the Cosmic Giggle Factor.  First published in 3 volumes, but
 there's now a one-volume trade paperback carried by most chain
 bookstores under SF.  The perfect right-brain companion to Hofstadter's
-`Godel, Escher, Bach: An Eternal Golden Braid'.  See {Eris},
+`Godel, Escher, Bach: An Eternal Golden Braid'.  See {Eris},
 {Discordianism}, {random numbers}, {Church Of The Sub-Genius}.
 
      The Hitchhiker's Guide to the Galaxy
