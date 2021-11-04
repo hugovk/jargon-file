@@ -16,6 +16,8 @@ Stick to the standard ASCII character set.
 If you'd rather not mung the file yourself, send your definitions to
 DON @ SAIL, GLS @ MIT-AI, and/or MRC @ SAIL.
 
+The last edit (of this line, anyway) was by Don Woods on 81-07-22.
+
 ======================================================================
 
 	Compiled by Guy L. Steele Jr., Raphael Finkel, Donald
@@ -37,12 +39,13 @@ Soundalike slang: similar to Cockney rhyming slang.  Often made up on
 	Boston Globe => Boston Glob
 	Herald American => Horrid (Harried) American
 	New York Times => New York Slime
-	Dime Time => Slime Time
+	historical reasons => hysterical raisins
 	government property - do not duplicate (seen on keys)
 		=> government duplicity - do not propagate
    Often the substitution will be made in such a way as to slip in
    a standard jargon word:
 	Dr. Dobb's Journal => Dr. Frob's Journal
+	creeping featurism => feeping creaturism
 	Margaret Jacks Hall => Marginal Hacks Hall
 
 The -P convention: turning a word into a question by appending the
@@ -64,30 +67,29 @@ Peculiar nouns: MIT AI hackers love to take various words and add the
 		generous => generosity
 	Ergo:	mysterious => mysteriosity
 		ferrous => ferocity
-
-	Other examples:  winnitude, disgustitude, hackification.
+   Other examples:  winnitude, disgustitude, hackification.
 
 Spoken inarticulations:  Words such as "mumble", "sigh", and "groan"
    are spoken in places where their referent might more naturally be
    used.  It has been suggested that this usage derives from the
-   impossibility of representing such noises in a com link.
-   Another expression sometimes heard is "complain!"
+   impossibility of representing such noises in a com link.  Another
+   expression sometimes heard is "complain!"
 
-@BEGIN (primarily CMU) with @End, used humorously in writing to
-   indicate a context or to remark on the surrounded text.  From
-   the SCRIBE command of the same name.  For example:
+@BEGIN (primarily CMU) with @END, used humorously in writing to
+   indicate a context or to remark on the surrounded text.  From the
+   SCRIBE command of the same name.  For example:
 	@Begin(Flame)
 	Predicate logic is the only good programming language.
 	Anyone who would use anything else is an idiot.  Also,
 	computers should be tredecimal instead of binary.
 	@End(Flame)
 
+ANGLE BRACKETS (primarily MIT) n. Either of the characters "<" and
+   ">".  See BROKET.
+
 AOS (aus (East coast) ay-ahs (West coast)) [based on a PDP-10
    increment instruction] v. To increase the amount of something.
    "Aos the campfire."  Usage: considered silly.  See SOS.
-
-ANGLE BRACKETS (primarily MIT) n. Either of the characters "<" and
-   ">".  See BROKET.
 
 ARG n. Abbreviation for "argument" (to a function), used so often as
    to have become a new word.
@@ -119,6 +121,11 @@ BARF [from the "layman" slang, meaning "vomit"] 1. interj. Term of
    adj. Said of something which would make anyone barf, if only for
    aesthetic reasons.
 
+BELLS AND WHISTLES n. Unnecessary but useful (or amusing) features of
+   a program.  "Now that we've got the basic program working, let's go
+   back and add some bells and whistles."  Nobody seems to know what
+   distinguishes a bell from a whistle.
+
 BIGNUMS [from Macsyma] n. 1. In backgammon, large numbers on the dice.
    2. Multiple-precision (sometimes infinitely extendable) integers
    and, through analogy, any very large numbers.  3. EL CAMINO BIGNUM:
@@ -138,6 +145,10 @@ BIN [short for BINARY; used as a second file name on ITS] 1. n.
    loaders (LOADER, LINK-10, STINK), called REL FILES.
 
 BINARY n. The object code for a program.
+
+BITBLT (bit'blit) 1. v. To perform a complex operation on a large
+   block of bits, usually involving the bits being displayed on a
+   bitmapped raster screen.  See BLT.  2. n. The operation itself.
 
 BLETCH [from German "brechen", to vomit (?)] 1. interj. Term of
    disgust.  2. BLETCHEROUS: adj. Disgusting in design or function.
@@ -197,7 +208,9 @@ BROKET [by analogy with "bracket": a "broken bracket"] (primarily
    called ANGLE BRACKETS.)
 
 BUCKY BITS (primarily Stanford) n. The bits produced by the CTRL and
-   META shift keys on a Stanford (or Knight) keyboard.
+   META shift keys on a Stanford (or Knight) keyboard.  Rumor has it
+   that the idea for extra bits for characters came from Niklaus
+   Wirth, and that his nickname was `Bucky'.
    DOUBLE BUCKY: adj. Using both the CTRL and META keys.  "The command
    to burn all LEDs is double bucky F."
 
@@ -224,14 +237,14 @@ CANONICAL adj. The usual or standard state or manner of something.
    Stallman: "What did he say?"
    Steele: "He just used `canonical' in the canonical way."
 
-CATATONIA (kat-uh-toe'-nee-uh) n. A condition of suspended animation
-   in which the system is in a wedged (CATATONIC) state.
+CATATONIA (kat-uh-toe'nee-uh) n. A condition of suspended animation in
+   which the system is in a wedged (CATATONIC) state.
 
 CDR (ku'der) [from LISP] v. With "down", to trace down a list of
    elements.  "Shall we cdr down the agenda?"  Usage: silly.
 
-CHINE NUAL n. The Lisp Machine Manual.  So called because the title
-   is wrapped around the cover so only those letters show.
+CHINE NUAL n. The Lisp Machine Manual, so called because the title is
+   wrapped around the cover so only those letters show.
 
 CHOMP v. To lose; to chew on something of which more was bitten off
    than one can.  Probably related to gnashing of teeth.  See
@@ -269,6 +282,7 @@ COM MODE (variant: COMM MODE) [from the ITS feature for linking two or
 		the other).
 	HELLOP	A greeting, also meaning R U THERE?  (An instance
 		of the "-P" convention.)
+	MtFBWY	May the Force be with you.  (From Star Wars.)
 	NIL	No (see the main entry for NIL).
 	OBTW	Oh, by the way...
 	R U THERE?	Are you there?
@@ -286,8 +300,7 @@ COM MODE (variant: COMM MODE) [from the ITS feature for linking two or
 		a hyphen) to indicate who is typing.  The login name
 		often is shortened to a unique prefix (possibly a
 		single letter) during a very long conversation.
-        <alternating slash/backslash: /\/\/\/\>  The equivalent of a
-		giggle. 
+	/\/\/\	The equivalent of a giggle.
    At Stanford, where the link feature is implemented by "talk loops",
    the term TALK MODE is used in place of COM MODE.  Most of the above
    "sub-jargon" is used at both Stanford and MIT.
@@ -353,6 +366,11 @@ CRUNCH v. 1. To process, usually in a time-consuming or complicated
    counting repeated characters (such as spaces) the term is doubly
    appropriate.  (This meaning is usually used in the construction
    "file crunch(ing)" to distinguish it from "number crunch(ing)".)
+   3. n. The character "#".  Usage: used at Xerox and CMU, among other
+   places.  Other names for "#" include SHARP, NUMBER, HASH, PIG-PEN,
+   POUND-SIGN, and MESH.  GLS adds: I recall reading somewhere that
+   most of these are names for the # symbol IN CONTEXT.  The name for
+   the sign itself is "octothorp".
 
 CTY (city) n. The terminal physically associated with a computer's
    operating console.
@@ -456,6 +474,13 @@ DRAGON n. (MIT) A program similar to a "daemon" (q.v.), except that it
    with some random picture (such as a unicorn, Snoopy, or the
    Enterprise) which is generated by the "NAME DRAGON".  See PHANTOM.
 
+DWIM [Do What I Mean] 1. adj. Able to guess, sometimes even correctly,
+   what result was intended when provided with bogus input.  Often
+   suggested in jest as a desired feature for a complex program.  A
+   related term, more often seen as a verb, is DTRT (Do The Right
+   Thing).  2. n. The INTERLISP function that attempts to accomplish
+   this feat by correcting many of the more common errors.  See HAIRY.
+
 ENGLISH n. The source code for a program, which may be in any
    language, as opposed to BINARY.  Usage: slightly obsolete, used
    mostly by old-time hackers, though recognizable in context.  At
@@ -465,8 +490,8 @@ ENGLISH n. The source code for a program, which may be in any
 
 EPSILON [from standard mathematical notation for a small quantity] 1.
    n. A small quantity of anything.  "The cost is epsilon."  2. adj.
-   Very small, negligible; less than marginal.  "We can get this
-   feature for epsilon cost."  3. WITHIN EPSILON OF: Close enough
+   Very small, negligible; less than marginal (q.v.).  "We can get
+   this feature for epsilon cost."  3. WITHIN EPSILON OF: Close enough
    to be indistinguishable for all practical purposes.
 
 EXCH (ex'chuh, ekstch) [from the PDP-10 instruction set] v. To
@@ -531,11 +556,11 @@ FLAP v. To unload a DECtape (so it goes flap, flap, flap...).  Old
    microtapes were 1, 2,... and attempting to flap device 0 would
    instead start a motor banging inside a cabinet near the disk!
 
-FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors." 
-   See VANILLA.  2. The attribute of causing something to be FLAVORFUL.
-   "This convention yields additional flavor by allowing one to..."
-   3. On the LispMachine, an object-oriented programming system 
-   ("flavors"); each class of object is a flavor.
+FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors."
+   See VANILLA.  2. The attribute of causing something to be
+   FLAVORFUL.  "This convention yields additional flavor by allowing
+   one to..."  3. On the LispMachine, an object-oriented programming
+   system ("flavors"); each class of object is a flavor.
 
 FLAVORFUL adj. Aesthetically pleasing.  See RANDOM and LOSING for
    antonyms.  See also the entry for TASTE.
@@ -583,9 +608,10 @@ FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    object, a widget.  Also refers to electronic black boxes.  This
    rare form is usually abbreviated to FROTZ, or more commonly to
    FROB.  Also used are FROBNULE, FROBULE, and FROBNODULE.  Starting
-   perhaps in 1979, FROBBOZ (fruh-bahz') (pl. FROBBOTZIM) has also
-   become very popular.  These can also be applied to nonphysical 
-   objects, such as data structures.
+   perhaps in 1979, FROBBOZ (fruh-bahz'), pl. FROBBOTZIM, has also
+   become very popular, largely due to its exposure via the Adventure
+   spin-off called Zork (Dungeon).  These can also be applied to
+   non-physical objects, such as data structures.
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
@@ -679,7 +705,8 @@ GOBBLE v. To consume or to obtain.  GOBBLE UP tends to imply
    spy gobbles characters out of a TTY output buffer."  "I guess I'll
    gobble down a copy of the documentation tomorrow."  See SNARF.
 
-GORP (CMU) [perhaps from a brand of dried hiker's food?]  Another
+GORP (CMU) [perhaps from the generic term for dried hiker's food,
+   stemming from the acronym "Good Old Raisins and Peanuts"] Another
    metasyntactic variable, like FOO and BAR.
 
 GRIND v. 1. (primarily MIT) To format code, especially LISP code, by
@@ -713,8 +740,8 @@ GRUNGY adj. Incredibly dirty or grubby.  Anything which has been
    metaphorically; hence some programs (especially crocks) can be
    described as grungy.
 
-GUBBISH [a portmanteau of "garbage" and "rubbish"?] n. Garbage;
-   crap; nonsense.  "What is all this gubbish?"
+GUBBISH [a portmanteau of "garbage" and "rubbish"?] n. Garbage; crap;
+   nonsense.  "What is all this gubbish?"
 
 HACK n. 1. Originally a quick job that produces what is needed, but
    not well.  2. The result of that job.  3. NEAT HACK: A clever
@@ -797,7 +824,7 @@ HOOK n. An extraneous piece of software or hardware included in order
 
 HUMONGOUS, HUMUNGOUS  See HUNGUS.
 
-HUNGUS (hung'-ghis) [perhaps related to current slang "humongous";
+HUNGUS (hung'ghis) [perhaps related to current slang "humongous";
    which one came first (if either) is unclear] adj. Large, unwieldy,
    usually unmanageable.  "TCP is a hungus piece of code."  "This is a
    hungus set of modifications."
@@ -814,10 +841,10 @@ IRP (erp) [from the MIDAS pseudo-op which generates a block of code
    I'll IRP over these homework papers so I can give them some random
    grade for this semester."
 
-JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
+JFCL (djif'kl or dja-fik'l) [based on the PDP-10 instruction that acts
    as a fast no-op] v. To cancel or annul something.  "Why don't you
-   jfcl that out?"  [The California licence plate on Geoff Goodfellow's
-   BMW 633CSi is JFCL]
+   jfcl that out?"  [The licence plate on Geoff Goodfellow's BMW is
+   JFCL.]
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
@@ -888,7 +915,7 @@ LOSS n. Something which loses.  WHAT A (MOBY) LOSS!: interjection.
 
 LOSSAGE n. The result of a bug or malfunction.
 
-LPT (lip'-it) n. Line printer, of course.
+LPT (lip'it) n. Line printer, of course.
 
 LUSER  See USER.
 
@@ -905,12 +932,12 @@ MAGIC adj. 1. As yet unexplained, or too complicated to explain.
    keyboard commands which override the screen-hiding features.
 
 MARGINAL adj. 1. Extremely small.  "A marginal increase in core can
-   decrease GC time drastically."  2. Of extremely small merit.  "This
-   proposed new feature seems rather marginal to me."  3. Of extremely
-   small probability of winning.  "The power supply was rather
-   marginal anyway; no wonder it crapped out."  4. MARGINALLY: adv.
-   Slightly.  "The ravs here are only marginally better than at Small
-   Eating Place."
+   decrease GC time drastically."  See EPSILON.  2. Of extremely small
+   merit.  "This proposed new feature seems rather marginal to me."
+   3. Of extremely small probability of winning.  "The power supply
+   was rather marginal anyway; no wonder it crapped out."  4.
+   MARGINALLY: adv. Slightly.  "The ravs here are only marginally
+   better than at Small Eating Place."
 
 MICROTAPE n. Occasionally used to mean a DECtape, as opposed to a
    MACROTAPE.
@@ -973,7 +1000,8 @@ MUMBLE interj. 1. Said when the correct response is either too
    Often prefaces a longer answer, or indicates a general reluctance
    to get into a big long discussion.  "Well, mumble."  2. Sometimes
    used as an expression of disagreement.  "I think we should buy it."
-   "Mumble!"  Common variant: MUMBLE FROTZ.
+   "Mumble!"  Common variant: MUMBLE FROTZ.  3. Yet another
+   metasyntactic variable, like FOO.
 
 MUNCH (often confused with "mung", q.v.) v. To transform information
    in a serial fashion, often requiring large amounts of computation.
@@ -1007,9 +1035,8 @@ N adj. 1. Some large and indeterminate number of objects; "There were
 
 NIGHT MODE  See PHASE (of people).
 
-NIL 1. No. [from LISP terminology for "false"]  Usage: used in reply 
-   to a question, particularly one asked using the "-P" convention.  
-   See T.  2. None; nothing.
+NIL [from LISP terminology for "false"] No.  Usage: used in reply to a
+   question, particularly one asked using the "-P" convention.  See T.
 
 OBSCURE adj. Used in an exaggeration of its normal meaning, to imply a
    total lack of comprehensibility.  "The reason for that last crash
@@ -1133,14 +1160,14 @@ QUUX [invented by Steele.  Mythically, from the Latin semi-deponent
    purpose when he was young and naive and not yet interacting with
    the real computing community.  Many people invent such words; this
    one seems simply to have been lucky enough to have spread a little.
-   2. interj. See FOO; however, denotes very little disgust,
-   and is uttered mostly for the sake of the sound of it.  3. n.
-   Refers to one of four people who went to Boston Latin School and
-   eventually to MIT:
+   2. interj. See FOO; however, denotes very little disgust, and is
+   uttered mostly for the sake of the sound of it.  3. n. Refers to
+   one of four people who went to Boston Latin School and eventually
+   to MIT:
 	THE GREAT QUUX:  Guy L. Steele Jr.
 	THE LESSER QUUX:  David J. Littleboy
 	THE MEDIOCRE QUUX:  Alan P. Swide
-	THE MICRO QUUX: Sam Lewis
+	THE MICRO QUUX:  Sam Lewis
    (This taxonomy is said to be similarly applied to three Frankston
    brothers at MIT.)  QUUX, without qualification, usually refers to
    The Great Quux, who is somewhat infamous for light verse and for
@@ -1246,7 +1273,7 @@ SHIFT LEFT (RIGHT) LOGICAL [from any of various machines' instruction
    without the "logical", or as "left shift" instead of "shift left".
    Sometimes heard as LSH (lish), from the PDP-10 instruction set.
 
-SHR (share)  See BIN.
+SHR (share or shir)  See BIN.
 
 SHRIEK  See EXCL.  (Occasional CMU usage.)
 
@@ -1270,6 +1297,11 @@ SLURP v. To read a large data file entirely into core before working
    on it.  "This program slurps in a 1K-by-1K matrix and does an FFT."
 
 SMOKING CLOVER n. A psychedelic color munch due to Gosper.
+
+SMOP [Simple (or Small) Matter of Programming] n. A piece of code, not
+   yet written, whose anticipated length is significantly greater than
+   its complexity.  Usage: used to refer to a program that could
+   obviously be written, but is not worth the trouble.
 
 SNARF v. To grab, esp. a large document or file for the purpose of
    using it either with or without the author's permission.  See BLT.
@@ -1375,7 +1407,7 @@ TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
    revolted. - MRC]
 
 TELNET v. To communicate with another ARPAnet host using the TELNET
-   program.  TOPS-10 people use the word IMPCOM since that is the
+   protocol.  TOPS-10 people use the word IMPCOM since that is the
    program name for them.  Sometimes abbreviated to TN.  "I usually TN
    over to SAIL just to read the AP News."
 
@@ -1384,8 +1416,8 @@ TENSE adj. Of programs, very clever and efficient.  A tense piece of
    it was just based on a great idea.  A comment in a clever display
    routine by Mike Kazar: "This routine is so tense it will bring
    tears to your eyes.  Much thanks to Craig Everhart and James
-   Gosling for inspiring this hack attack."  A tense programmer is
-   one who produces tense code.
+   Gosling for inspiring this hack attack."  A tense programmer is one
+   who produces tense code.
 
 TERPRI (tur'pree) [from the LISP 1.5 (and later, MacLISP) function to
    start a new line of output] v. To output a CRLF (q.v.).
@@ -1444,7 +1476,7 @@ TWENEX n. The TOPS-20 operating system by DEC.  So named because
    referred to as "Twenex", but the term seems to be catching on
    nevertheless.  Release 3 of TOPS-20 is sufficiently different from
    release 1 that some (not all) hackers have stopped calling it
-   TWENEX, though the written abbreviation "20x" is ≥till used.
+   TWENEX, though the written abbreviation "20x" is still used.
 
 TWIDDLE n. 1. tilde (ASCII 176, "~").  Also called "squiggle",
    "sqiggle" (sic--pronounced "skig'gul"), and "twaddle", but twiddle
@@ -1486,9 +1518,9 @@ UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
 
 VANILLA adj. Ordinary flavor, standard.  See FLAVOR.  When used of
    food, very often does not mean that the food is flavored with
-   vanilla extract!  For example, "vanilla-flavored wonton soup"
-   (or simply "vanilla wonton soup") means ordinary wonton soup,
-   as opposed to hot and sour wonton soup.
+   vanilla extract!  For example, "vanilla-flavored wonton soup" (or
+   simply "vanilla wonton soup") means ordinary wonton soup, as
+   opposed to hot and sour wonton soup.
 
 VAXEN [from "oxen", perhaps influenced by "vixen"] n. pl. The plural
    of VAX (a DEC machine).
@@ -1533,19 +1565,18 @@ WEDGED [from "head wedged up ass"] adj. To be in a locked state,
 WHAT n. The question mark character ("?").  See QUES.  Usage: rare,
    used particularly in conjunction with WOW.
 
-WHEEL n. 1. A privilege bit that canonically allows the possesor
-   to perform any operation on a timesharing system.  i.e. Read or
+WHEEL n. 1. A privilege bit that canonically allows the possessor to
+   perform any operation on a timesharing system, such as read or
    write any file on the system regardless of protections, change or
-   or look at any address in the running monitor, crash or reload
-   the system, logout, kill/create jobs and user accounts.
-   The term was invented on the TENEX operating system, and carried
-   over to TOPS-20, Xerox-IFS and others.  2. A person who posses
-   a wheel bit. "We need to get ahold of a wheel to unwedge the
-   hung tape drives."
+   or look at any address in the running monitor, crash or reload the
+   system, and kill/create jobs and user accounts.  The term was
+   invented on the TENEX operating system, and carried over to
+   TOPS-20, Xerox-IFS and others.  2. A person who posses a wheel bit.
+   "We need to find a wheel to unwedge the hung tape drives."
 
-WHEEL WARS [from LOTS at Stanford University]  Where student wheels
-   wage war, by attempting to log each other out of the system,
-   delete each others files, or otherwise wreak havoc on each other,
+WHEEL WARS [from LOTS at Stanford University] A period during which
+   student wheels hack each other by attempting to log each other out
+   of the system, delete each other's files, or otherwise wreak havoc,
    usually at the expense of the lesser users.
 
 WIN [from MIT jargon] 1. v. To succeed.  A program wins if no
@@ -1605,7 +1636,7 @@ YOYO MODE n. State in which the system is said to be when it rapidly
 YU-SHIANG WHOLE FISH n. The character gamma (extended SAIL ASCII 11),
    which with a loop in its tail looks like a fish.  Usage: used
    primarily by people on the MIT LISP Machine.  Tends to elicit
-   incredulity from people who hear about it sec≠nd-hand.
+   incredulity from people who hear about it second-hand.
 
 ZERO v. 1. To set to zero.  Usually said of small pieces of data, such
    as bits or words.  2. To erase; to discard all data from.  Said of
