@@ -307,7 +307,7 @@ EXCH (ex'chuh, ekstch) [from the PDP-10 instruction set] v. To
 EXCL (eks'cul) n. Abbreviation for "exclamation point".  See SEMI,
    OPEN, CLOSE.
 
-FAULTY n. Same denotation as "bagbiting", "bletcherous", "losing",
+FAULTY adj. Same denotation as "bagbiting", "bletcherous", "losing",
    q.v., but the connotation is much milder.
 
 FEATURE n. 1. A surprising property of a program.  Occasionally docu-
@@ -617,10 +617,10 @@ MAGIC adj. As yet unexplained, or too complicated to explain.  (Arthur
    routine magically computes the parity of an eight-bit byte in three
    instructions."
 
-MARGINAL adj. 1. Extremely small.  2. Of extremely small merit.  3.
-   Of extremely small probability of winning.  "A marginal increase in
-   core can decrease GC time drastically."  "This proposed new feature
-   seems rather marginal to me."  "The power supply was rather
+MARGINAL adj. 1. Extremely small.  "A marginal increase in core can
+   decrease GC time drastically."  2. Of extremely small merit.  "This
+   proposed new feature seems rather marginal to me."  3. Of extremely
+   small probability of winning.  "The power supply was rather
    marginal anyway; no wonder it crapped out."  4. MARGINALLY: adv.
    Slightly.  "The ravs here are only marginally better than at Small
    Eating Place."
@@ -630,11 +630,11 @@ MICROTAPE n. Occasionally used to mean a DECtape, as opposed to a
 
 MISFEATURE n. A feature which eventually screws someone, possibly
    because it is not adequate for a new situation which has evolved.
-   It is not the same as a bug because fixing it involve a gross
+   It is not the same as a bug because fixing it involves a gross
    philosophical change to the structure of the system involved.
    Often a former feature becomes a misfeature because a tradeoff was
    made whose parameters subsequently changed (possibly only in the
-   judgement of the implementors).  "Well, yeah, it's kind of a
+   judgment of the implementors).  "Well, yeah, it's kind of a
    misfeature that file names are limited to six characters, but we're
    stuck with it for now."
 
@@ -804,10 +804,10 @@ QUUX [Invented by Steele.  Mythically, from the Latin semi-deponent
 	THE LESSER QUUX:  David J. Littleboy
 	THE MEDIOCRE QUUX:  Alan P. Swide
    (This taxonomy is said to be similarly applied to three Frankston
-   brothers at MIT.)  QUUX, QUUX, without qualification, usually
-   refers to The Great Quux, who is somewhat infamous for light verse
-   and for the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining
-   to a QUUX.
+   brothers at MIT.)  QUUX, without qualification, usually refers to
+   The Great Quux, who is somewhat infamous for light verse and for
+   the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining to a
+   QUUX.
 
 RANDOM adj. 1. Unpredictable (closest to mathematical definition);
    weird.  "The system's been behaving pretty randomly."  2. Assorted;
@@ -851,7 +851,7 @@ SACRED adj. Reserved for the exclusive use of something (a
 SEMI 1. n. Abbreviation for "semicolon", when speaking.  "Commands to
    GRIND are prefixed by semi-semi-star" means that the prefix is
    ";;*", not 1/4 of a star.  2. Prefix with words such as
-   "immediately", as a qualifier.  "When is the system coming up?"
+   "immediately", as a qualifier.  "When is the βystem coming up?"
    "Semi-immediately."
 
 69 adj. Large quantity.  Usage: Exclusive to MIT-AI.  "Go away, I have
@@ -887,8 +887,8 @@ SOFTWARILY adv. In a way pertaining to software.  "The system is
    softwarily unreliable."  The adjective "softwary" is NOT used.  See
    HARDWARILY.
 
-SOS 1. n. A losing editor, SON OF STOPGAP.  2. v. Inverse of AOS, from
-   the PDP-10 instruction set.
+SOS 1. (ess-oh-ess) n. A losing editor, SON OF STOPGAP.  2. (sahss) v.
+   Inverse of AOS, from the PDP-10 instruction set.
 
 SPAZZ 1. v. To behave spastically or erratically; more often, to
    commit a single gross error.  "Boy, is he spazzing!"  2. n. One who
@@ -955,7 +955,7 @@ TELNET v. To communicate with another ARPAnet host using the TELNET
    over to SAIL just to read the AP News."
 
 TERPRI (tur'pree) [from the LISP 1.5 (and later, MacLISP) function to
-   start a new line of output] To output a CRLF (q.v.).
+   start a new line of output] v. To output a CRLF (q.v.).
 
 THEORY n. Used in the general sense of idea, plan, story, or set of
    rules.  "What's the theory on fixing this TECO loss?"  "What's the
@@ -992,7 +992,7 @@ TWENEX n. The TOPS-20 operating system by DEC.  So named because
    BBN developed their own system, called TENEX (TEN EXecutive), and
    in creating TOPS-20 for the DEC-20 DEC copied TENEX and adapted it
    for the 20.  Usage: DEC people cringe when they hear TOPS-20
-   referred to as "Twenex", but the term seems to catching on
+   referred to as "Twenex", but the term seems to be catching on
    nevertheless.
 
 TWIDDLE 1. n. A small and insignificant change to a program.  Usually
