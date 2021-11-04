@@ -242,6 +242,37 @@ CRUNCH v. To process, usually in a time-consuming or complicated way.
 
 CTY (city) n. Any console terminal on a computer.
 
+DAEMON (day'mun) [archaic form of "demon", which has a slightly
+   different connotation (q.v.)] n. A program which is not invoked
+   explicitly, but which lays dormant waiting for some condition(s) to
+   occur.  The idea is that the perpetrator of the condition need not
+   be aware that a daemon is lurking (though often a program will
+   commit an action only because it knows that it will implicitly
+   invoke a daemon).  For example, writing a file on the lpt spooler's
+   directory will invoke the spooling daemon, which prints the file.
+   The advantage is that programs which want (in this example) files
+   printed need not compete for access to the lpt.  They simply enter
+   their implicit requests and let the daemon decide what to do with
+   them.  Daemons are usually spawned automatically by the system, and
+   may either live forever or be regenerated at intervals.  Usage:
+   DAEMON and DEMON (q.v.) are often used interchangeably, but seem to
+   have distinct connotations.
+
+DEMON (dee'mun) n. A portion of a program which is not invoked
+   explicitly, but which lays dormant waiting for some condition(s) to
+   occur.  See DAEMON.  The distinction is that demons are usually
+   processes within a program, while daemons are usually programs
+   running on an operating system.  Demons are particularly common in
+   AI programs.  For example, a knowledge manipulation program might
+   implement inference rules as demons.  Whenever a new piece of
+   knowledge was added, various demons would activate (which demons
+   depends on the particular piece of data) and would create
+   additional pieces of knowledge by applying their respective
+   inference rules to the original piece.  These new pieces could in
+   turn activate more demons as the inferences filtered down through
+   chains of logic.  Meanwhile the main program could continue with
+   whatever its primary task was.
+
 DIKE [from "diagonal cutters"] v. To remove a module or disable it.
    "When in doubt, dike it out."
 
@@ -252,6 +283,12 @@ DOWN 1. adj. Not working.  "The up escalator is down."  2. TAKE DOWN,
 
 DPB (duh-pib') [from the PDP-10 instruction set] v. To plop something
    down in the middle.
+
+DRAGON n. A program similar to a "daemon" (q.v.), except that it is
+   not invoked at all, but is instead used by the system to perform
+   various secondary tasks.  A typical example would be an accounting
+   program, which keeps track of who is logged in, accumulates
+   load-average statistics, etc.
 
 ENGLISH n. The source code for a program, which may be in any
    language, as opposed to BINARY.  Usage: slightly obsolete, used
@@ -725,6 +762,20 @@ POP [based on the stack operation that removes the top of a stack, and
    dialect: POPJ (pop-jay), based on the PDP-10 procedure return
    instruction.  v. To return from a digression.
 
+PPN (pip'in) [DEC terminology, short for Project-Programmer Number] n.
+   1. A combination `project' (directory name) and programmer name,
+   used to identify a specific directory belonging to that user.  For
+   instance, "FOO,BAR" would be the FOO directory for user BAR.  Since
+   the name is restricted to three letters, the programmer name is
+   usually the person's initials, though sometimes it is a nickname or
+   other special sequence.  (Standard DEC setup is to have two octal
+   numbers instead of characters; hence the original acronym.)  2.
+   Often used loosely to refer to the programmer name alone.  "I want
+   to send you some mail; what's your ppn?"  Usage: not used at MIT,
+   since ITS does not use ppn's.  The equivalent terms would be UNAME
+   and SNAME, depending on context, but these are not used except in
+   their technical senses.
+
 PTY (pity) n. Pseudo TTY, a simulated TTY used to run a job under the
    supervision of another job.
    PTYJOB (pity-job) n. The job being run on the PTY.  Also a common
@@ -1036,3 +1087,4 @@ YOYO n. DEC service engineers' slang for UUO (q.v.).  Usage: rare at
 
 YOYO MODE n. State in which the system is said to be when it rapidly
    alternates several times between being up and being down.
+
