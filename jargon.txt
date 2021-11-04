@@ -1,5 +1,5 @@
 
-#======= THIS IS THE JARGON FILE, VERSION 4.3.0, 30 APR 2001 =======# 
+#======= THIS IS THE JARGON FILE, VERSION 4.3.1, 29 JUN 2001 =======# 
 
 This is the Jargon File, a comprehensive compendium of hacker slang 
 illuminating many aspects of hackish tradition, folklore, and humor. 
@@ -10,8 +10,8 @@ what you can do with it, but there are traditions about its proper use to
 which many hackers are quite strongly attached. Please extend the courtesy 
 of proper citation when you quote the File, ideally with a version number, 
 as it will change and grow over time. (Examples of appropriate citation 
-form: "Jargon File 4.3.0" or "The on-line hacker Jargon File, version 
-4.3.0, 30 APR 2001".) 
+form: "Jargon File 4.3.1" or "The on-line hacker Jargon File, version 
+4.3.1, 29 JUN 2001".) 
 
 The Jargon File is a common heritage of the hacker culture. Over the 
 years a number of individuals have volunteered considerable time to 
@@ -117,11 +117,11 @@ an almost absurdly high-context slang style?
 The intensity and consciousness of hackish invention make a compilation 
 of hacker slang a particularly effective window into the surrounding 
 culture -- and, in fact, this one is the latest version of an evolving 
-compilation called the `Jargon File', maintained by hackers themselves for 
-over 15 years. This one (like its ancestors) is primarily a lexicon, but 
-also includes topic entries which collect background or sidelight 
-information on hacker culture that would be awkward to try to subsume under 
-individual slang definitions. 
+compilation called the `Jargon File', maintained by hackers themselves 
+since the early 1970s. This one (like its ancestors) is primarily a 
+lexicon, but also includes topic entries which collect background or 
+sidelight information on hacker culture that would be awkward to try to 
+subsume under individual slang definitions. 
 
 Though the format is that of a reference volume, it is intended that the 
 material be enjoyable to browse. Even a complete outsider should find at 
@@ -465,6 +465,9 @@ implementation of RFC 1149. Also cleaned up a number of obsolete entries.
 This version had 27805 lines, 224978 words, 1480215 characters, and 2319 
 entries. 
 
+Version 4.3.1, 29 Jun 2001: This version had 27862 lines, 225517 words, 
+1483664 characters, and 2321 entries. 
+
 Version numbering: Version numbers should be read as 
 major.minor.revision. Major version 1 is reserved for the `old' (ITS) 
 Jargon File, jargon-1. Major version 2 encompasses revisions by ESR (Eric 
@@ -606,7 +609,7 @@ This is not really similar to the Cockney rhyming slang it has been
 compared to in the past, because Cockney substitutions are opaque whereas 
 hacker punning jargon is intentionally transparent. 
 
-:The `-P' convention:
+:The `-P' convention:
 ---------------------
 
 Turning a word into a question by appending the syllable `P'; from the 
@@ -907,8 +910,9 @@ Britain, though the older style (which became established for typographical
 reasons having to do with the aesthetics of comma and quotes in typeset 
 text) is still accepted there. "Hart's Rules" and the "Oxford Dictionary 
 for Writers and Editors" call the hacker-like style `new' or `logical' 
-quoting. This returns British English to the style Latin languages 
-(including Spanish, French, Italian, Catalan) have been using all along. 
+quoting. This returns British English to the style many other languages 
+(including Spanish, French, Italian, Catalan, and German) have been using 
+all along. 
 
 Another hacker habit is a tendency to distinguish between `scare' quotes 
 and `speech' quotes; that is, to use British-style single quotes for 
@@ -1002,15 +1006,15 @@ immediately, and when a correction was made the backspace keystrokes would
 be echoed with the string '^H'. Of course, the final composed text would 
 have no trace of the backspace characters (or the original erroneous text). 
 
-Accidentalwriting under erasure occurs when using the Unix "talk" program 
-to chat interactively to another user. On a PC-style keyboard most users 
-instinctively press the backspace key to delete mistakes, but this may not 
-achieve the desired effect, and merely displays a ^H symbol. The user 
-typically presses backspace a few times before their brain realises the 
-problem - especially likely if the user is a touch-typist - and since each 
-character is transmitted as soon as it is typed, Freudian slips and other 
-inadvertant admissions are (barring network delays) clearly visible for the 
-other user to see. 
+Accidental writing under erasure occurs when using the Unix "talk" 
+program to chat interactively to another user. On a PC-style keyboard most 
+users instinctively press the backspace key to delete mistakes, but this 
+may not achieve the desired effect, and merely displays a ^H symbol. The 
+user typically presses backspace a few times before their brain realises 
+the problem - especially likely if the user is a touch-typist - and since 
+each character is transmitted as soon as it is typed, Freudian slips and 
+other inadvertant admissions are (barring network delays) clearly visible 
+for the other user to see. 
 
 Deliberate use of ^H for writing under erasure parallels (and may have 
 been influenced by) the ironic use of `slashouts' in science-fiction 
@@ -1030,8 +1034,8 @@ is borrowed from the Unix editing tools `ed' and `sed', but is widely
 recognized by non-Unix hackers as well. 
 
 In a formula, `*' signifies multiplication but two asterisks in a row are 
-a shorthand for exponentiation (this derives from FORTRAN). Thus, one might 
-write 2 ** 8 = 256. 
+a shorthand for exponentiation (this derives from FORTRAN, and is also used 
+in Ada). Thus, one might write 2 ** 8 = 256. 
 
 Another notation for exponentiation one sees more frequently uses the 
 caret (^, ASCII 1011110); one might write instead `2^8 = 256'. This goes 
@@ -1160,7 +1164,7 @@ people and thus don't feel stressed and anxious as they would face to face.
 
 Though it is considered gauche to publicly criticize posters for poor 
 spelling or grammar, the network places a premium on literacy and clarity 
-of expression. It may well be that future historians of literature will see 
+of expression. It may well be that future historians of literature will see 
 in it a revival of the great tradition of personal letters as art. 
 
 :Email Quotes and Inclusion Conventions:
@@ -1338,7 +1342,7 @@ English verb `to hack' has been seen conjugated in Swedish. In German, many
 Unix terms in English are casually declined as if they were German verbs - 
 thus: mount/mounten/gemountet; grep/grepen/gegrept; fork/forken/geforkt; 
 core dump/core-dumpen, core-gedumpt. And Spanish-speaking hackers use 
-`linkar' (to link), `debugear' (to debug), and `lockear' (to lock). 
+`linkear' (to link), `debugear' (to debug), and `lockear' (to lock). 
 
 European hackers report that this happens partly because the English 
 terms make finer distinctions than are available in their native 
@@ -1398,7 +1402,7 @@ Here is a brief guide to cracker and {warez d00dz} usage:
 These traits are similar to those of {B1FF}, who originated as a parody 
 of naive {BBS} users; also of his latter-day equivalent {Jeff K.}. 
 Occasionally, this sort of distortion may be used as heavy sarcasm by a 
-real hacker, as in: 
+real hacker, as in: 
 
          > I got X Windows running under Linux!
 
@@ -1690,7 +1694,7 @@ FidoNet
      See the {FidoNet} entry
 
 IBM 
-     International Business Machines
+     International Business Machines
 
 MIT 
      Massachusetts Institute of Technology; esp. the legendary MIT AI
@@ -1816,6 +1820,11 @@ The Jargon Lexicon ******************
 = 0 =
 =====
 
+:/dev/null: /dev-nuhl/ n. [from the Unix null device, used as a data 
+   sink] A notional `black hole' in any information space being discussed, 
+   used, or referred to. A controversial posting, for example, might end 
+   "Kudos to rasputin@kremlin.org, flames to /dev/null". See {bit bucket}. 
+
 :0: Numeric zero, as opposed to the letter `O' (the 15th letter of the 
    English alphabet). In their unmodified forms they look a lot alike, and 
    various kluges invented to make them visually distinct have compounded 
@@ -1873,6 +1882,17 @@ The Jargon Lexicon ******************
    stands on its own, or is used in the more explicit forms 4.2BSD or (less 
    commonly) BSD 4.2. Similar remarks apply to "4.3", "4.4" and to earlier, 
    less-widespread releases 4.1 and 2.9. 
+
+:pred: // [Usenet; orig. fr Oxford University] Abbreviation for 
+   "predictable", used to signify or preempt reponses that are extremely 
+   predictable but have to be filled in for the sake of form (the phrase is 
+   bracketed by <pred>...</pred>). X-Pred headers in mail or news serve the 
+   same end. Figuring out the connection between the X-Pred tagline and the 
+   thread is part of the entertainment. For example, it is said that any 
+   thread about taxation must contain a reference to Raquel Welch, if only 
+   to stop other people from mentioning her. This is allegedly due to a 
+   Monty Python sketch where a character declares that he would tax Raquel 
+   Welch, and he has a feeling she would tax him. 
 
 :@-party: /at'par`tee/ n. [from the @-sign in an Internet address] (alt. 
    `@-sign party' /at'si:n par`tee/) A semi-closed party thrown for hackers 
@@ -1942,7 +1962,7 @@ The Jargon Lexicon ******************
    to ditch that damn NT server for a Linux box?" "ACK!" 
 
    There is also a usage "ACK?" (from sense 1) meaning "Are you there?", 
-   often used in email when earlier mail has produced no reply, or during a 
+   often used in email when earlier mail has produced no reply, or during a 
    lull in {talk mode} to see if the person has gone away (the standard 
    humorous response is of course {NAK} (sense 1), i.e., "I'm not here"). 
 
@@ -1975,7 +1995,7 @@ The Jargon Lexicon ******************
 :ad-hockery: /ad-hok'*r-ee/ n. [Purdue] 1. Gratuitous assumptions made 
    inside certain programs, esp. expert systems, which lead to the 
    appearance of semi-intelligent behavior but are in fact entirely 
-   arbitrary. For example, fuzzy-matching of input tokens that might be 
+   arbitrary. For example, fuzzy-matching of input tokens that might be 
    typing errors against a symbol table can make it look as though a 
    program knows how to spell. 2. Special-case code to cope with some 
    awkward input that would otherwise cause a program to {choke}, presuming 
@@ -2147,7 +2167,8 @@ The Jargon Lexicon ******************
    tests that Bob knows a secret number K. Alice sends to Bob a random 
    number X. Bob then forms Y by encrypting X under key K and sends Y back 
    to Alice". A whole mythology rapidly grew up around the metasyntactic 
-   names; see `http://www.conceptlabs.co.uk/alicebob.html'. 
+   names; see 
+   `http://www.conceptlabs.co.uk/extras/ZurichSeminarSpeech3.htm'. 
 
    In Bruce Schneier's definitive introductory text "Applied 
    Cryptography" (2nd ed., 1996, John Wiley & Sons, ISBN 0-471-11709-9) he 
@@ -2238,11 +2259,10 @@ The Jargon Lexicon ******************
    small but zealous population of enthusiastic hackers who dreamt of one 
    day unseating the clones (see {Amiga Persecution Complex}). The traits 
    of this culture are both spoofed and illuminated in The BLAZE Humor 
-   Viewer 
-   (http://www-ccsl.cs.umass.edu/~barrett/bm/Viewer_Sections/Main.HTML). 
-   The strength of the Amiga platform seeded a small industry of companies 
-   building software and hardware for the platform, especially in graphics 
-   and video applications (see {video toaster}). 
+   Viewer (http://www.blazemonger.com/BM/). The strength of the Amiga 
+   platform seeded a small industry of companies building software and 
+   hardware for the platform, especially in graphics and video applications 
+   (see {video toaster}). 
 
    Due to spectacular mismanagement, Commodore did hardly any R&D, 
    allowing the competition to close Amiga's technological lead. After 
@@ -2591,7 +2611,7 @@ The Jargon Lexicon ******************
      [spike].
    
    ~ 
-     Common: <tilde>; squiggle; {twiddle}; not.  Rare: approx; wiggle;
+     Common: <tilde>; squiggle; {twiddle}; not.  Rare: approx; wiggle;
      swung dash; enyay; [sqiggle (sic)].
    
    The pronunciation of `#' as `pound' is common in the U.S. but a bad 
@@ -2650,7 +2670,7 @@ The Jargon Lexicon ******************
          feeding a capacitor input filter circuit
    
    And here are some very silly examples: 
-
+
        |\/\/\/|     ____/|              ___    |\_/|    ___
        |      |     \ o.O|   ACK!      /   \_  |` '|  _/   \
        |      |      =(_)=  THPHTH!   /      \/     \/      \
@@ -2723,7 +2743,7 @@ The Jargon Lexicon ******************
    that data is sorted in ASCII collated order rather than alphabetical 
    order. This lexicon is sorted in something close to ASCIIbetical order, 
    but with case ignored and entries beginning with non-alphabetic 
-   characters moved to the end. "At my video store, they used their 
+   characters moved to the beginning. "At my video store, they used their 
    computer to sort the videos into ASCIIbetical order, so I couldn't find 
    `"Crocodile" Dundee' until I thought to look before `2001' and `48 
    HRS.'!" 
@@ -2771,7 +2791,7 @@ The Jargon Lexicon ******************
 
 :autobogotiphobia: /aw'toh-boh-got`*-foh'bee-*/ n. See {bogotify}. 
 
-:autoconfiscate: [origibnally from Cygnus Solutions, later Red Hat 
+:autoconfiscate: [originally from Cygnus Solutions, later Red Hat 
    Software] To set up or modify a source-code {distribution} so that it 
    configures and builds using the GNU project's autoconf/automake/libtools 
    suite. Among open-source hackers, a mere running binary of a program is 
@@ -2961,16 +2981,18 @@ The Jargon Lexicon ******************
    Wrong", and G&W = "Good and Right". Compare {evil and rude}, {Good 
    Thing}, {Bad Thing}. 
 
-:Bad Thing: n. [very common; from the 1930 Sellar & Yeatman parody "1066 
-   And All That"] Something that can't possibly result in improvement of 
-   the subject. This term is always capitalized, as in "Replacing all of 
-   the 9600-baud modems with bicycle couriers would be a Bad Thing". Oppose 
-   {Good Thing}. British correspondents confirm that {Bad Thing} and {Good 
-   Thing} (and prob. therefore {Right Thing} and {Wrong Thing}) come from 
-   the book referenced in the etymology, which discusses rulers who were 
-   Good Kings but Bad Things. This has apparently created a mainstream 
-   idiom on the British side of the pond. It is very common among American 
-   hackers, but not in mainstream usage here. Compare {Bad and Wrong}. 
+:Bad Thing: n. [very common; always pronounced as if capitalized. Orig. 
+   fr. the 1930 Sellar & Yeatman parody of British history "1066 And All 
+   That", but well-established among hackers in the U.S. as well.] 
+   Something that can't possibly result in improvement of the subject. This 
+   term is always capitalized, as in "Replacing all of the 9600-baud modems 
+   with bicycle couriers would be a Bad Thing". Oppose {Good Thing}. 
+   British correspondents confirm that {Bad Thing} and {Good Thing} (and 
+   prob. therefore {Right Thing} and {Wrong Thing}) come from the book 
+   referenced in the etymology, which discusses rulers who were Good Kings 
+   but Bad Things. This has apparently created a mainstream idiom on the 
+   British side of the pond. It is very common among American hackers, but 
+   not in mainstream usage here. Compare {Bad and Wrong}. 
 
 :bag on the side: n. [prob. originally related to a colostomy bag] An 
    extension to an established hack that is supposed to add some 
@@ -2997,7 +3019,7 @@ The Jargon Lexicon ******************
    completely sanitized. 
 
    ITS's {lexiphage} program was the first and to date only known example 
-   of a program _intended_ to be a bagbiter. 
+   of a program _intended_ to be a bagbiter. 
 
 :bagbiting: adj. Having the quality of a {bagbiter}. "This bagbiting 
    system won't let me compute the factorial of a negative number." Compare 
@@ -3320,12 +3342,12 @@ The Jargon Lexicon ******************
    model the (mythical) New England counties of Rowrfolk and Bassex 
    (Rowrbazzle mingled with (Norfolk/Suffolk/Middlesex/Essex)." 
 
-:bazaar: n.,adj. In 1997, after meditatating on the success of {Linux} 
-   for three years, the Jargon File's own editor ESR wrote an analytical 
-   paper on hacker culture and development models titled The Cathedral and 
-   the Bazaar (http://www.tuxedo.org/~esr/writings/cathedral-bazaar/). The 
-   main argument of the paper was that {Brooks's Law} is not the whole 
-   story; given the right social machinery, debugging can be efficiently 
+:bazaar: n.,adj. In 1997, after meditating on the success of {Linux} for 
+   three years, the Jargon File's own editor ESR wrote an analytical paper 
+   on hacker culture and development models titled The Cathedral and the 
+   Bazaar (http://www.tuxedo.org/~esr/writings/cathedral-bazaar/). The main 
+   argument of the paper was that {Brooks's Law} is not the whole story; 
+   given the right social machinery, debugging can be efficiently 
    parallelized across large numbers of programmers. The title metaphor 
    caught on (see also {cathedral}), and the style of development typical 
    in the Linux community is now often referred to as the bazaar mode. Its 
@@ -3385,7 +3407,7 @@ The Jargon Lexicon ******************
    via the infrared links on their machines (this term seems to have 
    originated with the ill-fated Newton Message Pad). Compare {blast}, 
    {snarf}, {BLT}. 
-
+
 :beanie key: n. [Mac users] See {command key}. 
 
 :beep: n.,v. Syn. {feep}. This term is techspeak under MS-DOS and OS/2, 
@@ -3608,7 +3630,7 @@ The Jargon Lexicon ******************
      74743493475534286465766116677973966688202912073791
      43853719588249808126867838374559731746136085379534
      52422158659320192809087829730843139284440328123155
-     86110369768013573042161687476096758713483120254785
+     86110369768013573042161687476096758713483120254785
      89320767169132448426236131412508780208000261683151
      02734182797770478463586817016436502415369139828126
      48102130927612448963599287051149649754199093422215
@@ -4079,7 +4101,7 @@ The Jargon Lexicon ******************
    [historical, rare] Sometimes all-capitalized as `BLIT': an early 
    experimental bit-mapped terminal designed by Rob Pike at Bell Labs, 
    later commercialized as the AT&T 5620. (The folk etymology from `Bell 
-   Labs Intelligent Terminal' is incorrect. Its creators liked to claim 
+   Labs Intelligent Terminal' is incorrect. Its creators liked to claim 
    that "Blit" stood for the Bacon, Lettuce, and Interactive Tomato.) 
 
 :blitter: /blit'r/ n. [common] A special-purpose chip or hardware system 
@@ -4190,7 +4212,10 @@ The Jargon Lexicon ******************
    generate switching tones with a plastic whistle pulled out of a box of 
    Captain Crunch cereal!) There were other colors of box with more 
    specialized phreaking uses; red boxes, black boxes, silver boxes, etc. 
-   2. n. An {IBM} machine, especially a large (non-PC) one. 
+   There were boxes of other colors 
+   (http://www.ElfQrin.com/docs/hakref/phrkbox/phreakboxes.html) as well, 
+   but the blue box was the original and archetype. 2. n. An {IBM} machine, 
+   especially a large (non-PC) one. 
 
 :Blue Glue: n. [IBM; obs.] IBM's SNA (Systems Network Architecture), an 
    incredibly {losing} and {bletcherous} communications protocol once 
@@ -4233,7 +4258,7 @@ The Jargon Lexicon ******************
    wire is not necessarily blue, the term describes function rather than 
    color. These may be necessary if there hasn't been time to design and 
    qualify another board version. In Great Britain this can be `bodge 
-   wire', after mainstreanm slang `bodge' for a clumsy improvisation or 
+   wire', after mainstream slang `bodge' for a clumsy improvisation or 
    sloppy job of work. Compare {purple wire}, {red wire}, {yellow wire}, 
    {pink wire}. 
 
@@ -4387,9 +4412,9 @@ The Jargon Lexicon ******************
 :BogoMIPS: /bo'go-mips/ n. The number of million times a second a 
    processor can do absolutely nothing. The {Linux} OS measures BogoMIPS at 
    startup in order to calibrate some soft timing loops that will be used 
-   later on; details at the BogoMIPS mini-HOWTO 
-   (http://www.clifton.nl/~clifton). The name Linus chose, of course, is an 
-   ironic comment on the uselessness of all _other_ {MIPS} figures. 
+   later on; details at the BogoMIPS mini-HOWTO (http://www.clifton.nl/). 
+   The name Linus chose, of course, is an ironic comment on the uselessness 
+   of all _other_ {MIPS} figures. 
 
 :bogon: /boh'gon/ n. [very common; by analogy with 
    proton/electron/neutron, but doubtless reinforced after 1980 by the 
@@ -5005,12 +5030,12 @@ The Jargon Lexicon ******************
    features. The BSD versions (4.1, 4.2, and 4.3) and the commercial 
    versions derived from them (SunOS, ULTRIX, and Mt. Xinu) held the 
    technical lead in the Unix world until AT&T's successful standardization 
-   efforts after about 1986; descendants including Free/Open/NetBSD, BSD/OS 
+   efforts after about 1986; descendants including Free/Open/NetBSD, BSD/OS 
    and MacOS X are still widely popular. Note that BSD versions going back 
    to 2.9 are often referred to by their version numbers alone, without the 
    BSD prefix. See {4.2}, and {{Unix}}. 
 
-:BSOD: /B-S-O-D/Very commmon abbreviation for {Blue Screen of Death}. 
+:BSOD: /B-S-O-D/ Very common abbreviation for {Blue Screen of Death}. 
    Both spoken and written. 
 
 :BUAF: // n. [abbreviation, from alt.fan.warlord] Big Ugly ASCII Font -- 
@@ -5192,7 +5217,7 @@ The Jargon Lexicon ******************
    {misfeature}s in other programs or (esp.) previous releases of itself. 
    "MS-DOS 2.0 used \ as a path separator to be bug-compatible with some 
    cretin's choice of / as an option character in 1.0." 
-
+
 :bug-for-bug compatible: n. Same as {bug-compatible}, with the additional 
    implication that much tedious effort went into ensuring that each 
    (known) bug was replicated. 
@@ -5434,7 +5459,9 @@ The Jargon Lexicon ******************
 :Camel Book: n. Universally recognized nickname for the book "Programming 
    Perl", by Larry Wall and Randal L. Schwartz, O'Reilly and Associates 
    1991, ISBN 0-937175-64-1 (second edition 1996, ISBN 1-56592-149-6; third 
-   edition 2000, 0-596-00027-8). The definitive reference on {Perl}. 
+   edition 2000, 0-596-00027-8, adding as auhors Tom Christiansen and Jon 
+   Orwant but dropping Randal Schwartz). The definitive reference on 
+   {Perl}. 
 
 :can: vt. To abort a job on a time-sharing system. Used esp. when the 
    person doing the deed is an operator, as in "canned from the 
@@ -5672,7 +5699,7 @@ The Jargon Lexicon ******************
    with other arguments; thus, over an electronic chat link, `cd ~coffee' 
    would mean "I'm going to the coffee machine." 
 
-:CDA: /C-D-A/The "Communications Decency Act" of 1996, passed on {Black 
+:CDA: /C-D-A/ The "Communications Decency Act" of 1996, passed on {Black 
    Thursday} as section 502 of a major telecommunications reform bill. The 
    CDA made it a federal crime in the USA to send a communication which is 
    "obscene, lewd, lascivious, filthy, or indecent, with intent to annoy, 
@@ -5744,7 +5771,7 @@ The Jargon Lexicon ******************
    Debris", but this has all the earmarks of a {backronym}. It has also 
    been noted that the word "chad" is Scots dialect for gravel, but nobody 
    has proposed any plausible reason that card chaff should be thought of 
-   as gravel. None of these etymologies are really plausible. 
+   as gravel. None of these etymologies is really plausible. 
 
 :chad box: n. A metal box about the size of a lunchbox (or in some models 
    a large wastebasket), for collecting the {chad} (sense 2) that 
@@ -5811,7 +5838,7 @@ The Jargon Lexicon ******************
    was coined in revolt against the promiscuous use of `word' for anything 
    between 16 and 32 bits; `word' has an additional special meaning for 
    FORTH hacks that made the overloading intolerable. For similar reasons, 
-   /gaw'bl/ (spelled `gawble' or possibly `gawbul') was in use as a term 
+   /gaw'bl/ (spelled `gawble' or possibly `gawbul') was in use as a term 
    for 32 or 48 bits (presumably a full machine word, but our sources are 
    unclear on this). These terms are more easily understood if one thinks 
    of them as faithful phonetic spellings of `chomp' and `gobble' 
@@ -6011,7 +6038,7 @@ The Jargon Lexicon ******************
    the class of machines it describes are now simply `PCs' or `Intel 
    machines'. 5. [obs.] In the construction `Unix clone': An OS designed to 
    deliver a Unix-lookalike environment without Unix license fees, or with 
-   additional `mission-critical' features such as support for real-time 
+   additional `mission-critical' features such as support for real-time 
    programming. {Linux} and the free BSDs killed off this product category 
    and the term with it. 6. v. To make an exact copy of something. "Let me 
    clone that" might mean "I want to borrow that paper so I can make a 
@@ -6219,7 +6246,7 @@ The Jargon Lexicon ******************
    knowledgeable observers are still reeling from the shock. 
 
 :comm mode: /kom mohd/ n. [ITS: from the feature supporting on-line chat; 
-   the term may be spelled with one or two m's] Syn. for {talk mode}. 
+   the first word may be spelled with one or two m's] Syn. for {talk mode}. 
 
 :command key: n. [Mac users] Syn. {feature key}. 
 
@@ -6521,7 +6548,7 @@ The Jargon Lexicon ******************
    now...Andy Williams. Yes, _that_ Andy Williams. Seems he had a rather 
    hip (by the standards of the day) TV variety show. One of the best parts 
    of the show was the recurring `cookie bear' sketch. In these sketches, a 
-   guy in a bear suit tried all sorts of tricks to get a cookie out of 
+   guy in a bear suit tried all sorts of tricks to get a cookie out of 
    Williams. The sketches would always end with Williams shrieking (and I 
    don't mean figuratively), `No cookies! Not now, not ever...NEVER!!!' And 
    the bear would fall down. Great stuff." 
@@ -6573,7 +6600,7 @@ The Jargon Lexicon ******************
    a copy with the copy-protection scheme disabled. Syn. {copywronged}. 2. 
    Copy-protected software which is unusable because of some bit-rot or bug 
    that has confused the anti-piracy check. See also {copy protection}. 
-
+
 :copycenter: n. [play on `copyright' and `copyleft'] 1. The copyright 
    notice carried by the various flavors of freeware BSD. According to Kirk 
    McKusick at BSDCon 1999: "The way it was characterized politically, you 
@@ -6721,7 +6748,7 @@ The Jargon Lexicon ******************
    2. v. Action of removing the copy protection from a commercial program. 
    People who write cracks consider themselves challenged by the copy 
    protection measures. They will often do it as much to show that they are 
-   smarter than the developper who designed the copy protection scheme than 
+   smarter than the developer who designed the copy protection scheme than 
    to actually copy the program. 3. n. A program, instructions or patch 
    used to remove the copy protection of a program or to uncripple features 
    from a demo/time limited program. 4. An {exploit}. 
@@ -6735,12 +6762,19 @@ The Jargon Lexicon ******************
    on Usenet was largely a failure. 
 
    Use of both these neologisms reflects a strong revulsion against the 
-   theft and vandalism perpetrated by cracking rings. While it is expected 
-   that any real hacker will have done some playful cracking and knows many 
-   of the basic techniques, anyone past {larval stage} is expected to have 
-   outgrown the desire to do so except for immediate, benign, practical 
-   reasons (for example, if it's necessary to get around some security in 
-   order to get some work done). 
+   theft and vandalism perpetrated by cracking rings. The neologism 
+   "cracker" in this sense may have been influenced not so much by the term 
+   "safe-cracker" as by the non-jargon term "cracker", which in Middle 
+   English meant an obnoxious person (e.g., "What cracker is this same that 
+   deafs our ears / With this abundance of superfluous breath?" - 
+   Shakespeare's King John, Act II, Scene I) and in modern colloquial 
+   American English survives as a barely gentler synonym for "white trash". 
+
+   While it is expected that any real hacker will have done some playful 
+   cracking and knows many of the basic techniques, anyone past {larval 
+   stage} is expected to have outgrown the desire to do so except for 
+   immediate, benign, practical reasons (for example, if it's necessary to 
+   get around some security in order to get some work done). 
 
    Thus, there is far less overlap between hackerdom and crackerdom than 
    the {mundane} reader misled by sensationalistic journalism might expect. 
@@ -6771,7 +6805,7 @@ The Jargon Lexicon ******************
    vectorized operations." 
 
 :crapplet: n. [portmanteau, crap + applet] A worthless applet, esp. a 
-   Java widget attached to a web page that doesn't work or even crashes 
+   Java widget attached to a web page that doesn't work or even crashes 
    your browser. Also spelled `craplet'. 
 
 :CrApTeX: /krap'tekh/ n. [University of York, England] Term of abuse used 
@@ -6837,7 +6871,7 @@ The Jargon Lexicon ******************
    machine (see {cray}). Generally more subtle than bugs that can be 
    detected in smaller problems running on a workstation or mini. 2. More 
    specifically, a shortcoming of algorithms which are well behaved when 
-   run on gentle floating point hardware (such as IEEE-standard or 
+   run on gentle floating point hardware (such as IEEE-standard or 
    PDP-series machines) but which break down badly when exposed to a Cray's 
    unique `rounding' rules. 
 
@@ -6846,8 +6880,8 @@ The Jargon Lexicon ******************
    unreasonably low price. Might also be a {killer micro}. 
 
 :crayola books: n. The {rainbow series} of National Computer Security 
-   Center (NCSC) computer security standards (see {Orange Book}). Usage: 
-   humorous and/or disparaging. 
+   Center (NCSC) computer security standards (see {Orange Book}), now 
+   obsolete and discontinued. Usage: humorous and/or disparaging. 
 
 :crayon: n. 1. Someone who works on Cray supercomputers. More 
    specifically, it implies a programmer, probably of the CDC ilk, probably 
@@ -6952,7 +6986,7 @@ The Jargon Lexicon ******************
    end of one line of text to the beginning of the next line. See 
    {newline}, {terpri}. Under {{Unix}} influence this usage has become less 
    common (Unix uses a bare line feed as its `CRLF'). 
-
+
 :crock: n. [from the American scatologism `crock of shit'] 1. An awkward 
    feature or programming technique that ought to be made cleaner. For 
    example, using small integers to represent error codes without the 
@@ -6975,7 +7009,7 @@ The Jargon Lexicon ******************
    it multiple times (which is very bad form). Gratuitous cross-posting 
    without a Followup-To line directing responses to a single followup 
    group is frowned upon, as it tends to cause {followup} articles to go to 
-   inappropriate newsgroups when people respond to only one copy of the 
+   inappropriate newsgroups when people respond to various parts of the 
    original posting. 
 
 :crossload: v.,n. [proposed, by analogy with {upload} and {download}] To 
@@ -7088,7 +7122,7 @@ The Jargon Lexicon ******************
    on-line). "Talk about a {nastygram}! He must've had his cursor dipped in 
    acid when he wrote that one!" 
 
-:cuspy: /kuhs'pee/ adj. [WPI: from the {DEC} abbreviation CUSP, for 
+:cuspy: /kuhs'pee/ adj. [WPI: from the {DEC} abbreviation CUSP, for 
    `Commonly Used System Program', i.e., a utility program used by many 
    people] 1. (of a program) Well-written. 2. Functionally excellent. A 
    program that performs well and interfaces well to users is cuspy. See 
@@ -7254,7 +7288,7 @@ The Jargon Lexicon ******************
    and the pronunciation have drifted, we think this glossary reflects 
    current (2000) usage. 
 
-:daemon book: n. "The Design and Implementation of the 4.3BSD Unix 
+:daemon book: n. "The Design and Implementation of the 4.3BSD UNIX 
    Operating System", by Samuel J. Leffler, Marshall Kirk McKusick, Michael 
    J. Karels, and John S. Quarterman (Addison-Wesley Publishers, 1989, ISBN 
    0-201-06196-1); or "The Design and Implementation of the 4.4 BSD 
@@ -7269,8 +7303,9 @@ The Jargon Lexicon ******************
 :dahmum: /dah'mum/ n. [Usenet] The material of which protracted {flame 
    war}s, especially those about operating systems, is composed. 
    Homeomorphic to {spam}. The term `dahmum' is derived from the name of a 
-   militant {OS/2} advocate, and originated when an extensively crossposted 
-   OS/2-versus-{Linux} debate was fed through {Dissociated Press}. 
+   militant {OS/2} advocate, and originated when an extensively 
+   cross-posted OS/2-versus-{Linux} debate was fed through {Dissociated 
+   Press}. 
 
 :dancing frog: n. [Vancouver area] A problem that occurs on a computer 
    that will not reappear while anyone else is watching. From the classic 
@@ -7399,7 +7434,7 @@ The Jargon Lexicon ******************
    ID is the last eight hex digits of (for RSA keys) the product of two 
    primes. The attack was demonstrated by creating a key whose ID was 
    0xdeadbeef (see {DEADBEEF}). 
-
+
 :dead code: n. Routines that can never be accessed because all calls to 
    them have been removed, or code that cannot be reached because it is 
    guarded by a control structure that provably must always transfer 
@@ -7418,7 +7453,7 @@ The Jargon Lexicon ******************
    page frustrating and useless and are the #1 sign of poor page 
    maintainance. Compare {dangling pointer}, {link rot}. 
 
-:dead-tree version:[common] A paper version of an on-line document; one 
+:dead-tree version: [common] A paper version of an on-line document; one 
    printed on dead trees. In this context, "dead trees" always refers to 
    paper. See also {tree-killer}. 
 
@@ -7432,7 +7467,7 @@ The Jargon Lexicon ******************
 
 :deadlock: n. 1. [techspeak] A situation wherein two or more processes 
    are unable to proceed because each is waiting for one of the others to 
-   do something. A common example is a program communicating to a server, 
+   do something. A common example is a program communicating to a server, 
    which may find itself waiting for output from the server before sending 
    anything more to it, while the server is similarly waiting for more 
    input from the controlling program before outputting anything. (It is 
@@ -7447,7 +7482,7 @@ The Jargon Lexicon ******************
    be polite by moving aside to let the other pass, but they end up swaying 
    from side to side without making any progress because they always move 
    the same way at the same time. 
-
+
 :deadly embrace: n. Same as {deadlock}, though usually used only when 
    exactly two processes are involved. This is the more popular term in 
    Europe, while {deadlock} predominates in the United States. 
@@ -7813,11 +7848,6 @@ The Jargon Lexicon ******************
 
 :Devil Book: n. See {daemon book}, the term preferred by its authors. 
 
-:/dev/null: /dev-nuhl/ n. [from the Unix null device, used as a data 
-   sink] A notional `black hole' in any information space being discussed, 
-   used, or referred to. A controversial posting, for example, might end 
-   "Kudos to rasputin@kremlin.org, flames to /dev/null". See {bit bucket}. 
-
 :dickless workstation: n. Extremely pejorative hackerism for `diskless 
    workstation', a class of botches including the Sun 3/50 and other 
    machines designed exclusively to network with an expensive central disk 
@@ -7862,7 +7892,7 @@ The Jargon Lexicon ******************
    effective to attack software problems by reducing complexity than by 
    increasing it.) The word `dikes' is widely used among mechanics and 
    engineers to mean `diagonal cutters', esp. the heavy-duty metal-cutting 
-   version; it also refer to a kind of wire-cutters used by electronics 
+   version; it also refers to a kind of wire-cutters used by electronics 
    techs. To `dike something out' means to use such cutters to remove 
    something. Indeed, the TMRC Dictionary defined dike as "to attack with 
    dikes". Among hackers this term has been metaphorically extended to 
@@ -8644,7 +8674,7 @@ The Jargon Lexicon ******************
    infamous {CPU Wars} comic; supposedly derived from a famously turgid 
    line in a WWII-era anti-Nazi propaganda comic that ran "Eat flaming 
    death, non-Aryan mongrels!" or something of the sort (however, it is 
-   also reported that on the the Firesign Theatre's 1975 album "In The Next 
+   also reported that on the Firesign Theatre's 1975 album "In The Next 
    World, You're On Your Own" a character won the right to scream "Eat 
    flaming death, fascist media pigs" in the middle of Oscar night on a 
    game show; this may have been an influence). Used in humorously 
@@ -8910,7 +8940,7 @@ The Jargon Lexicon ******************
    starting something that would soon pollute all the world's communication 
    channels." [GLS confirms that he remembers this original posting]. 
 
-   There is a rival claim one by KevinMcKenzie, who seems to have 
+   There is a rival claim by one KevinMcKenzie, who seems to have 
    proposed the smiley on the MsgGroup mailing list, April 12 1979. It 
    seems likely these two inventions were independent. 
 
@@ -8930,7 +8960,7 @@ The Jargon Lexicon ******************
 
    Modern empire is a real-time wargame played over the internet by up to 
    120 players. Typical games last from 24 hours (blitz) to a couple of 
-   months (long term). The amount of sleep you can get while playing is a 
+   months (long term). The amount of sleep you can get while playing is a 
    function of the rate at which updates occur and the number of co-rulers 
    of your country. Empire server software is available for Unix-like 
    machines, and clients for Unix and other platforms. A comprehensive 
@@ -9139,7 +9169,7 @@ The Jargon Lexicon ******************
    mainframes, and prob. derived from UNIVAC's archaic EXEC 2 and EXEC 8 
    operating systems. 3. At IBM and VM/CMS shops, the equivalent of a shell 
    command file (among VM/CMS users). 
-
+
    The mainstream `exec' as an abbreviation for (human) executive is 
    _not_ used. To a hacker, an `exec' is always a program, never a person. 
 
@@ -9532,8 +9562,9 @@ The Jargon Lexicon ******************
    includes such diverse machines as Apple ][s, Ataris, Amigas, and Unix 
    systems. For years FidoNet actually grew faster than Usenet, but the 
    advent of cheap Internet access probably means its days are numbered. In 
-   early 1999 Fidonet has approximately 30,000 nodes, down from 38K in 
-   1996. 
+   mid-2001 Fidonet has approximately 15K nodes, down from 38K in 1996 - 
+   and most of those areprobably single-user machines rather than the 
+   thriving BBSes of yore. 
 
 :field circus: n. [a derogatory pun on `field service'] The field service 
    organization of any hardware manufacturer, but originally {DEC}. There 
@@ -9632,7 +9663,7 @@ The Jargon Lexicon ******************
 
    The label `Finagle's Law' was popularized by SF author Larry Niven in 
    several stories depicting a frontier culture of asteroid miners; this 
-   `Belter' culture professed a religion and/or running joke involving the 
+   `Belter' culture professed a religion and/or running joke involving the 
    worship of the dread god Finagle and his mad prophet Murphy. Some 
    technical and scientific cultures (e.g., paleontologists) know it under 
    the name `Sod's Law'; this usage may be more common in Great Britain. 
@@ -9787,14 +9818,17 @@ The Jargon Lexicon ******************
    1965 version of the ASCII code to the 1967 version (in draft at the 
    time); this was scheduled for Flag Day (a U.S. holiday), June 14, 1966. 
    The actual change moved the code point for the ASCII newline character; 
-   this required that all of the Multics source code, documentation, and 
+   this required that all of the CTSS source code, documentation, and 
    device drivers be changed simultaneously. See also {backward 
    combatability}. 
 
    [Previous versions of this entry described this as a change in 
    {Multics}, which was wrong. Evidently this confusion arose from the fact 
-   that the changes were made partly to facilitate Multics developmnt 
+   that the changes were made partly to facilitate Multics development 
    --ESR] 
+
+   [As it happens, the first commercial installation of a computer, a 
+   Univac I, took place on lag Day of 1951 --ESR] 
 
 :flaky: adj. (var sp. `flakey') Subject to frequent {lossage}. This use 
    is of course related to the common slang use of the word to describe a 
@@ -10025,7 +10059,7 @@ The Jargon Lexicon ******************
    [Unfortunately, this reference to the embryological dictum that 
    "Ontogeny recapitulates phylogeny" is not merely a joke. On the 
    Macintosh, for example, System 7 has to go through contortions to 
-   compensate for an eaSdrlier design error that created a whole different 
+   compensate for an earlier design error that created a whole different 
    set of abstractions for fonts parallel to `files' and `folders' --ESR] 
 
 :foo: /foo/ 1. interj. Term of disgust. 2. [very common] Used very 
@@ -10048,10 +10082,10 @@ The Jargon Lexicon ******************
    "Smokey Stover" comic strip published from about 1930 to about 1952. 
    Bill Holman, the author of the strip, filled it with odd jokes and 
    personal contrivances, including other nonsense phrases such as "Notary 
-   Sojac" and "1506 nix nix". The word "foo" frequently appeared in the on 
-   license plates of cars, in nonsens sayings in the background of some 
-   frames (such as "He who foos last foos best" or "Many smoke but foo men 
-   chew"), and Holman had Smokey say "Where there's foo, there's fire". 
+   Sojac" and "1506 nix nix". The word "foo" frequently appeared on license 
+   plates of cars, in nonsense sayings in the background of some frames 
+   (such as "He who foos last foos best" or "Many smoke but foo men chew"), 
+   and Holman had Smokey say "Where there's foo, there's fire". 
 
    According to the Warner Brothers Cartoon Companion 
    (http://www.spumco.com/magazine/eowbcc/) Holman claimed to have found 
@@ -10073,7 +10107,7 @@ The Jargon Lexicon ******************
    references embedded in popular culture (including a couple of 
    appearances in Warner Brothers cartoons of 1938-39; notably in Robert 
    Clampett's "Daffy Doc" of 1938, in which a very early version of Daffy 
-   Duck holds up a sign saying "SILENCE IS FOO!")When the fad faded, the 
+   Duck holds up a sign saying "SILENCE IS FOO!") When the fad faded, the 
    origin of "foo" was forgotten. 
 
    One place "foo" is known to have remained live is in the U.S. military 
@@ -10126,11 +10160,6 @@ The Jargon Lexicon ******************
    is not likely 1959's were any less susceptible. Almost the entire staff 
    of what later became the MIT AI Lab was involved with TMRC, and the word 
    spread from there. 
-
-   Finally (and perhaps irrelevantly) a Russian correspondent reports 
-   that in mainstream Russian, "Foo" (or "Fu") is an interjection commonly 
-   used as a response to bad smell, bad taste, or other unpleasant 
-   sensatiion. 
 
 :foobar: n. [very common] Another widely used {metasyntactic variable}; 
    see {foo} for etymology. Probably originally propagated through 
@@ -10307,7 +10336,7 @@ The Jargon Lexicon ******************
    issues of legitimacy, succession, and design direction. There is serious 
    social pressure against forking. As a result, major forks (such as the 
    Gnu-Emacs/XEmacs split, the fissionings of the 386BSD group into three 
-   daughter project, and the short-lived GCC/EGCS split) are rare enough 
+   daughter projects, and the short-lived GCC/EGCS split) are rare enough 
    that they are remembered individually in hacker folklore. 2. [Unix; 
    uncommon; prob. influenced by a mainstream expletive] Terminally slow, 
    or dead. Originated when one system was slowed to a snail's pace by an 
@@ -10755,6 +10784,18 @@ The Jargon Lexicon ******************
    each, the probability of maintaining a coherent (or even functional) 
    design goes to {epsilon}. See also {firefighting}, {Mongolian Hordes 
    technique}, {Conway's Law}. 
+
+:Gang of Four: n. (also abbreviated `GOF') [prob. a play on the `Gang Of 
+   Four' who briefly ran Communist China after the death of Mao T'se Tung] 
+   Describes either the authors or the book "Design Patterns: Elements of 
+   Reusable Object-Oriented Software" published in 1995 by Addison-Wesley 
+   (ISBN 0-201-63361-2). The authors forming the Gang Of Four are Erich 
+   Gamma, Richard Helm, Ralph Johnson and John Vlissides. They are also 
+   sometimes referred to as `Gamma et. al.' The authors state at 
+   `http://www.hillside.net/patterns/DPBook/GOF.html' "Why are we ... 
+   called this? Who knows. Somehow the name just stuck." The term is also 
+   used to describe any of the design patterns that are used in the book, 
+   referring to the patterns within it as `Gang Of Four Patterns.' 
 
 :garbage collect: vi. (also `garbage collection', n.) See {GC}. 
 
@@ -11225,7 +11266,7 @@ The Jargon Lexicon ******************
    compare {gronk out}. 
 
 :gonkulator: /gon'kyoo-lay-tr/ n. [common; from the 1960s "Hogan's 
-   Heroes" TV series] A pretentious piece of equipment that actually serves 
+   Heroes" TV series] A pretentious piece of equipment that actually serves 
    no useful purpose. Usually used to describe one's least favorite piece 
    of computer hardware. See {gonk}. 
 
@@ -11236,24 +11277,26 @@ The Jargon Lexicon ******************
    or individual functions. Has some of the connotations of {moby} and 
    {hairy}, but without the implication of obscurity or complexity. 
 
-:Good Thing: n.,adj. [very common; often capitalized; always pronounced 
-   as if capitalized.] 1. Self-evidently wonderful to anyone in a position 
-   to notice: "A language that manages dynamic memory automatically for you 
-   is a Good Thing." 2. Something that can't possibly have any ill 
-   side-effects and may save considerable grief later: "Removing the 
-   self-modifying code from that shared library would be a Good Thing." 3. 
-   When said of software tools or libraries, as in "YACC is a Good Thing", 
-   specifically connotes that the thing has drastically reduced a 
-   programmer's work load. Oppose {Bad Thing}. 
+:Good Thing: n.,adj. [very common; always pronounced as if capitalized. 
+   Orig. fr. the 1930 Sellar & Yeatman parody of British history "1066 And 
+   All That", but well-established among hackers in the U.S. as well.] 1. 
+   Self-evidently wonderful to anyone in a position to notice: "A language 
+   that manages dynamic memory automatically for you is a Good Thing." 2. 
+   Something that can't possibly have any ill side-effects and may save 
+   considerable grief later: "Removing the self-modifying code from that 
+   shared library would be a Good Thing." 3. When said of software tools or 
+   libraries, as in "YACC is a Good Thing", specifically connotes that the 
+   thing has drastically reduced a programmer's work load. Oppose {Bad 
+   Thing}. 
 
 :google: v. [common] To search the Web using the Google search engine, 
-   `www.google.com'. Google is highly esteemed among hackers for its 
+   `http://www.google.com'. Google is highly esteemed among hackers for its 
    significance ranking system, which is so uncannily effective that many 
-   users consider it to have rendered other search engines effectively 
+   hackers consider it to have rendered other search engines effectively 
    irrelevant. The name `google' has additional flavor for hackers because 
    most know that it was copied from a mathematical term for ten to the 
-   hundredth power, famously first uttered by a mathematician's infant 
-   child. 
+   hundredth power, famously first uttered as `googol' by a mathematician's 
+   nine-year-old nephew. 
 
 :gopher: n. A type of Internet service first floated around 1991 and 
    obsolesced around 1995 by the World Wide Web. Gopher presents a menuing 
@@ -11264,7 +11307,7 @@ The Jargon Lexicon ******************
    the University of Minnesota, was named after the Minnesota Gophers (a 
    sports team). Others claim the word derives from American slang `gofer' 
    (from "go for", dialectal "go fer"), one whose job is to run and fetch 
-   things. Finally, observe that gophers dig long tunnels, and the idea of 
+   things. Finally, observe that gophers dig long tunnels, and the idea of 
    tunneling through the net to find information was a defining metaphor 
    for the developers. Probably all three things were true, but with the 
    first two coming first and the gopher-tunnel metaphor serendipitously 
@@ -11460,8 +11503,9 @@ The Jargon Lexicon ******************
    "Grep the bulletin board for the system backup schedule, would you?" See 
    also {vgrep}. 
 
-   [It has also been alleged that the source is from the title of a paper 
-   "A General Regular Expression Parser" -ESR] 
+   [It has been alleged that the source is from the title of a paper "A 
+   General Regular Expression Parser", but dmr confirms the g/re/p 
+   etymology -ESR] 
 
 :gribble: n. Random binary data rendered as unreadable text. Noise 
    characters in a data stream are displayed as gribble. Modems with 
@@ -11527,14 +11571,21 @@ The Jargon Lexicon ******************
    "gripe" and "bitch". Thus, sense 3 above is at least historically 
    incorrect. 
 
-:grok: /grok/, var. /grohk/ vt. [common; from the novel "Stranger in a 
+:grok: /grok/, var. /grok/ vt. [common; from the novel "Stranger in a 
    Strange Land", by Robert A. Heinlein, where it is a Martian word meaning 
    literally `to drink' and metaphorically `to be one with'] The emphatic 
-   form is `grok in fullness'. 1. To understand, usually in a global sense. 
-   Connotes intimate and exhaustive knowledge. Contrast {zen}, which is 
-   similar supernal understanding experienced as a single brief flash. See 
-   also {glark}. 2. Used of programs, may connote merely sufficient 
-   understanding. "Almost all C compilers grok the `void' type these days." 
+   form is `grok in fullness'. 1. To understand. Connotes intimate and 
+   exhaustive knowledge. When you claim to `grok' some knowledge or 
+   technique, you are asserting that you have not merely learned it in a 
+   detached instrumental way but that it has become part of you, part of 
+   your identity. For example, to say that you "know" {LISP} is simply to 
+   assert that you can code in it if necessary - but to say you "grok" LISP 
+   is to claim that you have deeply entered the world-view and spirit of 
+   the language, with the implication that it has transformed your view of 
+   programming. Contrast {zen}, which is similar supernal understanding 
+   experienced as a single brief flash. See also {glark}. 2. Used of 
+   programs, may connote merely sufficient understanding. "Almost all C 
+   compilers grok the `void' type these days." 
 
 :gronk: /gronk/ vt. [popularized by Johnny Hart's comic strip "B.C." but 
    the word apparently predates that] 1. To clear the state of a wedged 
@@ -11820,7 +11871,7 @@ The Jargon Lexicon ******************
    identifying yourself as a hacker (but if you claim to be one and are 
    not, you'll quickly be labeled {bogus}). See also {geek}, {wannabee}. 
 
-   This term seems to have been first adopted as a badge in the 1960s by 
+   This term seems to have been first adopted as a badge in the 1960s by 
    the hacker culture surrounding TMRC and the MIT AI Lab. We have a report 
    that it was used in a sense close to this entry's by teenage radio hams 
    and electronics tinkerers in the mid-1950s. 
@@ -12219,7 +12270,7 @@ The Jargon Lexicon ******************
    program with on-screen help embedded in it truly has the {loser} 
    nature!" See also {the X that can be Y is not the true X}. See also 
    {mu}. 
-
+
 :hash bucket: n. A notional receptacle, a set of which might be used to 
    apportion data items for sorting or lookup purposes. When you look up a 
    name in the phone book (for example), you typically hash it by 
@@ -12298,7 +12349,7 @@ The Jargon Lexicon ******************
    `lightweight'. Usage: now borders on techspeak, especially in the 
    compound `heavyweight process'. 
 
-:Hed Rat: Unflattering anagram of Red Hat, a popular {Linux} 
+:Hed Rat: Unflattering spoonerism of Red Hat, a popular {Linux} 
    distribution. Compare {Telerat}; see also {AIDX}, {Macintrash} {Nominal 
    Semidestructor}, {ScumOS}, {sun-stools}, {HP-SUX}, {Slowlaris}. 
 
@@ -12407,7 +12458,7 @@ The Jargon Lexicon ******************
    the upper floor was dubbed the `high moby' and the other the `low moby'. 
    All parties involved {grok}ked this instantly. See {moby}. 
 
-:highly: adv. [scientific computation] The preferred modifier for 
+:highly: adv. [scientific computation] The preferred modifier for 
    overstating an understatement. As in: `highly nonoptimal', the worst 
    possible way to do something; `highly nontrivial', either impossible or 
    requiring a major research project; `highly nonlinear', completely 
@@ -12850,7 +12901,7 @@ The Jargon Lexicon ******************
 :indent style: n. [C, C++, and Java programmers] The rules one uses to 
    indent code in a readable fashion. There are four major C indent styles, 
    described below; all have the aim of making it easier for the reader to 
-   visually track the scope of control constructs. They have been inherited 
+   visually track the scope of control constructs. They have been inherited 
    by C++ and Java, which have C-like syntaxes. The significant variable is 
    the placement of `{' and `}' with respect to the statement(s) they 
    enclose and to the guard or controlling statement (`if', `else', `for', 
@@ -13110,11 +13161,11 @@ The Jargon Lexicon ******************
    rather, what caught the public imagination was the hypertext and 
    multimedia features of the World Wide Web. Subsequently the Internet has 
    seen off its only serious challenger (the OSI protocol stack favored by 
-   European telecom monopolies) and is in the process of absorbing into 
+   European telecoms monopolies) and is in the process of absorbing into 
    itself many of the proprietary networks built during the second wave of 
    wide-area networking after 1980. By 1996 it had become a commonplace 
    even in mainstream media to predict that a globally-extended Internet 
-   will become the key unifying communications technology of the next 
+   would become the key unifying communications technology of the next 
    century. See also {the network} and {Internet address}. 
 
 :Internet address:: n. 1. [techspeak] An absolute network address of the 
@@ -13629,7 +13680,7 @@ The Jargon Lexicon ******************
    environment are required. 
 
 :KLB: n.[common among Perl hackers ] Known Lazy Bastard. Used to describe 
-   somebody who perpeptually asks questions which are easily answered by 
+   somebody who perpetually asks questions which are easily answered by 
    refering to the reference material or manual. 
 
 :klone: /klohn/ n. See {clone}, sense 4. 
@@ -13795,11 +13846,11 @@ The Jargon Lexicon ******************
    out by a vendor. Usually the decortication process is slow and almost 
    unnoticeable until one day the victim emerges as a True Believer and 
    begins spreading the faith himself. The term originates in the suicide 
-   of 914 followers of Jim Jones's People's Temple cult in Guiana in 1978. 
+   of 914 followers of Jim Jones's People's Temple cult in Guyana in 1978. 
    What they actually drank was cyanide-laced Flavor-Aid, a cheap knockoff 
-   rather than Kool-Aid itself. There is a 
-   http://www.cs.ruu.nl/wais/html/na-dir/food/kool-aid-faq.html (FAQ) on 
-   this topic 
+   rather than Kool-Aid itself. There is a FAQ 
+   (http://www.cs.ruu.nl/wais/html/na-dir/food/kool-aid-faq.html) on this 
+   topic 
 
 :kremvax: /krem-vaks/ n. [from the then-large number of {Usenet} {VAXen} 
    with names of the form foovax] Originally, a fictitious Usenet site at 
@@ -13879,11 +13930,10 @@ The Jargon Lexicon ******************
    in a similar sense to the above. 
 
    This term originated among Amiga crackers of the mid-1980s. It was 
-   popularized there by Lamer Exterminator', the most famous and feared 
+   popularized there by `Lamer Exterminator', the most famous and feared 
    Amiga virus ever, which gradually corrupted non-write-protected floppy 
-   disks with bad sectors. The bad sectors, when looked at, where 
-   overwritten with the following text: 'LAMER! LAMER! LAMER! LAMER! 
-   (x1000)' 
+   disks with bad sectors. The bad sectors, when looked at, were 
+   overwritten with repetitions of the string `LAMER!'. 
 
 :LAN party: /lan par'tee/ An event to which several users bring their 
    boxes and hook them up to a common LAN (Local Area Network), often for 
@@ -14419,18 +14469,14 @@ The Jargon Lexicon ******************
    concept is reinforced by North American highways which are almost, but 
    not quite, consistently labeled with logical rather than physical 
    directions. A similar situation exists at MIT: Route 128 (famous for the 
-   electronics industry that has grown up along it) is a 3-quarters circle 
-   surrounding Boston at a radius of 10 miles, terminating near the 
-   coastline at each end. It would be most precise to describe the two 
-   directions along this highway as `clockwise' and `counterclockwise', but 
-   the road signs all say "north" and "south", respectively. A hacker might 
-   describe these directions as `logical north' and `logical south', to 
-   indicate that they are conventional directions not corresponding to the 
-   usual denotation for those words. (If you went logical south along the 
-   entire length of route 128, you would start out going northwest, curve 
-   around to the south, and finish headed due east, passing along one 
-   infamous stretch of pavement that is simultaneously route 128 south and 
-   Interstate 93 north, and is signed as such!) 
+   electronics industry that grew up along it) wraps roughly 3 quarters 
+   around Boston at a radius of 10 miles, terminating near the coastline at 
+   each end. It would be most precise to describe the two directions along 
+   this highway as `clockwise' and `counterclockwise', but the road signs 
+   all say "north" and "south", respectively. A hacker might describe these 
+   directions as `logical north' and `logical south', to indicate that they 
+   are conventional directions not corresponding to the usual denotation 
+   for those words. 
 
 :loop through: vt. To process each element of a list of things. "Hold on, 
    I've got to loop through my paper mail." Derives from the 
@@ -14711,7 +14757,7 @@ The Jargon Lexicon ******************
 
    Usenetter Jay Maynard tells the following story: "Once, while hacking 
    on a dedicated Z80 system, I was testing code by blowing EPROMs and 
-   plugging them in the system, then seeing what happened. One time, I 
+   plugging them in the system, then seeing what happened. One time, I 
    plugged one in backwards. I only discovered that _after_ I realized that 
    Intel didn't put power-on lights under the quartz windows on the tops of 
    their EPROMs -- the die was glowing white-hot. Amazingly, the EPROM 
@@ -14917,7 +14963,7 @@ The Jargon Lexicon ******************
 :massage: vt. [common] Vague term used to describe `smooth' 
    transformations of a data set into a different form, esp. 
    transformations that do not lose information. Connotes less pain than 
-   {munch} or {crunch}. "He wrote a program that massages X bitmap files 
+   {munch} or {crunch}. "He wrote a program that massages X bitmap files 
    into GIF format." Compare {slurp}. 
 
 :math-out: n. [poss. from `white-out' (the blizzard variety)] A paper or 
@@ -15039,7 +15085,7 @@ The Jargon Lexicon ******************
    via macros or a special-purpose language in which one can encode useful 
    hacks. See {user-obsequious}, {drool-proof paper}, {WIMP environment}, 
    {for the rest of us}. 
-
+
 :mess-dos: /mes-dos/ n. [semi-obsolescent now that DOS is] Derisory term 
    for MS-DOS. Often followed by the ritual banishing "Just say No!" See 
    {{MS-DOS}}. Most hackers (even many MS-DOS hackers) loathed MS-DOS for 
@@ -15488,7 +15534,7 @@ The Jargon Lexicon ******************
 :molly-guard: /mol'ee-gard/ n. [University of Illinois] A shield to 
    prevent tripping of some {Big Red Switch} by clumsy or ignorant hands. 
    Originally used of the plexiglass covers improvised for the BRS on an 
-   IBM 4341 after a programmer's toddler daughter (named Molly) frobbed it 
+   IBM 4341 after a programmer's toddler daughter (named Molly) frobbed it 
    twice in one day. Later generalized to covers over stop/reset switches 
    on disk drives and networking equipment. In hardware catalogues, you'll 
    see the much less interesting description "guarded button". 
@@ -15524,13 +15570,11 @@ The Jargon Lexicon ******************
    compatible. A standard PC-compatible using the AT- or ISA-bus with a 
    normal BIOS cannot access more than 16 megabytes of RAM. Generally used 
    of a PC, Unix workstation, etc. to mean `fully populated with' memory, 
-   disk-space or some other desirable resource. This usage may be related 
-   to a TV commercial for Del Monte fruit juice, in which one of the 
-   characters insisted on "the full Del Monte"; but see the World Wide 
-   Words article "The Full Monty" 
+   disk-space or some other desirable resource. See the World Wide Words 
+   article "The Full Monty" 
    (http://www.worldwidewords.org/articles/monty.htm) for discussion of the 
-   rather complex etymology that may lie behind this. Compare American 
-   {moby}. 
+   rather complex etymology that may lie behind this phrase. Compare 
+   American {moby}. 
 
 :Moof: /moof/ [Macintosh users] 1. n. The call of a semi-legendary 
    creature, properly called the {dogcow}. (Some previous versions of this 
@@ -16467,7 +16511,7 @@ The Jargon Lexicon ******************
 :not entirely unlike X:Used ironically of things which are in fact almost 
    entirely unlike X, except for one feature which the speaker clearly 
    regards as insignificant. "That is not entirely unlike cool...at least 
-   it's small. Comes directly from the Hitchiker's Guide to the Galaxy 
+   it's small". Comes directly from the Hitchiker's Guide to the Galaxy 
    scene in which the food synthesizer on the starship Heart of Gold 
    dispenses something "almost, but not entirely unlike, tea". 
 
@@ -16486,11 +16530,11 @@ The Jargon Lexicon ******************
 
 :NP-: /N-P/ pref. Extremely. Used to modify adjectives describing a level 
    or quality of difficulty; the connotation is often `more so than it 
-   should be' This is generalized from the computer-science terms `NP-hard' 
-   and `NP-complete'; NP-complete problems all seem to be very hard, but so 
-   far no one has found a proof that they are. NP is the set of 
-   Nondeterministic-Polynomial algorithms, those that can be completed by a 
-   nondeterministic Turing machine in an amount of time that is a 
+   should be'. This is generalized from the computer-science terms 
+   `NP-hard' and `NP-complete'; NP-complete problems all seem to be very 
+   hard, but so far no one has found a proof that they are. NP is the set 
+   of Nondeterministic-Polynomial algorithms, those that can be completed 
+   by a nondeterministic Turing machine in an amount of time that is a 
    polynomial function of the size of the input; a solution for one 
    NP-complete problem would solve all the others. "Coding a BitBlt 
    implementation to perform correctly in every case is NP-annoying." 
@@ -16843,7 +16887,7 @@ The Jargon Lexicon ******************
 
    At IBM, folklore divides the world into one-, two-, and three-banana 
    problems. Other cultures have different hierarchies and may divide them 
-   more finely; at ICL, for example, five grapes (a bunch) equals a banana. 
+   more finely; at ICL, for example, five grapes (a bunch) equals a banana. 
    Their upper limit for the in-house {sysape}s is said to be two bananas 
    and three grapes (another source claims it's three bananas and one 
    grape, but observes "However, this is subject to local variations, 
@@ -16960,17 +17004,17 @@ The Jargon Lexicon ******************
 :Oracle, the: The all-knowing, all-wise Internet Oracle rec.humor.oracle, 
    or one of the foreign language derivatives of same. Newbies frequently 
    confuse the Oracle with Oracle, a database vendor. As a result, the 
-   unmoderated rec.humor.oracle.d is frequently crossposted to by the 
+   unmoderated rec.humor.oracle.d is frequently cross-posted to by the 
    clueless, looking for advice on SQL. As more than one person has said in 
    similar situations, "Don't people bother to look at the newsgroup 
    description line anymore?" (To which the standard response is, "Did 
    people ever read it in the first place?") 
 
-:Orange Book: n. The U.S. Government's standards document "Trusted 
-   Computer System Evaluation Criteria, DOD standard 5200.28-STD, December, 
-   1985" which characterize secure computing architectures and defines 
-   levels A1 (most secure) through D (least). Modern Unixes are roughly C2. 
-   See also {{crayola books}}, {{book titles}}. 
+:Orange Book: n. The U.S. Government's (now obsolete) standards document 
+   "Trusted Computer System Evaluation Criteria, DOD standard 5200.28-STD, 
+   December, 1985" which characterize secure computing architectures and 
+   defines levels A1 (most secure) through D (least). Modern Unixes are 
+   roughly C2. See also {{crayola books}}, {{book titles}}. 
 
 :oriental food:: n. Hackers display an intense tropism towards oriental 
    cuisine, especially Chinese, and especially of the spicier varieties 
@@ -17109,7 +17153,7 @@ The Jargon Lexicon ******************
    beyond the end of arrays allocated with `malloc(3)'; this typically 
    trashes the allocation header for the next block in the {arena}, 
    producing massive lossage within malloc and often a core dump on the 
-   next operation to use `stdio(3)' or `malloc(3)' itself. See {spam}, 
+   next operation to use `stdio(3)' or `malloc(3)' itself. See {spam}, 
    {overrun}; see also {memory leak}, {memory smash}, {aliasing bug}, 
    {precedence lossage}, {fandango on core}, {secondary damage}. 
 
@@ -17210,12 +17254,11 @@ The Jargon Lexicon ******************
    turned down by the technical journals but circulated widely via 
    photocopies. It was eventually published in "Comparing and Assessing 
    Programming Languages", edited by Alan Feuer and Narain Gehani 
-   (Prentice-Hall, 1984); a web search for the title should find many 
-   copies. Part of his discussion is worth repeating here, because its 
-   criticisms are still apposite to Pascal itself after many years of 
-   improvement and could also stand as an indictment of many other 
-   bondage-and-discipline languages. (The entire essay os available at 
-   `http://www.lysator.liu.se/c/bwk-on-pascal.html'. At the end of a 
+   (Prentice-Hall, 1984). Part of his discussion is worth repeating here, 
+   because its criticisms are still apposite to Pascal itself after many 
+   years of improvement and could also stand as an indictment of many other 
+   bondage-and-discipline languages. (The entire essay is available at 
+   `http://www.lysator.liu.se/c/bwk-on-pascal.html'.) At the end of a 
    summary of the case against Pascal, Kernighan wrote: 
 
      9. There is no escape
@@ -17826,12 +17869,13 @@ The Jargon Lexicon ******************
 
 :plug-and-pray: adj.,vi. Parody of the techspeak term `plug-and-play', 
    describing a PC peripheral card which is claimed to have no need for 
-   hardware configuration via DIP switches, and which should work as soon 
-   as it is inserted in the PC. Unfortunately, even the PCI bus is not up 
-   to pulling this off reliably, and people who have to do installation or 
-   troubleshoot PCs soon find themselves longing for the DIP switches. 
+   hardware configuration via jumpers or DIP switches, and which should 
+   work as soon as it is inserted in the PC. Unfortunately, even the PCI 
+   bus is all too often not up to pulling this off reliably, and people who 
+   have to do installation or troubleshoot PCs soon find themselves longing 
+   for the jumpers and switches. 
 
-:plugh: /ploogh/ v. [from the {ADVENT} game] See {xyzzy}. 
+:plugh: /ploogh/ v. [from the {ADVENT} game] See {xyzzy}. 
 
 :plumbing: n. [Unix] Term used for {shell} code, so called because of the 
    prevalence of `pipelines' that feed the output of one program to the 
@@ -17856,7 +17900,7 @@ The Jargon Lexicon ******************
    confused with {P.O.D.}. 
 
 :point-and-drool interface: n. Parody of the techspeak term 
-   `point-and-shoot interface', describing a windows, icons, and 
+   `point-and-click interface', describing a windows, icons, and 
    mouse-based interface such as is found on the Macintosh. The 
    implication, of course, is that such an interface is only suitable for 
    idiots. See {for the rest of us}, {WIMP environment}, {Macintrash}, 
@@ -17976,8 +18020,9 @@ The Jargon Lexicon ******************
    kind. The term comes from the {warez kiddies} tendency to replace 
    letters with numbers. At some point on IRC someone mistyped, swapped the 
    middle two letters, and the name stuck, then propagated over into 
-   mainstream hacker usage. Compare {filk}, {grilf}, {hing} and 
-   {newsfroup}. 
+   mainstream hacker usage. New versions of the Mozilla web browser 
+   internally refer to the image library as "libpr0n"Compare {filk}, 
+   {grilf}, {hing} and {newsfroup}. 
 
 :precedence lossage: /pre's*-dens los'*j/ n. [C programmers] Coding error 
    in an expression due to unexpected grouping of arithmetic or logical 
@@ -18677,9 +18722,9 @@ The Jargon Lexicon ******************
    See {terminal illness}. 
 
 :rasterbation: n. [portmanteau: raster + masturbation] The gratuitous use 
-   of comuputer generated images and effects in movies and graphic art 
-   which would have been better without them. Especially employed as a term 
-   of abuse by Photoshop/GIMP users and graphic artists. 
+   of computer generated images and effects in movies and graphic art which 
+   would have been better without them. Especially employed as a term of 
+   abuse by Photoshop/GIMP users and graphic artists. 
 
 :rat belt: n. A cable tie, esp. the sawtoothed, self-locking plastic kind 
    that you can remove only by cutting (as opposed to a random twist of 
@@ -18808,7 +18853,7 @@ The Jargon Lexicon ******************
    experience. The archetypal `Real Programmer' likes to program on the 
    {bare metal} and is very good at same, remembers the binary opcodes for 
    every machine he has ever programmed, thinks that HLLs are sissy, and 
-   uses a debugger to edit his code because full-screen editors are for 
+   uses a debugger to edit his code because full-screen editors are for 
    wimps. Real Programmers aren't satisfied with code that hasn't been 
    {bum}med into a state of {tense}ness just short of rupture. Real 
    Programmers never use comments or write documentation: "If it was hard 
@@ -19096,8 +19141,9 @@ The Jargon Lexicon ******************
    Waitzman, BBN STC; 1 April 1990). The first was a Lewis Carroll 
    pastiche; the second a parody of the TCP-IP documentation style, and the 
    third a deadpan skewering of standards-document legalese, describing 
-   protocols for transmitting Internet data packets by carrier pigeon. See 
-   also {Infinite-Monkey Theorem}. 
+   protocols for transmitting Internet data packets by carrier pigeon 
+   (since actually implemented; see Appendix A). See also {Infinite-Monkey 
+   Theorem}. 
 
    The RFCs are most remarkable for how well they work -- they frequently 
    manage to have neither the ambiguities that are usually rife in informal 
@@ -19497,7 +19543,7 @@ The Jargon Lexicon ******************
      JONL turned slowly around, and saw the three of us collapse in a
      fit of giggles.  He clapped a hand to his forehead and exclaimed,
      "I've been hacked!"
-   
+   
    [My spies on the West Coast inform me that there is a close relative 
    of the raspberry found out there called an `ollalieberry' --ESR] 
 
@@ -19756,7 +19802,7 @@ The Jargon Lexicon ******************
 
 :screen scraping: n. The act of capturing data from a system or program 
    by snooping the contents of some display that is not actually intended 
-   for data transport or inspection by programs. Around 1980 this term 
+   for data transport or inspection by programs. Around 1980 this term 
    referred to tricks like reading the display memory of a smart terminal 
    through its auxillary port. Nowadays it often refers to parsing the HTML 
    in generated web pages with programs designed to mine out particular 
@@ -19912,7 +19958,8 @@ The Jargon Lexicon ******************
    prevent patching the system even if you later got it right. 
 
 :SED: /S-E-D/ n. [TMRC, from `Light-Emitting Diode'] Smoke-emitting 
-   diode. A {friode} that lost the war. See also {LER}. 
+   diode. A {friode} that lost the war. See also {LER}. [Not to be confused 
+   with sed(1), the Unix stream editor. --ESR] 
 
 :See figure 1: Metaphorically, "Get stuffed." From the title of a famous 
    parody that can easily be found with a web search on this phrase; figure 
@@ -20054,12 +20101,12 @@ The Jargon Lexicon ******************
    {careware}, {charityware}, {crippleware}, {FRS}, {guiltware}, 
    {postcardware}, and {-ware}; compare {payware}. 
 
-:sharing violation:[From a file error common to several {OS}s] A response 
-   to receiving information, typically of an excessively personal nature, 
-   that you were probably happier not knowing. "You know those little 
-   noises that Pat makes in bed?" "Whoa! Sharing violation!" In contrast to 
-   the original file error, which indicated that you were _not_ being given 
-   data that you _did_ want. 
+:sharing violation:[From a file error common to several {OS}es] A 
+   response to receiving information, typically of an excessively personal 
+   nature, that you were probably happier not knowing. "You know those 
+   little noises that Pat makes in bed?" "Whoa! Sharing violation!" In 
+   contrast to the original file error, which indicated that you were _not_ 
+   being given data that you _did_ want. 
 
 :shebang: /sh*-bang/ n. The character sequence "#!" that frequently 
    begins executable shell scripts under Unix. Probably derived from "shell 
@@ -20114,7 +20161,7 @@ The Jargon Lexicon ******************
    Hackers who work on the HTML code of such pages afterwards invariably 
    curse these for their crocky dependence on the particular spacing of 
    original image file, the editor that generated them, and the version of 
-   the browser used to veiw them. Worse, they are a poorly designed 
+   the browser used to view them. Worse, they are a poorly designed 
    {kludge} which the advent of Cascading Style Sheets makes wholly 
    unnecessary; Any fool can plainly see that use of borders, layers and 
    positioned elements is the Right Thing (or would be if adequate support 
@@ -20170,9 +20217,6 @@ The Jargon Lexicon ******************
 
    [April 1999: shub-internet.ims.disa.mil is no more, alas. But 
    Shub-Internet lives o^$#$*^ --ESR] 
-
-   [March 2001: shub-internet.ims.disa.mil has returned to us! All praise 
-   to Shub-Internet! --ESR] 
 
 :sidecar: n. 1. Syn. {slap on the side}. Esp. used of add-ons for the 
    late and unlamented IBM PCjr. 2. The IBM PC compatibility box that could 
@@ -20639,7 +20683,7 @@ The Jargon Lexicon ******************
 :sock puppet: n. [Usenet: from the act of placing a sock over your hand 
    and talking to it and pretending it's talking back] In Usenet parlance, 
    a {pseudo} through which the puppeteer posts follow-ups to their own 
-   original message to give the appearance that a number of people support 
+   original message to give the appearance that a number of people support 
    the views held in the original message. 
 
 :sodium substrate: n. Syn {salt substrate}. 
@@ -20831,22 +20875,22 @@ The Jargon Lexicon ******************
    messages. You can spam a newsgroup with as little as one well- (or ill-) 
    planned message (e.g. asking "What do you think of abortion?" on 
    soc.women). This is often done with {cross-post}ing (e.g. any message 
-   which is crossposted to alt.rush-limbaugh and alt.politics.homosexuality 
-   will almost inevitably spam both groups). This overlaps with {troll} 
-   behavior; the latter more specific term has become more common. 3. To 
-   send many identical or nearly-identical messages separately to a large 
-   number of Usenet newsgroups. This is more specifically called `ECP', 
-   Excessive Cross-Posting. This is one sure way to infuriate nearly 
-   everyone on the Net. See also {velveeta} and {jello}. 4. To bombard a 
-   newsgroup with multiple copies of a message. This is more specifically 
-   called `EMP', Excessive Multi-Posting. 5. To mass-mail unrequested 
-   identical or nearly-identical email messages, particularly those 
-   containing advertising. Especially used when the mail addresses have 
-   been culled from network traffic or databases without the consent of the 
-   recipients. Synonyms include {UCE}, {UBE}. 6. Any large, annoying, 
-   quantity of output. For instance, someone on IRC who walks away from 
-   their screen and comes back to find 200 lines of text might say "Oh no, 
-   spam". 
+   which is cross-posted to alt.rush-limbaugh and 
+   alt.politics.homosexuality will almost inevitably spam both groups). 
+   This overlaps with {troll} behavior; the latter more specific term has 
+   become more common. 3. To send many identical or nearly-identical 
+   messages separately to a large number of Usenet newsgroups. This is more 
+   specifically called `ECP', Excessive Cross-Posting. This is one sure way 
+   to infuriate nearly everyone on the Net. See also {velveeta} and 
+   {jello}. 4. To bombard a newsgroup with multiple copies of a message. 
+   This is more specifically called `EMP', Excessive Multi-Posting. 5. To 
+   mass-mail unrequested identical or nearly-identical email messages, 
+   particularly those containing advertising. Especially used when the mail 
+   addresses have been culled from network traffic or databases without the 
+   consent of the recipients. Synonyms include {UCE}, {UBE}. 6. Any large, 
+   annoying, quantity of output. For instance, someone on IRC who walks 
+   away from their screen and comes back to find 200 lines of text might 
+   say "Oh no, spam". 
 
    The later definitions have become much more prevalent as the Internet 
    has opened up to non-techies, and to most people senses 3 4 and 5 are 
@@ -20857,10 +20901,10 @@ The Jargon Lexicon ******************
    there is apparently a widespread myth among {luser}s that "spamming" is 
    what happens when you dump cans of Spam into a revolving fan. Hormel, 
    the makers of Spam, have published a surprisingly enlightened position 
-   statement (http://www.spam.com/ci/ci_in.htm) on the Internet usage. 
+   statement (http://www.spam.com/ci/ci_in.htm) on the Internet usage. 
 
 :spam bait: n.Email addresses included in, or comprising the entirety of, 
-   a usenet message so that spammers mining a newsgroup with an {address 
+   a Usenet message so that spammers mining a newsgroup with an {address 
    harvester} will collect them. These addresses can be people who have 
    offended or annoyed the poster, or who are included so that a spammer 
    will spam an official, thereby causing himself trouble. One particularly 
@@ -20969,11 +21013,11 @@ The Jargon Lexicon ******************
    and railroaders refer to spiking a track switch so that it cannot be 
    moved. In programming environments it normally refers to a temporary 
    change, usually for testing purposes (as opposed to a permanent change, 
-   which would be called {hardwired}). 2. A visible peak in an otherwise 
-   rather constant graph (e.g. a sudden surge in line voltage, an 
-   unexpected short "high" on a logical line in a circuit). Hackers 
-   frequently use this for a sudden short increase in some quantity such as 
-   system load or network traffic. 
+   which would be called {hardwired}). 2. [borderline techspeak] A visible 
+   peak in an otherwise rather constant graph (e.g. a sudden surge in line 
+   voltage, an unexpected short "high" on a logical line in a circuit). 
+   Hackers frequently use this for a sudden short increase in some quantity 
+   such as system load or network traffic. 
 
 :spin: vi. Equivalent to {buzz}. More common among C and Unix 
    programmers. See the discussion of `spinlock' under {busy-wait}. 
@@ -21025,7 +21069,7 @@ The Jargon Lexicon ******************
    Purpose, Obtain a Degree"; according to some self-described spods, this 
    term is used by indifferent students to condemn their harder-working 
    fellows. Compare the defiant adoption of the term {geek} in the 
-   mid-1990s by people who would previously have been stigmatized by 3. 
+   mid-1990s by people who would previously have been stigmatized by it. 3. 
    [Glasgow University] An otherwise competent hacker who spends way too 
    much time on talker systems. 4. [obs.] An ordinary person; a {random}. 
    This is the meaning with which the term was coined, but the inventor 
@@ -21047,7 +21091,7 @@ The Jargon Lexicon ******************
 
 :spoiler space: [also `spoiler spoo'] A screenful of blank lines (and, 
    often, form-feeds) deliberately inserted in a message following a 
-   {spoiler} warning, so the actual spoiler can't be seen without hitting a 
+   {spoiler} warning, so the actual spoiler can't be seen without hitting a 
    key. 
 
 :sponge: n. [Unix] A special case of a {filter} that reads its entire 
@@ -21187,7 +21231,7 @@ The Jargon Lexicon ******************
 :stiffy: n. 3.5-inch {microfloppies}, so called because their jackets are 
    more rigid than those of the 5.25-inch and the (now totally obsolete) 
    8-inch floppy. Elsewhere this might be called a `firmy'. For some odd 
-   reason, several sources have taken the trouble to inform us that this 
+   reason, several sources have taken the trouble to inform us that this 
    term is widespread in South Africa. 
 
 :stir-fried random: n. (alt. `stir-fried mumble') Term used for the best 
@@ -21309,7 +21353,7 @@ The Jargon Lexicon ******************
    program came up with a correct full-screen display, and one publicly 
    exclaimed: "It works!" Then, if the program dumped core on the first 
    mouse click, one might add: "Well, for suitably small values of 
-   `works'." Compare the characterization of pi under {{random numbers}}. 
+   `works'." 
 
 :Sun: n. Sun Microsystems. Hackers remember that the name was originally 
    an acronym, Stanford University Network. Sun started out around 1980 
@@ -21656,7 +21700,7 @@ The Jargon Lexicon ******************
    
    WTF 
      the universal interrogative particle; WTF knows what it means?
-   
+   
    WTH 
      what the hell?
    
@@ -21847,7 +21891,11 @@ The Jargon Lexicon ******************
    and (if only for contrived effect) by analogy to what you do with an 
    airplane propeller to decrease wind resistance, or with an oar to reduce 
    water resistance; smaller files, after all, slip through comm links more 
-   easily. Compare the more common {tarball}. 
+   easily. Compare the more common {tarball}. Earlier, the phrase referred 
+   to a punishment in which the victims had tar being poured upon them and 
+   then, whilst the tar was still sticky, having a pillow full of feathers 
+   - or other material - thrown at them. See 
+   `http://www.nwta.com/Spy/spring99/tar.html'. 
 
 :tarball: n. [very common; prob. based on the "tar baby" in the Uncle 
    Remus folk tales] An archive, created with the Unix tar(1) utility, 
@@ -22009,7 +22057,7 @@ The Jargon Lexicon ******************
 
 :tera-: /te'r*/ pref. [SI] See {{quantifiers}}. 
 
-:teraflop club: /te'r*-flop kluhb/ n. [FLOP = Floating Point Operation] A 
+:teraflop club: /te'r*-flop kluhb/ n. [FLOP = Floating Point Operation] A 
    mythical association of people who consume outrageous amounts of 
    computer time in order to produce a few simple pictures of glass balls 
    with intricate ray-tracing techniques. Caltech professor James Kajiya is 
@@ -22297,7 +22345,7 @@ The Jargon Lexicon ******************
 
    Interestingly, the only such incident for which we have been pointed 
    to documentary evidence took place in the Soviet Union in 1986! A 
-   disgruntled programmer at the Volga Automobile Plant (where the Fiat 
+   disgruntled programmer at the Volga Automobile Plant (where the Fiat 
    clones called Ladas were manufactured) planted a time bomb which, a week 
    after he'd left on vacation, stopped the entire main assembly line for a 
    day. The case attracted lots of attention in the Soviet Union because it 
@@ -22452,7 +22500,7 @@ The Jargon Lexicon ******************
    my box without toasters, but since then I've added two boards and a 
    second disk drive." 5. A specialized computer used as an appliance. See 
    {web toaster}, {video toaster}. 
-
+
 :toeprint: n. A {footprint} of especially small size. 
 
 :toggle: vt. To change a {bit} from whatever state it is in to the other 
@@ -22710,7 +22758,7 @@ The Jargon Lexicon ******************
    1990 case on the Mac) a program to find and destroy viruses! See {back 
    door}, {virus}, {worm}, {phage}, {mockingbird}. 
 
-:troll: v.,n. 1. [From the Usenet group alt.folklore.urban] To utter a 
+:troll: 1. v.,n. [From the Usenet group alt.folklore.urban] To utter a 
    posting on {Usenet} designed to attract predictable responses or 
    {flame}s; or, the post itself. Derives from the phrase "trolling for 
    {newbie}s" which in turn comes from mainstream "trolling", a style of 
@@ -22719,18 +22767,19 @@ The Jargon Lexicon ******************
    and flamers to make themselves look even more clueless than they already 
    do, while subtly conveying to the more savvy and experienced that it is 
    in fact a deliberate troll. If you don't fall for the joke, you get to 
-   be in on it. See also {YHBT}. 2. An individual who chronically trolls in 
-   sense 1; regularly posts specious arguments, flames or personal attacks 
-   to a newsgroup, discussion list, or in email for no other purpose than 
-   to annoy someone or disrupt a discussion. Trolls are recognizable by the 
-   fact that they have no real interest in learning about the topic at hand 
-   - they simply want to utter flame bait. Like the ugly creatures they are 
-   named after, they exhibit no redeeming characteristics, and as such, 
-   they are recognized as a lower form of life on the net, as in, "Oh, 
-   ignore him, he's just a troll." Compare {kook}. 3. [Berkeley] Computer 
-   lab monitor. A popular campus job for CS students. Duties include 
-   helping newbies and ensuring that lab policies are followed. Probably 
-   so-called because it involves lurking in dark cavelike corners. 
+   be in on it. See also {YHBT}. 2. n. An individual who chronically trolls 
+   in sense 1; regularly posts specious arguments, flames or personal 
+   attacks to a newsgroup, discussion list, or in email for no other 
+   purpose than to annoy someone or disrupt a discussion. Trolls are 
+   recognizable by the fact that they have no real interest in learning 
+   about the topic at hand - they simply want to utter flame bait. Like the 
+   ugly creatures they are named after, they exhibit no redeeming 
+   characteristics, and as such, they are recognized as a lower form of 
+   life on the net, as in, "Oh, ignore him, he's just a troll." Compare 
+   {kook}. 3. n. [Berkeley] Computer lab monitor. A popular campus job for 
+   CS students. Duties include helping newbies and ensuring that lab 
+   policies are followed. Probably so-called because it involves lurking in 
+   dark cavelike corners. 
 
    Some people claim that the troll (sense 1) is properly a narrower 
    category than {flame bait}, that a troll is categorized by containing 
@@ -22743,10 +22792,10 @@ The Jargon Lexicon ******************
    followup to troll postings. 
 
 :Troll-O-Meter: n. Common Usenet jargon for a notional instrument used to 
-   measure the quality of a Usenet {troll}. "Come on, everyone! If the 
-   above doesn't set off the Troll-O-Meter, we're going to have to get him 
-   to run around with a big blinking sign saying `I am a troll, I'm only in 
-   it for the controversy and flames' and shooting random gobs of 
+   measure the provocation level of a Usenet {troll}. "Come on, everyone! 
+   If the above doesn't set off the Troll-O-Meter, we're going to have to 
+   get him to run around with a big blinking sign saying `I am a troll, I'm 
+   only in it for the controversy and flames' and shooting random gobs of 
    Jell-O(tm) at us before the point is proven." Mentions of the 
    Troll-O-Meter are often accompanied by an ASCII picture of an arrow 
    pointing at a numeric scale. Compare {bogometer}, {Indent-o-Meter}. 
@@ -24173,7 +24222,7 @@ The Jargon Lexicon ******************
    and has been gaining popularity there (esp. at university sites). See 
    also {root}. 
 
-:wheel of reincarnation:[coined in a paper by T. H. Myer and I.E. 
+:wheel of reincarnation:[coined in a paper by T.H. Myer and I.E. 
    Sutherland "On the Design of Display Processors", Comm. ACM, Vol. 11, 
    no. 6, June 1968)] Term used to refer to a well-known effect whereby 
    function in a computing system family is migrated out to special-purpose 
@@ -24336,7 +24385,7 @@ The Jargon Lexicon ******************
 
 :wish list: n. A list of desired features or bug fixes that probably 
    won't get done for a long time, usually because the person responsible 
-   for the code is too busy or can't think of a clean way to do it. "OK, 
+   for the code is too busy or can't think of a clean way to do it. "OK, 
    I'll add automatic filename completion to the wish list for the new 
    interface." Compare {tick-list features}. 
 
@@ -24365,7 +24414,8 @@ The Jargon Lexicon ******************
    0-262-01153-0), an excellent computer science text used in introductory 
    courses at MIT. So called because of the wizard on the jacket. One of 
    the {bible}s of the LISP/Scheme world. Also, less commonly, known as the 
-   {Purple Book}. 
+   {Purple Book}. Now available on the 
+   `http://mitpress.mit.edu/sicp/full-text/book/book.html' 
 
 :wizard hat: n. [also, after Terry Pratchett, `pointy hat'] Notional 
    headgear worn by whoever is the {wizard} in a particular context. The 
@@ -24805,7 +24855,7 @@ The Jargon Lexicon ******************
    (extended SAIL ASCII 0001001), which with a loop in its tail looks like 
    a little fish swimming down the page. The term is actually the name of a 
    Chinese dish in which a fish is cooked whole (not {parse}d) and covered 
-   with Yu-Shiang (or Yu-Hsiang) sauce. Usage: primarily by people on the 
+   with Yu-Shiang (or Yu-Hsiang) sauce. Usage: primarily by people on the 
    MIT LISP Machine, which could display this character on the screen. 
    Tends to elicit incredulity from people who hear about it second-hand. 
 
@@ -25117,7 +25167,7 @@ Here is a story about one of the classic computer hacks:
         * Disk drives would seek back and forth so rapidly that they
           would attempt to walk across the floor (see {walking drives}).
 
-        * The card-punch output device would occasionally start up of
+        * The card-punch output device would occasionally start up of
           itself and punch a {lace card}.  These would usually jam in
           the punch.
 
@@ -25229,6 +25279,8 @@ The perpetrators finished their preliminary writeup in this wise: "Now,
 we're waiting for someone to write other implementations, so that we can do 
 interoperability tests, and maybe we finally can get the RFC into the 
 standards track... ". 
+
+The logical next step should be an implementation of RFC2549. 
 
 =============================================
 
@@ -25465,8 +25517,8 @@ whether the name is tribute or independent invention.
 :The Story of Mel:
 ==================
 
-This was posted to Usenet by its author, Ed Nather (<utastro!nather>), on 
-May 21, 1983. 
+This was posted to Usenet by its author, Ed Nather 
+(<<nather@astro.as.utexas.edu>>), on May 21, 1983. 
 
      A recent article devoted to the _macho_ side of programming
      made the bald and unvarnished statement:
@@ -25725,11 +25777,17 @@ net was not in free verse, nor any approximation to it -- it was straight
 prose style, in non-justified paragraphs. In bouncing around the net it 
 apparently got modified into the `free verse' form now popular. In other 
 words, it got hacked on the net. That seems appropriate, somehow." The 
-author adds that he likes the `free-verse' version better...] 
+author adds that he likes the `free-verse' version better than his prose 
+original...] 
 
 [1999 update: Mel's last name is now known. The manual for the LGP-30 
 refers to "Mel Kaye of Royal McBee who did the bulk of the programming 
 [...] of the ACT 1 system".] 
+
+[2001: The Royal McBee LPG-30 turns out to have one other claim to fame. 
+It turns out that meteorologist Edward Lorenz was doing weather simulations 
+on an LGP-30 when, in 1961, he discovered the "Butterfly Theorem" and 
+computational chaos. This seems, somehow, appropriate.] 
 
 :A Portrait of J. Random Hacker:
 ********************************
@@ -25773,7 +25831,7 @@ After about 1995 hacker dress styles assimilated some influence from
 punk, gothic, and rave subcultures. This was relatively mild and has 
 manifested mostly as a tendency to wear a lot of black, especially when 
 `dressed up' to the limit of formality. Other markers of those subcultures 
-such as piercings, chains, and died hair remain relatively uncommon. 
+such as piercings, chains, and dyed hair remain relatively uncommon. 
 
 Very few hackers actually fit the "National Lampoon" Nerd stereotype, 
 though it lingers on at MIT and may have been more common before 1975. At 
@@ -25987,7 +26045,7 @@ speaking.
 ===========================
 
 In the United States, hackerdom revolves on a Bay Area-to-Boston axis; 
-about half of the hard core seems to live within a hundred miles of 
+about half of the hard core seems to live within a hundred miles of 
 Cambridge (Massachusetts) or Berkeley (California), although there are 
 significant contingents in Los Angeles, in the Pacific Northwest, and 
 around Washington DC. Hackers tend to cluster around large cities, 
@@ -26023,7 +26081,7 @@ has this trait can become an effective hacker, but a creative genius who
 lacks it will swiftly find himself outdistanced by people who routinely 
 upload the contents of thick reference manuals into their brains. [During 
 the production of the first book version of this document, for example, I 
-learned most of the rather complex typesetting language TeX over about four 
+learned most of the rather complex typesetting language TeX over about four 
 working days, mainly by inhaling Knuth's 477-page manual. My editor's 
 flabbergasted reaction to this genuinely surprised me, because years of 
 associating with hackers have conditioned me to consider such performances 
