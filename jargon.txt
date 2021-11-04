@@ -1,3 +1,20 @@
+		Notes on updating this file:
+
+This glossary file is being maintained at two main locations.  It is
+AIWORD.RF[UP,DOC] at SAIL, and GLS;JARGON > at MIT.  If you make any
+changes, be sure to FTP the new file to the other location.
+
+Try to conform to the format already being used--70 character lines,
+3-character indentations, pronunciations in parentheses, etymologies
+in brackets, single-space after def'n numbers and word classes, etc.
+
+Stick to the standard ASCII character set.
+
+If you'd rather not mung the file yourself, send your definitions to
+DON @ SAIL and/or GLS @ MIT-AI.
+
+======================================================================
+
 	Compiled by Guy L. Steele Jr. with assistance from
 	the MIT AI community.  Some definitions were taken
 	from a compilation by Raphael Finkel with assistance
@@ -86,6 +103,9 @@ BUM 1. v. To make highly efficient, either in time or space, often at
    instructions."  2. n. A small change to an algorithm to make it
    more efficient.  Usage: somewhat rare.
 
+CATATONIA (kat-uh'-toe-nee-uh) n. A condition of suspended animation
+   in which the system is in a wedged (CATATONIC) state.
+
 CDR (ku'der) [from LISP] v. With "down", to trace down a list of
    elements.  "Shall we cdr down the agenda?"  Usage: silly.
 
@@ -103,8 +123,22 @@ CLOSE n. Abbreviation for "close (or right) parenthesis", used when
 CONS [from LISP] 1. v. To add a new element to a list.  2. CONS UP:
    v. To synthesize from smaller pieces: "to cons up an example".
 
+CRASH 1. n. A sudden, usually drastic failure.  Most often said of the
+   system (q.v., definition #1), sometimes of magnetic disk drives.
+   "Three lusers lost their files in last night's disk crash."  A disk
+   crash which entails the read/write heads dropping onto the surface
+   of the disks and scraping off the oxide may also be referred to as
+   a "head crash".  2. v. To fail suddenly.  "Has the system just
+   crashed?"  Also used transitively to indicate the cause of the
+   crash (usually a person or a program, or both).  "Those idiots
+   playing spacewar crashed the system."  Sometimes said of people.
+   See GRONK OUT.
+
 CRETIN 1. n. Congenital loser (q.v.).  2. CRETINOUS: adj. See
    BLETCHEROUS and BAGBITING.  Usage: somewhat ad hominem.
+
+CRLF (cur'lif, sometimes crul'lif) n. A carriage return (CR) followed
+   by a line feed (LF).
 
 CROCK n. An awkward feature or programming technique that ought to be
    made cleaner.  Example: Using small integers to represent error
@@ -117,6 +151,8 @@ CRUFTY [from "cruddy"] adj. 1. Poorly built, possibly overly complex.
    ketchup.  Hence CRUFT, disgusting mess.  3. Generally unpleasant.
    [Note: Does CRUFT have anything to do with the Cruft Lab at Harvard?
    I don't know, though I was a Harvard student. - GLS]
+
+CTY (city) n. Any console terminal on a computer.
 
 DIKE [from "diagonal cutters"] v. To remove a module or disable it.
    "When in doubt, dike it out."
@@ -148,10 +184,18 @@ FEATURE n. 1. A surprising property of a program.  Occasionally
    incorrect response.  See BUG.  "That's not a bug, that's a
    feature!"  A bug can be changed to a feature by documenting it.  2.
    A well-known and beloved property; a facility.  Sometimes features
-   are planned, but are called crocks by others.  An approximately
+   are planned, but are called crocks by others.  An approxioately
    correct spectrum:
 	BUG  SCREW  LOSS  MISFEATURE  CROCK  KLUDGE  WIN  FEATURE  PERFECTION
    (The last is never actually attained.)
+
+FEEP 1. n. The soft bell of a display terminal (except for a VT-52!);
+   a beep.  2. v. To cause the display to make a feep sound.  TTY's do
+   not have feeps.  Alternate forms: BEEP, BLEEP, or just about
+   anything suitably onomatopoeic.  The term BREEDLE is sometimes
+   heard at SAIL, where the terminal bleepers are not particularly
+   "soft" (they sound more like the musical equivalent of sticking out
+   one's tongue).
 
 FENCEPOST ERROR n. The discrete equivalent of a boundary condition.
    Often exhibited in programs by iterative loops.  From the following
@@ -209,12 +253,23 @@ FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
 FROTZ 1. n. See FROBNITZ.  2. MUMBLE FROTZ: An interjection of very
    mild disgust.
 
+FTP (spelled out, NOT pronounced "fittip") 1. n. The File Transfer
+   Protocol for transmitting files between systems on the ARPAnet.  2.
+   v. To transfer a file using the File Transfer Program.  "Lemme get
+   this copy of Wuthering Heights FTP'd from SAIL."
+
 GARBAGE COLLECT v., GARBAGE COLLECTION n. See GC.
 
 GC [from LISP terminology] 1. v. To clean up and throw away useless
    things.  "I think I'll GC the top of my desk today."  2. v. To
    recycle, reclaim, or put to another use.  3. n. An instantiation of
    the GC process.
+
+GLASS TTY n. A terminal which has a display screen but which, because
+   of hardware or software limitations, behaves like a teletype or
+   other printing terminal.  An example is the ADM-3 (without cursor
+   control).  A glass tty can't do neat display hacks, and you can't
+   save the output either.
 
 GLITCH [from the Yiddish "glitshen", to slide] 1. n. A sudden
    interruption in electric service, sanity, or program function.
@@ -274,8 +329,6 @@ HAIRY adj. 1. Overly complicated.  "DWIM is incredibly hairy."  2.
    Hard to explain except in context: "He knows this hairy lawyer who
    says there's nothing to worry about."
 
-HIRSUTE  Occasionally used humorously as a synonym for HAIRY.
-
 HANDWAVE 1. v. To gloss over a complex point; to distract a listener;
    to support a (possibly actually valid) point with blatantly faulty
    logic.  2. n. The act of handwaving.  "Boy, what a handwave!"  The
@@ -289,6 +342,17 @@ HANDWAVE 1. v. To gloss over a complex point; to distract a listener;
 HARDWARILY adv. In a way pertaining to hardware.  "The system is
    hardwarily unreliable."  The adjective "hardwary" is NOT used.  See
    SOFTWARILY.
+
+HIRSUTE  Occasionally used humorously as a synonym for HAIRY.
+
+HUMONGOUS, HUMUNGOUS  See HUNGUS.
+
+HUNGUS (hung'-ghis) [perhaps related to current slang "humongous";
+   which one came first (if either) is unclear] adj. Large, unwieldy,
+   usually unmanageable.  "TCP is a hungus piece of code."  "This is a
+   hungus set of modifications."
+
+IMPCOM  See TELNET.
 
 JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
    as a fast no-op] v. To cancel or annul something.  "Why don't you
@@ -319,6 +383,10 @@ KLUDGE (kloodj) alt. KLUGE [from the German "kluge", clever] n. 1. A
 LDB (lid'dib) [from the PDP-10 instruction set] v. To extract from the
    middle.
 
+LIFE n. A cellular-automata game invented by John Horton Conway, and
+   first introduced publicly by Martin Gardner (Scientific American,
+   October 1970).
+
 LINE STARVE  (MIT) Inverse of LINE FEED.
 
 LOSE [from MIT jargon] v. 1. To fail.  A program loses when it
@@ -337,6 +405,8 @@ LOSER n. An unexpectedly bad situation, program, programmer, or
 LOSS n. Something which loses.  WHAT A (MOBY) LOSS!: interjection.
 
 LOSSAGE n. The result of a bug or malfunction.
+
+LPT (lip'-it) n. Line printer, of course.
 
 MAGIC adj. As yet unexplained, or too complicated to explain.
    (Someone (who was it?) said that magic was as yet not understood
@@ -381,7 +451,7 @@ MOBY [Seems to have been in use among model railroad fans years ago.
    FOBY MOO: a spoonerism due to Greenblatt.
 
 MODULO prep. Except for.  From mathematical terminology: one can
-   consider saying that 4≡22 "except for the 9's" (4≡22 mod 9).
+   consider saying that 4=22 "except for the 9's" (4=22 mod 9).
    "Well, LISP seems to work okay now, modulo that GC bug."
 
 MUMBLE interj. 1. Said when the correct response is either too
@@ -423,6 +493,12 @@ POP [based on the stack operation that removes the top of a stack, and
    the fact that procedure return addresses are saved on the stack]
    dialect: POPJ (pop-jay), based on the PDP-10 procedure return
    instruction.  v. To return from a digression.
+
+PTY (pity) n. Pseudo TTY, a simulated TTY used to run a job under the
+   supervision of another job.
+   PTYJOB (pity-job) n. The job being run on the PTY.  Also a common
+   general-purpose program for creating and using PTYs.
+   This is DEC and SAIL terminology; the MIT equivalent is STY.
 
 PUSH [based on the stack operation that puts the current information
    on a stack, and the fact that procedure call addresses are saved on
@@ -480,6 +556,13 @@ STATE n. Condition, situation.  "What's the state of NEWIO?"  "It's
    a special case, "What's the state of the world?" (or, more silly,
    "State-of-world-P?") means "What's new?" or "What's going on?"
 
+STY (pronounced "sty", not spelled out) n. A pseudo-teletype, which is
+   a two-way pipeline with a job on one end and a fake keyboard-tty
+   on the other.  Also, a standard program which provides a pipeline
+   from its controlling tty to a pseudo-teletype (and thence to another
+   tty, thereby providing a "sub-tty").
+   This is MIT terminology; the SAIL and DEC equivalent is PTY.
+
 SUPERPROGRAMMER n. See "wizard", "hacker".  Usage: rare.  (Becoming
    more common among IBM and Yourdon types.)
 
@@ -497,6 +580,20 @@ SYSTEM n. 1. The supervisor program on the computer.  2. Any
    SYSTEM HACKER: one who hacks the system (in sense 1 only; for sense
    2 one mentions the particular program: e.g., LISP HACKER)
 
+TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
+   editor developed by DEC, and modified by just about everybody.  If
+   all the dialects are included, TECO might well be the single most
+   prolific editor in use.  Noted for its powerful pseudo-programming
+   features and its incredibly hairy syntax.  2. v. To edit using the
+   TECO editor in one of its infinite forms; sometimes used to mean
+   "to edit" even when not using TECO!  Usage:  rarely used at SAIL,
+   where most people wouldn't touch TECO with a TENEX pole.
+
+TELNET v. To communicate with another ARPAnet host using the TELNET
+   program.  TOPS-10 people use the word IMPCOM since that is the
+   program name for them.  Sometimes abbreviated to TN.  "I usually TN
+   over to SAIL just to read the AP News."
+
 THEORY n. Used in the general sense of idea, plan, story, or set of
    rules.  "What's the theory on fixing this TECO loss?"  "What's the
    theory on dinner tonight?"  ("Chinatown, I guess.")  "What's the
@@ -506,9 +603,19 @@ THEORY n. Used in the general sense of idea, plan, story, or set of
 TICK n. Interval of time; basic clock time on the computer.  Typically
    1/60 second.  See JIFFY.
 
+TRAP 1. n. A program interrupt, usually used specifically to refer to
+   an interrupt caused by some illegal action taking place in the user
+   program.  In most cases the system monitor performs some action
+   related to the nature of the illegality, then returns control to
+   the program.  See UUO.  2. v. To cause a trap.  "These instructions
+   trap to the monitor."  Also used transitively to indicate the cause
+   of the trap.  "The monitor traps all input/output instructions."
+
 TTY (titty) n. Terminal of the teletype variety, characterized by a
    noisy mechanical printer, a very limited character set, and poor
    print quality.  Usage: antiquated (like the TTY's themselves).
+   Sometimes used to refer to any terminal at all; sometimes used
+   to refer to the particular terminal controlling a job.
 
 UP adj. 1. Working, in order.  "The down escalator is up."  2. BRING
    UP: v. To create a working version and start it.  "They brought up
@@ -526,11 +633,20 @@ USER n. A programmer who will believe anything you tell him.  One who
    users ask questions (of necessity).  Very often they are annoying
    or downright stupid.]
 
+UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
+   monitor call.  The term "Un-Used Operation" comes from the fact
+   that, on DEC-10 systems, monitor calls are implemented as invalid
+   or illegal machine instructions, which cause traps to the monitor
+   (see TRAP).  The SAIL manual describing the available UUO's has
+   cover picture showing an unidentified underwater object.  See YOYO.
+
 VANILLA adj. Ordinary flavor, standard.  See FLAVOR.
 
-WALDO  Used at Harvard, particularly by Tom Cheatham and students,
-   instead of FOOBAR as a meta-syntactic variable and general nonsense
-   word.  See FOO, BAR, FOOBAR, QUUX.
+WALDO [probably taken from the story "Waldo", by Heinlein, which is
+   where the term was first used to mean a mechanical adjunct to a
+   human limb] Used at Harvard, particularly by Tom Cheatham and
+   students, instead of FOOBAR as a meta-syntactic variable and
+   general nonsense word.  See FOO, BAR, FOOBAR, QUUX.
 
 WEDGED [from "head wedged up ass"] adj. To be in a locked state,
    incapable of proceeding without help.  (See GRONK.)  Often refers
@@ -556,4 +672,13 @@ WINNITUDE n. The quality of winning (as opposed to WINNAGE, which is
 WIZARD n. A person who knows how a complex piece of software or
    hardware works; someone who can find and fix his bugs in an
    emergency.  Rarely used at MIT, where HACKER is the preferred term.
+
+XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
+   XGP.  "You shouldn't XGP such a large file."
+
+YOYO n. DEC slang for UUO (q.v.).  Usage: rare at SAIL and MIT, often
+   found at random DEC installations.
+
+YOYO MODE n. State in which the system is said to be when it rapidly
+   alternates several times between being up and being down.
 
