@@ -1,8 +1,4 @@
-JARGON.TXT recovered from Fall 1981 RSX-11 SIG tape by Tim Shoppa,
-<shoppa@trailing-edge.com>:
-
-
-                Notes on updating this file:
+		Notes on updating this file:
 
 This glossary file is being maintained at two main locations.  It is
 AIWORD.RF[UP,DOC] at SAIL, and GLS;JARGON > at MIT.  If you make any
@@ -22,31 +18,32 @@ DON @ SAIL, GLS @ MIT-AI, and/or MRC @ SAIL.
 
 ======================================================================
 
-        Compiled by Guy L. Steele Jr., Raphael Finkel, Donald
-        Woods, and Mark Crispin, with assistance from the MIT
-        and Stanford AI communities and Worcester Polytechnic
-        Institute.  Some contributions were submitted via the
-        ARPAnet from miscellaneous sites.
+	Compiled by Guy L. Steele Jr., Raphael Finkel, Donald
+	Woods, and Mark Crispin, with assistance from the MIT
+	and Stanford AI communities and Worcester Polytechnic
+	Institute.  Some contributions were submitted via the
+	ARPAnet from miscellaneous sites.
 
 Verb doubling: a standard construction is to double a verb and use it
    as a comment on what the implied subject does.  Often used to
    terminate a conversation.  Typical examples involve WIN, LOSE,
    HACK, FLAME, BARF, CHOMP:
-        "The disk heads just crashed."  "Lose, lose."
-        "Mostly he just talked about his --- crock.  Flame, flame."
-        "Boy, what a bagbiter!  Chomp, chomp!"
+	"The disk heads just crashed."  "Lose, lose."
+	"Mostly he just talked about his --- crock.  Flame, flame."
+	"Boy, what a bagbiter!  Chomp, chomp!"
 
 Soundalike slang: similar to Cockney rhyming slang.  Often made up on
    the spur of the moment.  Standard examples:
-        Boston Globe => Boston Glob
-        Herald American => Horrid (Harried) American
-        New York Times => New York Slime
-        Dime Time => Slime Time
-        government property - do not duplicate (seen on keys)
-                => government duplicity - do not propagate
+	Boston Globe => Boston Glob
+	Herald American => Horrid (Harried) American
+	New York Times => New York Slime
+	Dime Time => Slime Time
+	government property - do not duplicate (seen on keys)
+		=> government duplicity - do not propagate
    Often the substitution will be made in such a way as to slip in
    a standard jargon word:
-        Dr. Dobb's Journal => Dr. Frob's Journal
+	Dr. Dobb's Journal => Dr. Frob's Journal
+	Margaret Jacks Hall => Marginal Hacks Hall
 
 The -P convention: turning a word into a question by appending the
    syllable "P"; from the LISP convention of appending the letter "P"
@@ -54,17 +51,36 @@ The -P convention: turning a word into a question by appending the
    should expect a yes/no answer, though it needn't.  (See T and NIL.)
      At dinnertime: "Foodp?"  "Yeah, I'm pretty hungry." or "T!"
      "State-of-the-world-P?"  (Straight) "I'm about to go home."
-                              (Humorous) "Yes, the world has a state."
+			      (Humorous) "Yes, the world has a state."
+   [One of the best of these is a Gosperism (i.e., due to Bill
+   Gosper).  When we were at a Chinese restaurant, he wanted to know
+   whether someone would like to share with him a two-person-sized
+   bowl of soup.  His inquiry was: "Split-p soup?" --GLS]
 
 Peculiar nouns: MIT AI hackers love to take various words and add the
    wrong endings to them to make nouns and verbs, often by extending a
    standard rule to nonuniform cases.  Examples:
-                porous => porosity
-                generous => generosity
-        Ergo:   mysterious => mysteriosity
-                ferrous => ferocity
+		porous => porosity
+		generous => generosity
+	Ergo:	mysterious => mysteriosity
+		ferrous => ferocity
 
-        Other examples:  winnitude, disgustitude, hackification.
+	Other examples:  winnitude, disgustitude, hackification.
+
+Spoken inarticulations:  Words such as "mumble", "sigh", and "groan"
+   are spoken in places where their referent might more naturally be
+   used.  It has been suggested that this usage derives from the
+   impossibility of representing such noises in a com link.
+   Another expression sometimes heard is "complain!"
+
+@BEGIN (primarily CMU) with @End, used humorously in writing to
+   indicate a context or to remark on the surrounded text.  From
+   the SCRIBE command of the same name.  For example:
+	@Begin(Flame)
+	Predicate logic is the only good programming language.
+	Anyone who would use anything else is an idiot.  Also,
+	computers should be tredecimal instead of binary.
+	@End(Flame)
 
 AOS (aus (East coast) ay-ahs (West coast)) [based on a PDP-10
    increment instruction] v. To increase the amount of something.
@@ -166,7 +182,7 @@ BRAIN-DAMAGED [generalization of "Honeywell Brain Damage" (HBD), a
    implication that the person responsible must have suffered brain
    damage, because he should have known better.  Calling something
    brain-damaged is really bad; it also implies it is unusable.
-
+
 BREAK v. 1. To cause to be broken (in any sense).  "Your latest patch
    to the system broke the TELNET server."  2. (of a program) To stop
    temporarily, so that it may be examined for debugging purposes.
@@ -214,6 +230,9 @@ CATATONIA (kat-uh-toe'-nee-uh) n. A condition of suspended animation
 CDR (ku'der) [from LISP] v. With "down", to trace down a list of
    elements.  "Shall we cdr down the agenda?"  Usage: silly.
 
+CHINE NUAL n. The Lisp Machine Manual.  So called because the title
+   is wrapped around the cover so only those letters show.
+
 CHOMP v. To lose; to chew on something of which more was bitten off
    than one can.  Probably related to gnashing of teeth.  See
    BAGBITER.  A hand gesture commonly accompanies this, consisting of
@@ -224,7 +243,7 @@ CHOMP v. To lose; to chew on something of which more was bitten off
 
 CLOSE n. Abbreviation for "close (or right) parenthesis", used when
    necessary to eliminate oral ambiguity.  See OPEN.
-
+
 COKEBOTTLE n. Any very unusual character.  MIT people complain about
    the "control-meta-cokebottle" commands at SAIL, and SAIL people
    complain about the "altmode-altmode-cokebottle" commands at MIT.
@@ -235,38 +254,40 @@ COM MODE (variant: COMM MODE) [from the ITS feature for linking two or
    terminal is in when linked to another in this way.  Com mode has a
    special set of jargon words, used to save typing, which are not
    used orally:
-        BCNU    Be seeing you.
-        BTW     By the way...
-        BYE?    Are you ready to unlink?  (This is the standard way to
-                end a com mode conversation; the other person types
-                BYE to confirm, or else continues the conversation.)
-        CUL     See you later.
-        FOO?    A greeting, also meaning R U THERE?  Often used in the
-                case of unexpected links, meaning also "Sorry if I
-                butted in" (linker) or "What's up?" (linkee).
-        FYI     For your information...
-        GA      Go ahead (used when two people have tried to type
-                simultaneously; this cedes the right to type to
-                the other).
-        HELLOP  A greeting, also meaning R U THERE?  (An instance
-                of the "-P" convention.)
-        NIL     No (see the main entry for NIL).
-        OBTW    Oh, by the way...
-        R U THERE?      Are you there?
-        SEC     Wait a second (sometimes written SEC...).
-        T       Yes (see the main entry for T).
-        TNX     Thanks.
-        TNX 1.0E6       Thanks a million (humorous).
-        <double CRLF>  When the typing party has finished, he types
-                two CRLF's to signal that he is done; this leaves a
-                blank line between individual "speeches" in the
-                conversation, making it easier to re-read the
-                preceding text.
-        <name>: When three or more terminals are linked, each speech
-                is preceded by the typist's login name and a colon (or
-                a hyphen) to indicate who is typing.  The login name
-                often is shortened to a unique prefix (possibly a
-                single letter) during a very long conversation.
+	BCNU	Be seeing you.
+	BTW	By the way...
+	BYE?	Are you ready to unlink?  (This is the standard way to
+		end a com mode conversation; the other person types
+		BYE to confirm, or else continues the conversation.)
+	CUL	See you later.
+	FOO?	A greeting, also meaning R U THERE?  Often used in the
+		case of unexpected links, meaning also "Sorry if I
+		butted in" (linker) or "What's up?" (linkee).
+	FYI	For your information...
+	GA	Go ahead (used when two people have tried to type
+		simultaneously; this cedes the right to type to
+		the other).
+	HELLOP	A greeting, also meaning R U THERE?  (An instance
+		of the "-P" convention.)
+	NIL	No (see the main entry for NIL).
+	OBTW	Oh, by the way...
+	R U THERE?	Are you there?
+	SEC	Wait a second (sometimes written SEC...).
+	T	Yes (see the main entry for T).
+	TNX	Thanks.
+	TNX 1.0E6	Thanks a million (humorous).
+	<double CRLF>  When the typing party has finished, he types
+		two CRLF's to signal that he is done; this leaves a
+		blank line between individual "speeches" in the
+		conversation, making it easier to re-read the
+		preceding text.
+	<name>:	When three or more terminals are linked, each speech
+		is preceded by the typist's login name and a colon (or
+		a hyphen) to indicate who is typing.  The login name
+		often is shortened to a unique prefix (possibly a
+		single letter) during a very long conversation.
+        <alternating slash/backslash: /\/\/\/\>  The equivalent of a
+		giggle. 
    At Stanford, where the link feature is implemented by "talk loops",
    the term TALK MODE is used in place of COM MODE.  Most of the above
    "sub-jargon" is used at both Stanford and MIT.
@@ -470,8 +491,8 @@ FEATURE n. 1. A surprising property of a program.  Occasionally docu-
 
    (These terms are all used to describe programs or portions thereof,
    except for the first two, which are included for completeness.)
-        CRASH  STOPPAGE  BUG  SCREW  LOSS  MISFEATURE
-                CROCK  KLUGE  HACK  WIN  FEATURE  PERFECTION
+	CRASH  STOPPAGE  BUG  SCREW  LOSS  MISFEATURE
+		CROCK  KLUGE  HACK  WIN  FEATURE  PERFECTION
    (The last is never actually attained.)
 
 FEEP 1. n. The soft bell of a display terminal (except for a VT-52!);
@@ -510,10 +531,11 @@ FLAP v. To unload a DECtape (so it goes flap, flap, flap...).  Old
    microtapes were 1, 2,... and attempting to flap device 0 would
    instead start a motor banging inside a cabinet near the disk!
 
-FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors."
-   2. The attribute of causing something to be FLAVORFUL.  "This
-   convention yields additional flavor by allowing one to..."
-   See VANILLA.
+FLAVOR n. 1. Variety, type, kind.  "DDT commands come in two flavors." 
+   See VANILLA.  2. The attribute of causing something to be FLAVORFUL.
+   "This convention yields additional flavor by allowing one to..."
+   3. On the LispMachine, an object-oriented programming system 
+   ("flavors"); each class of object is a flavor.
 
 FLAVORFUL adj. Aesthetically pleasing.  See RANDOM and LOSING for
    antonyms.  See also the entry for TASTE.
@@ -560,7 +582,10 @@ FROBNICATE v. To manipulate or adjust, to tweak.  Derived from
 FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    object, a widget.  Also refers to electronic black boxes.  This
    rare form is usually abbreviated to FROTZ, or more commonly to
-   FROB.  Also used are FROBNULE and FROBULE.
+   FROB.  Also used are FROBNULE, FROBULE, and FROBNODULE.  Starting
+   perhaps in 1979, FROBBOZ (fruh-bahz') (pl. FROBBOTZIM) has also
+   become very popular.  These can also be applied to nonphysical 
+   objects, such as data structures.
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
@@ -615,10 +640,7 @@ GAS [as in "gas chamber"] interj. 1. A term of disgust and hatred,
    system's wedging every few minutes.  Gas!"  3. v. FLUSH (q.v.).
    "You should gas that old crufty software."  4. GASEOUS adj.
    Deserving of being gassed.  Usage: primarily used by Geoff
-   Goodfellow at SRI, but spreading; became particularly popular after
-   the Moscone/Milk murders in San Francisco, when it was learned that
-   Dan White (who supported Proposition 7) would get the gas chamber
-   under 7 if convicted.
+   Goodfellow at SRI, but spreading.
 
 GC [from LISP terminology] 1. v. To clean up and throw away useless
    things.  "I think I'll GC the top of my desk today."  2. v. To
@@ -691,6 +713,9 @@ GRUNGY adj. Incredibly dirty or grubby.  Anything which has been
    metaphorically; hence some programs (especially crocks) can be
    described as grungy.
 
+GUBBISH [a portmanteau of "garbage" and "rubbish"?] n. Garbage;
+   crap; nonsense.  "What is all this gubbish?"
+
 HACK n. 1. Originally a quick job that produces what is needed, but
    not well.  2. The result of that job.  3. NEAT HACK: A clever
    technique.  Also, a brilliant practical joke, where neatness is
@@ -721,7 +746,7 @@ HACKER [originally, someone who makes furniture with an axe] n. 1. A
    how to stretch their capabilities, as opposed to most users who
    prefer to learn only the minimum necessary.  2. One who programs
    enthusiastically, or who enjoys programming rather than just
-   theorizing about programming.  3. A person capable of appreciating
+   theorizing about programming.  3. A person capable of appreciating
    hack value (q.v.).  4. A person who is good at programming quickly.
    Not everything a hacker produces is a hack.  5. An expert at a
    particular program, or one who frequently does work using it or on
@@ -791,7 +816,8 @@ IRP (erp) [from the MIDAS pseudo-op which generates a block of code
 
 JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
    as a fast no-op] v. To cancel or annul something.  "Why don't you
-   jfcl that out?"
+   jfcl that out?"  [The California licence plate on Geoff Goodfellow's
+   BMW 633CSi is JFCL]
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
@@ -842,6 +868,8 @@ LOGICAL [from the technical term "logical device", wherein a physical
    which "logical north" is toward San Francisco, "logical west" is
    toward the ocean, etc., even though logical north varies between
    physical (true) north near SF and physical west near San Jose.
+   (The best rule of thumb here is that El Camino Real by definition
+   always runs logical north-and-south.)
 
 LOSE [from MIT jargon] v. 1. To fail.  A program loses when it
    encounters an exceptional condition.  2. To be exceptionally
@@ -922,7 +950,7 @@ MOBY [seems to have been in use among model railroad fans years ago.
 
 MODE n. A general state, usually used with an adjective describing the
    state.  "No time to hack; I'm in thesis mode."  Usage: in its
-   jargon sense, MODE is most often said of people, though it is
+   jargon sense, MODE is most often said of people, though it is
    sometimes applied to programs and inanimate objects.  "If you're on
    a TTY, E will switch to non-display mode."  In particular, see DAY
    MODE, NIGHT MODE, and YOYO MODE; also COM MODE, TALK MODE, and
@@ -979,8 +1007,9 @@ N adj. 1. Some large and indeterminate number of objects; "There were
 
 NIGHT MODE  See PHASE (of people).
 
-NIL [from LISP terminology for "false"] No.  Usage: used in reply to a
-   question, particularly one asked using the "-P" convention.  See T.
+NIL 1. No. [from LISP terminology for "false"]  Usage: used in reply 
+   to a question, particularly one asked using the "-P" convention.  
+   See T.  2. None; nothing.
 
 OBSCURE adj. Used in an exaggeration of its normal meaning, to imply a
    total lack of comprehensibility.  "The reason for that last crash
@@ -1056,7 +1085,8 @@ POM n. Phase of the moon (q.v.).  Usage: usually used in the phrase
 POP [based on the stack operation that removes the top of a stack, and
    the fact that procedure return addresses are saved on the stack]
    dialect: POPJ (pop-jay), based on the PDP-10 procedure return
-   instruction.  v. To return from a digression.
+   instruction.  v. To return from a digression.  By verb doubling,
+   "Popj, popj" means roughly, "Now let's see, where were we?"
 
 PPN (pip'in) [DEC terminology, short for Project-Programmer Number] n.
    1. A combination `project' (directory name) and programmer name,
@@ -1099,19 +1129,23 @@ QUUX [invented by Steele.  Mythically, from the Latin semi-deponent
    verb QUUXO, QUUXARE, QUUXANDUM IRI; noun form variously QUUX
    (plural QUUCES, Anglicized to QUUXES) and QUUXU (genitive plural is
    QUUXUUM, four U's in seven letters).] 1. Originally, a meta-word
-   like FOO and FOOBAR.  Invented by Steele for precisely this
-   purpose.  2. interj. See FOO; however, denotes very little disgust,
+   like FOO and FOOBAR.  Invented by Guy Steele for precisely this
+   purpose when he was young and naive and not yet interacting with
+   the real computing community.  Many people invent such words; this
+   one seems simply to have been lucky enough to have spread a little.
+   2. interj. See FOO; however, denotes very little disgust,
    and is uttered mostly for the sake of the sound of it.  3. n.
-   Refers to one of three people who went to Boston Latin School and
+   Refers to one of four people who went to Boston Latin School and
    eventually to MIT:
-        THE GREAT QUUX:  Guy L. Steele Jr.
-        THE LESSER QUUX:  David J. Littleboy
-        THE MEDIOCRE QUUX:  Alan P. Swide
+	THE GREAT QUUX:  Guy L. Steele Jr.
+	THE LESSER QUUX:  David J. Littleboy
+	THE MEDIOCRE QUUX:  Alan P. Swide
+	THE MICRO QUUX: Sam Lewis
    (This taxonomy is said to be similarly applied to three Frankston
    brothers at MIT.)  QUUX, without qualification, usually refers to
    The Great Quux, who is somewhat infamous for light verse and for
-   the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining to a
-   QUUX.  5. n. The Micro Quux (Sam Lewis).
+   the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining to a
+   QUUX. 
 
 RANDOM adj. 1. Unpredictable (closest to mathematical definition);
    weird.  "The system's been behaving pretty randomly."  2. Assorted;
@@ -1235,6 +1269,8 @@ SLOP n. 1. A one-sided fudge factor (q.v.).  Often introduced to avoid
 SLURP v. To read a large data file entirely into core before working
    on it.  "This program slurps in a 1K-by-1K matrix and does an FFT."
 
+SMOKING CLOVER n. A psychedelic color munch due to Gosper.
+
 SNARF v. To grab, esp. a large document or file for the purpose of
    using it either with or without the author's permission.  See BLT.
    Variant: SNARF (IT) DOWN.  (At MIT on ITS, DDT has a command called
@@ -1343,6 +1379,14 @@ TELNET v. To communicate with another ARPAnet host using the TELNET
    program name for them.  Sometimes abbreviated to TN.  "I usually TN
    over to SAIL just to read the AP News."
 
+TENSE adj. Of programs, very clever and efficient.  A tense piece of
+   code often got that way because it was highly bummed, but sometimes
+   it was just based on a great idea.  A comment in a clever display
+   routine by Mike Kazar: "This routine is so tense it will bring
+   tears to your eyes.  Much thanks to Craig Everhart and James
+   Gosling for inspiring this hack attack."  A tense programmer is
+   one who produces tense code.
+
 TERPRI (tur'pree) [from the LISP 1.5 (and later, MacLISP) function to
    start a new line of output] v. To output a CRLF (q.v.).
 
@@ -1352,9 +1396,10 @@ THEORY n. Used in the general sense of idea, plan, story, or set of
    current theory on letting losers on during the day?"  "The theory
    behind this change is to fix the following well-known screw..."
 
-THRASH v. To move wildly or violently.  Swapping systems which are
-   overloaded spend much of their time moving pages into and out of
-   core, and are therefore said to thrash.
+THRASH v. To move wildly or violently, without accomplishing anything
+   useful.  Swapping systems which are overloaded waste most of their
+   time moving pages into and out of core (rather than performing
+   useful computation), and are therefore said to thrash.
 
 TICK n. 1. Interval of time; basic clock time on the computer.
    Typically 1/60 second.  See JIFFY.  2. In simulations, the discrete
@@ -1441,8 +1486,9 @@ UUO (you-you-oh) [short for "Un-Used Operation"] n. A DEC-10 system
 
 VANILLA adj. Ordinary flavor, standard.  See FLAVOR.  When used of
    food, very often does not mean that the food is flavored with
-   vanilla extract!  For example, "vanilla-flavored wonton soup" means
-   ordinary wonton soup, as opposed to hot and sour wonton soup.
+   vanilla extract!  For example, "vanilla-flavored wonton soup"
+   (or simply "vanilla wonton soup") means ordinary wonton soup,
+   as opposed to hot and sour wonton soup.
 
 VAXEN [from "oxen", perhaps influenced by "vixen"] n. pl. The plural
    of VAX (a DEC machine).
@@ -1487,6 +1533,21 @@ WEDGED [from "head wedged up ass"] adj. To be in a locked state,
 WHAT n. The question mark character ("?").  See QUES.  Usage: rare,
    used particularly in conjunction with WOW.
 
+WHEEL n. 1. A privilege bit that canonically allows the possesor
+   to perform any operation on a timesharing system.  i.e. Read or
+   write any file on the system regardless of protections, change or
+   or look at any address in the running monitor, crash or reload
+   the system, logout, kill/create jobs and user accounts.
+   The term was invented on the TENEX operating system, and carried
+   over to TOPS-20, Xerox-IFS and others.  2. A person who posses
+   a wheel bit. "We need to get ahold of a wheel to unwedge the
+   hung tape drives."
+
+WHEEL WARS [from LOTS at Stanford University]  Where student wheels
+   wage war, by attempting to log each other out of the system,
+   delete each others files, or otherwise wreak havoc on each other,
+   usually at the expense of the lesser users.
+
 WIN [from MIT jargon] 1. v. To succeed.  A program wins if no
    unexpected conditions arise.  2. BIG WIN: n. Serendipity.
    Emphatic forms: MOBY WIN, SUPER WIN, HYPER-WIN (often used
@@ -1508,7 +1569,7 @@ WINNITUDE n. The quality of winning (as opposed to WINNAGE, which is
 WIZARD n. 1. A person who knows how a complex piece of software or
    hardware works; someone who can find and fix his bugs in an
    emergency.  Rarely used at MIT, where HACKER is the preferred term.
-   2. A person who is permitted to do things forbidden to ordinary
+   2. A person who is permitted to do things forbidden to ordinary
    people, e.g., a "net wizard" on a TENEX may run programs which
    speak low-level host-imp protocol; an ADVENT wizard at SAIL may
    play Adventure during the day.
@@ -1530,7 +1591,7 @@ WORMHOLE n. A location in a monitor which contains the address of a
 
 WOW  See EXCL.
 
-XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
+XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
    XGP.  "You shouldn't XGP such a large file."
 
 XYZZY [from the Adventure game] adj. See PLUGH.
@@ -1550,3 +1611,5 @@ ZERO v. 1. To set to zero.  Usually said of small pieces of data, such
    as bits or words.  2. To erase; to discard all data from.  Said of
    disks and directories, where "zeroing" need not involve actually
    writing zeroes throughout the area being zeroed.
+
+
