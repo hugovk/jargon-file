@@ -1,13 +1,13 @@
 	  -*- Mode: Text -*-   Notes on updating this file:
 
-This glossary file is being maintained at two main locations.  It is
-AIWORD.RF[UP,DOC] at SAIL, and GLS;JARGON > at MIT.  If you make any
-changes, be sure to FTP the new file to the other location.   (NOTE:
-Use ASCII mode in FTP to  avoid screwing up the tilde char!)   It is
-a good idea to merge changes  with the version on  the other machine
-in case other people forgot to do the FTP.  Also, please let us know
-(see list of names in later paragraph) about your changes so that we
-can double-check them. 
+This file is maintained at three locations.   It is  AIWORD.RF[UP,DOC]
+at SAIL, and GLS;JARGON >  at MIT-MC and at MIT-AI.   If you make  any
+changes, please FTP the new file to the other location.   (NOTE:   Use
+ASCII mode in FTP to avoid screwing up the tilde char!)   It is also a
+good idea to compare this file  against the copy on the other  machine
+before FTP'ing and to merge any  changes found there,  in case someone
+else forgot to do the FTP.    Also, please  let us know  (see list  of
+names below) about your changes so that we can double-check them.
 
 Try to conform to the format already being used--70 character lines,
 3-character indentations, pronunciations in parentheses, etymologies
@@ -18,15 +18,16 @@ Stick to the standard ASCII character set.
 If you'd rather not mung the file yourself, send your definitions to
 DON @ SAIL, GLS @ MIT-AI, and/or MRC @ SAIL.
 
-The last edit (of this line, anyway) was by Phil Agre, 6/26/82.
+The last edit (of this line, anyway) was by Don Woods, 82-11-14.
 
 ======================================================================
 
 	Compiled by Guy L. Steele Jr., Raphael Finkel, Donald
-	Woods, and Mark Crispin, with assistance from the MIT
-	and Stanford AI communities and Worcester Polytechnic
-	Institute.  Some contributions were submitted via the
-	ARPAnet from miscellaneous sites.
+	Woods,  Geoff  Goodfellow  and  Mark  Crispin,   with
+	assistance from the MIT  and Stanford AI  communities
+	and   Worcester    Polytechnic    Institute.     Some
+	contributions were  submitted  via the  ARPAnet  from
+	miscellaneous sites.
 
 Verb doubling: a standard construction is to double a verb and use it
    as a comment on what the implied subject does.  Often used to
@@ -76,7 +77,6 @@ Spoken inarticulations:  Words such as "mumble", "sigh", and "groan"
    used.  It has been suggested that this usage derives from the
    impossibility of representing such noises in a com link.  Another
    expression sometimes heard is "complain!"
-
 
 @BEGIN (primarily CMU) with @END, used humorously in writing to
    indicate a context or to remark on the surrounded text.  From the
@@ -149,12 +149,22 @@ BIN [short for BINARY; used as a second file name on ITS] 1. n.
 
 BINARY n. The object code for a program.
 
-BIT n.  The unit of information.  "Bits" is often used simply to
-   mean information, as in "Give me bits about DPL replicators".
+BIT n. 1. The unit of information; the amount of information obtained
+   by asking a yes-or-no question.  "Bits" is often used simply to
+   mean information, as in "Give me bits about DPL replicators".  2.
+   [By extension from "interrupt bits" on a computer] A reminder that
+   something should be done or talked about eventually.  Upon seeing
+   someone that you haven't talked to for a while, it's common for one
+   or both to say, "I have a bit set for you."
 
 BITBLT (bit'blit) 1. v. To perform a complex operation on a large
    block of bits, usually involving the bits being displayed on a
    bitmapped raster screen.  See BLT.  2. n. The operation itself.
+
+BIT BUCKET n. 1. A receptacle used to hold the runoff from the
+   computer's shift registers.  2. Mythical destination of deleted
+   files, GC'ed memory, and other no-longer-accessible data.  3. The
+   physical device associated with "NUL:".
 
 BLETCH [from German "brechen", to vomit (?)] 1. interj. Term of
    disgust.  2. BLETCHEROUS: adj. Disgusting in design or function.
@@ -229,8 +239,10 @@ BUG [from telephone terminology, "bugs in a telephone cable", blamed
    some bugs.")  See FEATURE.
 
 BUM 1. v. To make highly efficient, either in time or space, often at
-   the expense of clarity.  "I managed to bum three more 
-   instructions."  2. n. A small change to an algorithm to make it
+   the expense of clarity.  The object of the verb is usually what was
+   removed ("I managed to bum three more instructions.") but can be
+   the program being changed ("I bummed the inner loop down to seven
+   microseconds.")  2. n. A small change to an algorithm to make it
    more efficient.
 
 BUZZ v. To run in a very tight loop, perhaps without guarantee of
@@ -354,7 +366,9 @@ CROCK [probably from "layman" slang, which in turn may be derived from
 
 CRUFTY [from "cruddy"] adj. 1. Poorly built, possibly overly complex.
    "This is standard old crufty DEC software".  Hence CRUFT, n. shoddy
-   construction.  2. Unpleasant, especially to the touch, often with
+   construction.  Also CRUFT, v. [from hand cruft, pun on hand craft]
+   to write assembler code for something normally (and better) done by
+   a compiler.  2. Unpleasant, especially to the touch, often with
    encrusted junk.  Like spilled coffee smeared with peanut butter and
    catsup.  Hence CRUFT, n. disgusting mess.  3. Generally unpleasant.
    CRUFTY or CRUFTIE n. A small crufty object (see FROB); often one
@@ -559,7 +573,10 @@ FLAKEY adj. Subject to frequent lossages.  See LOSSAGE.
 
 FLAME v. To speak incessantly and/or rabidly on some relatively
    uninteresting subject or with a patently ridiculous attitude.
-   FLAME ON: v. To continue to flame.  See RAVE.
+   FLAME ON: v. To continue to flame.  See RAVE.  This punning
+   reference to Marvel comics' Human Torch has been lost as
+   recent usage completes the circle:  "Flame on" now usually
+   means "beginning of flame".
 
 FLAP v. To unload a DECtape (so it goes flap, flap, flap...).  Old
    hackers at MIT tell of the days when the disk was device 0 and
@@ -599,8 +616,8 @@ FRIED adj. 1. Non-working due to hardware failure; burnt out.  2. Of
 
 FROB 1. n. (MIT) The official Tech Model Railroad Club definition is
    "FROB = protruding arm or trunnion", and by metaphoric extension
-   any somewhat small thing.  See FROBNITZ, FROBULE, PLOTNICK.  
-   2. v. Abbreviated form of FROBNICATE.
+   any somewhat small thing.  See FROBNITZ.  2. v. Abbreviated form of
+   FROBNICATE.
 
 FROBNICATE v. To manipulate or adjust, to tweak.  Derived from
    FROBNITZ (q.v.).  Usually abbreviated to FROB.  Thus one has the
@@ -622,10 +639,6 @@ FROBNITZ, pl. FROBNITZEM (frob'nitsm) n. An unspecified physical
    become very popular, largely due to its exposure via the Adventure
    spin-off called Zork (Dungeon).  These can also be applied to
    non-physical objects, such as data structures.
-
-FROBULE, n. (MIT, 1983) A small frob.  Helps make a distinction between
-   large-sized frobs (moby frobs), medium-sized frobs (plotnicks) and
-   small-sized frobs (frobules).
 
 FROG (variant: PHROG) 1. interj. Term of disgust (we seem to have a
    lot of them).  2. Used as a name for just about anything.  See FOO.
@@ -683,9 +696,10 @@ GAS [as in "gas chamber"] interj. 1. A term of disgust and hatred,
    Goodfellow at SRI, but spreading.
 
 GC [from LISP terminology] 1. v. To clean up and throw away useless
-   things.  "I think I'll GC the top of my desk today."  2. v. To
-   recycle, reclaim, or put to another use.  3. n. An instantiation of
-   the GC process.
+   things.  "I think I'll GC the top of my desk today."  2. To
+   recycle, reclaim, or put to another use.  3. To forget.  The
+   implication is often that one has done so deliberately.  4. n. An
+   instantiation of the GC process.
 
 GEDANKEN [from Einstein's term "gedanken-experimenten", such as the
    standard proof that E=mc^2] adj. An AI project which is written up
@@ -727,7 +741,7 @@ GRIND v. 1. (primarily MIT) To format code, especially LISP code, by
    indenting lines so that it looks pretty.  Hence, PRETTY PRINT, the
    generic term for such operations.  2. To run seemingly
    interminably, performing some tedious and inherently useless task.
-   Similar to CRUNCH.
+   Similar to CRUNCH.
 
 GRITCH 1. n. A complaint (often caused by a GLITCH (q.v.)).  2. v. To
    complain.  Often verb-doubled: "Gritch gritch".  3. Glitch.
@@ -756,6 +770,10 @@ GRUNGY adj. Incredibly dirty or grubby.  Anything which has been
 
 GUBBISH [a portmanteau of "garbage" and "rubbish"?] n. Garbage; crap;
    nonsense.  "What is all this gubbish?"
+
+GUN [from the GUN command on ITS] v. To forcibly terminate a program
+   or job (computer, not career).  "Some idiot left a background
+   process running soaking up half the cycles, so I gunned it."
 
 HACK n. 1. Originally a quick job that produces what is needed, but
    not well.  2. The result of that job.  3. NEAT HACK: A clever
@@ -866,9 +884,6 @@ JFCL (djif'kl or dja-fik'l) [based on the PDP-10 instruction that acts
    jfcl that out?"  [The licence plate on Geoff Goodfellow's BMW is
    JFCL.]
 
-JFN (jiffin) n, A Job FIle Number, assigned incrementally to files
-   opened or accessed by your process.
-
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
    "I'll do it in a jiffy" means certainly not now and possibly never.
@@ -908,7 +923,7 @@ LINE FEED (standard ASCII terminology) 1. v. To feed the paper through
 
 LINE STARVE (MIT) Inverse of LINE FEED.
 
-LOGICAL [from the technical term "logical device", wherein a physical
+LOGICAL [from the technical term "logical device", wherein a physical
    device is referred to by an arbitrary name] adj. Understood to have
    a meaning not necessarily corresponding to reality.  E.g., if a
    person who has long held a certain post (e.g., Les Earnest at SAIL)
@@ -963,7 +978,8 @@ MARGINAL adj. 1. Extremely small.  "A marginal increase in core can
    better than at Small Eating Place."
 
 MICROTAPE n. Occasionally used to mean a DECtape, as opposed to a
-   MACROTAPE.
+   MACROTAPE.  This was the official DEC term for the stuff until
+   someone consed up the word "DECtape".
 
 MISFEATURE n. A feature which eventually screws someone, possibly
    because it is not adequate for a new situation which has evolved.
@@ -1127,11 +1143,6 @@ PHASE OF THE MOON n. Used humorously as a random parameter on which
    depends on having the channel open in mumble mode, having the foo
    switch set, and on the phase of the moon."
 
-PLOTNICK (MIT) 1. n. A medium-sized frob.  2. v, To do something 
-  extremely random and (usually) detrimental or destructive, 
-  (e.g. "My program seemed to work fine, but it just plotnicked 
-  the entire file system").
-
 PLUGH [from the Adventure game] v. See XYZZY.
 
 POM n. Phase of the moon (q.v.).  Usage: usually used in the phrase
@@ -1225,12 +1236,7 @@ RANDOM adj. 1. Unpredictable (closest to mathematical definition);
    common uses are "J. Random Loser" and "J. Random Nurd" ("Should
    J. Random Loser be allowed to gun down other people?"), but it
    can be used just as an elaborate version of RANDOM in any sense.
-   [The word RANDOM doesn't really have 69 different meanings.  In 
-   fact, RANDOM has only one meaning, an extremely subtle and profound 
-   one which defies articulation.  Which connotation a given 
-   RANDOM-token has depends in similarly profound ways on the context.
-   Similar comments apply to a couple other hacker jargon items, most 
-   notably HACK. - Agre]
+   [See also the note at the end of the entry for HACK.]
 
 RANDOMNESS n. An unexplainable misfeature; gratuitous inelegance.
    Also, a hack or crock which depends on a complex combination
@@ -1267,6 +1273,8 @@ REAL WORLD, THE n. 1. In programming, those institutions at which
    residence there.  In conversation, talking of someone who has
    entered the real world is not unlike talking about a deceased
    person.
+
+RECURSION n. See RECURSION, TAIL RECURSION.
 
 REL  See BIN.
 
@@ -1330,7 +1338,7 @@ SLOP n. 1. A one-sided fudge factor (q.v.).  Often introduced to avoid
 SLURP v. To read a large data file entirely into core before working
    on it.  "This program slurps in a 1K-by-1K matrix and does an FFT."
 
-SMART adj. Said of a program that does the right thing (q.v.) in a
+SMART adj. Said of a program that does the Right Thing (q.v.) in a
    wide variety of complicated circumstances.  There is a difference
    between calling a program smart and calling it intelligent; in 
    particular, there do not exist any intelligent programs.
@@ -1416,6 +1424,8 @@ SYSTEM n. 1. The supervisor program on the computer.  2. Any
 T [from LISP terminology for "true"] 1. Yes.  Usage: used in reply to
    a question, particularly one asked using the "-P" convention).  See
    NIL.  2. See TIME T.
+
+TAIL RECURSION n. See TAIL RECURSION.
 
 TALK MODE  See COM MODE.
 
@@ -1526,10 +1536,6 @@ TWIDDLE n. 1. tilde (ASCII 176, "~").  Also called "squiggle",
    much less sense of purpose than toggling or tweaking it; see
    FROBNICATE.
 
-TWIT (MIT) 1. n. An incredibly obnoxious, annoying and useless
-   person, who usually makes a lot of noise and bothers everyone
-   present.  2. Howard Trachtman
-
 UP adj. 1. Working, in order.  "The down escalator is up."  2. BRING
    UP: v. To create a working version and start it.  "They brought up
    a down system."
@@ -1603,7 +1609,9 @@ WALLPAPER n. A file containing a listing (e.g., assembly listing) or
 WATERBOTTLE SOCCER n. A deadly sport practiced mainly by Sussman's
    graduate students.  It, along with chair bowling, is the most
    evident manifestation of the "locker room atmosphere" said to 
-   reign in that sphere.  (Sussman doesn't approve.)
+   reign in that sphere.  (Sussman doesn't approve.)  [As of 11/82,
+   it's reported that the sport has given way to a new game called
+   "disc-boot", and Sussman even participates occasionally.]
 
 WEDGED [from "head wedged up ass"] adj. To be in a locked state,
    incapable of proceeding without help.  (See GRONK.)  Often refers
