@@ -15,10 +15,10 @@ DON @ SAIL and/or GLS @ MIT-AI.
 
 ======================================================================
 
-	Compiled by Guy L. Steele Jr. with assistance from
-	the MIT AI community.  Some definitions were taken
-	from a compilation by Raphael Finkel with assistance
-	from the SAIL community.
+	Compiled by Guy L. Steele Jr., Raphael Finkel, and
+	Donald R. Woods, with assistance from the MIT and
+	Stanford AI communities.  Some contributions were
+	submitted via the ARPAnet from miscellaneous sites.
 
 Verb doubling: a standard construction is to double a verb and use it
    as a comment on what the implied subject does.  Often used to
@@ -179,16 +179,19 @@ EXCL (eks'cul) n. Abbreviation for "exclamation point".  See SEMI,
 FAULTY n. Same denotation as "bagbiting", "bletcherous", "losing",
    q.v., but the connotation is much milder.
 
-FEATURE n. 1. A surprising property of a program.  Occasionally
-   documented.  To call a property a feature sometimes means that the
-   author of the program did not consider the particular case, and the
-   program makes an unexpected, although not strictly speaking an
-   incorrect response.  See BUG.  "That's not a bug, that's a
-   feature!"  A bug can be changed to a feature by documenting it.  2.
-   A well-known and beloved property; a facility.  Sometimes features
-   are planned, but are called crocks by others.  An approximately
-   correct spectrum:
-	BUG  SCREW  LOSS  MISFEATURE  CROCK  KLUDGE  WIN  FEATURE  PERFECTION
+FEATURE n. 1. A surprising property of a program.  Occasionally docu-
+   mented.  To call a property a feature sometimes means the author of
+   the program did not consider the particular case, and the program
+   makes an unexpected, although not strictly speaking an incorrect
+   response.  See BUG.  "That's not a bug, that's a feature!"  A bug
+   can be changed to a feature by documenting it.  2. A well-known and
+   beloved property; a facility.  Sometimes features are planned, but
+   are called crocks by others.  An approximately correct spectrum:
+
+   (These terms are all used to describe programs or portions thereof,
+   except for the first two, which are included for completeness.)
+	CRASH  STOPPAGE  BUG  SCREW  LOSS  MISFEATURE
+		CROCK  KLUDGE  HACK  WIN  FEATURE  PERFECTION
    (The last is never actually attained.)
 
 FEEP 1. n. The soft bell of a display terminal (except for a VT-52!);
@@ -309,7 +312,7 @@ HACK n. 1. Originally a quick job that produces what is needed, but
    do you do around here?"  "I hack TECO."  (The former is
    time-immediate, the latter time-extended.)  More generally, "I hack
    x" is roughly equivalent to "x is my bag".  "I hack solid-state
-   physics."  8. HACK UP ON: to hack, but generally implies that the
+   physics."  8. HACK UP (ON): to hack, but generally implies that the
    result is meanings 1-2.
    HAPPY HACKING: a farewell.  HOW'S HACKING?: a friendly greeting
    among hackers.  HACK HACK: a somewhat pointless but friendly
@@ -413,7 +416,7 @@ LOSSAGE n. The result of a bug or malfunction.
 LPT (lip'-it) n. Line printer, of course.
 
 MAGIC adj. As yet unexplained, or too complicated to explain.
-   (Someone (who was it?) said that magic was as yet not understood
+   (Someone (who was it?) said that magic was as-yet-not-understood
    science.)  "TTY echoing is controlled by a large number of magic
    bits."  "This routine magically computes the parity of an eight-bit
    byte in three instructions."
@@ -526,7 +529,7 @@ QUUX [Invented by Steele.  Mythically, from the Latin semi-deponent
 	THE GREAT QUUX:  Guy L. Steele Jr.
 	THE LESSER QUUX:  David J. Littleboy
 	THE MEDIOCRE QUUX:  Alan P. Swide
-   (This taxonomy, I am told, is similarly applied to three Frankston
+   (This taxonomy is said to be similarly applied to three Frankston
    brothers at MIT.)  QUUX, QUUX, without qualification, usually
    refers to The Great Quux, who is somewhat infamous for light verse
    and for the "Crunchly" cartoons.  4. QUUXY: adj. Of or pertaining
@@ -569,6 +572,9 @@ STATE n. Condition, situation.  "What's the state of NEWIO?"  "It's
    a special case, "What's the state of the world?" (or, more silly,
    "State-of-world-P?") means "What's new?" or "What's going on?"
 
+STOPPAGE n. Extreme lossage (see LOSSAGE) resulting in something
+   (usually vital) becoming completely unusable.
+
 STY (pronounced "sty", not spelled out) n. A pseudo-teletype, which is
    a two-way pipeline with a job on one end and a fake keyboard-tty
    on the other.  Also, a standard program which provides a pipeline
@@ -599,8 +605,8 @@ TECO (tee'koe) [acronym for Text Editor and COrrector] 1. n. A text
    prolific editor in use.  Noted for its powerful pseudo-programming
    features and its incredibly hairy syntax.  2. v. To edit using the
    TECO editor in one of its infinite forms; sometimes used to mean
-   "to edit" even when not using TECO!  Usage:  rarely used at SAIL,
-   where most people wouldn't touch TECO with a TENEX pole.
+   "to edit" even when not using TECO!  Usage: rare at SAIL, where
+   most people wouldn't touch TECO with a TENEX pole.
    [Historical note: The original TECO is highly display-oriented and
    is said by MIT hackers to be a super win.  Apparently DEC grabbed
    it at some point and lobotomized it, making the command structure
@@ -699,8 +705,9 @@ WIZARD n. A person who knows how a complex piece of software or
 XGP 1. n. Xerox Graphics Printer.  2. v. To print something on the
    XGP.  "You shouldn't XGP such a large file."
 
-YOYO n. DEC slang for UUO (q.v.).  Usage: rare at SAIL and MIT, often
-   found at random DEC installations.
+YOYO n. DEC service engineers' slang for UUO (q.v.).  Usage: rare at
+   SAIL and MIT, has been found at random DEC installations.
 
 YOYO MODE n. State in which the system is said to be when it rapidly
    alternates several times between being up and being down.
+
