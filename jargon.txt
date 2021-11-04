@@ -115,14 +115,18 @@ HACKER Originally, someone who makes furniture with an axe.  1. n.  A
    who tries to discover information by poking around.  Hence
    "keyword hacker", "network hacker".
 
-JFCL (djif'kl or djafik'l) Based on the PDP-10 instruction that acts
-   as a fast no-op.  v.  To cancel or annul something.  "Why don't
-   you jfcl that out?"
+JFCL (djif'kl or djafik'l)  1. Based on the PDP-10 instruction that acts
+   as a fast no-op.  2. v.  To cancel or annul something. 3.  The licence plate
+   of GFF's gray-beige 450SL Mercedes-Benze.  "Why don't you jfcl that out?"
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
    "I'll do it in a jiffy" means certainly not now and possibly
    never.
+
+JOCK n. Programmer that is characterized by large and somewhat
+   brute force programs. Particualrly well suited term for systems
+   programmers.
 
 JRST (jerst) Based on the PDP-10 jump instruction. 1.  v.  To
    suddenly change subjects.  Rather rare.  "Jack be nimble, Jack be
@@ -190,6 +194,10 @@ SYSTEM n.  1.  The supervisor program on the computer.  2.  Any
 TICK n. 1. Interval of time; basic clock time on the computer.
    Typically 1/60 second.
 
+TTY n. pronounced Titty. useage is antiquated. Terminal of the teletype
+   variety, characterzed by a noisey mechanical printer and a very
+   limited character set and poor print quality.
+
 UP adj.  1. Working, in order.  "The down escalator is up." 2.  BRING
    UP v.  To create a working version and start it.  "They brought up
    a down system."
@@ -214,3 +222,4 @@ WINNER 1. n.  An unexpectedly good situation, program, programmer or
 WIZARD n.  A person who knows how a complex piece of software or
    hardware works; someone who can find and fix his bugs in an
    emergency.
+
