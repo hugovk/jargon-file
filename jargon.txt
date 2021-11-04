@@ -166,9 +166,6 @@ CANONICAL adj. The usual or standard state or manner of something.
    Steele: "Aha!  We've finally got you talking jargon too!"
    Stallman: "What did he say?"
    Steele: "He just used `canonical' in the canonical way."
-   [Note by MRC: Does "canonical" have any relationship to the term
-   as used by Sherlock Holmes fans for generations?  I'm not sure,
-   though I'm both a Sherlock Holmes fan and a hacker.]
 
 CATATONIA (kat-uh'-toe-nee-uh) n. A condition of suspended animation
    in which the system is in a wedged (CATATONIC) state.
@@ -473,7 +470,7 @@ FOO 1. [from Yiddish "feh" or the Anglo-Saxon "fooey!"] interj. Term
    in Pogo as well.  3. Used very generally as a sample name for
    absolutely anything.  The old `Smokey Stover' comic strips often
    included the word FOO, in particular on license plates of cars.
-   MOBY FOO: See MOBY.
+   [Ed Schwalenberg has Nevada plate FOOBAR.]  MOBY FOO: See MOBY.
 
 FROB 1. n. (MIT) The official Tech Model Railroad Club definition is
    "FROB = protruding arm or trunnion", and by metaphoric extension
@@ -545,6 +542,7 @@ GLASS TTY n. A terminal which has a display screen but which, because
 GLITCH [from the Yiddish "glitshen", to slide] 1. n. A sudden
    interruption in electric service, sanity, or program function.
    Sometimes recoverable.  2. v. To commit a glitch.  See GRITCH.
+   3.  v. [SAIL] To scroll a display screen.
 
 GLORK 1. interj. Term of mild surprise, usually tinged with outrage,
    as when one attempts to save the results of two hours of editing
@@ -676,7 +674,8 @@ JFCL (djif'kl or djafik'l) [based on the PDP-10 instruction that acts
    jfcl that out?"
    [Notes: Once at the Museum of Science parking lot I saw a Vermont
    license plate JFCL.  I wonder who owns it? - GLS.  California JFCL
-   plate is on Geoff Goodfellow's grey-beige 450SL Mercedes. - RF]
+   plate is on Geoff Goodfellow's blue Jensen Interceptor III 2+2
+   Coupe' - RF]
 
 JIFFY n. 1. Interval of CPU time, commonly 1/60 second or 1
    millisecond.  2. Indeterminate time from a few seconds to forever.
@@ -1211,7 +1210,7 @@ TWENEX n. The TOPS-20 operating system by DEC.  So named because
    types recently, and they instantly stopped saying "TOPS-20" and
    started saying "Twenex"!]
 
-TWIDDLE n. 1. tilde (ASCII 176, "~").  Also called "squiggle",
+TWIDDLE n. 1. tilde (ASCII 176, "}").  Also called "squiggle",
    "sqiggle" (sic--pronounced "skig'gul"), and "twaddle", but twiddle
    is by far the most common term.  2. A small and insignificant
    change to a program.  Usually fixes one bug and generates several
