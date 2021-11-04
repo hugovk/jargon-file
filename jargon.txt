@@ -1,4 +1,4 @@
-========= THIS IS THE JARGON FILE, VERSION 2.4.3 24 JAN 1991  =================
+========= THIS IS THE JARGON FILE, VERSION 2.4.4 25 JAN 1991  =================
 
 Introduction
 ************
@@ -645,6 +645,69 @@ but it has also been suggested that a more basic hacker trait of
 enjoying playing with complexity and pushing systems to their limits
 is in operation.
 
+One area where hackish conventions for on-line writing are still in
+some flux is the marking of included material from earlier messages
+--- what would be called `block quotations' in ordinary English.  From
+the usual typographic convention employed for these (smaller font at
+an extra indent) there derived the notation of included text being
+indented by one ASCII TAB (0001001) character, which under UNIX and
+many other environments gives the appearance of an 8-space indent.
+
+Early mail and netnews readers had no facility for including messages,
+this way so people had to paste in copy manually. BSD `Mail(1)'
+was the first message agent to support inclusion, and early USENETters
+emulated its style.  But the TAB character tended to push included
+text too far to the right (especially in multiply nested inclusions),
+leading to ugly wraparounds.  After a brief period of confusion
+(during which an inclusion leader consisting of three or four spaces
+became established in EMACS and a few mailers), the use of leading ">"
+or "> " became standard, perhaps because the character suggests
+movement to the right (alternatively, it may derve from the ">" that
+some V7 UNIX mailers use to quote leading instances of "From" in
+text).  Inclusions within inclusions keep their > leaders, so the
+`nesting level' of a quotation is visuallly apparent.
+
+Now, it was rapidly observed that the practice of including text
+helped solve what had been a major nuisance on USENET: the fact that
+articles do not arrive at different sites in the same order.  Careless
+posters used to post articles that would begin with, or even consist
+entirely of, "No, that's wrong", or "I agree" or the like.  It was
+hard to see who was responding to what.  Consequently, in about 1984,
+new news posting software was created with a facility to automatically
+include the text of a previous article, marked with "> " or whatever
+the poster chose.  The poster was expected to delete all but the
+relevant lines.  The result has been that, now, careless posters post
+articles containing the *entire* text of a preceding article,
+*followed* only by "No, that's wrong" or "I agree".
+
+Many people feel that this cure is worse than the original disease,
+and there soon appeared newsreaders software designed to let the
+reader skip over included text if desired.  Today, some posting
+software rejects articles containing too many lines beginning with
+">", but this too has led to undesirable workarounds (in particular,
+the deliberate use of nonstandard quote characters, which are visually
+confusing).
+
+Because the default mailers supplied with UNIX and other operating
+systems haven't evolved as quickly as human usage, the older
+conventions using a leading TAB or three or four spaces are still
+alive; however, >-inclusion is now clearly the preferred form in both
+netnews and mail.
+
+However, practice is still evolving.  One variant style reported uses
+the leader "| " in place of "> " for extended quotations where
+original variations in indentation are being retained.  One also sees
+different styles of quoting a number of authors in the same message:
+one (deprecated because it loses information) is "> " for everyone,
+another (the most common) is "> > > > ", "> > > ", etc. (or ">>>> ",
+">>> ", etc., depending on line length and nesting depth) reflecting
+the original order of messages, and yet another is to use a different
+character for each author, say "> ", ": ", "| ", "} " (preserving
+nesting so that the inclusion order of messages is still apparent).
+Occasionally one sees a "# " leader used for quotations from
+*authoritative* sources such as standards documents; the intended
+connotation is to the root prompt.
+
 International Style
 ===================
 
@@ -673,7 +736,7 @@ are parallel with and comprehensible to English-speakers.
 UNIX Conventions
 ================
 
-References such as `malloc(3)' and `patch(1)' are to UNIX
+References such as `malloc(3)' and `patch(1)' are to UNIX
 facilities (some of which, such as patch(1), are actually freeware
 distributed over USENET).  The UNIX manuals use `foo(n)' to refer
 to item foo in section (n) of the manual, where n=1 is utilities, n=2
@@ -863,7 +926,7 @@ The Jargon Lexicon
 <AIDS> /ayds/ n. Short for A* Infected Disk Syndrome ("A*" matches,
    but not limited to, Apple), this condition is the quite often the
    result of practicing unsafe <SEX>.  See <virus>, <worm>, <trojan
-   horse>
+   horse>
 
 <airplane rule> n. "Complexity increases the possibility of
    failure; a twin-engine aeroplane has twice as many engine problems
@@ -1046,7 +1109,7 @@ The Jargon Lexicon
           Common: percent, (percent sign), mod, grapes..
 
      `&'
-          Common: (ampersand), amper, and.  Rare: address (from C),
+          Common: (ampersand), amper, and.  Rare: address (from C),
           reference (from C++), andpersand, bitand, background (from
           `sh(1)'), pretzel..
 
@@ -2317,7 +2380,7 @@ The Jargon Lexicon
    player were described carrying a list of objects, the most
    common of which would usually be a brand.  Often used as a joke
    in <talk mode> as in "Fred the wizard is here, carrying brand
-   ruby brand brand brand kettle broadsword flamethrower".  Prob.
+   ruby brand brand brand kettle broadsword flamethrower".  Prob.
    influenced by the infamous Monty Python `Spam' skit.
 
 <break> vt. 1. To cause to be broken (in any sense).  "Your latest
@@ -2549,6 +2612,12 @@ The Jargon Lexicon
 <BWQ> /bee duhb'l-yoo kyoo/ [IBM] n. Buzz Word Quotient.  The
    percentage of buzzwords in a speech or documents.  Usually roughly
    proportional to <bogosity>.  See <TLA>.
+
+<by hand> adv. Said of an operation (especially a repetititive, trivial
+   and/or tedious one) which ought to be performed automatically by
+   the computer, but which a hacker instead has to step tediously
+   through.  "My mailer doesn't have a command to include the text of
+   the message I'm replying to, so I have to do it by hand".
 
 <byte> n. One character of information; usually 8 bits, occasionally
    9 (on 36-bit machines).  The term originated in 1956 during the
@@ -3857,15 +3926,15 @@ The Jargon Lexicon
 <disk farm> n. (also <laundromat>) A large room or rooms filled
    with disk drives (esp.  <washing machines>).
 
-<doco> /do'koh/ [orig. in-house slang at Symbolics] n.  A documentation
-   writer.  See also <devo> and <mango>.
-
 <do protocol> [from network protocol programming] vt.  To perform an
    interaction with somebody or something that follows a clearly
    defined procedure.  For example, "Let's do protocol with the
    check" at a restaurant means to ask for the check, calculate the
    tip and everybody's share, collect money from everybody, generate
    change as necessary, and pay the bill.
+
+<doco> /do'koh/ [orig. in-house slang at Symbolics] n.  A documentation
+   writer.  See also <devo> and <mango>.
 
 <documentation> n. The multiple kilograms of macerated, pounded,
    steamed, bleached, and pressed trees that accompanies any modern,
@@ -3875,6 +3944,8 @@ The Jargon Lexicon
    <chicken book>.
  
 <dodgy> adj. Syn. with <flaky>.  Preferred outside the U.S.
+
+<dogcow> n. See <moof>.
 
 <dogwash> [From a quip in the `urgency' field of a very optional
    software change request, about 1982.  It was something like,
@@ -4141,7 +4212,7 @@ The Jargon Lexicon
 <dup loop> /doop loop/ (also <dupe loop>) [Fidonet] n. an incorrectly
    configured system or network gateway may propagate duplicate
    messages on one or more <echo>s, with different   identification
-   information which renders <dup killers> ineffective.  If such
+   information which renders <dup killers> ineffective.  If such
    a duplicate message passes eventually reaches a system which
    it had already passed through (with the original identification
    information), all systems passed on the way back to that
@@ -4179,7 +4250,7 @@ The Jargon Lexicon
 
 <earthquake> [IBM] n. The ultimate real-world shock test for computer
    hardware.  Hacker sources at IBM deny the rumor that the Bay Area
-   quake of 1989 was initiated by the company to test QA at its
+   quake of 1989 was initiated by the company to test QA at its
    California plants.
 
 <Easter egg> n. 1. A message hidden in the object code of a program as
@@ -4455,7 +4526,7 @@ The Jargon Lexicon
    mainstream sense. "We thought about adding a <Blue Glue> interface
    but decided it was too evil to deal with." "<TECO> is neat, but
    it can be pretty evil if you're prone to typos."  Often pronounced
-   with the first syllable lengthened, as /eeeevil/.
+   with the first syllable lengthened, as /eeeevil/.
 
 <exa-> /ek's@/ pref. Multiplier, 10 ^ 18 or [proposed] 2 ^ 60. See
    <kilo->.
@@ -4585,7 +4656,7 @@ The Jargon Lexicon
    (`fd's) after file operations are completed, and thus eventually
    runs out.  See <leak>.
 
-<fear and loathing> [from Hunter Thompson] n. State inspired by the
+<fear and loathing> [from Hunter Thompson] n. State inspired by the
    prospect of dealing with certain real-world systems and standards
    which are totally <brain-damaged> but ubiquitous --- Intel 8086s,
    or COBOL, or <EBCDIC>, or any IBM machine except the Rios (aka
@@ -4596,28 +4667,24 @@ The Jargon Lexicon
    Whether it is good or not is immaterial.  2. A good property or
    behavior (as of a program).  Whether it was intended or not is
    immaterial.  3. A surprising property or behavior; in particular,
-   one that is purposely inconsistent because it works better that
-   way.  For example, in some versions of the <EMACS> text editor, the
-   `transpose characters' command exchanges the two characters on
-   either side of the cursor on the screen, *except* when the
-   cursor is at the end of a line, in which case the two characters
-   before the cursor are exchanged.  While this behavior is perhaps
-   surprising, and certainly inconsistent, it has been found through
-   extensive experimentation to be what most users want; the
-   inconsistency is therefore a <feature> and not a <bug>.  4. A
-   property or behavior that is gratuitous or unnecessary, though
-   perhaps also impressive or cute.  For example, one feature of the
-   MACLISP language is the ability to print numbers as Roman numerals.
-   See <bells and whistles>.  5. A property or behavior that was put
-   in to help someone else but that happens to be in your way. 6. A
-   <bug> that has been documented.  To call something a feature
-   sometimes means the author of the program did not consider the
-   particular case, and the program responded in a way that was
-   unexpected, but not strictly incorrect.  A standard joke is that a
-   <bug> can be turned into a <feature> simply by documenting it (then
+   one that is purposely inconsistent because it works better that way
+   -- such an inconsistency is therefore a <feature> and not a
+   <bug>.  This kind of feature is sometimes called a <miswart>;
+   see that entry for a classic example.  4. A property or behavior
+   that is gratuitous or unnecessary, though perhaps also impressive
+   or cute.  For example, one feature of the MACLISP language is the
+   ability to print numbers as Roman numerals.  See <bells and
+   whistles>.  5. A property or behavior that was put in to help
+   someone else but that happens to be in your way. 6. A <bug> that
+   has been documented.  To call something a feature sometimes means
+   the author of the program did not consider the particular case, and
+   the program responded in a way that was unexpected, but not
+   strictly incorrect.  A standard joke is that a <bug> can be
+   turned into a <feature> simply by documenting it (then
    theoretically no one can complain about it because it's in the
    manual), or even by simply declaring it to be good.  "That's not a
-   bug, that's a feature!"  See also <feetch feetch>.
+   bug, that's a feature!"  See also <feetch feetch>, <creeping
+   featuritis>, <wart>.
 
 <feature creature> n. One who loves to add features to designs or
    programs, perhaps at the expense of coherence, concision, or
@@ -5610,7 +5677,7 @@ The Jargon Lexicon
 <Good Thing> adj. Often capitalized; always pronounced as if
    capitalized.  1. Self-evidently wonderful to anyone in a position
    to notice: "The Trailblazer's 19.2Kbaud PEP mode with on-the-fly
-   Lempel-Ziv compression is a Good Thing for sites relaying
+   Lempel-Ziv compression is a Good Thing for sites relaying
    netnews." 2. Something which can't possibly have any ill side
    effects and may save considerable grief later: "Removing the
    self-modifying code from that shared library would be a Good
@@ -5643,7 +5710,7 @@ The Jargon Lexicon
    arch-hacker R. William (Bill) Gosper.  This notion merits its own
    term because there are so many of them.  Many of the entries in
    <HAKMEM> are Gosperisms; see also <life>.
-
+
 <grault> /grawlt/ n. Yet another meta-syntactic variable, invented by
    Mike Gallaher and propagated by the <GOSMACS> documentation.  See
    <corge>.
@@ -5715,7 +5782,7 @@ The Jargon Lexicon
    The original green card became a yellow card when the System/370
    was introduced, and later a yellow booklet.  An anecdote from IBM
    refers to a scene that took place in a programmers' terminal room
-   at Yorktown in 1978.  A luser overheard one of the programmers ask
+   at Yorktown in 1978.  A luser overheard one of the programmers ask
    another "Do you have a green card?".  The other grunted and
    passed the first a thick yellow booklet.  At this point the luser
    turned a delicate shade of olive and rapidly left the room, never
@@ -6477,7 +6544,7 @@ The Jargon Lexicon
 <i14y> n. Written-only abbrev. for `interoperability', which is an
    `i' followed by 14 letters followed by `y'.  Used in the <X>
    community.
-
+
 <I didn't change anything!> interj. A plaintive cry often heard as
    bugs manifest during a regression test.  The canonical reply to
    this assertion is "Then it works just the same as it did before,
@@ -7037,7 +7104,7 @@ The Jargon Lexicon
    used in a commercial product.
  
 <leak> n. With qualifier, one of a class of resource-management bugs
-   that occur when resources are not freed properly after operations
+   that occur when resources are not freed properly after operations
    on them are finished, leading to eventual exhaustion as new
    allocation requests come in.  <memory leak> and <fd leak> have
    their own entries; one might also refer, say, to a `window handle
@@ -7472,7 +7539,7 @@ The Jargon Lexicon
    <smoke test>.
 
 <mailing list> n. (often shortened to "list") 1. An <email>
-   address which is an alias for many other email addresses. 2. The
+   address which is an alias for many other email addresses. 2. The
    people who receive your email when you send it to such and address.
 
    Mailing lists are one of the primary forms of hacker interaction,
@@ -7554,7 +7621,8 @@ The Jargon Lexicon
 <math-out> [poss. fr. `white-out'] n. A paper or presentation so
    encrusted with mathematical or other formal notation as to be
    incomprehensible.  This may be a device for concealing the fact
-   that it is actually <content-free>.
+   that it is actually <content-free>.  See also <numbers>,
+   <social science number>.
  
 <Matrix> [Fidonet] n. What the Opus BBS software and sysops call
    <Fidonet>.
@@ -7732,6 +7800,17 @@ The Jargon Lexicon
    original implementors wanted to save directory space and we're
    stuck with it for now."
 
+<miswart> /mis-wort/ [from <wart> by analogy with <misbug>] n.
+   A <feature> which appears to be a <wart> but has been
+   determined to be the <Right Thing>.  For example, in some versions
+   of the <EMACS> text editor, the `transpose characters' command
+   exchanges the two characters on either side of the cursor on the
+   screen, *except* when the cursor is at the end of a line, in
+   which case the two characters before the cursor are exchanged.
+   While this behavior is perhaps surprising, and certainly
+   inconsistent, it has been found through extensive experimentation
+   to be what most users want.  This feature is a miswart.
+
 <Missed'em-five> n. Pejorative hackerism for AT&T System V UNIX,
    generally used by <BSD> partisans in a bigoted mood.  See <software
    bloat>, <Berzerkely>.
@@ -7837,6 +7916,18 @@ The Jargon Lexicon
    esp.  one which is buggy or only marginally functional.  2.  The
    quality of being monstrous (see `Peculiar nouns' in the discussion
    of jargonification).  See also <baroque>.
+
+<Moof> /moof/ [MAC users] n.  The Moof or `dogcow' is a
+   semi-legendary creature that lurks in the depths of the Macintosh
+   Technical Notes hypercard stack V3.1; specifically, the full story
+   of the dogcow is told in technical note #31 (the particular Moof
+   illustrated is properly named `Clarus').  Option-shift-click will
+   cause it to emit a characteristic `Moof!' or `!fooM' sound.
+   *Getting* to tech note #31 is the hard part; to discover how
+   to do that, one must needs examine the stack script with a hackerly
+   eye.  Clue: <rot13> is involved. A dogcow also said to appear if
+   you choose `Page Setup...' with a LaserWriter selected and click on
+   the `Options' button.
 
 <Moore's Law> /morz law/ n. The observation that the logic density of
    silicon integrated circuits has closely followed the curve (bits
@@ -8408,12 +8499,13 @@ The Jargon Lexicon
    discarding unwanted output or using interactive programs in a
    non-interactive way.  See </dev/null>.
 
-<numbers> [scientific computation] n. Results of a computation that may
-   not be physically significant, but at least indicate that the
+<numbers> [scientific computation] n. Results of a computation that
+   may not be physically significant, but at least indicate that the
    program is running.  May be used to placate management, grant
-   sponsors, etc.  <Making numbers> means running a program because
-   output---any output, not necessarily meaningful output---is needed
-   as a demonstration of progress.  See <pretty pictures>.
+   sponsors, etc.  "Making numbers" means running a program
+   because output --- any output, not necessarily meaningful output
+   --- is needed as a demonstration of progress.  See <pretty
+   pictures>, <math-out>, <social science number>.
 
 <NUXI problem> /nuk'see pro'blm/ n. This refers to the problem of
    transferring data between machines with differing byte-order.  The
@@ -10262,6 +10354,13 @@ The Jargon Lexicon
    live-in to whom one is not married.  See <MOTAS>, <MOTOS>,
    <MOTSS>.
 
+<social science number> [IBM] n. A statistic which is <content
+   free>, or nearly so.  A measure derived via methods of questionable
+   validity from data of a dubious and vague nature.  Predictively,
+   having a social science number in hand is seldom much better than
+   nothing and can be considerably worse.  <Management> loves them.
+   See also <numbers>, <math-out>.
+
 <softcopy> n. [by analogy with "hardcopy"] A machine readable form of
    corresponding hardcopy.  See <bits>.
 
@@ -11311,7 +11410,7 @@ A PC expansion card or adapter that will only fit in
 <twiddle> n. 1. tilde (ASCII 1111110, `~').  Also called
    "squiggle", `sqiggle' (sic---pronounced /skig'l/), and
    "twaddle", but twiddle is the most common term.  2. A small and
-   insignificant change to a program.  Usually fixes one bug and
+   insignificant change to a program.  Usually fixes one bug and
    generates several new ones.  3. vt. To change something in a small
    way.  Bits, for example, are often twiddled.  Twiddling a switch or
    knob implies much less sense of purpose than toggling or tweaking
@@ -11808,7 +11907,7 @@ A PC expansion card or adapter that will only fit in
    capitalist', deriving from the common practice of pushing
    contracts that deprive inventors of both control over their own
    innovations and most of the money they ought to have made from
-   them.
+   them.
 
                                 {= W =}
 
@@ -11936,6 +12035,14 @@ A PC expansion card or adapter that will only fit in
    poorly-articulated disquiet about the change; among other things,
    it gives them mixed feelings about the effects of public compendia
    of lore like this one.]
+
+<wart> n. A small, crocky <feature> that sticks out of an
+   otherwise <clean> design.  Something conspicuous for localized
+   ugliness, especially a special-case exception to a general rule.
+   For example, in some versions of `csh(1)', single-quotes
+   literalize every character inside them except `!'.  In ANSI C,
+   the ?? syntax used for escapes to foreign-language alphabets is a
+   wart. See also <miswart>.
 
 <washing machine> n. Old-style hard disks in floor-standing cabinets.
    So called because of the size of the cabinet and the
@@ -12082,7 +12189,7 @@ A PC expansion card or adapter that will only fit in
 <winnage> /win'@j/ n. The situation when a lossage is corrected, or
    when something is winning.  Quite rare.  Usage: also quite rare.
 
-<winner> 1. n. An unexpectedly good situation, program, programmer or
+<winner> 1. n. An unexpectedly good situation, program, programmer or
    person.  2. "real winner": Often sarcastic, but also used as high
    praise.
 
@@ -13349,7 +13456,7 @@ It has been speculated that hackish gender- and color-blindness is
 partly a positive effect of ASCII-only network channels.
 
 
-Religion:
+Religion:
 ---------
 
 Agnostic.  Atheist.  Non-observant Jewish.  Neo-pagan.  Very commonly
@@ -13480,7 +13587,7 @@ with the physical world.  Bills don't get paid on time, clutter piles
 up to incredible heights in homes and offices, and minor maintenance
 tasks get deferred indefinitely.
 
-The sort of person who uses phrases like `incompletely socialized'
+The sort of person who uses phrases like `incompletely socialized'
 usually thinks hackers are.  Hackers regard such people with contempt
 when they notice them at all.
 
