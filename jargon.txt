@@ -99,7 +99,9 @@ BARF [from the "layman" slang, meaning "vomit"] 1. interj. Term of
    adj. Said of something which would make anyone barf, if only for
    aesthetic reasons.
 
-BIGNUMS [from Macsyma] n. In backgammon, large numbers on the dice.
+BIGNUMS [from Macsyma] n. 1. In backgammon, large numbers on the dice.
+   2. A REAL number as opposed to an INTEGER, hence "El Camino Bignum"
+   is a street through the S. F. peninsula.
 
 BIN [short for BINARY; used as a second file name on ITS] 1. n.
    BINARY.  2. BIN FILE: A file containing the BIN for a program.
@@ -145,6 +147,10 @@ BOGUS (WPI, Yale, Stanford) adj. 1. Non-functional.  "Your patches are
    Yale and is now a faculty member here.  A glossary of bogus words
    was compiled at Yale when the word was first popularized (e.g.,
    autobogophobia: the fear of becoming bogotified).]
+
+BOUNCE (Stanford) v. 1. To play volleyball. "Bounce, bounce, stop wasting
+   time on the computer and get out to the court." (sometimes misinterpreted
+   by the uninitiated as indicating the system is going dowm.)
 
 BRAIN-DAMAGED [generalization of "Honeywell Brain Damage" (HBD), a
    theoretical disease invented to explain certain utter cretinisms in
@@ -712,6 +718,13 @@ HELLO WALL  See WALL.
 
 HIRSUTE  Occasionally used humorously as a synonym for HAIRY.
 
+HOOK n. 1. An extra feature or debug option in a program. 
+   2. Extra pinouts on a circuit board that are supposedly good for
+   future upgrades. 3. A large iron hook mounted to a scaffold
+   used for painful public execution of the law in the country of
+   San Lorenzo. (pronounced hu-ook) "Give him the hook." from CAT'S CRADLE.
+   4. A gaff used for extracting players from the stage.
+
 HUMONGOUS, HUMUNGOUS  See HUNGUS.
 
 HUNGUS (hung'-ghis) [perhaps related to current slang "humongous";
@@ -1265,6 +1278,10 @@ THRASH v. To move wildly or violently.  Swapping systems which are
 
 TICK n. Interval of time; basic clock time on the computer.  Typically
    1/60 second.  See JIFFY.
+
+TIME-WASTING n. 1. Refers to the waste of users time waiting for the operating
+   system to run his job. 2. Intentional recreation in lieu of doing work.
+   "Enough time-wasting, I have no more quarters to lose to DEW."
 
 TOOL v.i. To work; to study.  See HACK (def #9).
 
